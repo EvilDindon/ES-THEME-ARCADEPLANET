@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  <view name="detailed, grid">
+  
+    <video name="md_video">
+      <size>0.2 0.2694444</size>
+    </video>
+	
+	<image name="md_image">
+      <size>0.2 0.2694444</size>
+    </image>
+	
+  </view>
+  
+  <customView name="LongList+Preview">
+  
+    <image name="Controller1">
+	  <storyboard>
+				<animation property="x" from="-0.2" to="0.320833333" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>	  
+    </image>
+	
+	<image name="Controller2">
+	  <storyboard>
+				<animation property="x" from="1.2" to="0.320833333" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>
+    </image>
+		 
+ </customView>
+ 
+  <customView name="VerticalLogos">
+  
+    <image name="Controller">
+	  <storyboard>
+				<animation property="x" from="-0.2" to="0.444" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>	  
+    </image>
+	
+	<image name="Controller2">
+	  <storyboard>
+				<animation property="x" from="1.2" to="0.444" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>
+     </image>
+	 
+ </customView>
+  
+</theme>

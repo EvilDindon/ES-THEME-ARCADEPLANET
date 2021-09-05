@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+   <view name="system">
+  
+    <image name="Controllers 1" extra="static">
+      <flipX>false</flipX>
+    </image>
+	
+    <image name="Controllers 2" extra="static">
+            <flipX>true</flipX>
+    </image>
+	
+  </view>
+
+</theme>

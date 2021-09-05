@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+
+  <formatVersion>7</formatVersion>
+  
+   <view name="detailed, grid">
+  
+   <video name="md_video">
+        <size>0.3625 0.362</size>
+    </video>
+	
+	<image name="md_image">
+	    <size>0.3625 0.362</size>
+    </image>
+	
+  </view>
+  
+  <view name="grid">
+  
+   <imagegrid name="gamegrid">
+    <autoLayout>4 3</autoLayout>
+   </imagegrid>
+   
+  </view>
+   
+  <customView name="MiniLogos+Details">
+  	
+	<imagegrid name="gamegrid">
+      <autoLayout>7 4</autoLayout>
+    </imagegrid>
+   
+  </customView>
+  
+  <customView name="SmallBoxes+Details">
+  
+   <imagegrid name="gamegrid">
+      <pos>0 0.43</pos>
+      <autoLayout>6 3</autoLayout>
+   </imagegrid>
+   
+  </customView>
+  
+  <customView name="CoverFlow">
+  
+   <imagegrid name="gamegrid">
+    <pos>0 0.14</pos>
+	<margin>0.066 0.066</margin>
+    <autoLayout>3 1</autoLayout>
+   </imagegrid>
+   
+  </customView>
+
+  <customView name="LogoFlow">
+  
+    <imagegrid name="gamegrid">
+       <autoLayout>5 1</autoLayout>
+    </imagegrid>
+   
+  </customView>
+  
+  <customView name="LogosOnTop">
+	
+   	<imagegrid name="gamegrid">
+      <autoLayout>5 1</autoLayout>
+    </imagegrid>
+	    	
+  </customView>
+  
+  <customView name="VerticalLogos">
+	
+   	<imagegrid name="gamegrid">
+	  <pos>0.744 0.003</pos>
+      <autoLayout>1 5</autoLayout>	  
+	</imagegrid>
+	    	
+  </customView>
+  
+  <customView name="RetroTiles">
+	
+   	<imagegrid name="gamegrid">
+      <pos>0 0.018</pos>
+      <autoLayout>4 3</autoLayout>
+    </imagegrid>
+	    	
+  </customView>
+  
+</theme>

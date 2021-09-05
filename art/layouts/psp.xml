@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  <view name="detailed, grid">
+  
+   <video name="md_video">
+      <size>0.2578 0.2852</size>
+    </video>
+	
+	<image name="md_image">
+      <size>0.2578 0.2852</size>
+    </image>
+	
+  </view>
+
+  <customView name="CoverFlow">
+  
+    <image name="Red Arrow">
+      <pos>0.5 0.21</pos>
+      <origin>0.5 0.5</origin>
+      <size>0.0328125 0.03611111</size>
+	  <path>./art/RedArrowD.png</path>
+      <linearSmooth>false</linearSmooth>                                                       
+	  <zIndex>41</zIndex>
+	  <storyboard>
+            <animation property="y" from="0.21" to="0.2" begin="" duration="550" mode="Linear" autoReverse="true" repeat="forever"/>
+	  </storyboard>
+	</image>
+	
+    <imagegrid name="gamegrid">
+	  <padding>0.029 0.06 0.029 0.04</padding>
+      <pos>0 0.14</pos>
+      <autoLayout>5 1</autoLayout>
+	  <autoLayoutSelectedZoom>1.2</autoLayoutSelectedZoom>
+      <margin>0.026 0.026</margin>
+    </imagegrid>
+   
+  </customView>  
+     
+  <customView name="VerticalLogos">
+  
+    <image name="Controller" extra="true">
+	  <storyboard>
+				<animation property="x" from="-0.2" to="0.444" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>	  
+    </image>
+	
+	<image name="Controller2" extra="true">
+	  <storyboard>
+				<animation property="x" from="1.2" to="0.444" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>
+     </image>
+	 
+ </customView>
+ 
+ <customView name="LongList+Preview">
+  
+    <image name="Controller1" extra="true">
+	  <storyboard>
+				<animation property="x" from="-0.2" to="0.320833333" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>	  
+    </image>
+	
+	<image name="Controller2" extra="true">
+	  <storyboard>
+				<animation property="x" from="1.2" to="0.320833333" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>
+    </image>
+		 
+ </customView>
+  
+</theme>

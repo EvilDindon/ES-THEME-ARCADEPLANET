@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+      
+  <customView name="VerticalLogos">
+  
+    <image name="Controller" extra="true">
+	  <storyboard>
+				<animation property="x" from="-0.2" to="0.444" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>	  
+	</image>
+	
+	<image name="Controller2" extra="true">
+		  <storyboard>
+				<animation property="x" from="1.2" to="0.444" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>
+	</image>
+	 
+ </customView>
+ 
+ <customView name="LongList+Preview">
+  
+    <image name="Controller1" extra="true">
+	  <storyboard>
+				<animation property="x" from="-0.2" to="0.320833333" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>	  
+    </image>
+	
+	<image name="Controller2" extra="true">
+	  <storyboard>
+				<animation property="x" from="1.2" to="0.320833333" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>
+    </image>
+		 
+ </customView>
+  
+  </theme>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  <view name="detailed, grid">
+  
+   <video name="md_video">
+      <size>0.13542 0.35555</size>
+    </video>
+	
+	<image name="md_image">
+      <size>0.13542 0.35555</size>
+    </image>
+	
+  </view>
+  
+  <view name="detailed">
+  
+    <image name="md_thumbnail">
+      <size>0.19 0</size>
+	</image>
+	
+  </view>
+  
+  <customView name="MiniLogos+Details">
+      
+    <image name="md_thumbnail">
+      <size>0.19 0</size>
+	</image>
+   
+  </customView>
+  
+  <customView name="CoverFlow">
+  
+    <imagegrid name="gamegrid">
+	  <padding>0.029 0.06 0.029 0.04</padding>
+      <pos>0 0.14</pos>
+      <autoLayout>5 1</autoLayout>
+	  <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
+      <margin>0.026 0.026</margin>
+    </imagegrid>
+   
+  </customView>
+  
+  <customView name="VerticalLogos">
+  
+    <image name="Controller" extra="true">
+	  <storyboard>
+				<animation property="x" from="-0.2" to="0.444" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>	  
+    </image>
+	
+	<image name="Controller2" extra="true">
+	  <storyboard>
+				<animation property="x" from="1.2" to="0.444" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>
+    </image>
+	
+	<image name="md_thumbnail">
+      <size>0.19 0</size>
+	</image>
+	 
+ </customView>
+ 
+ <customView name="LongList+Preview">
+  
+    <image name="Controller1" extra="true">
+	  <storyboard>
+				<animation property="x" from="-0.2" to="0.320833333" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>	  
+    </image>
+	
+	<image name="Controller2" extra="true">
+	  <storyboard>
+				<animation property="x" from="1.2" to="0.320833333" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>
+    </image>
+		 
+ </customView>
+ 
+ <customView name="RetroTiles">
+	
+   	<imagegrid name="gamegrid">
+      <pos>0 0.018</pos>
+      <autoLayout>4 3</autoLayout>
+    </imagegrid>
+	    	
+  </customView>
+ 
+</theme>

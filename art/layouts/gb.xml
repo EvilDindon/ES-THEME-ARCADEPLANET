@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  <view name="detailed, grid">
+  
+   <video name="md_video">
+      <size>0.20833 0.337</size>
+    </video>
+	
+	<image name="md_image">
+      <size>0.20833 0.337</size>
+    </image>
+	
+  </view>  
+  
+  <view name="grid">
+  
+   <imagegrid name="gamegrid">
+   <pos>0 0.088</pos>
+    <autoLayout>6 3</autoLayout>
+   </imagegrid>
+   
+  </view>
+  
+  <view name="detailed">
+  
+    <image name="md_thumbnail">
+      <size>0.19 0</size>
+	</image>
+	
+  </view>
+  
+  <customView name="MiniLogos+Details">
+ 	
+	<imagegrid name="gamegrid">
+      <pos>0 0.43</pos>
+      <autoLayout>7 4</autoLayout>
+   </imagegrid>
+   
+    <image name="md_thumbnail">
+      <size>0.19 0</size>
+	</image>
+   
+  </customView>
+  
+  <customView name="SmallBoxes+Details">
+  
+   <imagegrid name="gamegrid">
+      <pos>0 0.43</pos>
+      <autoLayout>8 2</autoLayout>
+   </imagegrid>
+   
+  </customView>
+  
+  <customView name="CoverFlow">
+  
+    <imagegrid name="gamegrid">
+	  <padding>0.029 0 0.029 0</padding>
+      <pos>0 0.14</pos>
+      <autoLayout>5 1</autoLayout>
+	  <autoLayoutSelectedZoom>1.26</autoLayoutSelectedZoom>
+      <margin>0.026 0.026</margin>
+    </imagegrid>
+   
+  </customView>
+  
+  <customView name="LogoFlow">
+  
+    <imagegrid name="gamegrid">
+	  <pos>0 0.36</pos>
+      <autoLayout>5 1</autoLayout>
+   </imagegrid>
+   
+  </customView>
+  
+  <customView name="LogosOnTop">
+	
+   	<imagegrid name="gamegrid">
+	  <pos>0 -0.042</pos>
+      <autoLayout>5 1</autoLayout>
+    </imagegrid>
+	    	
+  </customView>
+  
+  <customView name="VerticalLogos">
+  
+    <image name="Controller" extra="true">
+	  <storyboard>
+				<animation property="x" from="-0.2" to="0.444" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>	  
+    </image>
+	
+	<image name="Controller2" extra="true">
+	  <storyboard>
+				<animation property="x" from="1.2" to="0.444" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>
+     </image>
+	 
+	 <image name="md_thumbnail">
+      <size>0.19 0</size>
+	 </image>
+	 
+	 <imagegrid name="gamegrid">
+     <pos>0.744 0.003</pos>
+     <autoLayout>1 5</autoLayout>
+   </imagegrid>
+	 
+ </customView>
+ 
+ <customView name="LongList+Preview">
+  
+    <image name="Controller1" extra="true">
+	  <storyboard>
+				<animation property="x" from="-0.2" to="0.320833333" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>	  
+    </image>
+	
+	<image name="Controller2" extra="true">
+	  <storyboard>
+				<animation property="x" from="1.2" to="0.320833333" begin="1100" duration="300" mode="Linear"/>
+      </storyboard>
+    </image>
+		 
+ </customView>
+ 
+ <customView name="RetroTiles">
+	
+   	<imagegrid name="gamegrid">
+      <pos>0 0.018</pos>
+      <autoLayout>4 3</autoLayout>
+    </imagegrid>
+	
+	 <image name="md_thumbnail">
+      <size>0.195 0</size>
+	 </image>
+	    	
+  </customView>
+  
+</theme>
