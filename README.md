@@ -5,6 +5,19 @@
  Features :
  - 2 System Views (Vertical and Horizontal)
  - 10 Gamelist Views (using a lot logo and boxart)
+ 
+  # ** IMPORTANT **
+
+This theme relies on clean artwork.
+I recommand scraping all your games using screenscraper with the following parametrs :
+
+#IMAGE SOURCE : SCREENSHOT
+
+#BOX SOURCE : BOX 2D
+
+#LOGO SOURCE : WHEEL
+
+These 3 parameters are mandatory. If you put other thing (mix images, etc.) the theme will not look as good as intended.
 
 System View Horizontal
 ![lR2KgLw](https://user-images.githubusercontent.com/30436625/132178969-fcaf1486-0fa5-45cd-9a0c-c91134e9a14b.jpg)
@@ -20,19 +33,3 @@ Gamelist View : small boxes + Details
 
 Gameist view : Retro Tiles
 ![Ezk1YE9](https://user-images.githubusercontent.com/30436625/132179911-8753d1d7-769e-4c10-8fa3-64dbccf74049.jpg)
-
-
-
- # ** IMPORTANT **
-
-This theme relies on clean artwork.
-I recommand scaping all your games using screenscraper with the following parametrs :
-
-IMAGE SOURCE : SCREENSHOT
-
-BOX SOURCE : BOX 2D
-
-LOGO SOURCE : WHEEL
-
-These 3 parameters are mandatory. If you put other thing (mix images, etc.) the theme will not look as good as intended.
-
