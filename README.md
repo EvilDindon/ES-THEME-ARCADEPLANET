@@ -34,5 +34,5 @@ Gamelist View : mini logos + Details
 Gamelist View : small boxes + Details
 ![0OQHUTz](https://user-images.githubusercontent.com/30436625/132179758-403f36b1-e5d5-4c1b-837a-e1c0fedaeb70.jpg)
 
-Gameist view : Retro Tiles
+Gamelist view : Retro Tiles
 ![Ezk1YE9](https://user-images.githubusercontent.com/30436625/132179911-8753d1d7-769e-4c10-8fa3-64dbccf74049.jpg)
