@@ -4,7 +4,7 @@
  
  Features :
  - 2 System Views (Vertical and Horizontal)
- - 10 Gamelist Views (using a lot logo and boxart)
+ - 10 Gamelist Views (using a lot logo art and box art)
  - Some custom background music, artwork and animations
  
   # ** IMPORTANT **
