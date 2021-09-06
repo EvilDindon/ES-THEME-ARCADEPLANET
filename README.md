@@ -11,11 +11,11 @@
 This theme relies on clean artwork.
 I recommand scraping all your games using screenscraper with the following parametrs :
 
-#IMAGE SOURCE : SCREENSHOT
+# IMAGE SOURCE : SCREENSHOT
 
-#BOX SOURCE : BOX 2D
+# BOX SOURCE : BOX 2D
 
-#LOGO SOURCE : WHEEL
+# LOGO SOURCE : WHEEL
 
 These 3 parameters are mandatory. If you put other thing (mix images, etc.) the theme will not look as good as intended.
 
