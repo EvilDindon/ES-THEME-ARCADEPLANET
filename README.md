@@ -48,7 +48,7 @@ Gamelist view : Grid
 ![y6C4vZe](https://user-images.githubusercontent.com/30436625/132183241-e6b301e8-5f8a-4c31-afb4-90c8e8828e40.jpg)
 
 Gamelist view : Cover Flow
-![tKpdKT6](https://user-images.githubusercontent.com/30436625/132183353-b178c93e-5b55-4411-ab89-6d4f4a05ffff.jpg)
+![coverflow](https://user-images.githubusercontent.com/30436625/132210447-146a5ac5-44fd-4117-a0ea-89ec79d80fdc.jpg)
 
 Gamelist view : Logo Flow
 ![LMt9B5f](https://user-images.githubusercontent.com/30436625/132183473-da138639-3343-4d9f-9de9-1f658f1e72ee.jpg)
