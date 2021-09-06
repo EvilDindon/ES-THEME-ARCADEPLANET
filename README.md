@@ -1,11 +1,11 @@
 # ES-THEME-ARCADEPLANET
  Theme for Emulation Station compatible with Batocera >=V30, Emuelec >=4.0 and Retrobat >= 4.0
- By EvilDindon (Mickaël ISMAN), 2021.
+ By EvilDindon (Mickaël ISMAN), 2021, based on "Carbon".
  
  Features :
  - 2 System Views (Vertical and Horizontal)
  - 10 Gamelist Views (using a lot logo and boxart)
- - Some custom artwork and animations
+ - Some custom background music, artwork and animations
  
   # ** IMPORTANT **
 
