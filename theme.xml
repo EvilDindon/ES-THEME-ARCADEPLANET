@@ -6,7 +6,7 @@ author: Mickaël Isman (EvilDindon Ken)
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
 -->
-<theme defaultView="Detailed">
+<theme defaultView="detailed">
 
   <formatVersion>7</formatVersion>
   
@@ -16,7 +16,6 @@ originally based on: "carbon"
     <backgroundColor>252525</backgroundColor>
     <groupColor>BD4747</groupColor>
     <groupSeparatorColor>BD4747</groupSeparatorColor>    
-    <systemViewName>System view</systemViewName>
   </variables>
   
   <view name="screen">
@@ -85,7 +84,7 @@ originally based on: "carbon"
   </view>
    
   <!-- Subset options for System View -->
-  <subset name="systemview" displayName="${systemViewName}">
+  <subset name="systemview" displayName="System view">
     <include name="vertical">./art/systemview/vertical.xml</include>
     <include name="horizontal">./art/systemview/horizontal.xml</include>
   </subset>
