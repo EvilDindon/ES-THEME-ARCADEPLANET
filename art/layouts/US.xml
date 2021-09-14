@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+   <view name="detailed, grid">
+  
+    <image name="tv_frame">
+      <path>./art/tvframe/default.png</path>
+      <path>./art/tvframe/${system.theme}.png</path>
+      <path>./art/tvframe/US/${system.theme}.png</path>
+	</image>
+	
+	<image name="logo">
+	  <path>./art/Colorlogos/${system.theme}.png</path>
+      <path>./art/Colorlogos/${system.theme}.svg</path>
+	  <path>./art/Colorlogos/US/${system.theme}.png</path>
+      <path>./art/Colorlogos/US/${system.theme}.svg</path>
+    </image>
+	
+	 <image name="Controller,Controller1,Controller2">
+	  <path>./art/controllers/${system.theme}.png</path>
+	  <path>./art/controllers/US/${system.theme}.png</path>
+     </image>
+	 
+	 <image name="Controller+logo 1,Controller+logo 2">
+	  <path>./art/wheel/${system.theme}.png</path>
+	  <path>./art/wheel/US/${system.theme}.png</path>
+     </image>
+	
+  </view>
+	
+ </theme>

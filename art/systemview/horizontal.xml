@@ -208,4 +208,10 @@
 	    
   </view>
   
+  <!-- Subset options for Regional Artwork and Logos -->
+  <subset name="artworkregion" displayName="Logos and Artwork Region">
+    <include name="EU"></include>
+    <include name="US">./USH.xml</include>
+  </subset>
+  
 </theme>

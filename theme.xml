@@ -84,11 +84,11 @@ originally based on: "carbon"
   </view>
    
   <!-- Subset options for System View -->
-  <subset name="systemview" displayName="System view">
+  <subset name="systemview" displayName="System view Style">
     <include name="vertical">./art/systemview/vertical.xml</include>
     <include name="horizontal">./art/systemview/horizontal.xml</include>
   </subset>
-  
+   
   <view name="menu">
   
     <menuText name="menutitle">
@@ -1776,4 +1776,10 @@ originally based on: "carbon"
         
   <include>./art/layouts/${system.theme}.xml</include>
   
+   <!-- Subset options for Regional Artwork and Logos -->
+  <subset name="artworkregion" displayName="Logos and Artwork Region">
+    <include name="EU"></include>
+    <include name="US">./art/layouts/US.xml</include>
+  </subset>  
+    
 </theme>   

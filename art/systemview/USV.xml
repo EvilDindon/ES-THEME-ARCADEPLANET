@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  <view name="system">
+  
+    <image name="logo">
+	     <path>./art/wheelv/${system.theme}.png</path>
+		 <path>./art/wheelv/${system.theme}.svg</path>
+		 <path>./art/wheelv/US/${system.theme}.png</path>
+		 <path>./art/wheelv/US/${system.theme}.svg</path>
+	</image>
+  		
+	<image name="Color Logos">
+      <path>./art/Colorlogos/default.png</path>
+	  <path>./art/Colorlogos/${system.theme}.png</path>
+      <path>./art/Colorlogos/${system.theme}.svg</path>
+	  <path>./art/Colorlogos/US/${system.theme}.png</path>
+      <path>./art/Colorlogos/US/${system.theme}.svg</path>
+    </image>
+	
+	<image name="VanishingColorLogos">
+      <path>./art/Colorlogos/default.png</path>
+	  <path>./art/Colorlogos/${system.theme}.png</path>
+      <path>./art/Colorlogos/${system.theme}.svg</path>
+	  <path>./art/Colorlogos/US/${system.theme}.png</path>
+      <path>./art/Colorlogos/US/${system.theme}.svg</path>
+    </image>
+	
+	<image name="Vanishing Logos">
+      <path>./art/wheelv/${system.theme}.png</path>
+	  <path>./art/wheelv/US/${system.theme}.png</path>
+    </image>
+	
+	<image name="Yellow Logos">
+      <path>./art/yellogos/${system.theme}.png</path>
+	  <path>./art/yellogos/US/${system.theme}.png</path>
+	</image>
+	
+	<image name="Controllers 1,Controllers 2">
+      <path>./art/controllers/default.png</path>
+	  <path>./art/controllers/${system.theme}.png</path>
+      <path>./art/controllers/${system.theme}.svg</path>
+	  <path>./art/controllers/US/${system.theme}.png</path>
+      <path>./art/controllers/US/${system.theme}.svg</path>
+	</image>
+	  
+  </view>
+  	
+ </theme>
