@@ -5,11 +5,11 @@
   <view name="detailed, grid">
   
    <video name="md_video">
-      <size>0.13542 0.35555</size>
+      <size>0.247916 0.26666</size>
     </video>
 	
 	<image name="md_image">
-      <size>0.13542 0.35555</size>
+      <size>0.247916 0.26666</size>
     </image>
 	
   </view>
