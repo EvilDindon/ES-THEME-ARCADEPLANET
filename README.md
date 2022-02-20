@@ -20,6 +20,7 @@ I recommand scraping all your games using screenscraper with the following param
 # LOGO SOURCE : WHEEL
 
 These 3 parameters are mandatory. If you put other thing (mix images, etc.) the theme will not look as good as intended.
+https://youtu.be/zvwetGzfFKs
 
 System View Horizontal
 ![lR2KgLw](https://user-images.githubusercontent.com/30436625/132178969-fcaf1486-0fa5-45cd-9a0c-c91134e9a14b.jpg)
