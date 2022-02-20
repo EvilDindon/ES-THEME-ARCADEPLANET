@@ -43,12 +43,12 @@ originally based on: "carbon"
 	
   </view>
   
-  <view name="system,detailed,grid">
+  <view name="system,basic,detailed,grid">
   
     <helpsystem name="help">
 	  <pos>0.01 0.935</pos>
 	  <origin>0 0.5</origin>
-	  <fontPath>./art/BankGothicCMdBT-Medium.otf</fontPath>
+	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
 	  <fontSize>0.0268</fontSize>
       <textColor>ae9946</textColor>
       <iconColor>c21302</iconColor>
@@ -63,7 +63,7 @@ originally based on: "carbon"
   <view name="system">
   	
     <text name="logoText">
-		<fontPath>./art/BankGothicCMdBT-Medium.otf</fontPath>
+		<fontPath>./art/Bank Gothic Medium.otf</fontPath>
 		<color>FFFFFFFA</color>
 		<fontSize>0.034</fontSize>
 	    <forceUppercase>false</forceUppercase>
@@ -92,7 +92,7 @@ originally based on: "carbon"
   <view name="menu">
   
     <menuText name="menutitle">
-      <fontPath>./art/BankGothicCMdBT-Medium.otf</fontPath>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <fontSize>0.044</fontSize>
       <color>FAFAFA</color>
     </menuText>
@@ -121,7 +121,7 @@ originally based on: "carbon"
     </menuTextSmall>
 	
     <menuGroup name="menugroup">
-      <fontPath>./art/BankGothicCMdBT-Medium.otf</fontPath>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <fontSize>0.025</fontSize>
       <color>${groupColor}</color>
       <separatorColor>${groupSeparatorColor}</separatorColor>    
@@ -193,7 +193,7 @@ originally based on: "carbon"
       <size>0.98 0.126</size>
       <alignment>center</alignment>
       <fontSize>0.04</fontSize>
-      <fontPath>./art/BankGothicCMdBT-Medium.otf</fontPath>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <color>${baseColor}</color>
 	  <zIndex>201</zIndex>
 	  <storyboard>
@@ -325,7 +325,7 @@ originally based on: "carbon"
       <origin>0.5 0.5</origin>
       <color>969696</color>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./art/BankGothicCMdBT-Medium.otf</fontPath>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <fontSize>0.023</fontSize>
       <zIndex>15</zIndex>		  
     </text>
@@ -785,7 +785,7 @@ originally based on: "carbon"
       <selectedColor>EFEF00</selectedColor>
       <primaryColor>969696</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
-      <fontPath>./art/BankGothicCMdBT-Medium.otf</fontPath>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <forceUppercase>1</forceUppercase>
       <pos>0.25 0.432</pos>
       <size>0.5 0.5</size>
@@ -945,7 +945,7 @@ originally based on: "carbon"
       <color>969696</color>
 	  <alignment>center</alignment>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./art/BankGothicCMdBT-Medium.otf</fontPath>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <fontSize>0.023</fontSize>
     </text>
 	
@@ -964,7 +964,7 @@ originally based on: "carbon"
       <primaryColor>969696</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <lineSpacing>1.4</lineSpacing>
-      <fontPath>./art/BankGothicCMdBT-Medium.otf</fontPath>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <forceUppercase>1</forceUppercase>
       <pos>0.6359375 0.01</pos>
       <size>0.344 0.94</size>
@@ -1365,7 +1365,7 @@ originally based on: "carbon"
       <color>999999</color>
 	  <alignment>center</alignment>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./art/BankGothicCMdBT-Medium.otf</fontPath>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <fontSize>0.023</fontSize>
     </text>	
 	
@@ -1569,7 +1569,7 @@ originally based on: "carbon"
       <color>969696</color>
 	  <alignment>center</alignment>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./art/BankGothicCMdBT-Medium.otf</fontPath>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <fontSize>0.023</fontSize>
     </text>
 	
