@@ -43,7 +43,7 @@ originally based on: "carbon"
 	
   </view>
   
-  <view name="system,basic,detailed,grid">
+  <view name="system,detailed,grid">
   
     <helpsystem name="help">
 	  <pos>0.01 0.935</pos>
@@ -330,8 +330,9 @@ originally based on: "carbon"
       <zIndex>15</zIndex>		  
     </text>
 		  
-    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_lastplayed, md_lastplayed, md_publisher">
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_lbl_lastplayed, md_lastplayed, md_publisher">
       <x>2</x>
+	  <visible>false</visible>
 	</text>
 			
   </view>
@@ -481,7 +482,7 @@ originally based on: "carbon"
 	  <visible>false</visible>
 	</video>
 	
-	<text name="md_lbl_players, md_lbl_lastplayed, md_lbl_playcount, md_publisher, md_genre, md_players, md_playcount, md_description, md_releasedate">
+	<text name="md_genre, md_players, md_playcount, md_description">
       <color>00000000</color>
     </text>
 	
@@ -636,7 +637,7 @@ originally based on: "carbon"
 		
 	<image name="md_flag">
 		<visible>true</visible>
-		<pos>0.76 0.3736</pos>
+		<pos>0.76 0.376</pos>
 		<size>0.02</size>
 		<color>FFFFFF</color>
 	</image>
@@ -664,7 +665,7 @@ originally based on: "carbon"
 	  <zIndex>15</zIndex>
     </text>
 	
-	<text name="md_developer, md_genre, md_lbl_playcount, md_playcount, md_lbl_players, md_players, md_releasedate">
+	<text name="md_developer, md_genre, md_playcount, md_players, md_releasedate">
 	  <alignment>left</alignment>
 	  <fontSize>0.026</fontSize>
 	  <origin>0 0</origin>	  
@@ -676,26 +677,14 @@ originally based on: "carbon"
       <size>0.27 0.05</size>
     </text>
 	
-	<text name="md_lbl_players">
-      <pos>0.703 0.269</pos>
-      <size>0.18 0</size>
-	  <color>AAAAAA</color>
-    </text>
-	
 	<text name="md_players">
       <color>EFEFEF</color>
-      <pos>0.746 0.27</pos>
+      <pos>0.722 0.266</pos>
       <size>0.08 0</size>
     </text>
 	
-	<text name="md_lbl_playcount">
-      <pos>0.703 0.3115</pos>
-      <size>0.18 0</size>
-	  <color>AAAAAA</color>
-    </text>
-	
 	<text name="md_playcount">
-      <pos>0.776 0.3115</pos>
+      <pos>0.738 0.3115</pos>
       <size>0.18 0</size>
 	  <color>EFEFEF</color>
     </text>
@@ -703,7 +692,7 @@ originally based on: "carbon"
 	<datetime name="md_releasedate">
       <color>0065FF</color>
 	  <format>%Y</format>
-      <pos>0.703 0.322</pos>
+      <pos>0.703 0.326</pos>
       <size>0.92 0.10</size>
 	</datetime>
 	
@@ -904,7 +893,7 @@ originally based on: "carbon"
       <color>960000</color>
 	</image>
 
-    <text name="md_lbl_players, md_players, md_lbl_playcount, md_playcount">
+    <text name="md_players, md_playcount">
       	  <visible>false</visible>
     </text>	
 	
@@ -1335,15 +1324,7 @@ originally based on: "carbon"
 	  <scale>1</scale>
       <unfilledColor>808080</unfilledColor>	  
     </rating>
-	
-	<text name="md_lbl_players">
-      <pos>0.426 0.792</pos>
-      <size>0.09 0</size>
-	  <color>888888</color>
-	  <alignment>center</alignment>
-      <forceUppercase>0</forceUppercase>
-    </text>
-	
+			
 	<text name="md_players">
       <color>EFEFEF</color>
       <pos>0.51 0.792</pos>
