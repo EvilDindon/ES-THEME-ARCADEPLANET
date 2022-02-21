@@ -637,12 +637,13 @@ originally based on: "carbon"
 		
 	<image name="md_flag">
 		<visible>true</visible>
-		<pos>0.76 0.376</pos>
+		<pos>0.6 0.412</pos>
 		<size>0.02</size>
 		<color>FFFFFF</color>
 	</image>
 	
 	<image name="md_favorite">
+	  <visible>true</visible>
 	  <pos>0.39 0.412</pos>
       <color>960000</color>
 	</image>
@@ -662,44 +663,52 @@ originally based on: "carbon"
 	  <size>0.3 0.23</size>    
       <color>EEEEEE</color>
 	  <alignment>left</alignment>
+	  <glowColor>00000080</glowColor>
+	  <glowSize>1</glowSize>
+	  <glowOffset>1</glowOffset>
 	  <zIndex>15</zIndex>
     </text>
 	
 	<text name="md_developer, md_genre, md_playcount, md_players, md_releasedate">
 	  <alignment>left</alignment>
 	  <fontSize>0.026</fontSize>
+	  <glowColor>00000080</glowColor>
+	  <glowSize>1</glowSize>
+	  <glowOffset>1</glowOffset>
 	  <origin>0 0</origin>	  
 	</text>
 		
 	<text name="md_genre">
-      <color>00CC11</color>
-      <pos>0.703 0.2265</pos>
+      <color>A0A0C0</color>
+	  <pos>0.703 0.22</pos>
       <size>0.27 0.05</size>
     </text>
 	
 	<text name="md_players">
-      <color>EFEFEF</color>
+      <color>EEEEEE</color>
       <pos>0.722 0.266</pos>
       <size>0.08 0</size>
     </text>
 	
 	<text name="md_playcount">
+	  <color>EFEFEF</color>
       <pos>0.738 0.3115</pos>
       <size>0.18 0</size>
-	  <color>EFEFEF</color>
     </text>
 	
 	<datetime name="md_releasedate">
-      <color>0065FF</color>
+      <color>AA8888FF</color>
 	  <format>%Y</format>
-      <pos>0.703 0.326</pos>
+	  <fontPath>./art/ARCADE.TTF</fontPath>
+	  <fontSize>0.028</fontSize>
+	  <pos>0.703 0.3262</pos>
       <size>0.92 0.10</size>
 	</datetime>
 	
     <text name="md_developer">
-      <color>FF0000FF</color>
-      <pos>0.703 0.362</pos>
-      <size>0.27 0.10</size>
+      <color>84A0AA</color>
+      <pos>0.703 0.3646</pos>
+      <size>0.26 0.10</size>
 	  <forceUppercase>1</forceUppercase>
     </text>
 	
@@ -781,7 +790,7 @@ originally based on: "carbon"
       <alignment>center</alignment>
       <horizontalMargin>0.00</horizontalMargin>
       <fontSize>0.0368</fontSize>
-      <scrollSound>./art/scroll.wav</scrollSound>
+	  <scrollSound>./art/scroll.wav</scrollSound>
 	  <zIndex>17</zIndex>	  
 	</textlist>
 	
@@ -898,17 +907,13 @@ originally based on: "carbon"
     </text>	
 	
 	<datetime name="md_releasedate">
-      <color>AA8888FF</color>
       <pos>-0.24 0.702</pos>
       <size>0.92 0.10</size>
-	  <format>%Y</format>
 	  <origin>0.5 0.5</origin>
       <alignment>right</alignment>
-      <fontSize>0.029</fontSize>  	  
 	</datetime>
 	
     <text name="md_developer">
-      <color>FF0000FF</color>
       <pos>0.42 0.702</pos>
       <size>0.27 0.10</size>
 	  <origin>0 0.5</origin>
@@ -919,10 +924,9 @@ originally based on: "carbon"
     </text>
 		
 	<text name="md_genre">
-      <color>009911</color>
       <pos>0.320833333 0.702</pos>
       <size>0.15 0.06</size>
-	   <origin>0.5 0.5</origin>
+	  <origin>0.5 0.5</origin>
 	  <fontSize>0.028</fontSize>
 	  <alignment>center</alignment>
     </text>
@@ -1271,6 +1275,7 @@ originally based on: "carbon"
     </video>
 		
 	<image name="md_favorite">
+	    <visible>true</visible>
         <color>960000</color>
 		<pos>0.5 0.606</pos>
 	</image>
@@ -1295,21 +1300,20 @@ originally based on: "carbon"
 	</text>
 	
 	<datetime name="md_releasedate">
-      <color>FF0000ff</color>
+      <color>AA8888FF</color>
       <pos>-0.07 0.82</pos>
+	  <fontPath>./art/ARCADE.TTF</fontPath>
       <size>0.92 0.10</size>
 	  <origin>0.5 0.5</origin>
 	  <format>%Y</format>
       <alignment>right</alignment>
-      <fontSize>0.035</fontSize>
-	  <glowColor>00000055</glowColor>
-      <glowSize>2</glowSize>	  
+      <fontSize>0.028</fontSize>
     </datetime>
 	
 	<text name="md_developer">
-      <color>5599EEFF</color>
+      <color>84A0AA</color>
       <pos>0.72 0.82</pos>
-      <size>0.22 0.10</size>
+      <size>0.22 0.06</size>
 	  <origin>0.5 0.5</origin>
       <alignment>left</alignment>
       <fontSize>0.033</fontSize>
@@ -1332,7 +1336,7 @@ originally based on: "carbon"
     </text>
 	
 	<text name="md_genre">
-      <color>009911</color>
+      <color>A0A0C0</color>
       <pos>0.25 0.816</pos>
       <size>0.5 0.1</size>
 	  <fontSize>0.032</fontSize>
@@ -1499,6 +1503,7 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="md_favorite">
+	  <visible>true</visible>
 	  <pos>0.445 0.502</pos>
       <color>960000</color>
 	</image>	
@@ -1510,7 +1515,8 @@ originally based on: "carbon"
 	  <format>%Y</format>
 	  <origin>0.5 0.5</origin>
       <alignment>right</alignment>
-      <fontSize>0.029</fontSize>  	  
+	  <fontPath>./art/ARCADE.TTF</fontPath>
+      <fontSize>0.026</fontSize>  	  
 	</datetime>
 	
 	<text name="md_name">
@@ -1524,9 +1530,9 @@ originally based on: "carbon"
     </text>
 	
     <text name="md_developer">
-      <color>FF0000FF</color>
+      <color>84A0AA</color>
       <pos>0.538 0.671</pos>
-      <size>0.27 0.10</size>
+      <size>0.26 0.10</size>
 	  <origin>0 0.5</origin>
       <alignment>left</alignment>
       <fontSize>0.029</fontSize>
@@ -1535,10 +1541,10 @@ originally based on: "carbon"
     </text>
 		
 	<text name="md_genre">
-      <color>009911</color>
-      <pos>0.44375 0.671</pos>
+      <color>A0A0C0</color>
+      <pos>0.4458 0.671</pos>
+	  <origin>0.5 0.5</origin>
       <size>0.148 0.06</size>
-	   <origin>0.5 0.5</origin>
 	  <fontSize>0.028</fontSize>
 	  <alignment>center</alignment>
     </text>
