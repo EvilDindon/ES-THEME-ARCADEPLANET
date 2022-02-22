@@ -323,7 +323,7 @@ originally based on: "carbon"
 	
 	<text name="md_description">
       <origin>0.5 0.5</origin>
-      <color>969696</color>
+      <color>EEEEEE</color>
       <forceUppercase>0</forceUppercase>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <fontSize>0.023</fontSize>
@@ -383,7 +383,7 @@ originally based on: "carbon"
 	</text>
 	
 	<text name="md_developer">
-      <color>FF0000</color>
+      <color>84A0AA</color>
 	  <pos>0.15 0.04</pos>
       <size>0.25 0.05</size>
       <alignment>left</alignment>
@@ -637,7 +637,7 @@ originally based on: "carbon"
 		
 	<image name="md_flag">
 		<visible>true</visible>
-		<pos>0.6 0.412</pos>
+		<pos>0.714 0.244</pos>
 		<size>0.02</size>
 		<color>FFFFFF</color>
 	</image>
@@ -679,13 +679,13 @@ originally based on: "carbon"
 	</text>
 		
 	<text name="md_genre">
-      <color>A0A0C0</color>
-	  <pos>0.703 0.22</pos>
+      <color>E0E0E0</color>
+	  <pos>0.703 0.182</pos>
       <size>0.27 0.05</size>
     </text>
 	
 	<text name="md_players">
-      <color>EEEEEE</color>
+      <color>EFEFEF</color>
       <pos>0.722 0.266</pos>
       <size>0.08 0</size>
     </text>
@@ -812,8 +812,6 @@ originally based on: "carbon"
 	
 	<image name="tv_frame" extra="true">
 	  <pos>0.320833333 0.36</pos>
-	  <visible>true</visible>
-	  <zIndex>40</zIndex>
     </image>
 	
 	<image name="Controller+logo 1, Controller+logo 2, background2, md_thumbnail">
@@ -906,50 +904,41 @@ originally based on: "carbon"
       	  <visible>false</visible>
     </text>	
 	
+	<text name="md_releasedate, md_developer, md_genre, md_description">
+	  <origin>0.5 0.5</origin>
+    </text>	
+	
 	<datetime name="md_releasedate">
       <pos>-0.24 0.702</pos>
       <size>0.92 0.10</size>
-	  <origin>0.5 0.5</origin>
-      <alignment>right</alignment>
+	  <alignment>right</alignment>
 	</datetime>
 	
     <text name="md_developer">
       <pos>0.42 0.702</pos>
       <size>0.27 0.10</size>
 	  <origin>0 0.5</origin>
-      <alignment>left</alignment>
       <fontSize>0.029</fontSize>
-      <glowColor>00000016</glowColor>
-      <glowSize>2</glowSize>
     </text>
 		
 	<text name="md_genre">
       <pos>0.320833333 0.702</pos>
       <size>0.15 0.06</size>
-	  <origin>0.5 0.5</origin>
 	  <fontSize>0.028</fontSize>
 	  <alignment>center</alignment>
     </text>
 	
 	<text name="md_description">
       <pos>0.320833333 0.632</pos>
-	  <origin>0.5 0.5</origin>
       <size>0.438 0.11</size>    
-      <color>969696</color>
-	  <alignment>center</alignment>
-      <forceUppercase>0</forceUppercase>
-      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <fontSize>0.023</fontSize>
+	  <alignment>center</alignment>
     </text>
 	
 	<rating name="md_rating">
       <pos>0.288 0.554</pos>
 	  <origin>0.5 0.5</origin>
-      <size>0.028 0.028</size>
-      <color>FFFF00</color>
-      <unfilledColor>808080</unfilledColor>
-      <zIndex>41</zIndex>	  
-	</rating>	
+    </rating>	
 	
 	<textlist name="gamelist">
       <selectorColor>666699</selectorColor>
@@ -1017,7 +1006,7 @@ originally based on: "carbon"
     </text>
 	
     <text name="md_developer">
-      <color>DD8888ff</color>
+      <color>84A0AA</color>
 	  <origin>0.5 0.5</origin>
       <pos>0.5 0.07</pos>
       <size>0.92 0.10</size>
@@ -1152,7 +1141,7 @@ originally based on: "carbon"
       <size>0.92 0.10</size>
       <alignment>right</alignment>
       <fontSize>0.026</fontSize>
-	  <color>EE0000</color>
+      <color>84A0AA</color>
       <glowColor>00000016</glowColor>
       <glowSize>3</glowSize>
       <origin>0.5 0.5</origin>
@@ -1170,7 +1159,7 @@ originally based on: "carbon"
 	<text name="md_description">
       <pos>0.5 0.84</pos>
 	  <size>0.362 0.13</size>
-	  <color>969696</color>
+	  <color>EEEEEE</color>
       <alignment>center</alignment>
     </text>
 	
@@ -1336,7 +1325,7 @@ originally based on: "carbon"
     </text>
 	
 	<text name="md_genre">
-      <color>A0A0C0</color>
+      <color>E0E0E0</color>
       <pos>0.25 0.816</pos>
       <size>0.5 0.1</size>
 	  <fontSize>0.032</fontSize>
@@ -1347,7 +1336,7 @@ originally based on: "carbon"
       <pos>0.5 0.73</pos>
 	  <origin>0.5 0.5</origin>
       <size>0.52 0.1</size>    
-      <color>999999</color>
+      <color>EEEEEE</color>
 	  <alignment>center</alignment>
       <forceUppercase>0</forceUppercase>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
@@ -1507,23 +1496,29 @@ originally based on: "carbon"
 	  <pos>0.445 0.502</pos>
       <color>960000</color>
 	</image>	
+			
+	<text name="md_developer, md_genre, md_players, md_releasedate, md_description">
+	  <alignment>center</alignment>
+	  <fontSize>0.026</fontSize>
+	  <origin>0.5 0.5</origin>
+	  <glowColor>00000080</glowColor>
+	  <glowSize>1</glowSize>
+	  <glowOffset>1</glowOffset>
+	</text>
 	
 	<datetime name="md_releasedate">
       <color>AA8888FF</color>
       <pos>-0.108 0.671</pos>
       <size>0.92 0.10</size>
 	  <format>%Y</format>
-	  <origin>0.5 0.5</origin>
       <alignment>right</alignment>
 	  <fontPath>./art/ARCADE.TTF</fontPath>
-      <fontSize>0.026</fontSize>  	  
 	</datetime>
 	
 	<text name="md_name">
       <color>FFFFFFff</color>
       <pos>0.44375 0.05</pos>
       <size>0.66 0.10</size>
-	  <origin>0.5 0.5</origin>
       <alignment>center</alignment>
       <glowColor>00000016</glowColor>
       <glowSize>3</glowSize>
@@ -1536,26 +1531,19 @@ originally based on: "carbon"
 	  <origin>0 0.5</origin>
       <alignment>left</alignment>
       <fontSize>0.029</fontSize>
-      <glowColor>00000016</glowColor>
-      <glowSize>2</glowSize>
     </text>
 		
 	<text name="md_genre">
-      <color>A0A0C0</color>
+      <color>E0E0E0</color>
       <pos>0.4458 0.671</pos>
-	  <origin>0.5 0.5</origin>
       <size>0.148 0.06</size>
 	  <fontSize>0.028</fontSize>
-	  <alignment>center</alignment>
     </text>
 	
 	<text name="md_description">
       <pos>0.446 0.5898</pos>
-	  <origin>0.5 0.5</origin>
       <size>0.412 0.13333333</size>    
-      <color>969696</color>
-	  <alignment>center</alignment>
-      <forceUppercase>0</forceUppercase>
+      <color>EEEEEE</color>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <fontSize>0.023</fontSize>
     </text>
@@ -1663,7 +1651,7 @@ originally based on: "carbon"
     </text>
 	
 	<text name="md_developer">
-      <color>FF0000FF</color>
+      <color>84A0AA</color>
       <pos>0.8427 0.779</pos>
       <size>0.3 0.12</size>
 	  <origin>0.5 0.5</origin>
@@ -1676,7 +1664,7 @@ originally based on: "carbon"
 	<text name="md_description">
 	  <pos>0.846 0.128</pos>
 	  <size>0.31 0.264</size>    
-      <color>EEEEEEcc</color>
+      <color>EEEEEE</color>
 	  <alignment>left</alignment>
 	  <zIndex>15</zIndex>
     </text>
