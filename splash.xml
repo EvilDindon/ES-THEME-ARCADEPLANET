@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+	<view name="splash">
+
+		<splash name="splash">
+			<backgroundColor>000000FF</backgroundColor>
+		</splash>
+		
+		<image name="background">
+			<path>./art/splash.jpg</path>
+			<opacity>0</opacity>
+			<storyboard>
+				<animation property="opacity" from="0" to="1" begin="0" duration="6000" mode="Linear"/>
+			</storyboard>
+		</image>
+		
+		<text name="label, Version, Warning, author" extra="true">
+			<origin>0 0</origin>
+			<rotation></rotation>
+			<fontPath>./art/arcade.ttf</fontPath>
+			<fontSize>0.023</fontSize>
+			<color>669e02FF</color>
+			<forceUppercase>true</forceUppercase>
+			<size>0.5 0.1</size>
+			<alignment>left</alignment>
+			<glowColor>00000080</glowColor>
+			<glowSize>2</glowSize>
+			<glowOffset>1</glowOffset>
+		</text>
+
+		<text name="label">
+			<size>0.33 0.05</size>
+			<pos>0.2 0.85</pos>
+			<color>DDDDDDff</color>
+			<alignment>center</alignment>
+		</text>
+				
+		<text name="Version" extra="true">
+			<pos>0.367 0.164</pos>
+			<text>Arcade Planet V0.95</text>			
+		</text>
+		
+		<text name="Warning" extra="true">
+			<pos>0.263 0.230</pos>
+			<color>FF0000FF</color>
+			<text>Warning ! Correct Scraping Method is :</text>			
+		</text>
+						
+		<text name="author" extra="true">
+			<pos>0.6 0.75</pos>
+			<color>DDCC00ff</color>
+			<text>By EvilDindon, 2021</text>
+		</text>
+			
+		<image name="progressbar">
+			<origin>0 0</origin>
+			<pos>0.263 0.9</pos>
+			<size>0.455 0.065</size>
+			<color>FFFFFF80</color>
+		</image>
+		
+		<image name="progressbar:active">
+			<color>FFFFFFff</color>
+		</image>
+		
+	</view>
+	
+</theme>
