@@ -57,12 +57,14 @@
 		<image name="progressbar">
 			<origin>0 0</origin>
 			<pos>0.263 0.9</pos>
-			<size>0.455 0.065</size>
-			<color>FFFFFF80</color>
+			<size>0.455 0.035</size>
+			<color>a4a4a4</color>
+			<colorEnd>FFFFFFFF</colorEnd>
 		</image>
 		
 		<image name="progressbar:active">
-			<color>FFFFFFff</color>
+			<color>a4a4a4</color>
+			<colorEnd>FFFFFF</colorEnd>
 		</image>
 		
 	</view>
