@@ -43,9 +43,10 @@
 		</text>
 		
 		<text name="Warning" extra="true">
-			<pos>0.263 0.230</pos>
-			<color>FF0000FF</color>
-			<text>Warning ! Correct Scraping Method is :</text>			
+			<pos>0.24 0.330</pos>
+			<fontSize>0.018</fontSize>
+			<color>A0A0A0FF</color>
+			<text>PLEASE REFER TO THE README IF THE THEME LOOK WEIRD</text>			
 		</text>
 						
 		<text name="author" extra="true">
