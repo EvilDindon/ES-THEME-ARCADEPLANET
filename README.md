@@ -9,7 +9,7 @@
  - Some custom background music, artwork and animations
  - 16/9 Only, not compatible with 4/3 or 5/4 for now
  - Scalable to 4K
- - Pi4 or more powerdull recommended (light option coming soon)
+ - Pi4 or more powerfull recommended (light option coming soon)
  
   # ** IMPORTANT **
 
