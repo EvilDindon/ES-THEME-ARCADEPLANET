@@ -22,7 +22,7 @@
 			<fontSize>0.023</fontSize>
 			<color>669e02FF</color>
 			<forceUppercase>true</forceUppercase>
-			<size>0.5 0.1</size>
+			<size>0.7 0.1</size>
 			<alignment>center</alignment>
 			<glowColor>00000080</glowColor>
 			<glowSize>2</glowSize>
@@ -45,11 +45,23 @@
 			<text>Theme for Batocera, Retrobat and Emuelec</text>			
 		</text>
 		
+		<text lang="fr" name="Platforms" extra="true">
+			<pos>0.5 0.364</pos>
+			<text>Theme pour Batocera, Retrobat and Emuelec</text>			
+		</text>
+		
 		<text name="Warning" extra="true">
 			<pos>0.5 0.680</pos>
 			<fontSize>0.018</fontSize>
 			<color>A0A0A0FF</color>
 			<text>PLEASE REFER TO THE README IF THE THEME LOOKS WEIRD</text>			
+		</text>
+		
+		<text lang="fr" name="Warning" extra="true">
+			<pos>0.5 0.680</pos>
+			<fontSize>0.018</fontSize>
+			<color>A0A0A0FF</color>
+			<text>LISEZ-BIEN LE README SI LE THEME VOUS PARAIT BIZARRE</text>			
 		</text>
 						
 		<text name="author" extra="true">
