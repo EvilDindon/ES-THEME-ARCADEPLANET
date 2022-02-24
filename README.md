@@ -7,6 +7,9 @@
  - 10 Gamelist Views (using a lot logo art and box art)
  - Regional Logos and Artwork (only EU and US for now)
  - Some custom background music, artwork and animations
+ - 16/9 Only, not compatible with 4/3 or 5/4 for now
+ - Scalable to 4K
+ - Pi4 or more powerdull recommended (light option coming soon)
  
   # ** IMPORTANT **
 
