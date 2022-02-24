@@ -699,7 +699,7 @@ originally based on: "carbon"
 	<datetime name="md_releasedate">
       <color>AA8888FF</color>
 	  <format>%Y</format>
-	  <fontPath>./art/ARCADE.TTF</fontPath>
+	  <fontPath>./art/arcade.ttf</fontPath>
 	  <fontSize>0.028</fontSize>
 	  <pos>0.703 0.3262</pos>
       <size>0.92 0.10</size>
@@ -1291,7 +1291,7 @@ originally based on: "carbon"
 	<datetime name="md_releasedate">
       <color>AA8888FF</color>
       <pos>-0.07 0.82</pos>
-	  <fontPath>./art/ARCADE.TTF</fontPath>
+	  <fontPath>./art/arcade.ttf</fontPath>
       <size>0.92 0.10</size>
 	  <origin>0.5 0.5</origin>
 	  <format>%Y</format>
@@ -1512,7 +1512,7 @@ originally based on: "carbon"
       <size>0.92 0.10</size>
 	  <format>%Y</format>
       <alignment>right</alignment>
-	  <fontPath>./art/ARCADE.TTF</fontPath>
+	  <fontPath>./art/arcade.ttf</fontPath>
 	</datetime>
 	
 	<text name="md_name">
