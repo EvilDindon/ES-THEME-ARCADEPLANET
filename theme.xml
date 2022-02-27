@@ -235,6 +235,7 @@ originally based on: "carbon"
 	  <path>./art/tvframe/default.png</path>
       <path>./art/tvframe/${system.theme}.png</path>
 	  <path ifSubset="artworkregion:US">./art/tvframe/default.png</path>
+	  <path ifSubset="artworkregion:US">./art/tvframe/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/tvframe/US/${system.theme}.png</path>
 	  <zIndex>16</zIndex>
 	</image>
