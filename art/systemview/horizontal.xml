@@ -10,6 +10,10 @@
 		 <path>./art/wheel/${system.theme}.svg</path>
 		 <path>./art/wheel/${system.theme}-${lang}.png</path>
 		 <path>./art/wheel/${system.theme}-${lang}.svg</path>
+	     <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
+		 <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.svg</path>
+		 <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}-${lang}.png</path>
+		 <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}-${lang}.svg</path>
 	</image>
   	
     <carousel name="systemcarousel">
@@ -96,7 +100,10 @@
 	  <path>./../Colorlogos/default.png</path>
 	  <path>./../Colorlogos/${system.theme}.png</path>
       <path>./../Colorlogos/${system.theme}.svg</path>
-      <linearSmooth>true</linearSmooth>
+      <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
+	  <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
+	  <linearSmooth>true</linearSmooth>
       <zIndex>21</zIndex>
 	  <scale>0</scale>
 	  <storyboard>
@@ -107,13 +114,16 @@
 	</image>
 	
 	<image name="VanishingColorLogos" extra="static">
+	  <linearSmooth>true</linearSmooth>
       <pos>0.5 0.085</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.28 0.164</maxSize>
 	  <path>./../Colorlogos/default.png</path>
 	  <path>./../Colorlogos/${system.theme}.png</path>
       <path>./../Colorlogos/${system.theme}.svg</path>
-      <linearSmooth>true</linearSmooth>
+      <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
+	  <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
 	  <opacity>0</opacity>
 	  <zIndex>20</zIndex>
 	  <storyboard>
@@ -128,7 +138,8 @@
       <origin>0.5 0.5</origin>
       <size>0.1375 0.09629629629</size>
 	  <path>./../wheelv/${system.theme}.png</path>
-      <linearSmooth>false</linearSmooth>
+      <path ifSubset="artworkregion:US">./../wheelv/US/${system.theme}.png</path>
+	  <linearSmooth>false</linearSmooth>
       <zIndex>39</zIndex>
 	  <opacity>0</opacity>
       <storyboard repeat="forever">
@@ -143,7 +154,8 @@
       <origin>0.5 0.5</origin>
       <size>0.140104166667 0,100925925925925</size>
 	  <path>./../yellogos/${system.theme}.png</path>
-      <linearSmooth>false</linearSmooth>
+      <path ifSubset="artworkregion:US">./../yellogos/US/${system.theme}.png</path>
+	  <linearSmooth>false</linearSmooth>
       <zIndex>40</zIndex>
 	  <opacity>0</opacity>                                                                              
 	  <storyboard>
@@ -194,8 +206,9 @@
 	</image>
 	
 	<text name="systemInfo">
-	 <fontPath>./art/BankGothicCMdBT-Medium.otf</fontPath>
+	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
 	  <fontSize>0.028</fontSize>
+	  <forceUppercase>0</forceUppercase>
 	  <origin>0.5 0.5</origin>
       <pos>0.5 0.902</pos>
       <size>1 0.27</size>
@@ -207,11 +220,5 @@
     </text>
 	    
   </view>
-  
-  <!-- Subset options for Regional Artwork and Logos -->
-  <subset name="artworkregion" displayName="Logos and Artwork Region">
-    <include name="EU"></include>
-    <include name="US">./USH.xml</include>
-  </subset>
   
 </theme>

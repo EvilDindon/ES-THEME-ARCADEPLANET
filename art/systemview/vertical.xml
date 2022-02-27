@@ -10,16 +10,12 @@
 		 <path>./art/wheelv/${system.theme}.svg</path>
 		 <path>./art/wheelv/${system.theme}-${lang}.png</path>
 		 <path>./art/wheelv/${system.theme}-${lang}.svg</path>
-		 <!-- <color>999999</color>
-		 <storyboard event="activate">
-				<animation property="color" from="999999" to="FFFF00" begin="" duration="" mode="Linear"/>
-			    <animation property="color" from="FFFF00" to="FF8800" begin="300" duration="1000" mode="Linear" autoReverse="true" repeat="forever"/>
-		 </storyboard>
-		 <storyboard event="deactivate">
-				<animation property="color" from="999999" to="999999" begin="" duration="" mode="Linear"/>
-		 </storyboard>		  -->
+	     <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
+		 <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.svg</path>
+		 <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}-${lang}.png</path>
+		 <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}-${lang}.svg</path>
 	</image>
-    	
+
     <carousel name="systemcarousel">
       <defaultTransition>fade</defaultTransition>
 	  <type>vertical</type>
@@ -106,6 +102,9 @@
 	  <path>./../Colorlogos/default.png</path>
 	  <path>./../Colorlogos/${system.theme}.png</path>
       <path>./../Colorlogos/${system.theme}.svg</path>
+	  <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
+	  <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
       <linearSmooth>true</linearSmooth>
 	  <zIndex>22</zIndex>
 	  <scale>0</scale>
@@ -115,7 +114,7 @@
 		  <animation property="y" from="0.48" to="0.14" begin="620" duration="375" mode="EaseOut"/>
 	  </storyboard>
     </image>
-	
+		
 	<image name="VanishingColorLogos" extra="static">
       <pos>0.667 0.14</pos>
       <origin>0.5 0.5</origin>
@@ -123,6 +122,9 @@
 	  <path>./../Colorlogos/default.png</path>
 	  <path>./../Colorlogos/${system.theme}.png</path>
       <path>./../Colorlogos/${system.theme}.svg</path>
+	  <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
+	  <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
       <linearSmooth>true</linearSmooth>
 	  <opacity>0</opacity>
 	  <zIndex>21</zIndex>
@@ -142,6 +144,9 @@
 	  <path>./../controllers/default.png</path>
 	  <path>./../controllers/${system.theme}.png</path>
       <path>./../controllers/${system.theme}.svg</path>
+	  <path ifSubset="artworkregion:US">./../controllers/US/default.png</path>
+	  <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.svg</path>
       <reflexion>0.0 0.0</reflexion>
 	  <zIndex>21</zIndex>
 	  <storyboard>
@@ -158,6 +163,9 @@
 	  <path>./../controllers/default.png</path>
 	  <path>./../controllers/${system.theme}.png</path>
       <path>./../controllers/${system.theme}.svg</path>
+	  <path ifSubset="artworkregion:US">./../controllers/US/default.png</path>
+	  <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.svg</path>
       <reflexion>0.0 0.0</reflexion>
 	  <zIndex>21</zIndex>
 	  <storyboard>
@@ -170,6 +178,7 @@
       <origin>0.5 0.5</origin>
       <size>0.1375 0.09629629629</size>
 	  <path>./../wheelv/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:US">./../wheelv/US/${system.theme}.png</path>
       <linearSmooth>false</linearSmooth>
       <zIndex>37</zIndex>
 	  <color>FFFFAA</color>
@@ -186,6 +195,7 @@
       <origin>0.5 0.5</origin>
       <size>0.140104166667 0,100925925925925</size>
 	  <path>./../yellogos/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:US">./../yellogos/US/${system.theme}.png</path>
       <linearSmooth>false</linearSmooth>
       <zIndex>40</zIndex>
 	  <opacity>0</opacity>                                                                              
@@ -253,7 +263,7 @@
 	</image>
 	
 	<text name="systemInfo">
-	  <fontPath>./art/BankGothicCMdBT-Medium.otf</fontPath>
+	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
 	  <fontSize>0.028</fontSize>
 	  <origin>0.5 0.5</origin>
 	  <alignment>center</alignment>
@@ -269,11 +279,5 @@
   </view>
 
   <include>./layouts/${system.theme}.xml</include>
-  
-  <!-- Subset options for Regional Artwork and Logos -->
-  <subset name="artworkregion" displayName="Logos and Artwork Region">
-    <include name="EU"></include>
-    <include name="US">./USV.xml</include>
-  </subset>  
-  
+   
 </theme>
