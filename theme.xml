@@ -768,7 +768,7 @@ originally based on: "carbon"
       <path>./art/splash.svg</path>
       <path>./art/wheel/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/splash.svg</path>
-	  <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:US">./art/wheel/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
 	  <zIndex>102</zIndex>
 	  <storyboard>
