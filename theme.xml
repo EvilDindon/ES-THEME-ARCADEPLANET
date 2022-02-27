@@ -230,10 +230,23 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="md_image">
+	  <default>./art/noimage.png</default>
 	  <linearSmooth>true</linearSmooth>
 	  <size>0.271875 0.36296296296</size>
       <origin>0.5 0.5</origin>	
       <zIndex>2</zIndex>	  
+	</image>
+	
+	<image name="md_thumbnail">
+	  <default>./art/noimage.png</default>
+	  <linearSmooth>true</linearSmooth>
+	  <origin>0.5 0.5</origin>
+      <reflexion>0.25 0.0</reflexion>
+	  <zIndex>11</zIndex>	  
+	</image>
+	
+	<image name="md_marquee">
+	  <default>./art/noimage.png</default>	  
 	</image>
 	
 	<video name="md_video">
@@ -313,14 +326,7 @@ originally based on: "carbon"
 	<image name="md_nosavestate">
 			<color>808080F0</color>
 	</image>
-	
-	<image name="md_thumbnail">
-	  <linearSmooth>true</linearSmooth>
-	  <origin>0.5 0.5</origin>
-      <reflexion>0.25 0.0</reflexion>
-	  <zIndex>11</zIndex>	  
-	</image>
-	
+		
 	<text name="md_description">
       <origin>0.5 0.5</origin>
       <color>E0E0E0ff</color>
@@ -485,7 +491,7 @@ originally based on: "carbon"
       <animateColorTime>350</animateColorTime>
     </ninepatch>
 	
-	<image name="md_thumbnail, md_image, tv_frame, md_flag">
+	<image name="md_thumbnail, md_image, md_marquee, tv_frame, md_flag">
 	  <visible>false</visible>
 	</image>
 	
@@ -768,7 +774,6 @@ originally based on: "carbon"
     </image>
 		
 	<image name="md_thumbnail">
-	  <visible>true</visible>
 	  <pos>0.15 0.214</pos>
       <maxSize>0.246 0.424</maxSize>
 	  <reflexion>0 0</reflexion>
@@ -885,7 +890,6 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="md_marquee">
-	  <linearSmooth>true</linearSmooth>
       <pos>0.320833333 0.09</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.2083333333 0.182</maxSize>
@@ -1168,6 +1172,7 @@ originally based on: "carbon"
       <scrollDirection>horizontal</scrollDirection>
       <autoLayout>5 1</autoLayout>
 	  <imageSource>marquee</imageSource>
+
       <autoLayoutSelectedZoom>1.6</autoLayoutSelectedZoom>
       <centerSelection>true</centerSelection>
       <zIndex>61</zIndex>
