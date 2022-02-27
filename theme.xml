@@ -645,6 +645,7 @@ originally based on: "carbon"
       <path>./art/splash.svg</path>
       <path>./art/controllers/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/splash.svg</path>
+	  <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
 	  <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 	  <zIndex>101</zIndex>
 	  <storyboard>
@@ -766,6 +767,7 @@ originally based on: "carbon"
       <path>./art/splash.svg</path>
       <path>./art/wheel/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/splash.svg</path>
+	  <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
 	  <zIndex>102</zIndex>
 	  <storyboard>
@@ -849,7 +851,8 @@ originally based on: "carbon"
       <path>./art/splash.svg</path>
       <path>./art/controllers/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/splash.svg</path>
-      <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 	  <zIndex>101</zIndex>
 	  <storyboard>
 				<animation property="x" from="-0.2" to="0.233" begin="1100" duration="300" mode="Linear"/>
@@ -864,7 +867,8 @@ originally based on: "carbon"
       <path>./art/splash.svg</path>
       <path>./art/controllers/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/splash.svg</path>
-      <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 	  <zIndex>101</zIndex>
 	  <storyboard>
 				<animation property="x" from="1.2" to="0.40875" begin="1100" duration="300" mode="Linear"/>
@@ -1102,7 +1106,8 @@ originally based on: "carbon"
 	  <origin>0.5 0.5</origin>
 	  <size>0.1375 0.2</size>
       <path>./art/controllers/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 	  <color>EEEEEE</color>
       <zIndex>101</zIndex>
 	</image>
@@ -1239,6 +1244,7 @@ originally based on: "carbon"
 	  <origin>0.5 0.5</origin>
 	  <size>0.1375 0.2</size>
       <path>./art/controllers/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
 	  <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 	  <color>EEEEEE</color>
       <zIndex>101</zIndex>
@@ -1414,7 +1420,8 @@ originally based on: "carbon"
       <path>./art/splash.svg</path>
       <path>./art/controllers/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/splash.svg</path>
-      <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 	  <zIndex>101</zIndex>
 	  <storyboard>
 				<animation property="x" from="-0.2" to="0.358" begin="1100" duration="300" mode="Linear"/>
@@ -1429,7 +1436,8 @@ originally based on: "carbon"
       <path>./art/splash.svg</path>
       <path>./art/controllers/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/splash.svg</path>
-      <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 	  <zIndex>101</zIndex>
 	  <storyboard>
 				<animation property="x" from="1.2" to="0.53375" begin="1100" duration="300" mode="Linear"/>
