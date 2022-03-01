@@ -347,7 +347,13 @@ originally based on: "carbon"
 	  <glowColor>00000080</glowColor>
 	  <glowSize>1</glowSize>
 	  <glowOffset>1</glowOffset>
-      <zIndex>15</zIndex>		  
+      <zIndex>15</zIndex>
+		<storyboard event="activate">
+                <animation property="opacity" from="0" to="1" duration="1200" mode="Linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+		</storyboard>	  
     </text>
 	
 	<text name="md_developer">
@@ -527,6 +533,13 @@ originally based on: "carbon"
 	  <pos>0.15 0.214</pos>
       <maxSize>0.246 0.424</maxSize>
 	  <reflexion>0 0</reflexion>
+	  		<storyboard event="activate">
+                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="1" to="0" duration="" mode="Linear"/>
+			</storyboard>
 	</image>
 	
 	<image name="Chevron Haut">
@@ -593,6 +606,13 @@ originally based on: "carbon"
 	  <origin>0.5 1</origin>
 	  <reflexion>0.36 0.08</reflexion>
 	  <zIndex>10</zIndex>
+	  		<storyboard event="activate">
+                <animation property="offsetX" from="-0.4" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="1" to="0" duration="" mode="Linear"/>
+			</storyboard>
 	</image>
 			
     <imagegrid name="gamegrid">
@@ -640,7 +660,7 @@ originally based on: "carbon"
 	
 	<image name="Controller" extra="true">
 	  <linearSmooth>false</linearSmooth>
-      <pos>1.2 0.332</pos>
+      <pos>0.9 0.332</pos>
       <origin>0.5 0.5</origin>
       <size>0.1375 0.2</size>
       <path>./art/splash.svg</path>
@@ -650,14 +670,20 @@ originally based on: "carbon"
 	  <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 	  <zIndex>101</zIndex>
 	  <storyboard>
-				<animation property="x" from="1.2" to="0.9" begin="1200" duration="175" mode="Linear"/>
+				<animation property="offsetX" from="0.3" to="0" begin="0" duration="2000" mode="EaseOutQuint"/>
 	  </storyboard>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="1" to="0" duration="" mode="Linear"/>
+			</storyboard>
 	</image>
 	
 	<image name="tv_frame" extra="true">
       <visible>true</visible>
 	  <pos>0.5 0.215</pos>
-      <zIndex>40</zIndex>
     </image>
 	
 	<video name="md_video">
@@ -771,9 +797,6 @@ originally based on: "carbon"
 	  <path ifSubset="artworkregion:US">./art/wheel/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
 	  <zIndex>102</zIndex>
-	  <storyboard>
-				<animation property="x" from="1.2" to="0.874" begin="1100" duration="300" mode="Linear"/>
-      </storyboard>
     </image>
 	
 	<image name="Controller+logo 1" extra="true">
@@ -794,6 +817,13 @@ originally based on: "carbon"
 	  <pos>0.15 0.214</pos>
       <maxSize>0.246 0.424</maxSize>
 	  <reflexion>0 0</reflexion>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
 	</image>
 	
 	<image name="md_marquee">
@@ -802,6 +832,13 @@ originally based on: "carbon"
       <origin>0.5 0.5</origin>
       <maxSize>0.19 0.16</maxSize>
 	  <zIndex>42</zIndex>
+	  	  	 <storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
 	</image>
 			
     <textlist name="gamelist">
@@ -917,8 +954,15 @@ originally based on: "carbon"
       <origin>0.5 0.5</origin>
       <maxSize>0.2083333333 0.182</maxSize>
 	  <zIndex>42</zIndex>
+	  	  	<storyboard event="activate">
+                <animation property="offsetY" from="-0.2" to="0" duration="500" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+			    <animation property="offsetX" from="0" to="-0.5" duration="500" mode="Linear"/>
+                <animation property="opacity" from="1" to="1" duration="400" mode="Linear"/>
+			</storyboard>
 	</image>
-	
+
 	<image name="md_flag">
 		<visible>true</visible>
 		<pos>0.136 0.703</pos>
@@ -1507,6 +1551,13 @@ originally based on: "carbon"
 	  <origin>0.5 1</origin>
       <maxSize>0.22 0.379</maxSize>
 	  <reflexion>0.5 0.1</reflexion>
+		  	<storyboard event="activate">
+                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="1" to="0" duration="" mode="Linear"/>
+			</storyboard>
 	</image>
 	
 	<image name="md_flag">
@@ -1541,6 +1592,12 @@ originally based on: "carbon"
       <alignment>center</alignment>
       <glowColor>00000016</glowColor>
       <glowSize>3</glowSize>
+	    <storyboard event="activate">
+                <animation property="opacity" from="0" to="1" duration="1200" mode="Linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+		</storyboard>
     </text>
 	
     <text name="md_developer">
@@ -1563,14 +1620,21 @@ originally based on: "carbon"
       <size>0.412 0.13333333</size>    
       <fontSize>0.023</fontSize>
     </text>
-	
+		
 	<rating name="md_rating">
       <pos>0.096 0.538</pos>
 	  <origin>0.5 0.5</origin>
       <size>0.028 0.028</size>
       <color>FFFF00</color>
       <unfilledColor>808080</unfilledColor>
-      <zIndex>41</zIndex>	  
+      <zIndex>41</zIndex>
+	  		<storyboard event="activate">
+                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
 	</rating>	
 	    	
 	<imagegrid name="gamegrid">
@@ -1647,6 +1711,13 @@ originally based on: "carbon"
       <maxSize>0.26 0.44</maxSize>
 	  <reflexion>0.28 0</reflexion>
 	  <zIndex>17</zIndex>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
 	</image>
 		
    	<rating name="md_rating">
@@ -1655,6 +1726,13 @@ originally based on: "carbon"
       <color>EEEE00</color>
       <unfilledColor>808080</unfilledColor>
 	  <zIndex>41</zIndex>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
     </rating>
 	
 	<text name="md_name">
@@ -1664,6 +1742,12 @@ originally based on: "carbon"
 	  <fontSize>0.042</fontSize>
 	  <glowSize>3</glowSize>
 	  <glowColor>000000ff</glowColor>
+	  <storyboard event="activate">
+                <animation property="opacity" from="0" to="1" duration="1200" mode="Linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+		</storyboard>
     </text>
 	
 	<text name="md_developer">
@@ -1672,6 +1756,13 @@ originally based on: "carbon"
 	  <origin>0.5 0.5</origin>
       <alignment>center</alignment>
       <fontSize>0.029</fontSize>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
     </text>
 	
 	<text name="md_description">
