@@ -370,15 +370,15 @@ originally based on: "carbon"
 	  <fontPath>./art/arcade.ttf</fontPath>
 	</datetime>
 		  
-    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_lbl_lastplayed">
-      <x>2</x>
+        <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_lbl_lastplayed, md_publisher">
+          <x>2</x>
 	  <visible>false</visible>
 	</text>
 	
-	<text name="md_lastplayed, md_publisher">
-      <x>2</x>
-	  <visible>false</visible>
-	</text>
+	<datetime name="md_lastplayed">
+		<x>2</x>
+  		<visible>false</visible>
+	</datetime>
 			
   </view>
   
