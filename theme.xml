@@ -524,7 +524,7 @@ originally based on: "carbon"
       <animateColorTime>350</animateColorTime>
     </ninepatch>
 	
-	<image name="md_image, tv_frame, md_flag">
+	<image name="md_image, tv_frame, md_flag, md_image, md_thumnail, md_marquee">
 	  <visible>false</visible>
 	</image>
 	
@@ -545,6 +545,7 @@ originally based on: "carbon"
    <customView name="MiniLogos+Details" inherits="grid" displayName="Mini Logos + Details">
    	
 	<image name="md_thumbnail">
+		  <visible>true</visible>
 	  <pos>0.15 0.214</pos>
           <maxSize>0.246 0.424</maxSize>
 	  <reflexion>0 0</reflexion>
@@ -615,6 +616,7 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="md_marquee">
+	  <visible>true</visible>
 	  <pos>0.15 0.266</pos>
       <size>0.208333 0</size>
 	  <origin>0.5 1</origin>
@@ -904,7 +906,6 @@ originally based on: "carbon"
    	</image>
 	  
 	  <image name="Controller1, Controller2">
-		 	<visible>true</visible>
       		<maxSize>0.156 0.208</maxSize>
 	  </image>
 		
@@ -1460,7 +1461,6 @@ originally based on: "carbon"
 	  
 	  <image name="Controller, Controller 2">
 	  	<size>0.156 0</size>
-	  	<visible>true</visible>
 	  </image>
 	
 	<image name="Chevron Bas">
@@ -1520,6 +1520,7 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="md_thumbnail">
+	  <visible>true</visible>
 	  <pos>0.123 0.518</pos>
 	  <origin>0.5 1</origin>
           <maxSize>0.22 0.379</maxSize>
@@ -1678,6 +1679,7 @@ originally based on: "carbon"
 	</image>
 	
     <image name="md_thumbnail">
+	  <visible>true</visible>
 	  <pos>0.8427 0.321</pos>
 	  <origin>0.5 0</origin>
       <maxSize>0.26 0.44</maxSize>
