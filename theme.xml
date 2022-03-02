@@ -852,8 +852,8 @@ originally based on: "carbon"
 	</image>
 			
     <textlist name="gamelist">
-      <selectorColor>004060</selectorColor>
-      <selectedColor>B8D8FF</selectedColor>
+      <selectorColor>003045</selectorColor>
+      <selectedColor>BBDDFF</selectedColor>
       <primaryColor>969696</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
@@ -911,7 +911,7 @@ originally based on: "carbon"
 	  </image>
 		
 	<image name="Chevron Bas" extra="true">
-      <pos>0.62 0.9</pos>
+      <pos>0.562 0.9</pos>
 	  <origin>0.5 0.5</origin>
       <size>0.0234375 0.0398148</size>
 	  <path>./art/chevronB.png</path>
@@ -925,7 +925,7 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="Chevron Haut" extra="true">
-      <pos>0.62 0.019</pos>
+      <pos>0.562 0.019</pos>
 	  <origin>0.5 0.5</origin>
       <size>0.0234375 0.0398148</size>
 	  <path>./art/chevronH.png</path>
@@ -1014,8 +1014,8 @@ originally based on: "carbon"
 	
 	<textlist name="gamelist">
 	  <origin>0.5 0</origin>
-      <selectorColor>004060</selectorColor>
-      <selectedColor>B8D8FF</selectedColor>
+      <selectorColor>003045</selectorColor>
+      <selectedColor>BBDDFF</selectedColor>
       <primaryColor>969696</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <lines>21</lines>
