@@ -1013,18 +1013,19 @@ originally based on: "carbon"
     </rating>	
 	
 	<textlist name="gamelist">
-      <selectorColor>666699</selectorColor>
-      <selectedColor>EEEE00</selectedColor>
+	  <origin>0.5 0</origin>
+      <selectorColor>004060</selectorColor>
+      <selectedColor>B8D8FF</selectedColor>
       <primaryColor>969696</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
-	  <lineSpacing>1.4</lineSpacing>
+	  <lines>21</lines>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <forceUppercase>1</forceUppercase>
-      <pos>0.6359375 0.01</pos>
-      <size>0.344 0.94</size>
+      <pos>0.780729 -0.004</pos>
+      <size>0.408 0.928</size>
       <alignment>left</alignment>
       <horizontalMargin>0.00</horizontalMargin>
-      <fontSize>0.0368</fontSize>
+      <fontSize>0.032</fontSize>
       <scrollSound>./art/scroll.wav</scrollSound>
 	  <zIndex>17</zIndex>	  
 	</textlist>
