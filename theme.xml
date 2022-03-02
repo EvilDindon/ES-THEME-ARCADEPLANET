@@ -224,7 +224,7 @@ originally based on: "carbon"
 	  <storyboard>
 		<animation property="scale" from="0" to="5" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="5" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.86" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.94" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.96" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
@@ -852,17 +852,18 @@ originally based on: "carbon"
 	</image>
 			
     <textlist name="gamelist">
-      <selectorColor>660000</selectorColor>
-      <selectedColor>EFEF00</selectedColor>
+      <selectorColor>004060</selectorColor>
+      <selectedColor>B8D8FF</selectedColor>
       <primaryColor>969696</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <forceUppercase>1</forceUppercase>
-      <pos>0.25 0.432</pos>
+      <pos>0.25 0.426</pos>
       <size>0.5 0.5</size>
       <alignment>center</alignment>
       <horizontalMargin>0.00</horizontalMargin>
-      <fontSize>0.0368</fontSize>
+      <fontSize>0.032</fontSize>
+	  <lines>11</lines>
 	  <scrollSound>./art/scroll.wav</scrollSound>
 	  <zIndex>17</zIndex>	  
 	</textlist>
