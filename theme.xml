@@ -1458,7 +1458,7 @@ originally based on: "carbon"
       		</storyboard>       
    	</image>
 	  
-	  image name="Controller, Controller 2">
+	  <image name="Controller, Controller 2">
 	  	<size>0.156 0</size>
 	  	<visible>true</visible>
 	  </image>
