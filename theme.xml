@@ -668,9 +668,9 @@ originally based on: "carbon"
       <pos>0.9 0.332</pos>
       <origin>0.5 0.5</origin>
       <size>0.1375 0.2</size>
-      <path>./art/splash.svg</path>
+      <path>./art/controller.png</path>
       <path>./art/controllers/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/splash.svg</path>
+      <path ifSubset="artworkregion:US">./art/controller.png</path>
 	  <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
 	  <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 	  <zIndex>101</zIndex>
@@ -796,9 +796,9 @@ originally based on: "carbon"
 	  <linearSmooth>true</linearSmooth>
       <origin>0.5 0.5</origin>
       <size>0.1375 0</size>
-      <path>./art/splash.svg</path>
+      <path>./art/controller.png</path>
       <path>./art/wheel/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/splash.svg</path>
+      <path ifSubset="artworkregion:US">./art/controller.png</path>
 	  <path ifSubset="artworkregion:US">./art/wheel/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
 	  <zIndex>102</zIndex>
@@ -891,9 +891,9 @@ originally based on: "carbon"
       <pos>0.233 0.824</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.156 0.208</maxSize>
-      <path>./art/splash.svg</path>
+      <path>./art/controller.png</path>
       <path>./art/controllers/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/splash.svg</path>
+      <path ifSubset="artworkregion:US">./art/controller.png</path>
       <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
 	  <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 	  <zIndex>101</zIndex>
@@ -907,9 +907,9 @@ originally based on: "carbon"
       <pos>0.40875 0.824</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.156 0.208</maxSize>
-      <path>./art/splash.svg</path>
+      <path>./art/controller.png</path>
       <path>./art/controllers/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/splash.svg</path>
+      <path ifSubset="artworkregion:US">./art/controller.png</path>
       <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
 	  <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 	  <zIndex>101</zIndex>
@@ -1467,9 +1467,9 @@ originally based on: "carbon"
       <pos>-0.2 0.809</pos>
       <origin>0.5 0.5</origin>
       <size>0.156 0</size>
-      <path>./art/splash.svg</path>
+      <path>./art/controller.png</path>
       <path>./art/controllers/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/splash.svg</path>
+      <path ifSubset="artworkregion:US">./art/controller.png</path>
       <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
 	  <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 	  <zIndex>101</zIndex>
@@ -1483,9 +1483,9 @@ originally based on: "carbon"
       <pos>1.2 0.809</pos>
       <origin>0.5 0.5</origin>
       <size>0.156 0</size>
-      <path>./art/splash.svg</path>
+      <path>./art/controller.png</path>
       <path>./art/controllers/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/splash.svg</path>
+      <path ifSubset="artworkregion:US">./art/controller.png</path>
       <path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
 	  <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 	  <zIndex>101</zIndex>
