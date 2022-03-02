@@ -1159,7 +1159,7 @@ originally based on: "carbon"
 	<image name="Controller2" extra="true">
       <pos>0.196 0.822</pos>
 	  <storyboard>
-				<animation property="offsetX" from="-0.396" to="0" begin="1100" duration="1400" mode="EaseOutQuint"/>
+				<animation property="offsetX" from="-0.396" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
       </storyboard>
     </image>
 	
