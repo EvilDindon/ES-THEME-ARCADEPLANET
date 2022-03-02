@@ -524,7 +524,7 @@ originally based on: "carbon"
       <animateColorTime>350</animateColorTime>
     </ninepatch>
 	
-	<image name="md_image, tv_frame, md_flag, md_image, md_thumnail, md_marquee">
+	<image name="md_image, tv_frame, md_flag, md_thumbnail, md_marquee">
 	  <visible>false</visible>
 	</image>
 	
