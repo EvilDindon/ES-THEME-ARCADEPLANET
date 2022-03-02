@@ -903,7 +903,7 @@ originally based on: "carbon"
 	      	</storyboard>       
    	</image>
 	  
-	  <image name="Controller1, Controller2"
+	  <image name="Controller1, Controller2">
 		 	<visible>true</visible>
       		<maxSize>0.156 0.208</maxSize>
 	  </image>
