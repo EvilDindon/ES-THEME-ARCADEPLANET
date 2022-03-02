@@ -260,7 +260,7 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="md_thumbnail">
-	  <default>./art/noimage.png</default>
+	  <default>./art/noboxart.png</default>
 	  <linearSmooth>true</linearSmooth>
 	  <origin>0.5 0.5</origin>
           <reflexion>0.25 0.0</reflexion>
@@ -268,7 +268,7 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="md_marquee">
-	  <default>./art/noimage.png</default>	  
+	  <default>./art/nologo.png</default>	  
 	</image>
 	
 	<video name="md_video">
