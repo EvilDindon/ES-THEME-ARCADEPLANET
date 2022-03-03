@@ -668,11 +668,6 @@ originally based on: "carbon"
 	<image name="background">
 	    <path>./art/bgminilogos+details.jpg</path>
     </image>
-		
-	<image name="background2" extra="true">
-      <path>./art/bgdetailed+minilogos2.png</path>
-	  <zIndex>16</zIndex>
-	</image>
 	
 	<image name="Controller" extra="true">
 	  <linearSmooth>false</linearSmooth>
@@ -708,7 +703,7 @@ originally based on: "carbon"
 		
 	<image name="md_flag">
 		<visible>true</visible>
-		<pos>0.714 0.244</pos>
+		<pos>0.28679 0.4135</pos>
 		<size>0.02</size>
 		<color>FFFFFF</color>
 	</image>
@@ -730,8 +725,8 @@ originally based on: "carbon"
     </text>
 			
 	<text name="md_description">
-	  <pos>0.85 0.118</pos>
-	  <size>0.3 0.23</size>    
+	  <pos>0.85 0.08</pos>
+	  <size>0.3 0.164</size>    
 	  <alignment>left</alignment>
     </text>
 	
@@ -746,7 +741,7 @@ originally based on: "carbon"
 		
 	<text name="md_genre">
       <color>E0E0E0</color>
-	  <pos>0.703 0.182</pos>
+	  <pos>0.703 0.346</pos>
       <size>0.27 0.05</size>
     </text>
 	
@@ -763,12 +758,13 @@ originally based on: "carbon"
     </text>
 	
 	<datetime name="md_releasedate">
-	  <pos>0.703 0.3262</pos>
-      <size>0.92 0.10</size>
+	  <pos>0.703 0.3646</pos>
+      <fontSize>0.02</fontSize>
+	  <size>0.92 0.10</size>
 	</datetime>
 	
     <text name="md_developer">
-      <pos>0.703 0.3646</pos>
+      <pos>0.772 0.3646</pos>
       <size>0.26 0.10</size>
     </text>
 	
@@ -824,7 +820,7 @@ originally based on: "carbon"
     </image>
 		
 	<image name="md_thumbnail">
-	  <pos>0.15 0.214</pos>
+	  <pos>0.14 0.214</pos>
       <maxSize>0.246 0.424</maxSize>
 	  <reflexion>0 0</reflexion>
 	  	  	<storyboard event="activate">
@@ -838,7 +834,8 @@ originally based on: "carbon"
 	
 	<image name="md_marquee">
 	  <linearSmooth>true</linearSmooth>
-	  <pos>0.9 0.33</pos>
+	  <reflexion>0.36 0.08</reflexion>
+	  <pos>0.88 0.26</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.19 0.16</maxSize>
 	  <zIndex>42</zIndex>
