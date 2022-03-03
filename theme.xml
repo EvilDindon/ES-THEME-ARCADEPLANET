@@ -396,13 +396,13 @@ originally based on: "carbon"
 	  <fontPath>./art/ARCADE.TTF</fontPath>
 	</datetime>
 		  
-        <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_lbl_lastplayed, md_publisher">
-          <x>2</x>
+        <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_lbl_lastplayed, md_publisher, md_lbl_gametime, md_gametime">
+		  <pos>1.5 1.5</pos>
 	      <visible>false</visible>
 	</text>
 	
-	<datetime name="md_lastplayed, md_lbl_lastplayed">
-		<x>2</x>
+	<datetime name="md_lastplayed">
+		<pos>1.5 1.5</pos>
   		<visible>false</visible>
 	</datetime>
 			
