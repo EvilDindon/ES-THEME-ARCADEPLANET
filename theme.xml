@@ -94,6 +94,12 @@ originally based on: "carbon"
     <include name="horizontal">./art/systemview/horizontal.xml</include>
 	<include name="vertical">./art/systemview/vertical.xml</include>
   </subset>
+  
+   <!-- Subset options for Tv Frame Color -->
+	<subset name="tvframecolor" displayName="TV Frame Color">
+		<include name="Dark Purple"></include>
+		<include name="Dark Grey"></include>
+	</subset>
    
   <view name="menu">
   
@@ -173,7 +179,7 @@ originally based on: "carbon"
   
   <view name="grid,detailed">
   
-    <image name="background, background2, tv_frame, black screen">
+    <image name="background, background2, tv_frame, tvframe2, black screen">
 	  <pos>0 0</pos>
      	  <origin>0 0</origin>
           <size>1 1</size>
@@ -239,6 +245,15 @@ originally based on: "carbon"
           <path ifSubset="artworkregion:US">./art/tvframe/US/${system.theme}.png</path>
 	  <zIndex>16</zIndex>
 	</image>
+	
+	<image name="tvframe2" extra="true">
+      <origin>0.5 0.5</origin>
+      <size>0.4 0</size>
+	  <path>./art/tvframe2.png</path>
+      <zIndex>17</zIndex>
+	  <visible>false></visible>
+	  <visible ifSubset="tvframecolor:Dark Grey">true</visible>
+	</image>
 	  
 	  <image name="Controller, Controller1, Controller2">
 	  	<linearSmooth>true</linearSmooth>
@@ -263,7 +278,7 @@ originally based on: "carbon"
 	  <default>./art/noboxart.png</default>
 	  <linearSmooth>true</linearSmooth>
 	  <origin>0.5 0.5</origin>
-          <reflexion>0.25 0.0</reflexion>
+      <reflexion>0.3 0.0</reflexion>
 	  <zIndex>11</zIndex>	  
 	</image>
 	
@@ -383,10 +398,10 @@ originally based on: "carbon"
 		  
         <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_lbl_lastplayed, md_publisher">
           <x>2</x>
-	  <visible>false</visible>
+	      <visible>false</visible>
 	</text>
 	
-	<datetime name="md_lastplayed">
+	<datetime name="md_lastplayed, md_lbl_lastplayed">
 		<x>2</x>
   		<visible>false</visible>
 	</datetime>
@@ -524,7 +539,7 @@ originally based on: "carbon"
       <animateColorTime>350</animateColorTime>
     </ninepatch>
 	
-	<image name="md_image, tv_frame, md_flag, md_thumbnail, md_marquee">
+	<image name="md_image, tv_frame, tvframe2, md_flag, md_thumbnail, md_marquee">
 	  <visible>false</visible>
 	</image>
 	
@@ -687,7 +702,12 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="tv_frame" extra="true">
-      <visible>true</visible>
+	  <visible>true</visible>
+	  <pos>0.5 0.215</pos>
+    </image>
+	
+	<image name="tvframe2" extra="true">
+      <visible ifSubset="tvframecolor:Dark Grey">true</visible>
 	  <pos>0.5 0.215</pos>
     </image>
 	
@@ -734,26 +754,27 @@ originally based on: "carbon"
 	  <alignment>left</alignment>
 	  <fontSize>0.026</fontSize>
 	  <glowColor>00000080</glowColor>
-	  <glowSize>1</glowSize>
+	  <glowSize>1.5</glowSize>
 	  <glowOffset>1</glowOffset>
 	  <origin>0 0</origin>	  
 	</text>
 		
 	<text name="md_genre">
       <color>E0E0E0</color>
-	  <pos>0.703 0.346</pos>
+	  <pos>0.703 0.352</pos>
       <size>0.27 0.05</size>
     </text>
 	
 	<text name="md_players">
-      <color>EFEFEF</color>
-      <pos>0.722 0.266</pos>
+	  <alignment>center</alignment>
+      <color>C8E0FF</color>
+      <pos>0.676 0.2532</pos>
       <size>0.08 0</size>
     </text>
 	
 	<text name="md_playcount">
-	  <color>EFEFEF</color>
-      <pos>0.738 0.3115</pos>
+      <color>C8E0FF</color>
+      <pos>0.7372 0.3251</pos>
       <size>0.18 0</size>
     </text>
 	
@@ -818,6 +839,10 @@ originally based on: "carbon"
 				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
       </storyboard>
     </image>
+	
+	<image name="Controller">
+	    <visible>false</visible>
+	</image>
 		
 	<image name="md_thumbnail">
 	  <pos>0.14 0.214</pos>
@@ -834,7 +859,7 @@ originally based on: "carbon"
 	
 	<image name="md_marquee">
 	  <linearSmooth>true</linearSmooth>
-	  <reflexion>0.2 0</reflexion>
+	  <reflexion>0.25 0</reflexion>
 	  <pos>0.88 0.26</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.19 0.16</maxSize>
@@ -849,9 +874,10 @@ originally based on: "carbon"
 	</image>
 			
     <textlist name="gamelist">
-      <selectorColor>003045</selectorColor>
-      <selectedColor>BBDDFF</selectedColor>
-      <primaryColor>969696</primaryColor>
+      <selectorColor>80A8E8D8</selectorColor>
+      <selectedColor>C8E8FF</selectedColor>
+      <selectorColorEnd>6080E000</selectorColorEnd>
+	  <primaryColor>608096</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <forceUppercase>1</forceUppercase>
@@ -869,10 +895,6 @@ originally based on: "carbon"
       <visible>false</visible>
     </text>
 	
-	<image name="Controller">
-	    <visible>false</visible>
-	</image>
-	
   </view>
   
   <customView name="LongList+Preview" inherits="detailed" displayName="Long List + Previews">
@@ -884,6 +906,10 @@ originally based on: "carbon"
 	<image name="tv_frame" extra="true">
 	  <pos>0.320833333 0.36</pos>
    	</image>
+	
+	<image name="tvframe2" extra="true">
+	   <pos>0.320833333 0.36</pos>
+    </image>
 	
 	<image name="Controller+logo 1, Controller+logo 2, background2, md_thumbnail">
 	  <visible>false</visible>
@@ -1012,9 +1038,10 @@ originally based on: "carbon"
 	
 	<textlist name="gamelist">
 	  <origin>0.5 0</origin>
-      <selectorColor>003045</selectorColor>
-      <selectedColor>BBDDFF</selectedColor>
-      <primaryColor>969696</primaryColor>
+      <selectorColor>80A8E8D8</selectorColor>
+      <selectedColor>C8E8FF</selectedColor>
+	  <selectorColorEnd>6080E000</selectorColorEnd>
+	  <primaryColor>608096</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <lines>21</lines>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
@@ -1139,8 +1166,14 @@ originally based on: "carbon"
 	<image name="tv_frame" extra="true">
 	  <visible>true</visible>
 	  <pos>0.5 0.252</pos>
-          <zIndex>40</zIndex>
+      <zIndex>40</zIndex>
 	</image>
+	
+	<image name="tvframe2" extra="true">
+	  <visible ifSubset="tvframecolor:Dark Grey">true</visible>
+	  <pos>0.5 0.252</pos>
+	  <zIndex>41</zIndex>
+    </image>
 	
 	<image name="Controller, Controller2">
 	  <linearSmooth>false</linearSmooth>
@@ -1198,7 +1231,7 @@ originally based on: "carbon"
 	  <fontSize>0.042</fontSize>
 	  <glowColor>00000055</glowColor>
       <glowSize>2</glowSize>
-	  <zIndex>41</zIndex>	  
+	  <zIndex>42</zIndex>	  
     </text>
 	
 	 <text name="md_developer">
@@ -1208,6 +1241,7 @@ originally based on: "carbon"
       <fontSize>0.026</fontSize>
       <color>84A0AA</color>
       <origin>0.5 0.5</origin>
+	  <zIndex>42</zIndex>
     </text>
 		
 	<rating name="md_rating">
@@ -1215,13 +1249,14 @@ originally based on: "carbon"
 	  <size>0.025 0.025</size>
 	  <color>EEEE00</color>
       <unfilledColor>808080</unfilledColor>
-      <zIndex>41</zIndex>
+      <zIndex>42</zIndex>
     </rating>
 	
 	<text name="md_description">
       <pos>0.5 0.84</pos>
 	  <size>0.362 0.13</size>
       <alignment>center</alignment>
+	  <zIndex>42</zIndex>
     </text>
 	
 	<imagegrid name="gamegrid">
@@ -1274,6 +1309,12 @@ originally based on: "carbon"
 	  <visible>true</visible>
       <pos>0.5 0.405</pos>
       <zIndex>40</zIndex>
+    </image>
+	
+	<image name="tvframe2" extra="true">
+	  <visible ifSubset="tvframecolor:Dark Grey">true</visible>
+      <pos>0.5 0.405</pos>
+      <zIndex>41</zIndex>
     </image>
 	
 	<image name="Controller, Controller2">
@@ -1443,6 +1484,12 @@ originally based on: "carbon"
 	  <pos>0.44375 0.3074</pos>
 	  <visible>true</visible>
 	  <zIndex>40</zIndex>
+    </image>
+	
+	<image name="tvframe2" extra="true">
+	  <pos>0.44375 0.3074</pos>
+	  <visible ifSubset="tvframecolor:Dark Grey">true</visible>
+      <zIndex>41</zIndex>
     </image>
 	
 	<image name="Controller" extra="true">
