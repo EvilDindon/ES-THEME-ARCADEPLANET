@@ -378,7 +378,7 @@ originally based on: "carbon"
 	<datetime name="md_releasedate">
       <color>AA8888FF</color>
 	  <format>%Y</format>
-	  <fontPath>./art/arcade.ttf</fontPath>
+	  <fontPath>./art/ARCADE.TTF</fontPath>
 	</datetime>
 		  
         <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_lbl_lastplayed, md_publisher">
@@ -944,7 +944,8 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="md_marquee">
-      <pos>0.320833333 0.09</pos>
+      <reflexion>0 0</reflexion>
+	  <pos>0.320833333 0.09</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.2083333333 0.182</maxSize>
 	  <zIndex>42</zIndex>
