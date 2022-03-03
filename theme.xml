@@ -822,7 +822,7 @@ originally based on: "carbon"
 	<image name="md_thumbnail">
 	  <pos>0.14 0.214</pos>
       <maxSize>0.246 0.424</maxSize>
-	  <reflexion>0 0</reflexion>
+	  	  <reflexion>0 0</reflexion>
 	  	  	<storyboard event="activate">
                 <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
                 <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
@@ -834,7 +834,7 @@ originally based on: "carbon"
 	
 	<image name="md_marquee">
 	  <linearSmooth>true</linearSmooth>
-	  <reflexion>0.36 0.08</reflexion>
+	  <reflexion>0.2 0</reflexion>
 	  <pos>0.88 0.26</pos>
       <origin>0.5 0.5</origin>
       <maxSize>0.19 0.16</maxSize>
