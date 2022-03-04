@@ -1043,6 +1043,7 @@ originally based on: "carbon"
 	  <selectorColorEnd>6080E000</selectorColorEnd>
 	  <primaryColor>608096</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
+	  <horizontalMargin>0.005</horizontalMargin>
 	  <lines>21</lines>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <forceUppercase>1</forceUppercase>
