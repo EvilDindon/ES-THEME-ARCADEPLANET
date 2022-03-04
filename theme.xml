@@ -877,6 +877,7 @@ originally based on: "carbon"
       <selectorColor>80A8E8D8</selectorColor>
       <selectedColor>C8E8FF</selectedColor>
       <selectorColorEnd>6080E000</selectorColorEnd>
+	  <selectorOffsetY>-0.001</selectorOffsetY>
 	  <primaryColor>608096</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
@@ -884,7 +885,7 @@ originally based on: "carbon"
       <pos>0.25 0.426</pos>
       <size>0.5 0.5</size>
       <alignment>center</alignment>
-      <horizontalMargin>0.00</horizontalMargin>
+      <horizontalMargin>0</horizontalMargin>
       <fontSize>0.032</fontSize>
 	  <lines>11</lines>
 	  <scrollSound>./art/scroll.wav</scrollSound>
@@ -1041,16 +1042,16 @@ originally based on: "carbon"
       <selectorColor>80A8E8D8</selectorColor>
       <selectedColor>C8E8FF</selectedColor>
 	  <selectorColorEnd>6080E000</selectorColorEnd>
+	  <selectorOffsetY>-0.001</selectorOffsetY>
 	  <primaryColor>608096</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
-	  <horizontalMargin>0.005</horizontalMargin>
 	  <lines>21</lines>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <forceUppercase>1</forceUppercase>
       <pos>0.780729 -0.004</pos>
       <size>0.408 0.928</size>
       <alignment>left</alignment>
-      <horizontalMargin>0.00</horizontalMargin>
+      <horizontalMargin>0.005</horizontalMargin>
       <fontSize>0.032</fontSize>
       <scrollSound>./art/scroll.wav</scrollSound>
 	  <zIndex>17</zIndex>	  
