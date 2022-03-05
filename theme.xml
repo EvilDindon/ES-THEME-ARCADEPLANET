@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Theme: Arcade Planet
-version: 1.0
+version: 0.96
 author: Mickaël Isman (EvilDindon Ken)
 license: creative commons CC-BY-NC-SA
 originally based on: "carbon"
@@ -595,16 +595,16 @@ originally based on: "carbon"
 	
 	<gridtile name="default">
       <padding>8 8</padding>
-      <backgroundCenterColor>44444400</backgroundCenterColor>
-	  <backgroundEdgeColor>66666600</backgroundEdgeColor>
+      <backgroundCenterColor>00000000</backgroundCenterColor>
+	  <backgroundEdgeColor>00000000</backgroundEdgeColor>
 	  <selectionMode>full</selectionMode>
       <imageSizeMode>maxSize</imageSizeMode>
       <imageColor>A7A7A7FF</imageColor>
     </gridtile>
 	
     <gridtile name="selected">
-      <backgroundCenterColor>880000FF</backgroundCenterColor>
-      <backgroundEdgeColor>FF0000FF</backgroundEdgeColor>
+      <backgroundCenterColor>006080FF</backgroundCenterColor>
+      <backgroundEdgeColor>006080FF</backgroundEdgeColor>
 	  <backgroundCornerSize>8 8</backgroundCornerSize>
 	  <imageColor>FFFFFFFF</imageColor>
       <padding>2 2</padding>
@@ -661,8 +661,8 @@ originally based on: "carbon"
 		
 	<gridtile name="default">
       <padding>6 6</padding>
-      <backgroundCenterColor>44444400</backgroundCenterColor>
-	  <backgroundEdgeColor>66666600</backgroundEdgeColor>
+      <backgroundCenterColor>00000000</backgroundCenterColor>
+	  <backgroundEdgeColor>00000000</backgroundEdgeColor>
 	  <selectionMode>image</selectionMode>
       <imageSizeMode>maxSize</imageSizeMode>
       <imageColor>A0A0A0FF</imageColor>
@@ -802,8 +802,8 @@ originally based on: "carbon"
     </text>
 	
 	<ninepatch name="gridtile.background:selected">
-  	  <animateColor>BBBB00AA</animateColor>
-	  <animateColorTime>400</animateColorTime>
+  	  <animateColor>00507080</animateColor>
+	  <animateColorTime>1000</animateColorTime>
     </ninepatch>
 	
   </customView>
@@ -874,10 +874,10 @@ originally based on: "carbon"
 	</image>
 			
     <textlist name="gamelist">
-      <selectorColor>80A8E8D8</selectorColor>
+      <selectorColor>0080D0ff</selectorColor>
       <selectedColor>C8E8FF</selectedColor>
-      <selectorColorEnd>6080E000</selectorColorEnd>
-	  <selectorOffsetY>-0.001</selectorOffsetY>
+	  <selectorColorEnd>00000000</selectorColorEnd>
+	  <selectorOffsetY>0.005</selectorOffsetY>
 	  <primaryColor>608096</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
@@ -1039,10 +1039,10 @@ originally based on: "carbon"
 	
 	<textlist name="gamelist">
 	  <origin>0.5 0</origin>
-      <selectorColor>80A8E8D8</selectorColor>
+      <selectorColor>0080D0ff</selectorColor>
       <selectedColor>C8E8FF</selectedColor>
-	  <selectorColorEnd>6080E000</selectorColorEnd>
-	  <selectorOffsetY>-0.001</selectorOffsetY>
+	  <selectorColorEnd>00000000</selectorColorEnd>
+	  <selectorOffsetY>0.005</selectorOffsetY>
 	  <primaryColor>608096</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <lines>21</lines>
@@ -1051,7 +1051,7 @@ originally based on: "carbon"
       <pos>0.780729 -0.004</pos>
       <size>0.408 0.928</size>
       <alignment>left</alignment>
-      <horizontalMargin>0.005</horizontalMargin>
+      <horizontalMargin>0.008</horizontalMargin>
       <fontSize>0.032</fontSize>
       <scrollSound>./art/scroll.wav</scrollSound>
 	  <zIndex>17</zIndex>	  
