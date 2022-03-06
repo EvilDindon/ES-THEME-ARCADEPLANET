@@ -589,10 +589,12 @@ originally based on: "carbon"
 	</text>
 	
 	<rating name="md_rating">
-      <pos>0.904 0.029</pos>
+      <pos>0.904 0.04</pos>
       <size>0.03 0.03</size>
-      <color>FFFF00</color>
-      <unfilledColor>808080</unfilledColor>	  
+	  <origin>0.5 0.5</origin>
+      <color>E0A020</color>
+      <unfilledColor>808080</unfilledColor>
+	  <zIndex>41</zIndex>	  
     </rating>
 	
     <imagegrid name="gamegrid">
@@ -916,9 +918,10 @@ originally based on: "carbon"
     </text>
 	
 	<rating name="md_rating">
-	  <pos>0.467 0.398</pos>
+	  <pos>0.467 0.41</pos>
       <size>0.025 0.025</size>
-      <color>FFFF00</color>
+	  <origin>0.5 0.5</origin>
+      <color>E0A020</color>
       <unfilledColor>808080</unfilledColor>
 	  <zIndex>41</zIndex>
     </rating>
@@ -1118,7 +1121,6 @@ originally based on: "carbon"
 	
 	<rating name="md_rating">
       <pos>0.288 0.554</pos>
-	  <origin>0.5 0.5</origin>
     </rating>	
 	
 	<textlist name="gamelist">
@@ -1199,11 +1201,7 @@ originally based on: "carbon"
 	
 	<rating name="md_rating">
       <pos>0.476 0.1</pos>
-	  <origin>0.5 0.5</origin>
       <size>0.025 0.025</size>
-      <color>EEEE00</color>
-      <unfilledColor>808080</unfilledColor>
-	  <zIndex>41</zIndex>
     </rating>
 	
 	<imagegrid name="gamegrid">
@@ -1331,10 +1329,8 @@ originally based on: "carbon"
     </text>
 		
 	<rating name="md_rating">
-      <pos>0.32 0.436</pos>
+      <pos>0.32 0.448</pos>
 	  <size>0.025 0.025</size>
-	  <color>EEEE00</color>
-      <unfilledColor>808080</unfilledColor>
       <zIndex>42</zIndex>
     </rating>
 	
@@ -1493,11 +1489,8 @@ originally based on: "carbon"
 	</text>
 	
 	<rating name="md_rating">
-      <pos>0.461 0.882</pos>
+      <pos>0.484 0.896</pos>
       <size>0.05 0.03</size>
-      <color>FFFF00</color>
-	  <scale>1</scale>
-      <unfilledColor>808080</unfilledColor>	  
     </rating>
 			
 	<text name="md_players">
@@ -1730,11 +1723,7 @@ originally based on: "carbon"
 		
 	<rating name="md_rating">
       <pos>0.096 0.538</pos>
-	  <origin>0.5 0.5</origin>
       <size>0.028 0.028</size>
-      <color>FFFF00</color>
-      <unfilledColor>808080</unfilledColor>
-      <zIndex>41</zIndex>
 	  		<storyboard event="activate">
                 <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
                 <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
@@ -1828,11 +1817,8 @@ originally based on: "carbon"
 	</image>
 		
    	<rating name="md_rating">
-      <pos>0.804 0.793</pos>
+      <pos>0.818 0.808</pos>
       <size>0.03 0.03</size>
-      <color>EEEE00</color>
-      <unfilledColor>808080</unfilledColor>
-	  <zIndex>41</zIndex>
 	  	  	<storyboard event="activate">
                 <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
                 <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
