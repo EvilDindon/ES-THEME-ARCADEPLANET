@@ -409,6 +409,79 @@ originally based on: "carbon"
 			
     </view>
   
+  <view name="basic,detailed">
+  
+	<image name="Chevron Bas" extra="true">
+      <origin>0.5 0.5</origin>
+      <size>0.0234375 0.0398148</size>
+	  <path>./art/chevronB.png</path>
+      <linearSmooth>false</linearSmooth>
+      <opacity>0.8</opacity>
+      <zIndex>41</zIndex>
+	  <storyboard repeat="forever">
+            <animation property="offsetY" from="0" to="0.015" begin="1200" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetY" from="0" to="0.015" begin="2040" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron Haut" extra="true">
+      <origin>0.5 0.5</origin>
+      <size>0.0234375 0.0398148</size>
+	  <path>./art/chevronH.png</path>
+      <linearSmooth>false</linearSmooth>
+      <opacity>0.4</opacity>
+	  <zIndex>41</zIndex>
+	  <storyboard repeat="forever">
+            <animation property="offsetY" from="0" to="-0.019" begin="1200" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetY" from="0" to="-0.019" begin="2040" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Controller+logo 1, Controller+logo 2">
+	  <linearSmooth>true</linearSmooth>
+      <origin>0.5 0.5</origin>
+      <size>0.1375 0</size>
+      <path>./art/controller.png</path>
+      <path>./art/wheel/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/controller.png</path>
+	  <path ifSubset="artworkregion:US">./art/wheel/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
+	  <zIndex>102</zIndex>
+    </image>
+
+	<image name="Controller+logo 1" extra="true">
+			<storyboard>
+				<animation property="offsetX" from="0.326" to="0" begin="" duration="1400" mode="EaseOutQuint"/>
+			</storyboard>	
+     </image>
+	
+	<image name="Controller+logo 2" extra="true">
+			<storyboard>
+				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
+			</storyboard>	
+    </image>
+ 	  
+	<textlist name="gamelist">
+      <selectorColor>0080D0ff</selectorColor>
+      <selectedColor>C8E8FF</selectedColor>
+	  <selectorColorEnd>00000000</selectorColorEnd>
+	  <selectorOffsetY>0.005</selectorOffsetY>
+	  <primaryColor>608096</primaryColor>
+      <secondaryColor>7a6161</secondaryColor>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <forceUppercase>1</forceUppercase>
+      <pos>0.25 0.24</pos>
+      <size>0.5 0.65</size>
+      <alignment>center</alignment>
+      <horizontalMargin>0</horizontalMargin>
+      <fontSize>0.033</fontSize>
+	  <lines>15</lines>
+	  <scrollSound>./art/scroll.wav</scrollSound>
+	  <zIndex>17</zIndex>	  
+	</textlist>
+	
+	</view>
+	
     <view name="basic">
   
     <text name="logoText">
@@ -437,80 +510,23 @@ originally based on: "carbon"
 	
 	<image name="Chevron Bas" extra="true">
       <pos>0.5 0.905</pos>
-      <origin>0.5 0.5</origin>
-      <size>0.0234375 0.0398148</size>
-	  <path>./art/chevronB.png</path>
-      <linearSmooth>false</linearSmooth>
-      <opacity>0.8</opacity>
-      <zIndex>41</zIndex>
-	  <storyboard repeat="forever">
-            <animation property="offsetY" from="0" to="0.015" begin="1200" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
-			<animation property="offsetY" from="0" to="0.015" begin="2040" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
-	  </storyboard>
 	</image>
 	
 	<image name="Chevron Haut" extra="true">
       <pos>0.5 0.225</pos>
-      <origin>0.5 0.5</origin>
-      <size>0.0234375 0.0398148</size>
-	  <path>./art/chevronH.png</path>
-      <linearSmooth>false</linearSmooth>
-      <opacity>0.4</opacity>
-	  <zIndex>41</zIndex>
-	  <storyboard repeat="forever">
-            <animation property="offsetY" from="0" to="-0.019" begin="1200" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
-			<animation property="offsetY" from="0" to="-0.019" begin="2040" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
-	  </storyboard>
 	</image>
-	
-	<image name="Controller+logo 1, Controller+logo 2">
-	  <linearSmooth>true</linearSmooth>
-      <origin>0.5 0.5</origin>
-      <size>0.1375 0</size>
-      <path>./art/controller.png</path>
-      <path>./art/wheel/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/controller.png</path>
-	  <path ifSubset="artworkregion:US">./art/wheel/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
-	  <zIndex>102</zIndex>
-    </image>
-	
+		
 	<image name="Controller+logo 1" extra="true">
 	  <pos>0.874 0.55</pos>
-      <storyboard>
-				<animation property="offsetX" from="0.326" to="0" begin="" duration="1400" mode="EaseOutQuint"/>
-      </storyboard>
-    </image>
+     </image>
 	
 	<image name="Controller+logo 2" extra="true">
 	  <pos>0.126 0.55</pos>
-      <storyboard>
-				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
-      </storyboard>
     </image>
 		
 	<image name="tv_frame, tvframe2">
 	  <visible>false</visible>
 	</image>
-	
-	<textlist name="gamelist">
-      <selectorColor>0080D0ff</selectorColor>
-      <selectedColor>C8E8FF</selectedColor>
-	  <selectorColorEnd>00000000</selectorColorEnd>
-	  <selectorOffsetY>0.005</selectorOffsetY>
-	  <primaryColor>608096</primaryColor>
-      <secondaryColor>7a6161</secondaryColor>
-      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <forceUppercase>1</forceUppercase>
-      <pos>0.25 0.24</pos>
-      <size>0.5 0.65</size>
-      <alignment>center</alignment>
-      <horizontalMargin>0</horizontalMargin>
-      <fontSize>0.033</fontSize>
-	  <lines>15</lines>
-	  <scrollSound>./art/scroll.wav</scrollSound>
-	  <zIndex>17</zIndex>	  
-	</textlist>
 	
 	<image name="md_favorite">
 	  <color>00000000</color>
@@ -923,32 +939,22 @@ originally based on: "carbon"
     <image name="background">
 	    <path>./art/bgdetailed.jpg</path>
     </image>
-	  
-    <image name="Controller+logo 1, Controller+logo 2">
-	  <linearSmooth>true</linearSmooth>
-      <origin>0.5 0.5</origin>
-      <size>0.1375 0</size>
-      <path>./art/controller.png</path>
-      <path>./art/wheel/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/controller.png</path>
-	  <path ifSubset="artworkregion:US">./art/wheel/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
-	  <zIndex>102</zIndex>
-    </image>
 	
 	<image name="Controller+logo 1" extra="true">
 	  <pos>0.874 0.668</pos>
-      <storyboard>
-				<animation property="offsetX" from="0.326" to="0" begin="" duration="1400" mode="EaseOutQuint"/>
-      </storyboard>
-    </image>
+     </image>
 	
 	<image name="Controller+logo 2" extra="true">
 	  <pos>0.126 0.668</pos>
-      <storyboard>
-				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
-      </storyboard>
     </image>
+	
+	<image name="Chevron Bas" extra="true">
+      <pos>0.75 0.905</pos>
+	</image>
+	
+	<image name="Chevron Haut" extra="true">
+      <pos>0.75 0.45</pos>
+	</image>
 	
 	<image name="Controller">
 	    <visible>false</visible>
@@ -984,22 +990,10 @@ originally based on: "carbon"
 	</image>
 			
     <textlist name="gamelist">
-      <selectorColor>0080D0ff</selectorColor>
-      <selectedColor>C8E8FF</selectedColor>
-	  <selectorColorEnd>00000000</selectorColorEnd>
-	  <selectorOffsetY>0.005</selectorOffsetY>
-	  <primaryColor>608096</primaryColor>
-      <secondaryColor>7a6161</secondaryColor>
-      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <forceUppercase>1</forceUppercase>
       <pos>0.25 0.426</pos>
       <size>0.5 0.5</size>
-      <alignment>center</alignment>
-      <horizontalMargin>0</horizontalMargin>
       <fontSize>0.032</fontSize>
 	  <lines>11</lines>
-	  <scrollSound>./art/scroll.wav</scrollSound>
-	  <zIndex>17</zIndex>	  
 	</textlist>
 	
 	<text name="md_name">
@@ -1046,30 +1040,10 @@ originally based on: "carbon"
 		
 	<image name="Chevron Bas" extra="true">
       <pos>0.562 0.9</pos>
-	  <origin>0.5 0.5</origin>
-      <size>0.0234375 0.0398148</size>
-	  <path>./art/chevronB.png</path>
-      <linearSmooth>false</linearSmooth>
-      <opacity>0.8</opacity>
-	  <zIndex>41</zIndex>
-	  <storyboard repeat="forever">
-            <animation property="y" from="0.9" to="0.915" begin="1200" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
-			<animation property="y" from="0.9" to="0.915" begin="2040" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
-	  </storyboard>
 	</image>
 	
 	<image name="Chevron Haut" extra="true">
       <pos>0.562 0.019</pos>
-	  <origin>0.5 0.5</origin>
-      <size>0.0234375 0.0398148</size>
-	  <path>./art/chevronH.png</path>
-      <linearSmooth>false</linearSmooth>
-      <opacity>0.4</opacity>
-	  <zIndex>41</zIndex>
-	  <storyboard repeat="forever">
-            <animation property="y" from="0.019" to="0" begin="1200" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
-			<animation property="y" from="0.019" to="0" begin="2040" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
-	  </storyboard>
 	</image>
 	
 	<video name="md_video">
