@@ -473,7 +473,7 @@ originally based on: "carbon"
       <pos>0.25 0.24</pos>
       <size>0.5 0.65</size>
       <alignment>center</alignment>
-      <horizontalMargin>0</horizontalMargin>
+      <horizontalMargin>0.005</horizontalMargin>
       <fontSize>0.033</fontSize>
 	  <lines>15</lines>
 	  <scrollSound>./art/scroll.wav</scrollSound>
