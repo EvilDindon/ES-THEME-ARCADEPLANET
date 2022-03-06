@@ -43,7 +43,7 @@ originally based on: "carbon"
 	
   </view>
   
-  <view name="system,detailed,grid">
+  <view name="system,basic,detailed,grid">
   
     <helpsystem name="help">
 	  <pos>0.01 0.935</pos>
@@ -52,6 +52,7 @@ originally based on: "carbon"
 	  <fontSize>0.0268</fontSize>
       <textColor>ae9946</textColor>
       <iconColor>c21302</iconColor>
+	  <iconSize></iconSize>
     </helpsystem>
 	
 	<sound name="bgsound">
@@ -177,7 +178,7 @@ originally based on: "carbon"
 	
   </view>
   
-  <view name="grid,detailed">
+  <view name="basic,grid,detailed">
   
     <image name="background, background2, tv_frame, tvframe2, black screen">
 	  <pos>0 0</pos>
@@ -406,8 +407,117 @@ originally based on: "carbon"
   		<visible>false</visible>
 	</datetime>
 			
-  </view>
+    </view>
   
+    <view name="basic">
+  
+    <text name="logoText">
+      <size>0.98 0.126</size>
+      <fontSize>0.06</fontSize>
+      <color>${baseColor}</color>
+	  <storyboard>
+		  <animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
+		  <animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
+		  <animation property="y" from="0.5" to="0.1" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</text>
+	
+    <image name="logo">
+      <maxSize>0.25 0.18</maxSize>
+	  <storyboard>
+		<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
+		<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.1" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+    <image name="background">
+	  <path>./art/bgbasic.jpg</path>
+	</image>
+	
+	<image name="Chevron Bas" extra="true">
+      <pos>0.5 0.905</pos>
+      <origin>0.5 0.5</origin>
+      <size>0.0234375 0.0398148</size>
+	  <path>./art/chevronB.png</path>
+      <linearSmooth>false</linearSmooth>
+      <opacity>0.8</opacity>
+      <zIndex>41</zIndex>
+	  <storyboard repeat="forever">
+            <animation property="offsetY" from="0" to="0.015" begin="1200" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetY" from="0" to="0.015" begin="2040" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron Haut" extra="true">
+      <pos>0.5 0.225</pos>
+      <origin>0.5 0.5</origin>
+      <size>0.0234375 0.0398148</size>
+	  <path>./art/chevronH.png</path>
+      <linearSmooth>false</linearSmooth>
+      <opacity>0.4</opacity>
+	  <zIndex>41</zIndex>
+	  <storyboard repeat="forever">
+            <animation property="offsetY" from="0" to="-0.019" begin="1200" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetY" from="0" to="-0.019" begin="2040" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Controller+logo 1, Controller+logo 2">
+	  <linearSmooth>true</linearSmooth>
+      <origin>0.5 0.5</origin>
+      <size>0.1375 0</size>
+      <path>./art/controller.png</path>
+      <path>./art/wheel/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/controller.png</path>
+	  <path ifSubset="artworkregion:US">./art/wheel/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
+	  <zIndex>102</zIndex>
+    </image>
+	
+	<image name="Controller+logo 1" extra="true">
+	  <pos>0.874 0.55</pos>
+      <storyboard>
+				<animation property="offsetX" from="0.326" to="0" begin="" duration="1400" mode="EaseOutQuint"/>
+      </storyboard>
+    </image>
+	
+	<image name="Controller+logo 2" extra="true">
+	  <pos>0.126 0.55</pos>
+      <storyboard>
+				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
+      </storyboard>
+    </image>
+		
+	<image name="tv_frame, tvframe2">
+	  <visible>false</visible>
+	</image>
+	
+	<textlist name="gamelist">
+      <selectorColor>0080D0ff</selectorColor>
+      <selectedColor>C8E8FF</selectedColor>
+	  <selectorColorEnd>00000000</selectorColorEnd>
+	  <selectorOffsetY>0.005</selectorOffsetY>
+	  <primaryColor>608096</primaryColor>
+      <secondaryColor>7a6161</secondaryColor>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <forceUppercase>1</forceUppercase>
+      <pos>0.25 0.24</pos>
+      <size>0.5 0.65</size>
+      <alignment>center</alignment>
+      <horizontalMargin>0</horizontalMargin>
+      <fontSize>0.033</fontSize>
+	  <lines>15</lines>
+	  <scrollSound>./art/scroll.wav</scrollSound>
+	  <zIndex>17</zIndex>	  
+	</textlist>
+	
+	<image name="md_favorite">
+	  <color>00000000</color>
+	</image>
+	
+   </view>
+   
    <view name="grid">
   
     <image name="background">
