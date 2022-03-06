@@ -17,15 +17,11 @@
   <customView name="LongList+Preview">
   
     <image name="Controller1">
-	  <storyboard>
-				<animation property="x" from="-0.2" to="0.320833333" begin="1100" duration="300" mode="Linear"/>
-      </storyboard>	  
+	  <x>0.32083333</x>	  
     </image>
 	
 	<image name="Controller2">
-	  <storyboard>
-				<animation property="x" from="1.2" to="0.320833333" begin="1100" duration="300" mode="Linear"/>
-      </storyboard>
+	  <x>0.32083333</x>
     </image>
 		 
  </customView>
@@ -33,15 +29,11 @@
   <customView name="VerticalLogos">
   
     <image name="Controller">
-	  <storyboard>
-				<animation property="x" from="-0.2" to="0.444" begin="1100" duration="300" mode="Linear"/>
-      </storyboard>	  
+	  <x>0.444</x>	  
     </image>
 	
 	<image name="Controller2">
-	  <storyboard>
-				<animation property="x" from="1.2" to="0.444" begin="1100" duration="300" mode="Linear"/>
-      </storyboard>
+	  <x>0.444</x>
      </image>
 	 
  </customView>
