@@ -5,7 +5,7 @@
   <view name="detailed, grid">
   
    <video name="md_video">
-      <size>0.2 0.313</size>
+      <size>0.192708 0.309256</size>
 			<storyboard>
                <animation property="offsetY" from="-0.02" to="-0.02" duration="" mode="Linear"/>
                <animation property="opacity" from="0" to="0" begin="0" duration="" mode="Linear"/>
@@ -14,7 +14,7 @@
     </video>
 	
 	<image name="md_image">
-      <size>0.2 0.313</size>
+      <size>0.192708 0.309256</size>
 			<storyboard>
                <animation property="offsetY" from="-0.02" to="-0.02" duration="" mode="Linear"/>
 			</storyboard>		
