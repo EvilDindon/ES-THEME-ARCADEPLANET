@@ -10,7 +10,7 @@
 	     <path>./art/wheel/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
 		  <storyboard event="activate">
- 			<animation property="color" from="80E0FF" to="10A0CC" begin="350" duration="1000" mode="Linear" autoreverse="true" repeat="forever"/>
+ 			<animation property="color" from="80E0FF" to="80A0BB" begin="350" duration="1200" mode="EaseIn" autoreverse="true" repeat="forever"/>
 		</storyboard>	
 	  	<storyboard event="deactivate">
  			<animation property="color" from="DDDDDD" to="DDDDDD" begin="" duration="" mode="Linear"/>

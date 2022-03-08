@@ -9,99 +9,105 @@ originally based on: "carbon"
 <theme defaultView="detailed">
 
   <formatVersion>7</formatVersion>
-  
-  <variables>
+  	
+	<variables>
+    <!--menu colors-->
     <baseColor>8b0000</baseColor>
     <gradientEndColor>6b2020</gradientEndColor>
     <backgroundColor>252525</backgroundColor>
     <groupColor>BD4747</groupColor>
-    <groupSeparatorColor>BD4747</groupSeparatorColor>    
+    <groupSeparatorColor>BD4747</groupSeparatorColor> 
+	
+	<!--LANGS-->
+	<artworkregion>Logos and Artwork Region</artworkregion>
+	<artworkregion lang="fr">Version Régionale des Logos et Artworks</artworkregion>
+	
+	<SystemViewStyle>System View Style</SystemViewStyle>
+    <SystemViewStyle lang="fr">Style de Vue Système</SystemViewStyle>
+	
+	<TVFrameColor>TV Frame Color</TVFrameColor>
+    <TVFrameColor lang="fr">Couleur du Cadre TV</TVFrameColor>
+	
+	<LogoColor>Selected Logo Color</LogoColor>
+    <LogoColor lang="fr">Couleur du Logo Actif</LogoColor>
+	
+	<SelectorBarColor>Select Bar Color</SelectorBarColor>
+    <SelectorBarColor lang="fr">Couleur de la Barre de Selection</SelectorBarColor>
+	
+	<red>red</red>
+    <red lang="fr">rouge</red>
+            
+    <blue>blue</blue>
+    <blue lang="fr">bleu</blue>
+
+    <purple>purple</purple>
+    <purple lang="fr">violet</purple>
+
+    <darkpurple>dark purple</darkpurple>
+    <darkpurple lang="fr">pourpre sombre</darkpurple>
+	
+	<darkgrey>dark grey</darkgrey>
+    <darkgrey lang="fr">gris anthracite</darkgrey>
+	
+    <yellow>yellow</yellow>
+    <yellow lang="fr">jaune</yellow>
+
+	<white>white</white>
+    <white lang="fr">blanc</white>
+	
+	<basic>basic</basic>
+	<basic lang="fr">basique</basic>
+	
+	<detailed>detailed</detailed>
+	<detailed lang="fr">détaillée</detailed>
+	
+	<grid>Simple Cover Grid</grid>
+	<grid lang="fr">Grille Boîte de Jeux</grid>
+	
+	<minilogos>Mini Logos + Details</minilogos>
+	<minilogos lang="fr">Mini Logos + Détails</minilogos>
+	
+	<smallboxes>Small Boxes + Details</smallboxes>
+	<smallboxes lang="fr">Petites Boîtes + Détails</smallboxes>
+	
+	<longlist>Long List + Preview</longlist>
+	<longlist lang="fr">Longue Liste + Aperçu</longlist>
+	
+	<coverflow>Cover Flow</coverflow>
+	<coverflow lang="fr">Carousel de Boîtes</coverflow>
+	
+	<logoflow>Logo Flow + Preview</logoflow>
+	<logoflow lang="fr">Carousel de Logos + Aperçu</logoflow>
+	
+	<logosontop>Logos on Top + Preview</logosontop>
+	<logosontop lang="fr">Logos au-dessus + Aperçu</logosontop>
+	
+	<verticallogos>Vertical Logo Wheel + Preview</verticallogos>
+	<verticallogos lang="fr">Roue Verticale de logos + Aperçu</verticallogos>
+	
+	<retrotiles>Retro Tiles</retrotiles>
+	<retrotiles lang="fr">Tuiles Rétro</retrotiles>
+	
   </variables>
   
-  <view name="screen">
-    
-	<text name="clock">
-      <color>777777FF</color>
-      <fontSize>0.034</fontSize>
-      <pos>0 0.97</pos>
-	  <origin>0 0.5</origin>
-      <size>0.09 0.058</size>
-      <alignment>right</alignment>
-      <verticalAlignment>center</verticalAlignment>
-    </text>
-    
-	<controllerActivity name="controllerActivity">
-      <pos>0.1 0.96</pos>
-	  <origin>0 0.5</origin>
-      <size>0.085 0.025</size>
-      <itemSpacing>0.003</itemSpacing>
-      <imagePath>./art/gamepad.svg</imagePath>
-      <color>FFFFFF80</color>
-      <activityColor>A0A0FFC0</activityColor>
-      <hotkeyColor>FFA0A0C0</hotkeyColor>
-    </controllerActivity>
-	
-  </view>
-  
-  <view name="system,basic,detailed,grid">
-  
-    <helpsystem name="help">
-	  <pos>0.01 0.935</pos>
-	  <origin>0 0.5</origin>
-	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-	  <fontSize>0.0268</fontSize>
-      <textColor>ae9946</textColor>
-      <iconColor>c21302</iconColor>
-	  <iconSize></iconSize>
-    </helpsystem>
-	
-	<sound name="bgsound">
-		<path>./art/music/ArcadePlanetBGMusic.mp3</path>
-	</sound>
-		   			
-  </view>
-  
-  <view name="system">
-  	
-    <text name="logoText">
-		<fontPath>./art/Bank Gothic Medium.otf</fontPath>
-		<color>FFFFFFFA</color>
-		<fontSize>0.034</fontSize>
-	    <forceUppercase>false</forceUppercase>
-    </text>
-	
-	<image name="bgsky" extra="static">
-      <pos>1 0.324</pos>
-      <size>2 0.648148148</size>
-      <origin>0.5 0.5</origin>
-      <path>./art/bgsky.jpg</path>
-      <zIndex>0</zIndex>
-      <storyboard repeat="forever">
-            <animation property="x" from="1" to="0" begin="" duration="80000" mode="Linear"/>
-			<animation property="y" from="0.324" to="-0.07" begin="" duration="80000" mode="EaseOut"/>
-	  </storyboard>	  	  
-    </image>
-				
-  </view>
-  
    <!-- Subset options for Regional Artwork and Logos -->
-	<subset name="artworkregion" displayName="Logos and Artwork Region">
-		<include name="EU"></include>
-		<include name="US"></include>
+	<subset name="artworkregion" displayName="${artworkregion}">
+		<include name="EU"/>
+		<include name="US"/>
 	</subset>
    
   <!-- Subset options for System View -->
-  <subset name="systemview" displayName="System view Style">
+  <subset name="systemview" displayName="${SystemViewStyle}">
     <include name="horizontal">./art/systemview/horizontal.xml</include>
 	<include name="vertical">./art/systemview/vertical.xml</include>
   </subset>
   
    <!-- Subset options for Tv Frame Color -->
-	<subset name="tvframecolor" displayName="TV Frame Color">
-		<include name="Dark Purple"></include>
-		<include name="Dark Grey"></include>
-	</subset>
-   
+	<subset name="tvframecolor" displayName="${TVFrameColor}">
+		<include name="Dark Purple" displayName="${darkpurple}"/>
+		<include name="Dark Grey" displayName="${darkgrey}"/>
+    </subset>
+	
   <view name="menu">
   
     <menuText name="menutitle">
@@ -178,6 +184,72 @@ originally based on: "carbon"
 	
   </view>
   
+  <view name="screen">
+    
+	<text name="clock">
+      <color>777777FF</color>
+      <fontSize>0.034</fontSize>
+      <pos>0 0.97</pos>
+	  <origin>0 0.5</origin>
+      <size>0.09 0.058</size>
+      <alignment>right</alignment>
+      <verticalAlignment>center</verticalAlignment>
+    </text>
+    
+	<controllerActivity name="controllerActivity">
+      <pos>0.1 0.96</pos>
+	  <origin>0 0.5</origin>
+      <size>0.085 0.025</size>
+      <itemSpacing>0.003</itemSpacing>
+      <imagePath>./art/gamepad.svg</imagePath>
+      <color>FFFFFF80</color>
+      <activityColor>A0A0FFC0</activityColor>
+      <hotkeyColor>FFA0A0C0</hotkeyColor>
+    </controllerActivity>
+	
+  </view>
+  
+  <view name="system,basic,detailed,grid">
+  
+    <helpsystem name="help">
+	  <pos>0.01 0.935</pos>
+	  <origin>0 0.5</origin>
+	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+	  <fontSize>0.0268</fontSize>
+      <textColor>ae9946</textColor>
+      <iconColor>c21302</iconColor>
+	  <iconSize></iconSize>
+    </helpsystem>
+	
+	<sound name="bgsound">
+		<path>./art/music/ArcadePlanetBGMusic.mp3</path>
+	</sound>
+		   			
+  </view>
+  
+  <view name="system">
+  	
+    <text name="logoText">
+		<fontPath>./art/Bank Gothic Medium.otf</fontPath>
+		<color>FFFFFFFA</color>
+		<fontSize>0.034</fontSize>
+	    <forceUppercase>false</forceUppercase>
+    </text>
+	
+	<image name="bgsky" extra="static">
+      <pos>1 0.324</pos>
+      <size>2 0.648148148</size>
+      <origin>0.5 0.5</origin>
+      <path>./art/bgsky.jpg</path>
+      <zIndex>0</zIndex>
+      <storyboard repeat="forever">
+            <animation property="x" from="1" to="0" begin="" duration="80000" mode="Linear"/>
+			<animation property="y" from="0.324" to="-0.07" begin="" duration="80000" mode="EaseOut"/>
+	  </storyboard>	  	  
+    </image>
+				
+  </view>
+      
   <view name="basic,grid,detailed">
   
     <image name="background, background2, tv_frame, tvframe2, black screen">
@@ -482,7 +554,7 @@ originally based on: "carbon"
 	
 	</view>
 	
-    <view name="basic">
+    <view name="basic" displayName="${basic}">
   
     <text name="logoText">
       <size>0.98 0.126</size>
@@ -557,7 +629,7 @@ originally based on: "carbon"
 	
    </view>
    
-   <view name="grid">
+   <view name="grid" displayName="${grid}">
   
     <image name="background">
 	  <path>./art/bggrid.jpg</path>
@@ -708,7 +780,7 @@ originally based on: "carbon"
 	
   </view>
   
-   <customView name="MiniLogos+Details" inherits="grid" displayName="Mini Logos + Details">
+   <customView name="MiniLogos+Details" inherits="grid" displayName="${minilogos}">
    	
 	<image name="md_thumbnail">
 		  <visible>true</visible>
@@ -763,7 +835,7 @@ originally based on: "carbon"
 		
   </customView>
   
-  <customView name="SmallBoxes+Details" inherits="grid" displayName="Small Boxes + Details">
+  <customView name="SmallBoxes+Details" inherits="grid" displayName="${smallboxes}">
   		
 	<image name="Chevron droite" extra="true">
       <pos>0.985 0.676</pos>
@@ -960,7 +1032,7 @@ originally based on: "carbon"
 	
   </customView>
   
-  <view name="detailed">
+  <view name="detailed" displayName="${detailed}">
    
     <image name="background">
 	    <path>./art/bgdetailed.jpg</path>
@@ -1028,7 +1100,7 @@ originally based on: "carbon"
 	
   </view>
   
-  <customView name="LongList+Preview" inherits="detailed" displayName="Long List + Previews">
+  <customView name="LongList+Preview" inherits="detailed" displayName="${longlist}">
  
     <image name="background">
 	  <path>./art/bglonglist+preview.jpg</path>
@@ -1168,7 +1240,7 @@ originally based on: "carbon"
 		
    </customView>
       
-  <customView name="CoverFlow" inherits="grid" displayName="Cover Flow">
+  <customView name="CoverFlow" inherits="grid" displayName="${coverflow}">
     
 	<image name="background">
 	    <path>./art/bgcoverflow.jpg</path>
@@ -1264,7 +1336,7 @@ originally based on: "carbon"
 	
   </customView>
   
-  <customView name="LogoFlow" inherits="grid" displayName="Logo Flow">
+  <customView name="LogoFlow" inherits="grid" displayName="${logoflow}">
   	
 	<image name="background">
 	    <path>./art/bglogoflow.jpg</path>
@@ -1404,7 +1476,7 @@ originally based on: "carbon"
 		
   </customView> 
     
-  <customView name="LogosOnTop" inherits="grid" displayName="Logos On Top">
+  <customView name="LogosOnTop" inherits="grid" displayName="${logosontop}">
 	
     <image name="background">
       <path>./art/bglogosontop.jpg</path>
@@ -1576,7 +1648,7 @@ originally based on: "carbon"
 			
   </customView>
   
-  <customView name="VerticalLogos" inherits="grid" displayName="Vertical Logos">
+  <customView name="VerticalLogos" inherits="grid" displayName="${verticallogos}">
  
     <image name="background">
 	  <path>./art/bgverticallogos.jpg</path>
@@ -1796,7 +1868,7 @@ originally based on: "carbon"
 	
    </customView>
    
-   <customView name="RetroTiles" inherits="grid" displayName="Retro Tiles">
+   <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
     
 	<image name="background">
 	    <path>./art/bgretrotiles.jpg</path>
