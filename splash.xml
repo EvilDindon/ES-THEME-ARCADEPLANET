@@ -16,10 +16,10 @@
 			</storyboard>
 		</image>
 		
-		<text name="label, Version, Platforms, Warning, author" extra="true">
+		<text name="label, Version, Platforms, Loading, Warning, author" extra="true">
 			<origin>0.5 0.5</origin>
 			<fontPath>./art/ARCADE.TTF</fontPath>
-			<fontSize>0.023</fontSize>
+			<fontSize>0.02</fontSize>
 			<color>669e02FF</color>
 			<forceUppercase>true</forceUppercase>
 			<size>0.7 0.1</size>
@@ -36,18 +36,34 @@
 		</text>
 				
 		<text name="Version" extra="true">
-			<pos>0.5 0.264</pos>
-			<text>Arcade Planet V0.96</text>			
+			<pos>0.5 0.230</pos>
+			<text>Arcade Planet V0.97</text>			
 		</text>
 		
 		<text name="Platforms" extra="true">
-			<pos>0.5 0.364</pos>
+			<pos>0.5 0.280</pos>
 			<text>Theme for Batocera, Retrobat and Emuelec</text>			
 		</text>
-		
+
 		<text lang="fr" name="Platforms" extra="true">
-			<pos>0.5 0.364</pos>
+			<pos>0.5 0.330</pos>
 			<text>Theme pour Batocera, Retrobat and Emuelec</text>			
+		</text>
+		
+		<text name="Loading" extra="true">
+			<font>./art/ARCADEI.TTF</font>
+			<fontSize>0.064</fontSize>
+			<pos>0.5 0.400</pos>
+			<color>A0A0A0FF</color>
+			<text>LOADING THEME</text>			
+		</text>
+
+		<text lang="fr" name="Loading" extra="true">
+			<font>./art/ARCADEI.TTF</font>
+			<fontSize>0.064</fontSize>
+			<pos>0.5 0.400</pos>
+			<color>A0A0A0FF</color>
+			<text>CHARGEMENT DU THEME</text>			
 		</text>
 		
 		<text name="Warning" extra="true">
@@ -65,8 +81,8 @@
 		</text>
 						
 		<text name="author" extra="true">
-			<pos>0.6 0.75</pos>
-			<color>DDCC00ff</color>
+			<pos>0.88 0.95</pos>
+			<color>DDDDDD</color>
 			<text>By EvilDindon, 2021</text>
 		</text>
 			
@@ -74,13 +90,13 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.9</pos>
 			<size>0.455 0.035</size>
-			<color>a4a4a4</color>
-			<colorEnd>FFFFFFFF</colorEnd>
+			<color>FA0000</color>
+			<colorEnd>000000</colorEnd>
 		</image>
 		
 		<image name="progressbar:active">
-			<color>a4a4a4</color>
-			<colorEnd>FFFFFF</colorEnd>
+			<color>D00000</color>
+			<colorEnd>000000</colorEnd>
 		</image>
 		
 	</view>

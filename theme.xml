@@ -336,7 +336,7 @@ originally based on: "carbon"
       	  <path>./art/tvframe/${system.theme}.png</path>
 	  <path ifSubset="artworkregion:US">./art/tvframe/default.png</path>
 	  <path ifSubset="artworkregion:US">./art/tvframe/${system.theme}.png</path>
-          <path ifSubset="artworkregion:US">./art/tvframe/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/tvframe/US/${system.theme}.png</path>
 	  <zIndex>16</zIndex>
 	</image>
 	
@@ -785,8 +785,12 @@ originally based on: "carbon"
       <animateColorTime>350</animateColorTime>
     </ninepatch>
 	
-	<image name="md_image, tv_frame, tvframe2, md_flag, md_thumbnail, md_marquee">
+	<image name="md_image, md_flag, md_thumbnail, md_marquee">
 	  <visible>false</visible>
+	</image>
+	
+	<image name="tv_frame, tvframe2">
+	  <pos>2 2</pos>
 	</image>
 	
 	<image name="md_favorite">
@@ -948,12 +952,10 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="tv_frame" extra="true">
-	  <visible>true</visible>
 	  <pos>0.5 0.215</pos>
     </image>
 	
 	<image name="tvframe2" extra="true">
-      <visible ifSubset="tvframecolor:Dark Grey">true</visible>
 	  <pos>0.5 0.215</pos>
     </image>
 	
@@ -1362,7 +1364,6 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="tvframe2" extra="true">
-	  <visible ifSubset="tvframecolor:Dark Grey">true</visible>
 	  <pos>0.5 0.252</pos>
 	  <zIndex>41</zIndex>
     </image>
@@ -1502,7 +1503,6 @@ originally based on: "carbon"
     </image>
 	
 	<image name="tvframe2" extra="true">
-	  <visible ifSubset="tvframecolor:Dark Grey">true</visible>
       <pos>0.5 0.405</pos>
       <zIndex>41</zIndex>
     </image>
@@ -1675,7 +1675,6 @@ originally based on: "carbon"
 	
 	<image name="tvframe2" extra="true">
 	  <pos>0.44375 0.3074</pos>
-	  <visible ifSubset="tvframecolor:Dark Grey">true</visible>
       <zIndex>41</zIndex>
     </image>
 	
