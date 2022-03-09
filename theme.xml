@@ -477,7 +477,7 @@ originally based on: "carbon"
     </text>
 	
 	<text name="md_developer">
-      <color>84A0AA</color>
+      <color>4480AA</color>
 	  <forceUppercase>1</forceUppercase>
 	  <glowColor>00000016</glowColor>
       <glowSize>2</glowSize>
@@ -698,7 +698,7 @@ originally based on: "carbon"
 	</text>
 	
 	<text name="md_developer">
-      <color>84A0AA</color>
+      <color>5480A0</color>
 	  <pos>0.15 0.04</pos>
       <size>0.25 0.05</size>
       <alignment>left</alignment>
@@ -855,6 +855,8 @@ originally based on: "carbon"
     <gridtile name="selected">
       <backgroundCenterColor>006080FF</backgroundCenterColor>
       <backgroundEdgeColor>006080FF</backgroundEdgeColor>
+	  <backgroundCenterColor ifSubset="selector:red">A00000FF</backgroundCenterColor>
+      <backgroundEdgeColor ifSubset="selector:red">A00000ff</backgroundEdgeColor>
 	  <backgroundCornerSize>8 8</backgroundCornerSize>
 	  <imageColor>FFFFFFFF</imageColor>
       <padding>2 2</padding>
@@ -978,12 +980,12 @@ originally based on: "carbon"
 	
 	<image name="md_favorite">
 	  <visible>true</visible>
-	  <pos>0.39 0.412</pos>
+	  <pos>0.28679 0.382</pos>
       <color>960000</color>
 	</image>
 	
 	<text name="md_name">
-      <color>FFEE00ff</color>
+      <color>FAFAFAff</color>
       <pos>0.5 0.016</pos>
 	  <alignment>center</alignment>
       <size>0.4 0.03</size>
@@ -1027,14 +1029,18 @@ originally based on: "carbon"
     </text>
 	
 	<datetime name="md_releasedate">
-	  <pos>0.703 0.3646</pos>
+	  <alignment>right</alignment>
+	  <pos>0.582 0.3646</pos>
       <fontSize>0.02</fontSize>
-	  <size>0.92 0.10</size>
+	  <size>0.1 0.10</size>
+	  <zIndex>41</zIndex>
 	</datetime>
 	
     <text name="md_developer">
-      <pos>0.772 0.3646</pos>
-      <size>0.26 0.10</size>
+	  <fontPath>./art/ARCADE.TTF</fontPath>
+	  <fontSize>0.018</fontSize>
+      <pos>0.703 0.3955</pos>
+      <size>0.3 0.04</size>
     </text>
 	
 	<rating name="md_rating">
@@ -1052,6 +1058,7 @@ originally based on: "carbon"
 	
 	<ninepatch name="gridtile.background:selected">
   	  <animateColor>00507080</animateColor>
+	  <animateColor ifsubset="selector:red">600000</animateColor>
 	  <animateColorTime>1000</animateColorTime>
     </ninepatch>
 	
