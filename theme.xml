@@ -13,7 +13,7 @@ originally based on: "carbon"
 	<variables>
     <!--menu colors-->
     <baseColor>8b0000</baseColor>
-    <gradientEndColor>6b2020</gradientEndColor>
+    <gradientEndColor>000000</gradientEndColor>
     <backgroundColor>252525</backgroundColor>
     <groupColor>BD4747</groupColor>
     <groupSeparatorColor>BD4747</groupSeparatorColor> 
@@ -83,7 +83,7 @@ originally based on: "carbon"
 	<logosontop lang="fr">Logos au-dessus + Aperçu</logosontop>
 	
 	<verticallogos>Vertical Logo Wheel + Preview</verticallogos>
-	<verticallogos lang="fr">Roue Verticale de logos + Aperçu</verticallogos>
+	<verticallogos lang="fr">Roue Verticale + Aperçu</verticallogos>
 	
 	<retrotiles>Retro Tiles</retrotiles>
 	<retrotiles lang="fr">Tuiles Rétro</retrotiles>
@@ -102,46 +102,62 @@ originally based on: "carbon"
 	<include name="vertical">./art/systemview/vertical.xml</include>
   </subset>
   
+     <!-- Subset options for Selected logo Color -->
+	<subset name="logocolor" displayName="${LogoColor}">
+		<include name="yellow" displayName="${yellow}"></include>
+		<include name="white" displayName="${white}">./art/systemview/colors/white.xml</include>
+		<include name="blue" displayName="${blue}">./art/systemview/colors/blue.xml</include>
+		<include name="red" displayName="${red}">./art/systemview/colors/red.xml</include>
+		<include name="purple" displayName="${purple}">./art/systemview/colors/purple.xml</include>
+    </subset>
+  
    <!-- Subset options for Tv Frame Color -->
 	<subset name="tvframecolor" displayName="${TVFrameColor}">
-		<include name="Dark Purple" displayName="${darkpurple}"/>
-		<include name="Dark Grey" displayName="${darkgrey}"/>
+		<include name="dark purple" displayName="${darkpurple}"/>
+		<include name="dark grey" displayName="${darkgrey}"/>
     </subset>
-	
+		
+	<!-- Subset options for Selector Bar Color -->
+	<subset name="selectorcolor" displayName="${SelectorBarColor}">
+		<include name="blue" displayName="${blue}"/>
+		<include name="red" displayName="${red}"/>
+		<include name="purple" displayName="${purple}"/>
+	</subset>
+	       
   <view name="menu">
   
     <menuText name="menutitle">
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <fontSize>0.044</fontSize>
-      <color>FAFAFA</color>
+      <fontSize>0.04</fontSize>
+      <color>${groupColor}</color>
     </menuText>
 	
     <menuText name="menufooter">
-      <fontPath>./art/Cabin-Regular.ttf</fontPath>
+      <fontPath>./art/Bank Gothic Light BT.ttf</fontPath>
       <fontSize>0.02</fontSize>
       <color>777777FF</color>
     </menuText>
 	
     <menuText name="menutext">
-      <fontPath>./art/Cabin-Regular.ttf</fontPath>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <fontSize>0.038</fontSize>
       <color>969696</color>
       <separatorColor>323232FF</separatorColor>
-      <selectorColor>${baseColor}</selectorColor>
+      <selectorColor>909090</selectorColor>
       <selectorColorEnd>${gradientEndColor}</selectorColorEnd>
       <selectedColor>FFFFFF</selectedColor>
-      <selectorGradientType>horizontal</selectorGradientType>
+      <selectorGradientType>vertical</selectorGradientType>
     </menuText>
 	
     <menuTextSmall name="menutextsmall">
-      <fontPath>./art/Cabin-Regular.ttf</fontPath>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <fontSize>0.02</fontSize>
       <color>${groupColor}</color>
     </menuTextSmall>
 	
     <menuGroup name="menugroup">
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <fontSize>0.025</fontSize>
+      <fontSize>0.03</fontSize>
       <color>${groupColor}</color>
       <separatorColor>${groupSeparatorColor}</separatorColor>    
       <backgroundColor>00000000</backgroundColor>
@@ -214,11 +230,11 @@ originally based on: "carbon"
     <helpsystem name="help">
 	  <pos>0.01 0.935</pos>
 	  <origin>0 0.5</origin>
-	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+	  <fontPath>./art/Bank Gothic Light BT.ttf</fontPath>
 	  <fontSize>0.0268</fontSize>
       <textColor>ae9946</textColor>
       <iconColor>c21302</iconColor>
-	  <iconSize></iconSize>
+	  <iconSize>3</iconSize>
     </helpsystem>
 	
 	<sound name="bgsound">
@@ -234,6 +250,9 @@ originally based on: "carbon"
 		<color>FFFFFFFA</color>
 		<fontSize>0.034</fontSize>
 	    <forceUppercase>false</forceUppercase>
+		<glowSize>3</glowSize>
+		<glowColor>000000ee</glowColor>
+		<glowOffset>1</glowOffset>
     </text>
 	
 	<image name="bgsky" extra="static">
@@ -247,7 +266,7 @@ originally based on: "carbon"
 			<animation property="y" from="0.324" to="-0.07" begin="" duration="80000" mode="EaseOut"/>
 	  </storyboard>	  	  
     </image>
-				
+	
   </view>
       
   <view name="basic,grid,detailed">
@@ -325,7 +344,7 @@ originally based on: "carbon"
 	  <path>./art/tvframe2.png</path>
       <zIndex>17</zIndex>
 	  <visible>false></visible>
-	  <visible ifSubset="tvframecolor:Dark Grey">true</visible>
+	  <visible ifSubset="tvframecolor:dark grey">true</visible>
 	</image>
 	  
 	  <image name="Controller, Controller1, Controller2">
@@ -534,8 +553,10 @@ originally based on: "carbon"
     </image>
  	  
 	<textlist name="gamelist">
-      <selectorColor>0080D0ff</selectorColor>
-      <selectedColor>C8E8FF</selectedColor>
+     <selectorColor>0080D0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:red">D00000</selectorColor>
+     <selectorColor ifSubset="selectorcolor:purple">C820D0</selectorColor>
+	 <selectedColor>D8E8FF</selectedColor>
 	  <selectorColorEnd>00000000</selectorColorEnd>
 	  <selectorOffsetY>0.005</selectorOffsetY>
 	  <primaryColor>608096</primaryColor>
@@ -1220,22 +1241,12 @@ originally based on: "carbon"
 	
 	<textlist name="gamelist">
 	  <origin>0.5 0</origin>
-      <selectorColor>0080D0ff</selectorColor>
-      <selectedColor>C8E8FF</selectedColor>
-	  <selectorColorEnd>00000000</selectorColorEnd>
-	  <selectorOffsetY>0.005</selectorOffsetY>
-	  <primaryColor>608096</primaryColor>
-      <secondaryColor>7a6161</secondaryColor>
-	  <lines>21</lines>
-      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <forceUppercase>1</forceUppercase>
+      <lines>21</lines>
       <pos>0.780729 -0.004</pos>
       <size>0.408 0.928</size>
       <alignment>left</alignment>
       <horizontalMargin>0.008</horizontalMargin>
       <fontSize>0.032</fontSize>
-      <scrollSound>./art/scroll.wav</scrollSound>
-	  <zIndex>17</zIndex>	  
 	</textlist>
 		
    </customView>

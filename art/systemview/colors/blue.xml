@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  <view name="system">
+  
+	<image name="logo">
+	     <storyboard event="activate">
+ 			<animation property="color" from="40EEFFff" to="207788ff" begin="350" duration="1200" mode="Linear" autoreverse="true" repeat="forever"/>
+		 </storyboard>
+	</image>
+	
+	</view>
+  	  
+</theme>

@@ -5,16 +5,16 @@
   <view name="system">
   
 <image name="logo">
-		 <color>DDDDDD</color>
+		 <color>909098ff</color>
 	     <linearSmooth>false</linearSmooth>
 	     <path>./art/wheel/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
-		  <storyboard event="activate">
- 			<animation property="color" from="80E0FF" to="80A0BB" begin="350" duration="1200" mode="EaseIn" autoreverse="true" repeat="forever"/>
-		</storyboard>	
-	  	<storyboard event="deactivate">
- 			<animation property="color" from="DDDDDD" to="DDDDDD" begin="" duration="" mode="Linear"/>
-	  </storyboard>	
+		 <storyboard event="activate">
+ 			<animation property="color" from="FFFF00ff" to="909000ff" begin="350" duration="1200" mode="Linear" autoreverse="true" repeat="forever"/>
+		 </storyboard>
+		 <storyboard event="deactivate">
+ 			<animation property="color" from="909098ff" to="909098ff" begin="" duration="" mode="Linear"/>
+	     </storyboard>	
 	</image>
   	
     <carousel name="systemcarousel">
@@ -134,7 +134,7 @@
 	  </storyboard>
     </image>
 	
-	<image name="Conttroller" extra="static">
+	<image name="Controller" extra="static">
       <opacity>0</opacity>
 	  <pos>0.5 0.691666</pos>
       <origin>0.5 0.5</origin>
@@ -204,5 +204,5 @@
     </text>
 	    
   </view>
-  
+    
 </theme>
