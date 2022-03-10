@@ -20,7 +20,7 @@ originally based on: "carbon"
 	
 	<!--LANGS-->
 	<artworkregion>Logos and Artwork Region</artworkregion>
-	<artworkregion lang="fr">Version Régionale des Logos et Artworks</artworkregion>
+	<artworkregion lang="fr">Région des Logos et Artworks</artworkregion>
 	
 	<SystemViewStyle>System View Style</SystemViewStyle>
     <SystemViewStyle lang="fr">Style de Vue Système</SystemViewStyle>
@@ -28,10 +28,10 @@ originally based on: "carbon"
 	<TVFrameColor>TV Frame Color</TVFrameColor>
     <TVFrameColor lang="fr">Couleur du Cadre TV</TVFrameColor>
 	
-	<LogoColor>Selected Logo Color</LogoColor>
+	<LogoColor>Active Logo Color</LogoColor>
     <LogoColor lang="fr">Couleur du Logo Actif</LogoColor>
 	
-	<SelectorBarColor>Select Bar Color</SelectorBarColor>
+	<SelectorBarColor>Selector Bar Color</SelectorBarColor>
     <SelectorBarColor lang="fr">Couleur de la Barre de Selection</SelectorBarColor>
 	
 	<yes>yes</yes>
