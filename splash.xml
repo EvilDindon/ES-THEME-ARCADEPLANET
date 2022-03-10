@@ -22,7 +22,7 @@
 			<fontSize>0.02</fontSize>
 			<color>669e02FF</color>
 			<forceUppercase>true</forceUppercase>
-			<size>0.7 0.1</size>
+			<size>1 0.1</size>
 			<alignment>center</alignment>
 			<glowColor>00000080</glowColor>
 			<glowSize>2</glowSize>
@@ -51,18 +51,16 @@
 		</text>
 		
 		<text name="Loading" extra="true">
-			<font>./art/ARCADEI.TTF</font>
-			<fontSize>0.064</fontSize>
+			<fontSize>0.048</fontSize>
 			<pos>0.5 0.400</pos>
-			<color>A0A0A0FF</color>
+			<color>0080FFFF</color>
 			<text>LOADING THEME</text>			
 		</text>
 
 		<text lang="fr" name="Loading" extra="true">
-			<font>./art/ARCADEI.TTF</font>
-			<fontSize>0.064</fontSize>
+			<fontSize>0.048</fontSize>
 			<pos>0.5 0.400</pos>
-			<color>A0A0A0FF</color>
+			<color>0080FFff</color>
 			<text>CHARGEMENT DU THEME</text>			
 		</text>
 		
