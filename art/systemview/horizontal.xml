@@ -1,10 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
 <theme>
   <formatVersion>7</formatVersion>
-  
+
+	<variables>
+    	
+	<!--LANGS-->
+	
+	<RandomArt>System View : Random Artwork</RandomArt>
+	<RandomArt lang="fr">Vue Système : Images Aléatoires</RandomArt>
+	            
+    <boxarts>box arts</boxarts>
+	<boxarts lang="fr">boîtes de jeux</boxarts>
+		
+  </variables>
+  <!-- Subset options for Random Art -->
+	<subset name="randomart" displayName="${RandomArt}">
+		<include name="none" displayName="${none}"/>
+		<include name="marquee" displayName="logos"/>
+		<include name="thumbnail" displayName="${boxarts}"/>
+	</subset>
+	
   <view name="system">
   
-<image name="logo">
+    <image name="logo">
 		 <color>909098ff</color>
 		 <opacity>1</opacity>
 	     <linearSmooth>false</linearSmooth>
@@ -210,6 +230,39 @@
 		</storyboard>
 	</image>
 	
+	<image name="randomArt01,randomArt02" extra="true" ifSubset="randomart:marquee|thumbnail">
+			<linearSmooth>true</linearSmooth>
+			<reflexion>0.25 0</reflexion>
+            <maxSize ifSubset="randomart:thumbnail">0.185 0.32</maxSize>
+            <maxSize ifSubset="randomart:marquee">0.20833333 0.22222222</maxSize>
+			<origin>0.5 1</origin>
+			<zIndex>15</zIndex>
+			<path ifSubset="randomart:marquee">{random:marquee}</path>
+			<path ifSubset="randomart:thumbnail">{random:thumbnail}</path>
+			<color>F0F0F0</color>
+
+		</image>
+ 
+		<image name="randomArt01" extra="true">
+		    <pos>0.89 0.37</pos>
+			<offsetX>0.5</offsetX>
+			<storyboard repeatAt="1">
+                <animation property="offsetX" from="0.5" to="0.5" duration="2750" mode="linear"/>
+                <animation property="offsetX" from="0.5" to="0" begin="2750" duration="250" mode="easeOut"/>
+				<animation property="offsetX" from="0" to="0.5" begin="9750" duration="250" mode="EaseOut"/>
+            </storyboard>
+		</image>
+				
+		<image name="randomArt02" extra="true">
+			<offsetX>-0.5</offsetX>
+			<pos>0.11 0.37</pos>
+			<storyboard repeatAt="1">
+                <animation property="offsetX" from="-0.5" to="-0.5" duration="3000" mode="linear"/>
+                <animation property="offsetX" from="-0.5" to="0" begin="3000" duration="250" mode="easeOut"/>
+				<animation property="offsetX" from="0" to="-0.5" begin="9750" duration="250" mode="EaseOut"/>
+            </storyboard>
+		</image>
+  	
 	<text name="systemInfo">
 	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
 	  <fontSize>0.028</fontSize>

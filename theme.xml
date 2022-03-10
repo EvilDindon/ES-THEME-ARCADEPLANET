@@ -24,7 +24,7 @@ originally based on: "carbon"
 	
 	<SystemViewStyle>System View Style</SystemViewStyle>
     <SystemViewStyle lang="fr">Style de Vue Système</SystemViewStyle>
-	
+		
 	<TVFrameColor>TV Frame Color</TVFrameColor>
     <TVFrameColor lang="fr">Couleur du Cadre TV</TVFrameColor>
 	
@@ -34,7 +34,16 @@ originally based on: "carbon"
 	<SelectorBarColor>Select Bar Color</SelectorBarColor>
     <SelectorBarColor lang="fr">Couleur de la Barre de Selection</SelectorBarColor>
 	
-	<red>red</red>
+	<yes>yes</yes>
+    <yes lang="fr">oui</yes>
+            
+    <no>no</no>
+    <no lang="fr">non</no>
+		
+	<none>none</none>
+    <none lang="fr">aucun</none>
+   
+    <red>red</red>
     <red lang="fr">rouge</red>
             
     <blue>blue</blue>
@@ -123,7 +132,8 @@ originally based on: "carbon"
 		<include name="red" displayName="${red}"/>
 		<include name="purple" displayName="${purple}"/>
 	</subset>
-	       
+	      
+	
   <view name="menu">
   
     <menuText name="menutitle">
@@ -264,8 +274,8 @@ originally based on: "carbon"
       <path>./art/bgsky.jpg</path>
       <zIndex>0</zIndex>
       <storyboard repeat="forever">
-            <animation property="x" from="1" to="0" begin="" duration="80000" mode="Linear"/>
-			<animation property="y" from="0.324" to="-0.07" begin="" duration="80000" mode="EaseOut"/>
+            <animation property="x" from="1" to="0" begin="" duration="80000" mode="Linear" autoReverse="true"/>
+			<animation property="y" from="0.324" to="-0.07" begin="" duration="80000" mode="Linear" autoReverse="true"/>
 	  </storyboard>	  	  
     </image>
 	
