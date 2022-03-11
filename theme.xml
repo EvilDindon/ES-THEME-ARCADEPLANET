@@ -297,7 +297,6 @@ originally based on: "carbon"
             <maxSize ifSubset="randomart:thumbnail">0.185 0.32</maxSize>
             <maxSize ifSubset="randomart:marquee">0.20833333 0.22222222</maxSize>
 			<origin>0.5 1</origin>
-			<zIndex>15</zIndex>
 			<path ifSubset="randomart:marquee">{random:marquee}</path>
 			<path ifSubset="randomart:thumbnail">{random:thumbnail}</path>
 			<color>E0E0E0</color>
