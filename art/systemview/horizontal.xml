@@ -224,7 +224,12 @@
       <glowSize>0</glowSize>
       <reflexion>0.0 0.0</reflexion>
     </text>
-	    
+	  
+	<subset name="randomartanimationstyle" displayName="${RandomArtAnimationStyle}">
+		<include name="ease" displayName="${ease}">./art/systemview/animations/ease.xml</include>
+		<include name="chaseacross" displayName="${chaseacross}">./art/systemview/animations/chaseacross.xml</include>
+	</subset>	
+
   </view>
-    
+    		
 </theme>

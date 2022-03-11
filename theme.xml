@@ -145,12 +145,7 @@ originally based on: "carbon"
 		<include name="marquee" displayName="logos"/>
 		<include name="thumbnail" displayName="${boxarts}"/>
 	</subset>
-	
-	<subset name="randomartanimationstyle" displayName="${RandomArtAnimationStyle}">
-		<include name="ease" displayName="${ease}">./art/systemview/animations/ease.xml</include>
-		<include name="chaseacross" displayName="${chaseacross}">./art/systemview/animations/chaseacross.xml</include>
-	</subset>	
-	
+
   <view name="menu">
   
     <menuText name="menutitle">
