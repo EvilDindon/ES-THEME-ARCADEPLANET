@@ -34,11 +34,11 @@ originally based on: "carbon"
 	<SelectorBarColor>Selector Bar Color</SelectorBarColor>
     <SelectorBarColor lang="fr">Couleur de la Barre de Selection</SelectorBarColor>
 	
-	<RandomArt>System View : Random Artwork</RandomArt>
-	<RandomArt lang="fr">Vue Système : Images Aléatoires</RandomArt>
+	<RandomArt>Random Artwork in System View</RandomArt>
+	<RandomArt lang="fr">Images Aléatoires dans Vue Système</RandomArt>
 	
 	<RandomArtAnimationStyle>Random Art Animation Style</RandomArtAnimationStyle>
-	<RandomArtAnimationStyle lang="fr">Style d'animation des artworks aléatoires</RandomArtAnimationStyle>
+	<RandomArtAnimationStyle lang="fr">Images Aléatoires : Style d'animation</RandomArtAnimationStyle>
 	
 	<ease>ease</ease>
 	<ease lang="fr">glissement</ease>
