@@ -147,8 +147,8 @@ originally based on: "carbon"
 	</subset>
 	
 	<subset name="randomartanimationstyle" displayName="${RandomArtAnimationStyle}">
-		<include name="ease" displayName="${ease}"/>
-		<include name="chaseacross" displayName="${chaseacross}"/>
+		<include name="ease" displayName="${ease}">./art/systemview/animations/ease.xml</include>
+		<include name="chaseacross" displayName="${chaseacross}">./art/systemview/animations/chaseacross.xml</include>
 	</subset>	
 	
   <view name="menu">
@@ -295,6 +295,19 @@ originally based on: "carbon"
 			<animation property="y" from="0.324" to="-0.07" begin="" duration="80000" mode="Linear" autoReverse="true"/>
 	  </storyboard>	  	  
     </image>
+	
+	<image name="randomArt01,randomArt02,randoMart03,randomArt04" extra="true" ifSubset="randomart:marquee|thumbnail">
+			<linearSmooth>true</linearSmooth>
+			<reflexion>0.25 0</reflexion>
+            <maxSize ifSubset="randomart:thumbnail">0.185 0.32</maxSize>
+            <maxSize ifSubset="randomart:marquee">0.20833333 0.22222222</maxSize>
+			<origin>0.5 1</origin>
+			<zIndex>15</zIndex>
+			<path ifSubset="randomart:marquee">{random:marquee}</path>
+			<path ifSubset="randomart:thumbnail">{random:thumbnail}</path>
+			<color>E0E0E0</color>
+			<zIndex>4</zIndex>
+		</image>
 	
   </view>
       
@@ -1149,7 +1162,6 @@ originally based on: "carbon"
     <textlist name="gamelist">
       <pos>0.25 0.426</pos>
       <size>0.5 0.5</size>
-      <fontSize>0.032</fontSize>
 	  <lines>11</lines>
 	</textlist>
 	
