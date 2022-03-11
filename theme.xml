@@ -117,6 +117,13 @@ originally based on: "carbon"
 	<include name="vertical">./art/systemview/vertical.xml</include>
   </subset>
   
+  <!-- Subsets options for Random Art -->
+	<subset name="randomart" displayName="${RandomArt}">
+		<include name="none" displayName="${none}"/>
+		<include name="marquee" displayName="logos"/>
+		<include name="thumbnail" displayName="${boxarts}"/>
+	</subset>
+  
      <!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}">
 		<include name="yellow" displayName="${yellow}"></include>
@@ -139,13 +146,6 @@ originally based on: "carbon"
 		<include name="purple" displayName="${purple}"/>
 	</subset>
 	
-	<!-- Subsets options for Random Art -->
-	<subset name="randomart" displayName="${RandomArt}">
-		<include name="none" displayName="${none}"/>
-		<include name="marquee" displayName="logos"/>
-		<include name="thumbnail" displayName="${boxarts}"/>
-	</subset>
-
   <view name="menu">
   
     <menuText name="menutitle">
