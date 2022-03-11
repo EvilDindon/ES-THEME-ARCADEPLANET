@@ -225,10 +225,12 @@
       <reflexion>0.0 0.0</reflexion>
     </text>
 	
-  </view>
+	</view>
     	<subset name="randomartanimationstyle" displayName="${RandomArtAnimationStyle}">
 		<include name="ease" displayName="${ease}">./animations/ease.xml</include>
+		<include name="easex2" displayName="${easex2}">./animations/easex2.xml</include>
 		<include name="chaseacross" displayName="${chaseacross}">./animations/chaseacross.xml</include>
+		<include name="chaseacrossx2" displayName="${chaseacrossx2}">./animations/chaseacrossx2.xml</include>
 	</subset>	
 	
 </theme>
