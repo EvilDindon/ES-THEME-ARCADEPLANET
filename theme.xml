@@ -1292,8 +1292,8 @@ originally based on: "carbon"
 	<textlist name="gamelist">
 	  <origin>0.5 0</origin>
       <lines>19</lines>
-      <pos>0.780729 -0.004</pos>
-      <size>0.408 0.928</size>
+      <pos>0.777 -0.004</pos>
+      <size>0.4 0.928</size>
       <alignment>left</alignment>
       <horizontalMargin>0.008</horizontalMargin>
       <fontSize>0.033</fontSize>
