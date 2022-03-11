@@ -34,6 +34,21 @@ originally based on: "carbon"
 	<SelectorBarColor>Selector Bar Color</SelectorBarColor>
     <SelectorBarColor lang="fr">Couleur de la Barre de Selection</SelectorBarColor>
 	
+	<RandomArt>System View : Random Artwork</RandomArt>
+	<RandomArt lang="fr">Vue Système : Images Aléatoires</RandomArt>
+	
+	<RandomArtAnimationStyle>Random Art Animation Style</RandomArtAnimationStyle>
+	<RandomArtAnimationStyle lang="fr">Style d'animation des artworks aléatoires</RandomArtAnimationStyle>
+	
+	<ease>ease</ease>
+	<ease lang="fr">glissement</ease>
+	
+	<chaseacross>chase across</chaseacross>
+	<chaseacross lang="fr">chassé-croisé</chaseacross>
+		            
+    <boxarts>box arts</boxarts>
+	<boxarts lang="fr">boîtes de jeux</boxarts>
+	
 	<yes>yes</yes>
     <yes lang="fr">oui</yes>
             
@@ -63,16 +78,7 @@ originally based on: "carbon"
 
 	<white>white</white>
     <white lang="fr">blanc</white>
-	
-	<basic>basic</basic>
-	<basic lang="fr">basique</basic>
-	
-	<detailed>detailed</detailed>
-	<detailed lang="fr">détaillée</detailed>
-	
-	<grid>Simple Cover Grid</grid>
-	<grid lang="fr">Grille Boîte de Jeux</grid>
-	
+		
 	<minilogos>Mini Logos + Details</minilogos>
 	<minilogos lang="fr">Mini Logos + Détails</minilogos>
 	
@@ -132,7 +138,18 @@ originally based on: "carbon"
 		<include name="red" displayName="${red}"/>
 		<include name="purple" displayName="${purple}"/>
 	</subset>
-	      
+	
+	<!-- Subsets options for Random Art -->
+	<subset name="randomart" displayName="${RandomArt}">
+		<include name="none" displayName="${none}"/>
+		<include name="marquee" displayName="logos"/>
+		<include name="thumbnail" displayName="${boxarts}"/>
+	</subset>
+	
+	<subset name="randomartanimationstyle" displayName="${RandomArtAnimationStyle}">
+		<include name="ease" displayName="${ease}"/>
+		<include name="chaseacross" displayName="${chaseacross}"/>
+	</subset>	
 	
   <view name="menu">
   
@@ -153,9 +170,9 @@ originally based on: "carbon"
       <fontSize>0.03</fontSize>
       <color>969696</color>
       <separatorColor>323232FF</separatorColor>
-      <selectorColor>0080D0</selectorColor>
-	  <selectorColor ifSubset="selectorcolor:red">D00000</selectorColor>
-      <selectorColor ifSubset="selectorcolor:purple">C820D0</selectorColor>
+      <selectorColor>0080D0E0</selectorColor>
+	  <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
+      <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
       <selectorColorEnd>00000000</selectorColorEnd>
       <selectedColor>FFFFFF</selectedColor>
       <selectorGradientType>vertical</selectorGradientType>
@@ -243,7 +260,7 @@ originally based on: "carbon"
 	  <pos>0.01 0.935</pos>
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/Bank Gothic Light BT.ttf</fontPath>
-	  <fontSize>0.0268</fontSize>
+	  <fontSize>0.0264</fontSize>
       <textColor>ae9946</textColor>
       <iconColor>c21302</iconColor>
 	  <iconSize>3</iconSize>
@@ -495,7 +512,7 @@ originally based on: "carbon"
 	</text>
 	
 	<datetime name="md_releasedate">
-      <color>AA8888FF</color>
+      <color>d2bfa8FF</color>
 	  <format>%Y</format>
 	  <fontPath>./art/ARCADE.TTF</fontPath>
 	</datetime>
@@ -565,13 +582,13 @@ originally based on: "carbon"
     </image>
  	  
 	<textlist name="gamelist">
-     <selectorColor>0080D0</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:red">D00000</selectorColor>
-     <selectorColor ifSubset="selectorcolor:purple">C820D0</selectorColor>
-	 <selectedColor>D8E8FF</selectedColor>
-	  <selectorColorEnd>00000000</selectorColorEnd>
+     <selectorColor>0080D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
+     <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
+	 <selectorColorEnd>00000000</selectorColorEnd>
 	  <selectorOffsetY>0.005</selectorOffsetY>
-	  <primaryColor>608096</primaryColor>
+	  <selectedColor>F0FAFF</selectedColor>
+	  <primaryColor>A0AABB</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <forceUppercase>1</forceUppercase>
@@ -580,9 +597,9 @@ originally based on: "carbon"
       <alignment>center</alignment>
       <horizontalMargin>0.005</horizontalMargin>
       <fontSize>0.033</fontSize>
-	  <lines>15</lines>
+	  <lines>13</lines>
 	  <scrollSound>./art/scroll.wav</scrollSound>
-	  <zIndex>17</zIndex>	  
+	  <zIndex>15</zIndex>	  
 	</textlist>
 	
 	</view>
@@ -1074,7 +1091,7 @@ originally based on: "carbon"
 	
   </customView>
   
-  <view name="detailed" displayName="${detailed}">
+  <view name="detailed">
    
     <image name="background">
 	    <path>./art/bgdetailed.jpg</path>
@@ -1142,7 +1159,7 @@ originally based on: "carbon"
 	
   </view>
   
-  <customView name="LongList+Preview" inherits="detailed" displayName="${longlist}">
+  <customView name="LongList+Preview" inherits="detailed">
  
     <image name="background">
 	  <path>./art/bglonglist+preview.jpg</path>
@@ -1211,7 +1228,7 @@ originally based on: "carbon"
 
 	<image name="md_flag">
 		<visible>true</visible>
-		<pos>0.136 0.703</pos>
+		<pos>0.13 0.703</pos>
 		<size>0.024</size>
 		<color>FFFFFF</color>
 	</image>
@@ -1230,16 +1247,16 @@ originally based on: "carbon"
     </text>	
 	
 	<datetime name="md_releasedate">
-      <pos>-0.24 0.702</pos>
+      <pos>-0.236 0.702</pos>
       <size>0.92 0.10</size>
 	  <alignment>right</alignment>
 	</datetime>
 	
     <text name="md_developer">
-      <pos>0.42 0.702</pos>
-      <size>0.27 0.10</size>
+      <pos>0.416 0.702</pos>
+      <size>0.18 0.04</size>
 	  <origin>0 0.5</origin>
-      <fontSize>0.029</fontSize>
+      <fontSize>0.018</fontSize>
     </text>
 		
 	<text name="md_genre">
@@ -1262,12 +1279,12 @@ originally based on: "carbon"
 	
 	<textlist name="gamelist">
 	  <origin>0.5 0</origin>
-      <lines>21</lines>
+      <lines>19</lines>
       <pos>0.780729 -0.004</pos>
       <size>0.408 0.928</size>
       <alignment>left</alignment>
       <horizontalMargin>0.008</horizontalMargin>
-      <fontSize>0.032</fontSize>
+      <fontSize>0.033</fontSize>
 	</textlist>
 		
    </customView>

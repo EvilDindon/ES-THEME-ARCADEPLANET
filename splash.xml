@@ -20,7 +20,7 @@
 			<origin>0.5 0.5</origin>
 			<fontPath>./art/ARCADE.TTF</fontPath>
 			<fontSize>0.02</fontSize>
-			<color>669e02FF</color>
+			<color>d2bfa8FF</color>
 			<forceUppercase>true</forceUppercase>
 			<size>1 0.1</size>
 			<alignment>center</alignment>
@@ -51,16 +51,16 @@
 		</text>
 		
 		<text name="Loading" extra="true">
-			<fontSize>0.048</fontSize>
+			<fontSize>0.036</fontSize>
 			<pos>0.5 0.400</pos>
-			<color>0080FFFF</color>
+			<color>880000FF</color>
 			<text>LOADING THEME</text>			
 		</text>
 
 		<text lang="fr" name="Loading" extra="true">
-			<fontSize>0.048</fontSize>
+			<fontSize>0.036</fontSize>
 			<pos>0.5 0.400</pos>
-			<color>0080FFff</color>
+			<color>880000ff</color>
 			<text>CHARGEMENT DU THEME</text>			
 		</text>
 		
