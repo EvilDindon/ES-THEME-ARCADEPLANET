@@ -1113,6 +1113,11 @@ originally based on: "carbon"
 	    <path>./art/bgdetailed.jpg</path>
     </image>
 	
+	<image name="background2" extra="true">
+	    <path>./art/bgdetailed2.png</path>
+		<zIndex>43</zIndex>
+    </image>
+	
 	<image name="Controller+logo 1" extra="true">
 	  <pos>0.874 0.668</pos>
      </image>
@@ -1178,6 +1183,10 @@ originally based on: "carbon"
  
     <image name="background">
 	  <path>./art/bglonglist+preview.jpg</path>
+    </image>
+	
+	<image name="background2">
+	   <visible>false</visible>
     </image>
 	
 	<image name="tv_frame" extra="true">
