@@ -546,30 +546,28 @@ originally based on: "carbon"
     </view>
   
   <view name="basic,detailed">
-  
-	<image name="Chevron Bas" extra="true">
+   
+  	<image name="Chevron Bas, Chevron Haut">
       <origin>0.5 0.5</origin>
-      <size>0.0234375 0.0398148</size>
-	  <path>./art/chevronB.png</path>
+      <size>0.01875 0.032407407</size>
+	  <color>DDDDDD</color>
+	  <path>./art/chevron-arrows-svgrepo-com.svg</path>
       <linearSmooth>false</linearSmooth>
-      <opacity>0.8</opacity>
       <zIndex>41</zIndex>
-	  <storyboard repeat="forever">
-            <animation property="offsetY" from="0" to="0.015" begin="1200" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
-			<animation property="offsetY" from="0" to="0.015" begin="2040" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	</image>
+	
+	<image name="Chevron Bas" extra="true">
+	  <flipY>true</flipY>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetY" from="0" to="0" begin="1660" duration="1260" mode="Linear"/>
 	  </storyboard>
 	</image>
 	
 	<image name="Chevron Haut" extra="true">
-      <origin>0.5 0.5</origin>
-      <size>0.0234375 0.0398148</size>
-	  <path>./art/chevronH.png</path>
-      <linearSmooth>false</linearSmooth>
-      <opacity>0.4</opacity>
-	  <zIndex>41</zIndex>
-	  <storyboard repeat="forever">
-            <animation property="offsetY" from="0" to="-0.019" begin="1200" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
-			<animation property="offsetY" from="0" to="-0.019" begin="2040" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  <flipY>false</flipY>
+      <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="-0.01" begin="2460" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
 	  </storyboard>
 	</image>
 	
@@ -602,13 +600,13 @@ originally based on: "carbon"
 	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
      <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
 	 <selectorColorEnd>00000000</selectorColorEnd>
-	  <selectorOffsetY>0.005</selectorOffsetY>
+	  <selectorOffsetY>0.01</selectorOffsetY>
 	  <selectedColor>F0FAFF</selectedColor>
 	  <primaryColor>A0AABB</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <forceUppercase>1</forceUppercase>
-      <pos>0.25 0.24</pos>
+      <pos>0.25 0.247</pos>
       <size>0.5 0.65</size>
       <alignment>center</alignment>
       <horizontalMargin>0.005</horizontalMargin>
@@ -620,7 +618,7 @@ originally based on: "carbon"
 	
 	</view>
 	
-    <view name="basic" displayName="${basic}">
+    <view name="basic">
   
     <text name="logoText">
       <size>0.98 0.126</size>
@@ -669,12 +667,12 @@ originally based on: "carbon"
 	  <path>./art/bgbasic.jpg</path>
 	</image>
 	
-	<image name="Chevron Bas" extra="true">
-      <pos>0.5 0.905</pos>
+	<image name="Chevrons Bas" extra="true">
+      <pos>0.5 0.897</pos>
 	</image>
 	
-	<image name="Chevron Haut" extra="true">
-      <pos>0.5 0.225</pos>
+	<image name="Chevrons Haut" extra="true">
+      <pos>0.5 0.245</pos>
 	</image>
 		
 	<image name="Controller+logo 1" extra="true">
@@ -1126,12 +1124,12 @@ originally based on: "carbon"
 	  <pos>0.126 0.668</pos>
     </image>
 	
-	<image name="Chevron Bas" extra="true">
-      <pos>0.75 0.905</pos>
+	<image name="Chevrons Bas" extra="true">
+      <pos>0.7640625 0.88</pos>
 	</image>
 	
-	<image name="Chevron Haut" extra="true">
-      <pos>0.75 0.45</pos>
+	<image name="Chevrons Haut" extra="true">
+      <pos>0.7640625 0.475</pos>
 	</image>
 	
 	<image name="Controller">
@@ -1220,11 +1218,11 @@ originally based on: "carbon"
 	  </image>
 		
 	<image name="Chevron Bas" extra="true">
-      <pos>0.562 0.9</pos>
+      <pos>0.777 0.905</pos>
 	</image>
 	
 	<image name="Chevron Haut" extra="true">
-      <pos>0.562 0.019</pos>
+      <pos>0.777 0.019</pos>
 	</image>
 	
 	<video name="md_video">
@@ -1278,7 +1276,7 @@ originally based on: "carbon"
 	
     <text name="md_developer">
       <pos>0.416 0.702</pos>
-      <size>0.18 0.04</size>
+      <size>0.176 0.04</size>
 	  <origin>0 0.5</origin>
       <fontSize>0.018</fontSize>
     </text>
@@ -1303,9 +1301,9 @@ originally based on: "carbon"
 	
 	<textlist name="gamelist">
 	  <origin>0.5 0</origin>
-      <lines>19</lines>
-      <pos>0.777 -0.004</pos>
-      <size>0.4 0.928</size>
+      <lines>17</lines>
+      <pos>0.777 0.0261</pos>
+      <size>0.4 0.872</size>
       <alignment>left</alignment>
       <horizontalMargin>0.008</horizontalMargin>
       <fontSize>0.033</fontSize>
