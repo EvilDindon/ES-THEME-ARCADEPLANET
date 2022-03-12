@@ -66,10 +66,18 @@
       <origin>0 0</origin>
       <path>./../bgh3.png</path>
       <zIndex>38</zIndex>
-	  <opacity>0</opacity>
 	  <storyboard>
 			<animation property="opacity" from="1" to="1" begin="350" duration="" mode="Linear"/>
       </storyboard>	  
+    </image>
+	
+	<image isSubset="randomart:marquee|thumbnail" name="bg4" extra="static">
+	  <tile>false</tile>
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <path>./../bgh4.png</path>
+      <zIndex>8</zIndex>
     </image>
 	
     <image name="Sprites" extra="static">
