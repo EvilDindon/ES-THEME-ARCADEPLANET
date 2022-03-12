@@ -40,20 +40,17 @@ originally based on: "carbon"
 	<RandomArtAnimationStyle>Random Art Animation Style</RandomArtAnimationStyle>
 	<RandomArtAnimationStyle lang="fr">Images Aléatoires : Style d'animation</RandomArtAnimationStyle>
 	
-	<ease>ease</ease>
-	<ease lang="fr">glissement</ease>
+	<easeinandout>ease in and out</easeinandout>
+	<easeinandout lang="fr">va et vient</easeinandout>
 	
-	<easex2>ease speed X 2</easex2>
-	<easex2 lang="fr">glissement vitesse X 2</easex2>
+	<crossover>crossover</crossover>
+	<crossover lang="fr">chassé-croisé</crossover>
 	
-	<chaseacross>chase across</chaseacross>
-	<chaseacross lang="fr">chassé-croisé</chaseacross>
-	
-	<chaseacrossx2>chase across X 2</chaseacrossx2>
-	<chaseacrossx2 lang="fr">chassé-croisé X 2</chaseacrossx2>
+	<crossoverx2>crossover speed X 2</crossoverx2>
+	<crossoverx2 lang="fr">chassé-croisé vitesse X 2</crossoverx2>
 		            
     <boxarts>box arts</boxarts>
-	<boxarts lang="fr">boîtes de jeux</boxarts>
+	<boxarts lang="fr">jaquettes</boxarts>
 	
 	<yes>yes</yes>
     <yes lang="fr">oui</yes>
@@ -117,18 +114,24 @@ originally based on: "carbon"
 		<include name="US"/>
 	</subset>
    
-  <!-- Subset options for System View -->
-  <subset name="systemview" displayName="${SystemViewStyle}">
-    <include name="horizontal">./art/systemview/horizontal.xml</include>
-	<include name="vertical">./art/systemview/vertical.xml</include>
-  </subset>
-  
   <!-- Subsets options for Random Art -->
 	<subset name="randomart" displayName="${RandomArt}">
 		<include name="none" displayName="${none}"/>
 		<include name="marquee" displayName="logos"/>
 		<include name="thumbnail" displayName="${boxarts}"/>
 	</subset>
+	
+	<subset name="randomartanimationstyle" displayName="${RandomArtAnimationStyle}">
+		<include name="easeinandout" displayName="${easeinandout}"/>
+		<include name="crossover" displayName="${crossover}"/>
+		<include name="crossoverx2" displayName="${crossoverx2}"/>
+	</subset>
+	
+	 <!-- Subset options for System View -->
+  <subset name="systemview" displayName="${SystemViewStyle}">
+    <include name="horizontal">./art/systemview/horizontal.xml</include>
+	<include name="vertical">./art/systemview/vertical.xml</include>
+  </subset>
   
      <!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}">
