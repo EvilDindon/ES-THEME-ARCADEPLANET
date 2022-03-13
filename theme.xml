@@ -2094,7 +2094,7 @@ originally based on: "carbon"
 			
   </customView>
   
-   <customView name="basic,detailed,LongList+Preview,VerticalLogos">
+   <customView name="basic,detailed,VerticalLogos">
   
     <image name="Chevron gauche, Chevron droite">
 	  <visible>false</visible>

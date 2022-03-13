@@ -88,12 +88,12 @@
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.9</pos>
 			<size>0.455 0.035</size>
-			<color>FA0000</color>
+			<color>800000</color>
 			<colorEnd>000000</colorEnd>
 		</image>
 		
 		<image name="progressbar:active">
-			<color>D00000</color>
+			<color>DA0030</color>
 			<colorEnd>000000</colorEnd>
 		</image>
 		

@@ -56,6 +56,61 @@
 	</imagegrid>	
 		
    </customView>
+   
+   <customView name="CoverFlow" inherits="grid" displayName="${coverflow}">
+    	
+	<image name="Chevron droite" extra="true">
+        <pos>0.984 0.7373</pos>
+    </image>
+	
+	<image name="Chevron gauche" extra="true">
+        <pos>0.016 0.7373</pos>
+    </image>
+		
+  </customView>
+  
+  <customView name="LogoFlow" inherits="grid" displayName="${logoflow}">
+  		
+	<image name="Chevron droite" extra="true">
+	  <pos>0.985 0.7373</pos>
+    </image>
+	
+	<image name="Chevron gauche" extra="true">
+	  <pos>0.015 0.7373</pos>
+    </image>
+			
+  </customView> 
+    
+  <customView name="LogosOnTop" inherits="grid" displayName="${logosontop}">
+	
+   	
+	<image name="Chevron droite" extra="true">
+	  <pos>0.985 0.21</pos>
+    </image>
+	
+	<image name="Chevron gauche" extra="true">
+	  <pos>0.015 0.21</pos>
+    </image>
+				
+  </customView>
+  
+  <customView name="VerticalLogos" inherits="grid" displayName="${verticallogos}">
+ 
+   	<image name="Chevron Bas" extra="true">
+      <visible>true</visible>
+	  <pos>0.983 0.9</pos>
+    </image>
+	
+	<image name="Chevron Haut" extra="true">
+      <visible>true</visible>
+	  <pos>0.983 0.022</pos>
+    </image>
+	
+	<image name="Chevron gauche, Chevron droite">
+	  <visible>false</visible>
+	</image>
+		
+   </customView>
         
    <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
     		
