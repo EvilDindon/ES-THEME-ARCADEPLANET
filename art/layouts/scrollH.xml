@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme defaultView="detailed">
+
+  <formatVersion>7</formatVersion>
+  		      
+  <view name="grid">
+      		
+	<image name="Chevron droite" extra="true">
+      <visible>true</visible>
+	  <pos>0.986 0.5</pos>
+    </image>
+	
+	<image name="Chevron gauche" extra="true">
+      <visible>true</visible>
+	  <pos>0.014 0.5</pos>
+    </image>
+	
+    <imagegrid name="gamegrid">
+	  <scrollDirection>horizontal</scrollDirection>
+	</imagegrid>
+	
+	<image name="Chevron Haut, Chevron Bas">
+	  <visible>false</visible>
+	</image>
+	
+   </view>
+  
+   <customView name="MiniLogos+Details" inherits="grid" displayName="${minilogos}">
+   		
+	<image name="Chevron droite" extra="true">
+      <pos>0.985 0.676</pos>
+    </image>
+	
+	<image name="Chevron gauche" extra="true">
+      <pos>0.015 0.676</pos>
+    </image>
+	
+	<imagegrid name="gamegrid">
+	  <scrollDirection>horizontal</scrollDirection>
+	</imagegrid>	
+  
+   </customView>
+	 
+   <customView name="SmallBoxes+Details" inherits="grid" displayName="${smallboxes}">
+  		
+	<image name="Chevron droite" extra="true">
+      <pos>0.985 0.676</pos>
+    </image>
+	
+	<image name="Chevron gauche" extra="true">
+      <pos>0.015 0.674</pos>
+     </image>
+	 
+	<imagegrid name="gamegrid">
+	  <scrollDirection>horizontal</scrollDirection>
+	</imagegrid>	
+		
+   </customView>
+        
+   <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
+    		
+	<image name="Chevron droite" extra="true">
+      <pos>0.676 0.02</pos>
+    </image>
+	
+	<image name="Chevron gauche" extra="true">
+      <pos>0.016 0.026</pos>
+    </image>
+  	
+    <imagegrid name="gamegrid">
+	  <scrollDirection>horizontal</scrollDirection>
+	</imagegrid>	
+	
+  </customView>
+       
+</theme>   

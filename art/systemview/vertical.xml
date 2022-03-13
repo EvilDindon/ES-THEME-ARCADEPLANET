@@ -175,30 +175,21 @@
     </image>
 		
 	<image name="Chevron Bas" extra="static">
-      <pos>0.2204 0.9</pos>
-      <origin>0.5 0.5</origin>
-      <size>0.0234375 0.0398148</size>
-	  <path>./../chevronB.png</path>
-      <linearSmooth>false</linearSmooth>
-	  <opacity>0.8</opacity>
-      <zIndex>41</zIndex>
-	  <storyboard repeat="forever">
-            <animation property="y" from="0.9" to="0.915" begin="1200" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
-			<animation property="y" from="0.9" to="0.915" begin="2040" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+      <pos>0.2204 0.896</pos>
+	  <flipY>true</flipY>
+      <color>606090</color>
+	  <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetY" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
 	  </storyboard>
 	</image>
 	
 	<image name="Chevron Haut" extra="static">
       <pos>0.2204 0.019</pos>
-      <origin>0.5 0.5</origin>
-      <size>0.0234375 0.0398148</size>
-	  <path>./../chevronH.png</path>
-      <linearSmooth>false</linearSmooth>
-	  <opacity>0.5</opacity>
-	  <zIndex>41</zIndex>
-	  <storyboard repeat="forever">
-            <animation property="y" from="0.019" to="0" begin="1200" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
-			<animation property="y" from="0.019" to="0" begin="2040" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+      <flipY>false</flipY>
+	  <color>606090</color>
+	  <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
 	  </storyboard>
 	</image>
 	
@@ -239,9 +230,9 @@
       <pos>0.667 0.936</pos>
       <size>1 0.25</size>
       <backgroundColor>0000FF00</backgroundColor>
-      <color>CD0000</color>
-      <glowColor>000000FF</glowColor>
-      <glowSize>0.5</glowSize>
+      <color>606080ff</color>
+      <glowColor>00000000</glowColor>
+      <glowSize>0.1</glowSize>
       <reflexion>0.0 0.0</reflexion>
 	</text>
 		
