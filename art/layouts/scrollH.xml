@@ -34,11 +34,7 @@
 	<image name="Chevron gauche" extra="true">
       <pos>0.015 0.676</pos>
     </image>
-	
-	<imagegrid name="gamegrid">
-	  <scrollDirection>horizontal</scrollDirection>
-	</imagegrid>	
-  
+	  
    </customView>
 	 
    <customView name="SmallBoxes+Details" inherits="grid" displayName="${smallboxes}">
@@ -50,11 +46,7 @@
 	<image name="Chevron gauche" extra="true">
       <pos>0.015 0.674</pos>
      </image>
-	 
-	<imagegrid name="gamegrid">
-	  <scrollDirection>horizontal</scrollDirection>
-	</imagegrid>	
-		
+	
    </customView>
    
    <customView name="CoverFlow" inherits="grid" displayName="${coverflow}">
@@ -109,6 +101,10 @@
 	<image name="Chevron gauche, Chevron droite">
 	  <visible>false</visible>
 	</image>
+	  
+	<imagegrid name="gamegrid">
+	  <scrollDirection>vertical</scrollDirection>
+	</imagegrid>
 		
    </customView>
         
