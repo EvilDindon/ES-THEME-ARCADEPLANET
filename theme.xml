@@ -158,13 +158,13 @@ originally based on: "carbon"
     </subset>
   
    <!-- Subset options for Tv Frame Color -->
-	<subset name="tvframecolor" displayName="${TVFrameColor}" appliesTo="detailed,Longlist+Preview,MiniLogos+Details,SmallBoxes+Details,LogoFlow,LogosOnTop,VerticalLogos">
+	<subset name="tvframecolor" displayName="${TVFrameColor}" appliesTo="detailed,LongList+Preview,MiniLogos+Details,SmallBoxes+Details,LogoFlow,LogosOnTop,VerticalLogos">
 		<include name="dark purple" displayName="${darkpurple}"/>
 		<include name="dark grey" displayName="${darkgrey}"/>
     </subset>
 		
 	<!-- Subset options for Selector Bar Color -->
-	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="menu,basic,detailed,Longlist+Preview">
+	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="menu,basic,detailed,LongList+Preview">
 		<include name="transparentblue" displayName="${transparentblue}"/>
 		<include name="transparentgrey" displayName="${transparentgrey}"/>
 		<include name="transparentred" displayName="${transparentred}"/>
@@ -174,7 +174,7 @@ originally based on: "carbon"
 	</subset>
 	
 	<!-- Subset options for Selector Text -->
-	<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="basic,detailed,Longlist+Preview">
+	<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="basic,detailed,LongList+Preview">
 		<include name="white" displayName="${white}"/>
 		<include name="yellow" displayName="${yellow}"/>
 		<include name="blue" displayName="${blue}"/>
@@ -1224,7 +1224,7 @@ originally based on: "carbon"
 	
   </view>
   
-  <customView name="LongList+Preview" inherits="detailed" displayName="longlist">
+  <customView name="LongList+Preview" inherits="detailed" displayName="${longlist}">
  
     <image name="background">
 	  <path>./art/bglonglist+preview.jpg</path>
@@ -2094,7 +2094,7 @@ originally based on: "carbon"
 			
   </customView>
   
-   <customView name="basic,detailed,VerticalLogos">
+   <customView name="basic,detailed,LongList+Preview,VerticalLogos">
   
     <image name="Chevron gauche, Chevron droite">
 	  <visible>false</visible>
