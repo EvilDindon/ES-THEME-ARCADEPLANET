@@ -110,18 +110,14 @@
         
    <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
     		
-	<image name="Chevron droite" extra="true">
+    <image name="Chevron droite" extra="true">
       <pos>0.676 0.02</pos>
     </image>
 	
-	<image name="Chevron gauche" extra="true">
+    <image name="Chevron gauche" extra="true">
       <pos>0.016 0.026</pos>
     </image>
-  	
-    <imagegrid name="gamegrid">
-	  <scrollDirection>horizontal</scrollDirection>
-	</imagegrid>	
-	
+  		
   </customView>
        
 </theme>   
