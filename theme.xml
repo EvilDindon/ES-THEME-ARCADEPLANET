@@ -723,7 +723,7 @@ originally based on: "carbon"
 	  <pos>0.249479 0.52</pos>
 	</video>
 	  
-	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate">
+	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite,ghostcheevos">
 	  <x>0.961979166</x>
 	  <size>0.031 0</size>
       <color>767676</color>
@@ -744,10 +744,14 @@ originally based on: "carbon"
 			<color>808080F0</color>
 	</image>
 	
-    <image name="md_favorite">
+    <image name="md_favorite,ghostfavorite">
 	  <y>0.067</y>
       <path>./art/favorite.svg</path>
       <color>960000</color>
+	</image>
+	
+	<image name="ghostfavorite" extra="true">
+      <color>300000</color>
 	</image>
 	
 	<image name="md_flag">
@@ -765,7 +769,7 @@ originally based on: "carbon"
 		<color>009600</color>
 	</image>
 	
-	<image name="md_cheevos, md_notcheevos">
+	<image name="md_cheevos, md_notcheevos, ghostcheevos">
 			<size>0.032 0</size>
 			<path>./art/cheevos.png</path>
 			<y>0.533333</y>
@@ -773,6 +777,10 @@ originally based on: "carbon"
 	
 	<image name="md_cheevos">
 			<color>969600</color>
+	</image>
+	
+	<image name="ghostcheevos">
+			<color>300000</color>
 	</image>
 		
 	<image name="md_savestate, md_nosavestate">
