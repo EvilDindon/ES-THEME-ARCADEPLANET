@@ -723,10 +723,11 @@ originally based on: "carbon"
 	  <pos>0.249479 0.52</pos>
 	</video>
 	  
-	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite,ghostcheevos">
+	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
 	  <x>0.961979166</x>
 	  <size>0.031 0</size>
       <color>767676</color>
+	  <origin>0.5 0.5</origin>
 	</image>
 	
 	<image name="md_hidden">
@@ -744,14 +745,14 @@ originally based on: "carbon"
 			<color>808080F0</color>
 	</image>
 	
-    <image name="md_favorite,ghostfavorite">
+    <image name="md_favorite, ghostfavorite">
 	  <y>0.067</y>
       <path>./art/favorite.svg</path>
       <color>960000</color>
 	</image>
 	
 	<image name="ghostfavorite" extra="true">
-      <color>300000</color>
+      <color>76767640</color>
 	</image>
 	
 	<image name="md_flag">
@@ -759,7 +760,7 @@ originally based on: "carbon"
 		<color>EEEEEE</color>
 	</image>
 	
-	<image name="md_manual, md_nomanual">
+	<image name="md_manual, md_nomanual, ghostmanual">
 			<size>0.035 0</size>
 			<path>./art/manual.png</path>
 			<y>0.806</y>
@@ -767,6 +768,10 @@ originally based on: "carbon"
 	
 	<image name="md_manual">
 		<color>009600</color>
+	</image>
+	
+	<image name="ghostmanual" extra="true">
+			<color>76767640</color>
 	</image>
 	
 	<image name="md_cheevos, md_notcheevos, ghostcheevos">
@@ -779,17 +784,21 @@ originally based on: "carbon"
 			<color>969600</color>
 	</image>
 	
-	<image name="ghostcheevos">
-			<color>300000</color>
+	<image name="ghostcheevos" extra="true">
+			<color>76767640</color>
 	</image>
 		
-	<image name="md_savestate, md_nosavestate">
+	<image name="md_savestate, md_nosavestate, ghostsavestate">
 			<path>./art/SaveState.png</path>
 			<y>0.670370370</y>
 	</image>
 	
 	<image name="md_savestate">
 			<color>0022FF</color>
+	</image>
+	
+	<image name="ghostsavestate" extra="true">
+			<color>76767640</color>
 	</image>
 		
 	<text name="md_description">
