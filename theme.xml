@@ -592,13 +592,10 @@ originally based on: "carbon"
 	  <glowSize>1</glowSize>
 	  <glowOffset>1</glowOffset>
       <zIndex>15</zIndex>
-		<storyboard event="activate">
-                <animation property="opacity" from="0" to="0" duration="2000" mode="Linear"/>
-				<animation property="opacity" from="0" to="1" begin="2000" duration="1500" mode="Linear"/>
+		<storyboard>
+                <animation property="opacity" from="0" to="0" duration="1500" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="1500" duration="1500" mode="Linear"/>
 		</storyboard>
-		<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-		</storyboard>	  
     </text>
 	
 	<text name="md_developer">
