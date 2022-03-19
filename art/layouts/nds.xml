@@ -13,6 +13,18 @@
     </image>
 	
   </view>
+  
+  <view name="video,gamecarousel">
+  
+    <video name="md_video">
+       <size>0.2203125 0.522222</size>
+    </video>
+	
+	<image name="md_image">
+      <size>0.2203125 0.522222</size>
+    </image>
+	
+  </view>  
     
   <customView name="MiniLogos+Details,detailed">
       
