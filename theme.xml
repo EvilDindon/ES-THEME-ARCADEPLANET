@@ -644,7 +644,7 @@ originally based on: "carbon"
 	  	  <path>./art/bgvideo2.png</path>
 		  <zIndex>1</zIndex>
 		  <storyboard>
-			<animation property="color" from="FFFFFFff" to="00000000" begin="" duration="4000" mode="Linear" autoReverse="true" repeat="forever"/>
+			<animation property="opacity" from="0" to="1" begin="" duration="4000" mode="Linear" autoReverse="true" repeat="forever"/>
 		</storyboard>
 	</image>	
 		
