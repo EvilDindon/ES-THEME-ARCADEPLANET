@@ -14,6 +14,18 @@
 	
   </view>
   
+    <view name="video,gamecarousel">
+  
+    <video name="md_video">
+       <size>0.440625 0.522222</size>
+    </video>
+	
+	<image name="md_image">
+      <size>0.440625 0.522222</size>
+    </image>
+	
+  </view>  
+  
   <customView name="LongList+Preview">
   
     <image name="Controller1">

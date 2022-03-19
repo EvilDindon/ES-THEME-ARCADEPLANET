@@ -20,7 +20,31 @@
 			</storyboard>		
      </image>
 	
+  </view>
+  
+    <view name="video,gamecarousel">
+  
+    <video name="md_video">
+       <size>0.29375 0.522222</size>
+    </video>
+	
+	<image name="md_image">
+      <size>0.29375 0.522222</size>
+    </image>
+	
   </view> 
+
+  <view name="video,gamecarousel">
+  
+    <video name="md_video">
+       <size>0.29375 0.522222</size>
+    </video>
+	
+	<image name="md_image">
+      <size>0.29375 0.522222</size>
+    </image>
+	
+  </view>   
   
   <view name="grid">
   
