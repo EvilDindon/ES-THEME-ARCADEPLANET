@@ -613,6 +613,8 @@ originally based on: "carbon"
       <color>d2bfa8FF</color>
 	  <format>%Y</format>
 	  <fontPath>./art/ARCADE.TTF</fontPath>
+	  <glowColor>00000016</glowColor>
+      <glowSize>2</glowSize>
 	</datetime>
 		  
         <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_lbl_lastplayed, md_publisher, md_lbl_gametime, md_gametime">
