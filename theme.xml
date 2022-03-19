@@ -644,7 +644,7 @@ originally based on: "carbon"
 	  	  <path>./art/bgvideo2.png</path>
 		  <zIndex>1</zIndex>
 		  <storyboard>
-			<animation property="color" from="EEEEEEff" to="00000000" begin="" duration="4000" mode="Linear" autoReverse="true" repeat="forever"/>
+			<animation property="color" from="FFFFFFff" to="00000000" begin="" duration="4000" mode="Linear" autoReverse="true" repeat="forever"/>
 		</storyboard>
 	</image>	
 		
@@ -814,13 +814,6 @@ originally based on: "carbon"
 	  <glowSize>3</glowSize>
 	  <glowOffset>1</glowOffset>
       <zIndex>15</zIndex>
-		<storyboard event="activate">
-                <animation property="opacity" from="0" to="0" duration="2000" mode="Linear"/>
-				<animation property="opacity" from="0" to="1" begin="2000" duration="1500" mode="Linear"/>
-		</storyboard>
-		<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-		</storyboard>	  
     </text>
 	
 	<text name="md_players">
