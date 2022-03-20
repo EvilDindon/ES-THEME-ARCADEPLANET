@@ -235,6 +235,10 @@
       <glowSize>0.1</glowSize>
       <reflexion>0.0 0.0</reflexion>
 	</text>
+	
+	<image name="Chevron gauche, Chevron droite">
+	  <visible>false</visible>
+	</image>
 		
   </view>
 

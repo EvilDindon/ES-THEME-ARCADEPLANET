@@ -178,7 +178,7 @@
 	  </storyboard>	  
 	</image>
 	
-	<image name="Chevron droite" extra="static">
+	<image name="Chevron droite">
 		<pos>0.985 0.764</pos>
 		<rotation>90</rotation>
 		<storyboard repeat="forever">
@@ -187,7 +187,7 @@
 	  </storyboard>
 	</image>
 	
-	<image name="Chevron gauche" extra="static">
+	<image name="Chevron gauche">
       <pos>0.015 0.764</pos>
 	  <rotation>-90</rotation>
       <storyboard repeatAt="1">
@@ -221,6 +221,10 @@
       <glowSize>0.1</glowSize>
       <reflexion>0.0 0.0</reflexion>
     </text>
+	
+	<image name="Chevron Haut, Chevron Bas">
+	  <visible>false</visible>
+	</image>
 	
 	</view>
     	<include ifSubset="randomartanimationstyle:easeinandout">./animations/easeinandout.xml</include>
