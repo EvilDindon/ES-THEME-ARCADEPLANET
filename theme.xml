@@ -164,17 +164,18 @@ originally based on: "carbon"
     </subset>
 		
 	<!-- Subset options for Selector Bar Color -->
-	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="menu,basic,detailed,LongList+Preview">
+	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="menu,basic,detailed,video,LongList+Preview">
 		<include name="transparentblue" displayName="${transparentblue}"/>
 		<include name="transparentgrey" displayName="${transparentgrey}"/>
 		<include name="transparentred" displayName="${transparentred}"/>
 		<include name="red" displayName="${red}"/>
 		<include name="blue" displayName="${blue}"/>
 		<include name="purple" displayName="${purple}"/>
+		<include name="none" displayName="${none}"/>
 	</subset>
 	
 	<!-- Subset options for Selector Text -->
-	<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="basic,detailed,LongList+Preview">
+	<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="basic,detailed,video,LongList+Preview">
 		<include name="white" displayName="${white}"/>
 		<include name="yellow" displayName="${yellow}"/>
 		<include name="blue" displayName="${blue}"/>
@@ -872,14 +873,29 @@ originally based on: "carbon"
 	</image>
 	
 	<textlist name="gamelist">
-     <selectorColor>00000000</selectorColor>
+     <selectorColor>0080D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:none">00000000</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
+     <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentred">E8000060</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
 	 <selectorColorEnd>00000000</selectorColorEnd>
-	  <selectedColor>80D0E0</selectedColor>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentblue">48A8E810</selectorColorEnd>
+	  <selectorOffsetY>0.01</selectorOffsetY>
+	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred">0</selectorOffsetY>
+	  <selectedColor>48B8F0</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">FF4048</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">F8F8F8</selectedColor>
 	  <primaryColor>899898</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
       <fontPath>./art/BebasNeue.otf</fontPath>
       <forceUppercase>1</forceUppercase>
-      <pos>0.72 0.5333333</pos>
+      <pos>0.713 0.5333333</pos>
 	  <origin>0.5 0.5</origin>
       <size>0.42291666 0.78703703</size>
       <alignment>left</alignment>
@@ -1037,6 +1053,7 @@ originally based on: "carbon"
 	 	  
 	<textlist name="gamelist">
      <selectorColor>0080D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:none">00000000</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
      <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:transparentred">E8000060</selectorColor>
