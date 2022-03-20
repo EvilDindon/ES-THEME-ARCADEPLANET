@@ -982,9 +982,10 @@ originally based on: "carbon"
 	
 	<text name="md_name">
       <color>FFFFFF</color>
-	  <pos>0.249479 0.0565</pos>
+	  <pos>0.252 0.0563</pos>
       <fontPath>./art/BebasNeue.otf</fontPath>  
-	  <size>0.4791666 0.12</size>
+	  <size>0.4791666 0.11</size>
+	  <lineSpacing>1.1</lineSpacing>
       <alignment>center</alignment>
 	  <fontSize>0.047</fontSize>
 	  <origin>0.5 0.5</origin>
