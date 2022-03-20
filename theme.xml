@@ -890,7 +890,124 @@ originally based on: "carbon"
 	  <zIndex>13</zIndex>	  
 	</textlist>
 	
-	</view>
+  </view>
+	
+	<view name="gamecarousel" displayName="Big Video + Logo Wheel">
+    
+	<image name="background">
+	  <path>./art/bggamecarousel.jpg</path>
+	</image>
+	
+	<image name="md_image">
+	  <pos>0.249479 0.415740740</pos>
+	</image>
+	
+	<video name="md_video">
+	  <pos>0.249479 0.415740740</pos>
+	</video>
+	
+	<image name="bigtv">
+	  <pos>0.249479 0.415740740</pos>
+	</image>
+	
+	<image name="Chevron Bas">
+	  <opacity>0.7</opacity>
+      <pos>0.51 0.91</pos>
+	</image>	
+	
+	<image name="Chevron Haut">
+		<opacity>0.7</opacity>
+		<pos>0.51 0.025</pos>
+	</image>
+	
+	<image name="logo">
+      <path>./art/wheel/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
+      <size>0.1375 0</size>
+	  <pos>0.5 0.5</pos>
+	  <color>BBBBBB</color>
+	  <scale>0</scale>
+	  <storyboard>
+		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
+		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.84" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.467592592" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="md_marquee,bgvideo2,Controller">
+	  <visible>false</visible>
+	</image>	  
+	
+	<gamecarousel name="gamecarousel">
+      <type>vertical_wheel</type>
+	  <logoAlignment>center</logoAlignment>
+	  <logoRotationOrigin>3.6 0.5</logoRotationOrigin>
+	  <logoRotation>12</logoRotation>
+	  <origin>0.5 0.5</origin>
+      <pos>0.612 0.47</pos>
+      <size>0.5 0.93</size>
+      <logoScale>2</logoScale>
+      <logoSize>0.20833333 0.2222222</logoSize>
+      <maxLogoCount>11</maxLogoCount>
+      <imageSource>marquee</imageSource>
+      <zIndex>10</zIndex>
+	  <scrollSound>./art/scroll2.wav</scrollSound>
+    </gamecarousel>    
+    
+	<text name="gamecarouselLogoText">
+      <fontPath>./art/BebasNeue.otf</fontPath>
+	  <color>AABBBBFF</color>
+	  <fontSize>0.042</fontSize>
+      <glowColor>000000FF</glowColor>
+      <glowSize>4</glowSize>
+      <lineSpacing>1.0</lineSpacing>
+    </text>
+	
+	<text name="md_name">
+      <color>FFFFFF</color>
+	  <pos>0.249479 0.0565</pos>
+      <fontPath>./art/BebasNeue.otf</fontPath>  
+	  <size>0.4791666 0.12</size>
+      <alignment>center</alignment>
+	  <fontSize>0.047</fontSize>
+	  <origin>0.5 0.5</origin>
+      <glowSize>2</glowSize>
+	  <zIndex>41</zIndex>
+	  <storyboard repeat="forever">
+            <animation property="color" from="FFFFFF" to="90AAAA" begin="" duration="1500" mode="Linear" autoReverse="true"/>
+	  </storyboard>	  	  
+	</text>
+	
+	<text name="md_developer">
+ 	  <pos>0.082 0.703703</pos>
+	</text>
+		
+	<datetime name="md_releasedate">
+ 	  <pos>0.018 0.703703</pos>
+	</datetime>
+	
+	<rating name="md_rating">
+      <pos>0.444 0.703703</pos>
+     </rating>	
+	
+	<text name="md_description">
+      <origin>0.5 0.5</origin>
+	  <pos>0.244 0.835185185</pos>
+	  <size>0.48 0.2</size>
+      <color>E0E0E0ff</color>
+	  <alignment>right</alignment>
+	  <opacity>0</opacity>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <fontSize>0.023</fontSize>
+	  <glowColor>00000080</glowColor>
+	  <glowSize>3</glowSize>
+	  <glowOffset>1</glowOffset>
+      <zIndex>15</zIndex>
+    </text>
+	
+  </view>
 	
   <view name="basic,detailed">
    	
@@ -2360,7 +2477,7 @@ originally based on: "carbon"
 			
   </customView>
   
-   <customView name="basic,video,detailed,LongList+Preview,VerticalLogos">
+   <customView name="basic,video,gamecarousel,detailed,LongList+Preview,VerticalLogos">
   
     <image name="Chevron gauche, Chevron droite">
 	  <visible>false</visible>
