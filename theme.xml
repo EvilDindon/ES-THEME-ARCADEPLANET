@@ -964,7 +964,7 @@ originally based on: "carbon"
       <pos>0.612 0.47</pos>
       <size>0.5 0.93</size>
       <logoScale>2</logoScale>
-      <logoSize>0.20833333 0.2222222</logoSize>
+      <logoSize>0.20833333 0.22222</logoSize>
       <maxLogoCount>11</maxLogoCount>
       <imageSource>marquee</imageSource>
       <zIndex>10</zIndex>
@@ -981,7 +981,7 @@ originally based on: "carbon"
     </text>
 	
 	<text name="md_name">
-      <color>FFFFFF</color>
+      <color>DDD000</color>
 	  <pos>0.252 0.0563</pos>
       <fontPath>./art/BebasNeue.otf</fontPath>  
 	  <size>0.4791666 0.11</size>
@@ -989,10 +989,11 @@ originally based on: "carbon"
       <alignment>center</alignment>
 	  <fontSize>0.047</fontSize>
 	  <origin>0.5 0.5</origin>
-      <glowSize>2</glowSize>
+	  <glowColor>000000ff</glowColor>
+      <glowSize>3</glowSize>
 	  <zIndex>41</zIndex>
 	  <storyboard repeat="forever">
-            <animation property="color" from="FFFFFF" to="90AAAA" begin="" duration="1500" mode="Linear" autoReverse="true"/>
+            <animation property="color" from="DDD000" to="908A40" begin="" duration="1150" mode="Linear" autoReverse="true"/>
 	  </storyboard>	  	  
 	</text>
 	
