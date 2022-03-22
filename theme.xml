@@ -96,7 +96,13 @@ originally based on: "carbon"
 	
 	<transparentgrey>transparent grey</transparentgrey>
     <transparentgrey lang="fr">gris transparent</transparentgrey>
-			
+	
+	<plainblue>plain blue</plainblue>
+    <plainblue lang="fr">bleu plein</plainblue>
+	
+	<plainred>plain red</plainred>
+    <plainred lang="fr">rouge plein</plainred>
+	
 	<minilogos>Mini Logos + Details</minilogos>
 	<minilogos lang="fr">Mini Logos + Détails</minilogos>
 	
@@ -171,6 +177,8 @@ originally based on: "carbon"
 		<include name="red" displayName="${red}"/>
 		<include name="blue" displayName="${blue}"/>
 		<include name="purple" displayName="${purple}"/>
+		<include name="plainred" displayName="${plainred}"/>
+		<include name="plainblue" displayName="${plainblue}"/>
 		<include name="none" displayName="${none}"/>
 	</subset>
 	
@@ -199,7 +207,7 @@ originally based on: "carbon"
 	
     <menuText name="menutext">
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <fontSize>0.03</fontSize>
+      <fontSize>0.026</fontSize>
       <color>969696</color>
       <separatorColor>323232FF</separatorColor>
       <selectorColor>600000</selectorColor>
@@ -880,17 +888,21 @@ originally based on: "carbon"
 	 <selectorColor ifSubset="selectorcolor:transparentred">E8000060</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblue">3070FFff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainred">A80000ff</selectorColor>
 	 <selectorColorEnd>00000000</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:transparentblue">48A8E810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblue">3070FFff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainred">A80000ff</selectorColorEnd>
 	  <selectorOffsetY>0.01</selectorOffsetY>
-	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred">0</selectorOffsetY>
-	  <selectedColor>48B8F0</selectedColor>
+	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred">0</selectorOffsetY>
+	  <selectedColor>88D8F0</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:red">FF4048</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:white">F8F8F8</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <primaryColor>899898</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
       <fontPath>./art/BebasNeue.otf</fontPath>
@@ -1061,17 +1073,21 @@ originally based on: "carbon"
 	 <selectorColor ifSubset="selectorcolor:transparentred">E8000060</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblue">3070FF</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainred">A80000</selectorColor>
 	 <selectorColorEnd>00000000</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:transparentblue">48A8E810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblue">3070FF</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainred">A80000</selectorColorEnd>
 	  <selectorOffsetY>0.01</selectorOffsetY>
-	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred">0</selectorOffsetY>
+	<selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred">0</selectorOffsetY>
 	  <selectedColor>48B8F0</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:red">FF4048</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:white">F8F8F8</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <primaryColor>A0AABB</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
