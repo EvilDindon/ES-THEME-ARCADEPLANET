@@ -282,22 +282,22 @@ originally based on: "carbon"
   <view name="screen">
     
 	<text name="clock">
-      <color>777777FF</color>
+      <color>686068</color>
       <fontSize>0.034</fontSize>
-      <pos>0 0.97</pos>
+      <pos>0.008 0.97</pos>
 	  <origin>0 0.5</origin>
       <size>0.09 0.058</size>
-      <alignment>right</alignment>
+      <alignment>left</alignment>
       <verticalAlignment>center</verticalAlignment>
     </text>
     
 	<controllerActivity name="controllerActivity">
-      <pos>0.1 0.96</pos>
+      <pos>0.05 0.96</pos>
 	  <origin>0 0.5</origin>
       <size>0.085 0.025</size>
       <itemSpacing>0.003</itemSpacing>
       <imagePath>./art/gamepad.svg</imagePath>
-      <color>FFFFFF80</color>
+      <color>686068</color>
       <activityColor>A0A0FFC0</activityColor>
       <hotkeyColor>FFA0A0C0</hotkeyColor>
     </controllerActivity>
@@ -646,11 +646,11 @@ originally based on: "carbon"
   <view name="video,gamecarousel">
   
     <helpsystem name="help">
-	  <pos>0.135 0.97</pos>
+	  <pos>0.1 0.97</pos>
 	  <origin>0 0.5</origin>
-	  <fontSize>0.03</fontSize>
-      <textColor>ae9946</textColor>
-      <iconColor>c21302</iconColor>
+	  <fontSize>0.035</fontSize>
+      <textColor>686068</textColor>
+      <iconColor>8A808A</iconColor>
     </helpsystem>
 	
 	<image name="background">
@@ -876,7 +876,7 @@ originally based on: "carbon"
     		
   </view>
   
-  <view name="video" displayName="Big Video + Details">
+  <view name="video">
 
 	<image name="Chevron Bas">
 	  <opacity>0.7</opacity>
