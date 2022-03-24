@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
   
-  <view name="detailed, grid">
+  <!-- <view name="detailed, grid">
   
     <video name="md_video">
       <size>0.18125 0.3518</size>
@@ -23,7 +23,7 @@
       <size>0.29375 0.522222</size>
     </image>
 	
-  </view>  
+  </view>   -->
   
   <customView name="LongList+Preview">
   

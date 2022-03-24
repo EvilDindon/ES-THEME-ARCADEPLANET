@@ -8,21 +8,21 @@
       <size>0.192708 0.309256</size>
 			<storyboard>
                <animation property="offsetY" from="-0.02" to="-0.02" duration="" mode="Linear"/>
-               <animation property="opacity" from="0" to="0" begin="0" duration="" mode="Linear"/>
-			   <animation property="opacity" from="0" to="1" begin="400" duration="1000" mode="Linear"/>
+<!--                <animation property="opacity" from="0" to="0" begin="0" duration="" mode="Linear"/>
+			   <animation property="opacity" from="0" to="1" begin="400" duration="1000" mode="Linear"/> -->
 			</storyboard>
     </video>
 	
-	<image name="md_image">
+<!-- 	<image name="md_image">
       <size>0.192708 0.309256</size>
 			<storyboard>
                <animation property="offsetY" from="-0.02" to="-0.02" duration="" mode="Linear"/>
 			</storyboard>		
-     </image>
+     </image> -->
 	
   </view>
 
-  <view name="video,gamecarousel">
+  <!-- <view name="video,gamecarousel">
   
     <video name="md_video">
        <size>0.29375 0.522222</size>
@@ -32,7 +32,7 @@
       <size>0.29375 0.522222</size>
     </image>
 	
-  </view>   
+  </view>    -->
   
   <view name="grid">
   

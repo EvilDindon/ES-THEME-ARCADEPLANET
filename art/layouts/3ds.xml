@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
   
-  <view name="detailed, grid">
+<!--   <view name="detailed, grid">
   
    <video name="md_video">
       <size>0.247916 0.26666</size>
@@ -12,7 +12,7 @@
       <size>0.247916 0.26666</size>
     </image>
 	
-  </view>
+  </view> -->
   
   <view name="detailed">
   
@@ -22,7 +22,7 @@
 	
   </view>
   
-  <view name="video,gamecarousel">
+  <!-- <view name="video,gamecarousel">
   
     <video name="md_video">
        <size>0.440625 0.522222</size>
@@ -32,7 +32,7 @@
       <size>0.440625 0.522222</size>
     </image>
 	
-  </view>  
+  </view>   -->
   
   <customView name="MiniLogos+Details">
       

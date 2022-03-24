@@ -501,13 +501,13 @@ originally based on: "carbon"
 	  </storyboard>
 	</image>
 	
-	<image name="md_image">
+<!-- 	<image name="md_image">
 	  <default>./art/noimage.png</default>
 	  <linearSmooth>true</linearSmooth>
 	  <size>0.271875 0.36296296296</size>
       <origin>0.5 0.5</origin>	
       <zIndex>2</zIndex>	  
-	</image>
+	</image> -->
 	
 	<image name="md_thumbnail">
 	  <default>./art/noboxart.png</default>
@@ -522,12 +522,14 @@ originally based on: "carbon"
 	</image>
 	
 	<video name="md_video">
-	  <size>0.271875 0.36296296296</size>
+	  <maxSize>0.36296296296 0.36296296296</maxSize>
       <origin>0.5 0.5</origin>
 	  <delay>0.1</delay>
 	  <effect>none</effect>
-      <showSnapshotNoVideo>false</showSnapshotNoVideo>
-      <showSnapshotDelay>0</showSnapshotDelay>
+      <showSnapshotNoVideo>true</showSnapshotNoVideo>
+	  <delay>0.7</delay>
+	  <showSnapshotDelay>true</showSnapshotDelay>
+	  <snapshotSource>image</snapshotSource>
       <loops>2</loops>
       <roundCorners>0</roundCorners>
 	  <zIndex>3</zIndex>	  
@@ -648,9 +650,9 @@ originally based on: "carbon"
     <helpsystem name="help">
 	  <pos>0.1 0.97</pos>
 	  <origin>0 0.5</origin>
-	  <fontSize>0.035</fontSize>
+	  <fontSize>0.033</fontSize>
       <textColor>686068</textColor>
-      <iconColor>8A808A</iconColor>
+      <iconColor>68608A</iconColor>
     </helpsystem>
 	
 	<image name="background">
@@ -707,10 +709,10 @@ originally based on: "carbon"
 	<zIndex>101</zIndex>
 	</image>
 			
-	<image name="md_image">
+<!-- 	<image name="md_image">
 	  <pos>0.249479 0.52</pos>
 	  <size>0.39583333 0.5277777</size>
-	</image>
+	</image> -->
 	
 	<image name="md_marquee">
 	  <linearSmooth>true</linearSmooth>
@@ -735,7 +737,7 @@ originally based on: "carbon"
 	</image>	  
 	
 	<video name="md_video">
-	  <size>0.39583333 0.5277777</size>
+	  <maxSize>0.43125 0.509</maxSize>
 	  <pos>0.249479 0.52</pos>
 	</video>
 	  
@@ -938,10 +940,10 @@ originally based on: "carbon"
 	  <path>./art/bggamecarousel.jpg</path>
 	</image>
 	
-	<image name="md_image">
+<!-- 	<image name="md_image">
 	  <pos>0.249479 0.415740740</pos>
 	</image>
-	
+	 -->
 	<video name="md_video">
 	  <pos>0.249479 0.415740740</pos>
 	</video>
@@ -1488,10 +1490,10 @@ originally based on: "carbon"
 	  <pos>0.5 0.215</pos>
     </video>
 	
-	<image name="md_image">
+<!-- 	<image name="md_image">
 	  <visible>true</visible>
 	  <pos>0.5 0.215</pos>
-    </image>
+    </image> -->
 		
 	<image name="md_flag">
 		<visible>true</visible>
@@ -1710,9 +1712,9 @@ originally based on: "carbon"
 	  <pos>0.320833333 0.36</pos>
 	</video>
 	
-	<image name="md_image">
+<!-- 	<image name="md_image">
 	  <pos>0.320833333 0.36</pos>
-	</image>
+	</image> -->
 	
 	<image name="md_marquee">
       <reflexion>0 0</reflexion>
@@ -1927,10 +1929,10 @@ originally based on: "carbon"
 	  <pos>0.015 0.7373</pos>
     </image>
 	
-	<image name="md_image">
+<!-- 	<image name="md_image">
 	  <visible>true</visible>
 	  <pos>0.5 0.245</pos>
-	</image>
+	</image> -->
 		
 	<video name="md_video">
 	  <visible>true</visible>
@@ -2057,10 +2059,10 @@ originally based on: "carbon"
 	  <pos>0.015 0.21</pos>
     </image>
 	
-	<image name="md_image">
+<!-- 	<image name="md_image">
 	  <visible>true</visible>
 	  <pos>0.5 0.405</pos>
-	</image>
+	</image> -->
 	
 	<video name="md_video">
 	  <visible>true</visible>
@@ -2251,11 +2253,11 @@ originally based on: "carbon"
 	  <zIndex>2</zIndex>
 	</video>
 	
-	<image name="md_image">
+<!-- 	<image name="md_image">
 	  <visible>true</visible>
 	  <pos>0.44375 0.3034</pos>
 	  <zIndex>1</zIndex>
-	</image>
+	</image> -->
 	
 	<image name="md_thumbnail">
 	  <visible>true</visible>

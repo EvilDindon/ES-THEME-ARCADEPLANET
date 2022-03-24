@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
   
-  <view name="detailed, grid">
+  <!-- <view name="detailed, grid">
   
     <video name="md_video">
        <size>0.20208 0.2287</size>
@@ -24,7 +24,7 @@
       <size>0.440625 0.522222</size>
     </image>
 	
-  </view>  
+  </view>   -->
     
   <customView name="VerticalLogos">
   

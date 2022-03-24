@@ -8,9 +8,9 @@
       <size>0.33 0.3426</size>
     </video>
 	
-	<image name="md_image">
+<!-- 	<image name="md_image">
       <size>0.33 0.3426</size>
-    </image>
+    </image> -->
   </view>
   
   <customView name="LongList+Preview">

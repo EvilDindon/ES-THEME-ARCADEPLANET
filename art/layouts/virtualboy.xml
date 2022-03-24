@@ -4,7 +4,7 @@
   
   <view name="detailed, grid">
   
-   <video name="md_video">
+   <!-- <video name="md_video">
         <size>0.255208 0.26296296</size>
     </video>
 	
@@ -24,6 +24,6 @@
       <size>0.440625 0.45</size>
     </image>
 	
-  </view>  
+  </view>   -->
     
 </theme>
