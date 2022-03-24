@@ -7,11 +7,11 @@
    <video name="md_video">
         <size>0.16875 0.25</size>
     </video>
-	
+<!-- 	
 	<image name="md_image">
 	    <size>0.16875 0.25</size>
     </image>
-	
+	 -->
   </view>
     
   <customView name="VerticalLogos">

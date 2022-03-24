@@ -7,10 +7,10 @@
     <video name="md_video">
       <size>0.2 0.2694444</size>
     </video>
-	
+<!-- 	
 	<image name="md_image">
       <size>0.2 0.2694444</size>
-    </image>
+    </image> -->
 	
   </view>
   
