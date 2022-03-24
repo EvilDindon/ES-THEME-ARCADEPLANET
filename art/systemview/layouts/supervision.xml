@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+   <view name="system">
+  
+    <image name="Controllers 1" extra="static">
+      <storyboard>
+				<animation property="x" from="1.1" to="0.667" begin="550" duration="300" mode="EaseOut"/>
+      </storyboard>
+    </image>
+	
+    <image name="Controllers 2" extra="static">
+      <storyboard>
+				<animation property="x" from="0.346" to="0.667" begin="550" duration="300" mode="EaseOut"/>
+      </storyboard>
+    </image>
+	
+  </view>
+
+</theme>
