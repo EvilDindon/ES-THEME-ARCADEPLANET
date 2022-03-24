@@ -1171,11 +1171,11 @@ originally based on: "carbon"
 	  <path>./art/bgbasic.jpg</path>
 	</image>
 	
-	<image name="Chevrons Bas" extra="true">
+	<image name="Chevrons Bas">
       <pos>0.5 0.897</pos>
 	</image>
 	
-	<image name="Chevrons Haut" extra="true">
+	<image name="Chevrons Haut">
       <pos>0.5 0.245</pos>
 	</image>
 		
@@ -1203,12 +1203,12 @@ originally based on: "carbon"
 	  <path>./art/bggrid.jpg</path>
 	</image>
 			
-	<image name="Chevron Bas" extra="true">
+	<image name="Chevron Bas">
       <size>0.017 0</size>
 	  <pos>0.986 0.9</pos>
     </image>
 	
-	<image name="Chevron Haut" extra="true">
+	<image name="Chevron Haut">
       <size>0.017 0</size>
 	  <pos>0.986 0.1</pos>
     </image>
@@ -1351,12 +1351,12 @@ originally based on: "carbon"
 			</storyboard>
 	</image>
 	
-	<image name="Chevron Haut" extra="true">
+	<image name="Chevron Haut">
       <size>0.017 0</size>
 	  <pos>0.986 0.446</pos>
     </image>
 	
-	<image name="Chevron Bas" extra="true">
+	<image name="Chevron Bas">
       <size>0.017 0</size>
 	  <pos>0.986 0.9</pos>
     </image>
@@ -1396,12 +1396,12 @@ originally based on: "carbon"
   
   <customView name="SmallBoxes+Details" inherits="grid" displayName="${smallboxes}">
  	 
-	 <image name="Chevron Haut" extra="true">
+	 <image name="Chevron Haut">
 	  <size>0.017 0</size>
       <pos>0.5 0.45</pos>
     </image>
 	
-	<image name="Chevron Bas" extra="true">
+	<image name="Chevron Bas">
        <size>0.017 0</size>
 	  <pos>0.5 0.9</pos>
      </image>
@@ -1477,7 +1477,7 @@ originally based on: "carbon"
 			</storyboard>
 	</image>
 	
-	<image name="tv_frame" extra="true">
+	<image name="tv_frame">
 	  <pos>0.5 0.215</pos>
     </image>
 	
@@ -1700,11 +1700,11 @@ originally based on: "carbon"
       		<maxSize>0.156 0.208</maxSize>
 	  </image>
 		
-	<image name="Chevron Bas" extra="true">
+	<image name="Chevron Bas">
       <pos>0.777 0.905</pos>
 	</image>
 	
-	<image name="Chevron Haut" extra="true">
+	<image name="Chevron Haut">
       <pos>0.777 0.019</pos>
 	</image>
 	
@@ -1801,11 +1801,11 @@ originally based on: "carbon"
 	    <path>./art/bgcoverflow.jpg</path>
     </image>
 		
-	<image name="Chevron droite" extra="true">
+	<image name="Chevron droite">
         <pos>0.984 0.7373</pos>
     </image>
 	
-	<image name="Chevron gauche" extra="true">
+	<image name="Chevron gauche">
         <pos>0.016 0.7373</pos>
     </image>
 	
@@ -1921,11 +1921,11 @@ originally based on: "carbon"
       </storyboard>
     </image>
 	
-	<image name="Chevron droite" extra="true">
+	<image name="Chevron droite">
 	  <pos>0.985 0.7373</pos>
     </image>
 	
-	<image name="Chevron gauche" extra="true">
+	<image name="Chevron gauche">
 	  <pos>0.015 0.7373</pos>
     </image>
 	
@@ -2051,11 +2051,11 @@ originally based on: "carbon"
       </storyboard>
     </image>
 	
-	<image name="Chevron droite" extra="true">
+	<image name="Chevron droite">
 	  <pos>0.985 0.21</pos>
     </image>
 	
-	<image name="Chevron gauche" extra="true">
+	<image name="Chevron gauche">
 	  <pos>0.015 0.21</pos>
     </image>
 	
@@ -2211,11 +2211,11 @@ originally based on: "carbon"
 	  	<size>0.156 0</size>
 	  </image>
 		
-	<image name="Chevron Bas" extra="true">
+	<image name="Chevron Bas">
       <pos>0.983 0.9</pos>
     </image>
 	
-	<image name="Chevron Haut" extra="true">
+	<image name="Chevron Haut">
 	  <pos>0.983 0.022</pos>
     </image>
 	
@@ -2398,12 +2398,12 @@ originally based on: "carbon"
 	  <zIndex>16</zIndex>
 	</image>
 	
-	<image name="Chevron Haut" extra="true">
+	<image name="Chevron Haut">
       <color>FFFFFF</color>
 	  <pos>0.7 0.4</pos>
     </image>
 	
-	<image name="Chevron Bas" extra="true">
+	<image name="Chevron Bas">
       <color>FFFFFF</color>
 	  <pos>0.7 0.6</pos>
     </image>

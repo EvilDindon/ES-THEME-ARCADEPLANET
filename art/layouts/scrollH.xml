@@ -5,12 +5,12 @@
   		      
   <view name="grid">
       		
-	<image name="Chevron droite" extra="true">
+	<image name="Chevron droite">
       <visible>true</visible>
 	  <pos>0.986 0.5</pos>
     </image>
 	
-	<image name="Chevron gauche" extra="true">
+	<image name="Chevron gauche">
       <visible>true</visible>
 	  <pos>0.014 0.5</pos>
     </image>
@@ -27,11 +27,11 @@
   
    <customView name="MiniLogos+Details" inherits="grid" displayName="${minilogos}">
    		
-	<image name="Chevron droite" extra="true">
+	<image name="Chevron droite">
       <pos>0.985 0.676</pos>
     </image>
 	
-	<image name="Chevron gauche" extra="true">
+	<image name="Chevron gauche">
       <pos>0.015 0.676</pos>
     </image>
 	  
@@ -39,11 +39,11 @@
 	 
    <customView name="SmallBoxes+Details" inherits="grid" displayName="${smallboxes}">
   		
-	<image name="Chevron droite" extra="true">
+	<image name="Chevron droite">
       <pos>0.985 0.676</pos>
     </image>
 	
-	<image name="Chevron gauche" extra="true">
+	<image name="Chevron gauche">
       <pos>0.015 0.674</pos>
      </image>
 	
@@ -51,11 +51,11 @@
    
    <customView name="CoverFlow" inherits="grid" displayName="${coverflow}">
     	
-	<image name="Chevron droite" extra="true">
+	<image name="Chevron droite">
         <pos>0.984 0.7373</pos>
     </image>
 	
-	<image name="Chevron gauche" extra="true">
+	<image name="Chevron gauche">
         <pos>0.016 0.7373</pos>
     </image>
 		
@@ -63,11 +63,11 @@
   
   <customView name="LogoFlow" inherits="grid" displayName="${logoflow}">
   		
-	<image name="Chevron droite" extra="true">
+	<image name="Chevron droite">
 	  <pos>0.985 0.7373</pos>
     </image>
 	
-	<image name="Chevron gauche" extra="true">
+	<image name="Chevron gauche">
 	  <pos>0.015 0.7373</pos>
     </image>
 			
@@ -76,11 +76,11 @@
   <customView name="LogosOnTop" inherits="grid" displayName="${logosontop}">
 	
    	
-	<image name="Chevron droite" extra="true">
+	<image name="Chevron droite">
 	  <pos>0.985 0.21</pos>
     </image>
 	
-	<image name="Chevron gauche" extra="true">
+	<image name="Chevron gauche">
 	  <pos>0.015 0.21</pos>
     </image>
 				
@@ -88,12 +88,12 @@
   
   <customView name="VerticalLogos" inherits="grid" displayName="${verticallogos}">
  
-   	<image name="Chevron Bas" extra="true">
+   	<image name="Chevron Bas">
       <visible>true</visible>
 	  <pos>0.983 0.9</pos>
     </image>
 	
-	<image name="Chevron Haut" extra="true">
+	<image name="Chevron Haut">
       <visible>true</visible>
 	  <pos>0.983 0.022</pos>
     </image>
@@ -110,11 +110,11 @@
         
    <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
     		
-    <image name="Chevron droite" extra="true">
+    <image name="Chevron droite">
       <pos>0.676 0.02</pos>
     </image>
 	
-    <image name="Chevron gauche" extra="true">
+    <image name="Chevron gauche">
       <pos>0.016 0.026</pos>
     </image>
   		
