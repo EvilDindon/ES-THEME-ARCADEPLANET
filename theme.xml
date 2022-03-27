@@ -708,11 +708,6 @@ originally based on: "carbon"
 	  </storyboard>
 	<zIndex>101</zIndex>
 	</image>
-			
-<!-- 	<image name="md_image">
-	  <pos>0.249479 0.52</pos>
-	  <size>0.39583333 0.5277777</size>
-	</image> -->
 	
 	<image name="md_marquee">
 	  <linearSmooth>true</linearSmooth>
@@ -934,16 +929,12 @@ originally based on: "carbon"
 	
   </view>
 	
-	<view name="gamecarousel" displayName="Big Video + Logo Wheel">
+	<view name="gamecarousel">
     
 	<image name="background">
 	  <path>./art/bggamecarousel.jpg</path>
 	</image>
-	
-<!-- 	<image name="md_image">
-	  <pos>0.249479 0.415740740</pos>
-	</image>
-	 -->
+
 	<video name="md_video">
 	  <pos>0.249479 0.415740740</pos>
 	</video>
@@ -1053,6 +1044,134 @@ originally based on: "carbon"
 	
   </view>
 	
+	<customView name="boxcarousel" inherits="gamecarousel" displayName="${BoxCarousel}">
+    
+	<image name="background">
+	  <path>./art/bgboxcarousel.jpg</path>
+	</image>
+	
+	<image name="bgboxcarousel2" extra="true">
+	  <path>./art/bgboxcarousel2.png</path>
+	  <origin>0 0</origin>
+	  <pos>0 0</pos>
+	  <zIndex>46</zIndex>
+	</image>
+
+	<video name="md_video">
+	  <pos>0.249479 0.31</pos>
+	</video>
+	
+	<image name="bigtv">
+	  <origin>0 0</origin>
+	  <pos>0 0</pos>
+	</image>
+	
+	<image name="logo">
+      <path>./art/wheel/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
+      <size>0.1375 0</size>
+	  <pos>0.5 0.5</pos>
+	  <origin>1 0.5</origin>
+	  <color>BBBBBB</color>
+	  <scale>0</scale>
+	  <storyboard>
+		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
+		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.924" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.468" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="bgvideo2,Controller,Chevron Bas,Chevron Haut,Chevron gauche, Chevron droite">
+	  <visible>false</visible>
+	</image>	  
+	
+	<gamecarousel name="gamecarousel">
+      <type>horizontal</type>
+	  <origin>0.5 1</origin>
+      <pos>0.588 0.966</pos>
+      <size>1.22 0.448</size>
+      <logoScale>1.37</logoScale>
+      <logoSize>0.115 0.68</logoSize>
+	  <logoAlignment>bottom</logoAlignment>
+      <maxLogoCount>8</maxLogoCount>
+      <imageSource>thumbnail</imageSource>
+      <zIndex>45</zIndex>
+	  <scrollSound>./art/scroll2.wav</scrollSound>
+    </gamecarousel>    
+    
+	<text name="gamecarouselLogoText">
+      <fontPath>./art/BebasNeue.otf</fontPath>
+	  <color>AABBBBFF</color>
+	  <fontSize>0.042</fontSize>
+      <glowColor>000000FF</glowColor>
+      <glowSize>4</glowSize>
+      <lineSpacing>1.0</lineSpacing>
+    </text>
+	
+	<text name="md_name">
+      <color>DDD000</color>
+	  <pos>0.7119791 0.053777777</pos>
+	  <origin>0.5 0.5</origin>
+      <fontPath>./art/BebasNeue.otf</fontPath>  
+	  <size>0.37708 0.11</size>
+	  <lineSpacing>1.1</lineSpacing>
+      <alignment>center</alignment>
+	  <fontSize>0.047</fontSize>
+	  <origin>0.5 0.5</origin>
+	  <glowColor>000000ff</glowColor>
+      <glowSize>3</glowSize>
+	  <zIndex>41</zIndex>
+	  <storyboard repeat="forever">
+            <animation property="color" from="DDD000" to="908A40" begin="" duration="1150" mode="Linear" autoReverse="true"/>
+	  </storyboard>	  	  
+	</text>
+	
+	<text name="md_developer">
+ 	  <pos>0.546 0.396296</pos>
+	  <size>0.27604 0.03</size>
+	</text>
+		
+	<datetime name="md_releasedate">
+ 	  <size>0.042 0.037</size>
+	  <origin>0 0.5</origin>
+	  <alignment>left</alignment>
+	  <pos>0.504 0.396296</pos>
+	</datetime>
+	
+	<rating name="md_rating">
+      <size>0.0316</size>
+	  <pos>0.52 0.342</pos>
+     </rating>	
+	
+	<text name="md_description">
+      <origin>0 0.5</origin>
+	  <pos>0.504 0.212</pos>
+	  <size>0.422 0.21018</size>
+      <color>E0E0E0ff</color>
+	  <alignment>left</alignment>
+	  <opacity>0</opacity>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <fontSize>0.023</fontSize>
+	  <glowColor>00000080</glowColor>
+	  <glowSize>3</glowSize>
+	  <glowOffset>1</glowOffset>
+      <zIndex>15</zIndex>
+    </text>
+	
+	<text name="md_genre">
+      <color>928e9480</color>
+	  <origin>0 0.5</origin>
+	  <alignment>left</alignment>
+	  <size>0.401041666 0.03</size>
+	  <pos>0.03 0.602</pos>
+	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontSize>0.032</fontSize>
+	</text>
+	
+  </customView>
+  
   <view name="basic,detailed">
    	
 	<image name="Controller+logo 1, Controller+logo 2">

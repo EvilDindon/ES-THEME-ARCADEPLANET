@@ -17,7 +17,18 @@
 	</image>
 	
   </view>   
-   
+      <customView name="boxcarousel">
+  
+ <gamecarousel name="gamecarousel">
+      <pos>0.59 0.966</pos>
+      <size>1.22 0.448</size>
+      <logoScale>1.37</logoScale>
+      <logoSize>0.112 0.68</logoSize>
+      <maxLogoCount>7</maxLogoCount>
+     </gamecarousel>    
+   	
+  </customView> 
+  
   <customView name="VerticalLogos">
   
     <image name="Controller" extra="true">

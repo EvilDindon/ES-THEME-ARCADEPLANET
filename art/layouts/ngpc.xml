@@ -22,17 +22,17 @@
 	
   </view>
 
- <!--  <view name="video,gamecarousel">
+    <customView name="boxcarousel">
   
-    <video name="md_video">
-       <size>0.29375 0.522222</size>
-    </video>
-	
-	<image name="md_image">
-      <size>0.29375 0.522222</size>
-    </image>
-	
-  </view>    -->
+ <gamecarousel name="gamecarousel">
+      <pos>0.6 0.966</pos>
+      <size>1.22 0.448</size>
+      <logoScale>1.37</logoScale>
+      <logoSize>0.115 0.68</logoSize>
+      <maxLogoCount>7</maxLogoCount>
+     </gamecarousel>    
+   	
+  </customView> 
   
   <view name="grid">
   
