@@ -1304,7 +1304,8 @@ originally based on: "carbon"
     </gridtile>	
 	
     <ninepatch name="gridtile.background:selected">
-      <animateColorTime>0</animateColorTime>
+      <animateColorTime>1000</animateColorTime>
+	  <animateColor>CCCC0080</animateColor>
     </ninepatch>
 	
 	<text name="md_name">
