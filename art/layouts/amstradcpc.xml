@@ -6,13 +6,13 @@
   
    <video name="md_video">
         <maxSize>0.22291667 0.290740740740740</maxSize>
-</video>
+	</video>
+	
   </view>
  
 <customView name="BoxCarousel">
     		
 	<video name="md_video">
-	   
 	   <maxSize>0.43125 0.509</maxSize>
 	</video>
 	

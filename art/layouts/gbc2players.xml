@@ -9,9 +9,7 @@
 			<delay>0</delay>
 			<storyboard>
                <animation property="offsetY" from="-0.02" to="-0.02" duration="" mode="Linear"/>
-<!--                <animation property="opacity" from="0" to="0" begin="0" duration="" mode="Linear"/>
-			   <animation property="opacity" from="0" to="1" begin="400" duration="1000" mode="Linear"/> -->
-			</storyboard>
+   		</storyboard>
     </video>
 	
   </view>
@@ -25,20 +23,22 @@
    
   </view>
     
-   <customView name="BoxCarousel">
-    		
-	<video name="md_video">
-	   
-	   	<offsetY>0</offsetY>
-	   <maxSize>0.43125 0.509</maxSize>
-	</video>
-
+  <customView name="BoxCarousel">
+  
 	<imagegrid name="gamegrid">
       <pos>0 0.625</pos>
 	  <autoLayout>5 1</autoLayout>
-	</imagegrid>  
-   	
-  </customView> 
+	</imagegrid> 
+	    		
+	<video name="md_video">
+	   <maxSize>0.43125 0.509</maxSize>
+	   	  <delay>1</delay>
+	   	  <storyboard>
+               <animation property="offsetY" from="0" to="0" duration="" begin="" mode="Linear"/>
+		</storyboard>
+	</video>
+
+  </customView>  
   
   <view name="detailed">
   

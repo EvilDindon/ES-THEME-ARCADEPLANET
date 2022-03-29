@@ -10,19 +10,17 @@
 
   </view>
     
-  <view name="video,gamecarousel,BoxCarousel">
+  <customView name="video,gamecarousel,BoxCarousel">
   	
 	<image name="bigtv" extra="true">
-  	  <path>./art/bigtvgb.png</path>
+  	  <path>./art/bigtvsupervision.png</path>
 	</image>
 	
-  </view>   
+  </customView>   
   
-     <customView name="BoxCarousel">
+  <customView name="BoxCarousel">
      		
 	<video name="md_video">
-	   
-	   	<offsetY>0</offsetY>
 	   <maxSize>0.43125 0.509</maxSize>
 	</video>
 

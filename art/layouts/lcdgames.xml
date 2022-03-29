@@ -15,7 +15,6 @@
    <customView name="BoxCarousel">
   
 	<imagegrid name="gamegrid">
-      <pos>0 0.625</pos>
 	  <autoLayout>5 1</autoLayout>
 	</imagegrid>  
    	
