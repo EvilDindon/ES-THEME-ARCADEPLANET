@@ -5,9 +5,8 @@
   <view name="detailed, grid">
   
    <video name="md_video">
-        <size>0.22291667 0.290740740740740</size>
-    </video>
-
+        <maxSize>0.22291667 0.290740740740740</maxSize>
+</video>
   </view>
  
 <customView name="BoxCarousel">

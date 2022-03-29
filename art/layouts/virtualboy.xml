@@ -5,9 +5,8 @@
   <view name="detailed, grid">
   
    <video name="md_video">
-        <size>0.255208 0.26296296</size>
-    </video>
-	
+        <maxSize>0.255208 0.26296296</maxSize>
+	</video>
 	
   </view>
   

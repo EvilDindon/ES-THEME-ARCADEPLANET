@@ -5,13 +5,9 @@
   <view name="detailed, grid">
   
     <video name="md_video">
-        <size>0.1875 0.25</size>
-    </video>
-	
-<!-- 	<image name="md_image">
-	    <size>0.1875 0.25</size>
-    </image> -->
-	
+        <maxSize>0.1875 0.25</maxSize>
+
+	</video>
   </view>
     
   <customView name="VerticalLogos">

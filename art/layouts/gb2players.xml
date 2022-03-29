@@ -5,7 +5,7 @@
   <view name="detailed, grid">
   
    <video name="md_video">
-      <size>0.192708 0.309256</size>
+      <maxSize>0.192708 0.309256</maxSize>
 	  	  <delay>0</delay>
 			<storyboard>
                <animation property="offsetY" from="-0.02" to="-0.02" duration="" mode="Linear"/>
