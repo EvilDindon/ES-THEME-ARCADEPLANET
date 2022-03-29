@@ -14,13 +14,13 @@
 	
   </view>
     
-    <view name="video,gamecarousel,BoxCarousel">
+    <customView name="video,gamecarousel,BoxCarousel">
 
 	<image name="bigtv" extra="true">
   	  <path>./art/bigtvgb.png</path>
 	</image>
 	
-  </view>   
+  </customView>   
    
   <view name="grid">
   
