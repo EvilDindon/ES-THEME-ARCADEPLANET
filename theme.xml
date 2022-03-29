@@ -1193,7 +1193,6 @@ originally based on: "carbon"
 	  <zIndex>3</zIndex>
 	</image>
 	
-
 	<video name="md_video">
 	  <visible>true</visible>
 	  <maxSize>0.43125 0.509</maxSize>
@@ -1204,7 +1203,17 @@ originally based on: "carbon"
 	  <origin>0.5 0.5</origin>
 	  <pos>.249479 0.312</pos>
 	</image>
-		
+	
+	<image name="Chevron droite">
+		<color>BBBBBB</color>
+		<pos>0.91 0.79</pos>
+    </image>
+	
+	<image name="Chevron gauche">
+		<color>BBBBBB</color>
+		<pos>0.015 0.79</pos>
+    </image>
+	
 	<image name="logo">
       <path>./art/wheelv/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
@@ -1233,11 +1242,7 @@ originally based on: "carbon"
 	  </storyboard>
 	<zIndex>1</zIndex>
 	</image>
-	
-	<image name="Chevron Bas,Chevron Haut,Chevron gauche, Chevron droite">
-	  <visible>false</visible>
-	</image>	  
-	
+
 	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate,md_players">
 	  <visible>true</visible>
 	</image>
@@ -1269,7 +1274,7 @@ originally based on: "carbon"
 	
 	<imagegrid name="gamegrid">
       <pos>0 0.625</pos>
-	  <padding>0.01 0.01 0.01 0.01</padding>
+	  <padding>0.028 0.01 0.028 0.01</padding>
 	  <margin>0.03 0</margin>
       <size>0.925 0.32</size>
 	  <scrollDirection >horizontal</scrollDirection>
@@ -2723,7 +2728,7 @@ originally based on: "carbon"
 	
   </customView>
   
-  <customView name="CoverFlow,LogoFlow,LogosOnTop">
+  <customView name="CoverFlow,LogoFlow,LogosOnTop,BoxCarousel">
  	
 	<image name="Chevron Haut, Chevron Bas">
 	  <visible>false</visible>
