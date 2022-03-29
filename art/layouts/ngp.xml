@@ -21,18 +21,6 @@
     </image> -->
 	
   </view>
-
-    <customView name="boxcarousel">
-  
- <gamecarousel name="gamecarousel">
-      <pos>0.6 0.966</pos>
-      <size>1.22 0.448</size>
-      <logoScale>1.37</logoScale>
-      <logoSize>0.115 0.68</logoSize>
-      <maxLogoCount>7</maxLogoCount>
-     </gamecarousel>    
-   	
-  </customView> 
   
   <view name="grid">
   
@@ -42,6 +30,16 @@
    </imagegrid>
    
   </view>
+  
+   <customView name="BoxCarousel">
+  
+	<imagegrid name="gamegrid">
+      <pos>0 0.625</pos>
+	  <margin>0.03</margin>
+	  <autoLayout>6 1</autoLayout>
+	</imagegrid>  
+   	
+  </customView> 
   
   <view name="detailed">
   

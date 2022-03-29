@@ -9,18 +9,15 @@
    </imagegrid>
    
   </view>
+ 
+   <customView name="BoxCarousel">
   
-  <customView name="boxcarousel">
-  
-  <gamecarousel name="gamecarousel">
-      <size>1.24 0.454</size>
-	  <pos>0.6 0.966</pos>
-	  <logoScale>1.33</logoScale>
-      <logoSize>0.16 0.69</logoSize>
-	  <maxLogoCount>5</maxLogoCount>
-   </gamecarousel>    
+	<imagegrid name="gamegrid">
+      <pos>0 0.625</pos>
+	  <autoLayout>5 1</autoLayout>
+	</imagegrid>  
    	
-  </customView>    
+  </customView>   
   
   <customView name="MiniLogos+Details">
   
