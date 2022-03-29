@@ -10,20 +10,9 @@
 
   </view>
   
-  <customView name="boxcarousel">
-  
-	<gamecarousel name="gamecarousel">
-      <pos>0.6 0.966</pos>
-      <size>1.22 0.448</size>
-      <logoScale>1.37</logoScale>
-      <logoSize>0.115 0.68</logoSize>
-      <maxLogoCount>7</maxLogoCount>
-     
-	</gamecarousel>  
-	 	    		
+  <customView name="BoxCarousel">
+ 	 	    		
 	<video name="md_video">
-	   
-	   	<offsetY>0</offsetY>
 	   <maxSize>0.43125 0.509</maxSize>
 	</video>
 
