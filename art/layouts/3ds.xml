@@ -1,19 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
-  
-<!--   <view name="detailed, grid">
-  
-   <video name="md_video">
-      <size>0.247916 0.26666</size>
-    </video>
-	
-	<image name="md_image">
-      <size>0.247916 0.26666</size>
-    </image>
-	
-  </view> -->
-  
+    
   <view name="detailed">
   
     <image name="md_thumbnail">

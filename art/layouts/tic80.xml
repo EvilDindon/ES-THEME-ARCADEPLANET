@@ -8,10 +8,18 @@
       <size>0.33 0.3426</size>
     </video>
 	
-<!-- 	<image name="md_image">
-      <size>0.33 0.3426</size>
-    </image> -->
+
   </view>
+ 
+   <customView name="BoxCarousel">
+    		
+	<video name="md_video">
+	   <size></size>
+	   	<offsetY>0</offsetY>
+	   <maxSize>0.43125 0.509</maxSize>
+	</video>
+
+  </customView> 
   
   <customView name="LongList+Preview">
   

@@ -13,12 +13,15 @@
 			</storyboard>
     </video>
 	
-<!-- 	<image name="md_image">
-      <size>0.222916 0.26296296</size>
-			<storyboard>
-               <animation property="offsetY" from="-0.029629" to="-0.029629" duration="" mode="Linear"/>
-			</storyboard>		
-     </image> -->
+<customView name="BoxCarousel">
+    		
+	<video name="md_video">
+	   <size></size>
+	   	<offsetY>0</offsetY>
+	   <maxSize>0.43125 0.509</maxSize>
+	</video>
+	
+</customView>
 	
   </view>
   

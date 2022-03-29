@@ -14,13 +14,6 @@
 			</storyboard>
     </video>
 	
-<!-- 	<image name="md_image">
-      <size>0.192708 0.309256</size>
-			<storyboard>
-               <animation property="offsetY" from="-0.02" to="-0.02" duration="" mode="Linear"/>
-			</storyboard>		
-     </image> -->
-	
   </view>
   
   <view name="grid">
@@ -33,7 +26,13 @@
   </view>
     
    <customView name="BoxCarousel">
-  
+    		
+	<video name="md_video">
+	   <size></size>
+	   	<offsetY>0</offsetY>
+	   <maxSize>0.43125 0.509</maxSize>
+	</video>
+
 	<imagegrid name="gamegrid">
       <pos>0 0.625</pos>
 	  <autoLayout>5 1</autoLayout>

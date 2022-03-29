@@ -14,24 +14,19 @@
 			</storyboard>
     </video>
 	
-<!-- 	<image name="md_image">
-      <size>0.192708 0.309256</size>
-			<storyboard>
-               <animation property="offsetY" from="-0.02" to="-0.02" duration="" mode="Linear"/>
-			</storyboard>		
-     </image> -->
-	
   </view>
     
   <view name="video,gamecarousel">
   
-<!--     <video name="md_video">
-<color>a2bc6a</color>
-    </video> -->
+<customView name="BoxCarousel">
+    		
+	<video name="md_video">
+	   <size></size>
+	   	<offsetY>0</offsetY>
+	   <maxSize>0.43125 0.509</maxSize>
+	</video>
 	
-<!-- 	<image name="md_image">
-      <size>0.29375 0.522222</size>
-    </image> -->
+</customView>
 	
 	<image name="bigtv" extra="true">
   	  <path>./art/bigtvgb.png</path>

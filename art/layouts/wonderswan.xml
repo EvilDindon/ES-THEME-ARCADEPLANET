@@ -2,30 +2,6 @@
 <theme>
   <formatVersion>7</formatVersion>
   
-  <!-- <view name="detailed, grid">
-  
-    <video name="md_video">
-      <size>0.25625 0.29074</size>
-    </video>
-	
-	<image name="md_image">
-      <size>0.25625 0.29074</size>
-    </image>
-	
-  </view>
-  
-    <view name="video,gamecarousel">
-  
-    <video name="md_video">
-       <size>0.440625 0.522222</size>
-    </video>
-	
-	<image name="md_image">
-      <size>0.440625 0.522222</size>
-    </image>
-	
-  </view>   -->
-  
   <customView name="LongList+Preview">
   
     <image name="Controller1">

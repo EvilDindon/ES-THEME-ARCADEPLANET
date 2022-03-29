@@ -7,15 +7,15 @@
    <video name="md_video">
         <size>0.16875 0.25</size>
     </video>
-<!-- 	
-	<image name="md_image">
-	    <size>0.16875 0.25</size>
-    </image>
-	 -->
   </view>
 
  <customView name="boxcarousel">
-  
+    		
+	<video name="md_video">
+	   <size></size>
+	   <maxSize>0.43125 0.509</maxSize>
+	</video>
+
  <gamecarousel name="gamecarousel">
       <pos>0.6 0.966</pos>
       <size>1.22 0.448</size>

@@ -12,25 +12,8 @@
 			   <animation property="opacity" from="0" to="1" begin="400" duration="1000" mode="Linear"/> -->
 		</storyboard>
     </video>
-<!-- 	
-	<image name="md_image">
-      <size>0.18177 0.307407</size>
-	  	<storyboard>
-               <animation property="offsetY" from="-0.01296" to="-0.01296" duration="" mode="Linear"/>
-        </storyboard>
-    </image> -->
 	
   </view>
-
-   <customView name="BoxCarousel">
-  
-	<imagegrid name="gamegrid">
-      <pos>0 0.625</pos>
-	  <margin>0.03</margin>
-	  <autoLayout>6 1</autoLayout>
-	</imagegrid>  
-   	
-  </customView> 
   
   <view name="grid">
   
@@ -40,6 +23,22 @@
    </imagegrid>
    
   </view>
+ 
+   <customView name="BoxCarousel">
+  
+	<imagegrid name="gamegrid">
+      <pos>0 0.625</pos>
+	  <margin>0.03</margin>
+	  <autoLayout>6 1</autoLayout>
+	</imagegrid> 
+	    		
+	<video name="md_video">
+	   <size></size>
+	   	<offsetY>0</offsetY>
+	   <maxSize>0.43125 0.509</maxSize>
+	</video>
+
+  </customView> 
   
   <view name="detailed">
   

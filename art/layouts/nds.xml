@@ -2,31 +2,6 @@
 <theme>
   <formatVersion>7</formatVersion>
   
-  <!-- <view name="detailed, grid">
-  
-   <video name="md_video">
-      <size>0.13542 0.35555</size>
-    </video>
-	
-	<image name="md_image">
-      <size>0.13542 0.35555</size>
-    </image>
-	
-  </view>
-  
-  <view name="video,gamecarousel">
-  
-    <video name="md_video">
-       <size>0.2203125 0.522222</size>
-    </video>
-	
-	<image name="md_image">
-      <size>0.2203125 0.522222</size>
-    </image>
-	
-  </view>   -->
-    
-  
    <customView name="BoxCarousel">
   
 	<imagegrid name="gamegrid">

@@ -1,14 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
-   
-   <customView name="BoxCarousel">
-  
-	<imagegrid name="gamegrid">
-      <pos>0 0.625</pos>
-	  <autoLayout>6 1</autoLayout>
-	</imagegrid>  
-   	
-  </customView>
-  
+ 
 </theme>
