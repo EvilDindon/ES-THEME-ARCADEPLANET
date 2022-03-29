@@ -1321,14 +1321,14 @@ originally based on: "carbon"
 	</text>
 			
 	<datetime name="md_releasedate">
-	  <pos>0.504 0.292</pos>
+	  <pos>0.504 0.2955</pos>
 	  <size>0.042 0.037</size>
 	  <alignment>left</alignment>
       <origin>0 0.5</origin>
 	</datetime>
 	
 	<text name="md_developer">
- 	  <pos>0.540 0.292</pos>
+ 	  <pos>0.540 0.2955</pos>
 	  <size>0.27604 0.03</size>
 	  <origin>0 0.5</origin>
 	</text>
