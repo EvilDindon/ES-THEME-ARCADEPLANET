@@ -9,7 +9,15 @@
 
 	</video>
   </view>
-    
+ 
+	<customView name="BoxCarousel">
+    		
+	<video name="md_video">
+	   <maxSize>0.43125 0.509</maxSize>
+	</video>
+	
+</customView>
+ 
   <customView name="VerticalLogos">
     <image name="Controller" extra="true">
 	  <x>0.444</x>	  
