@@ -339,6 +339,7 @@ originally based on: "carbon"
       <size>2 0</size>
       <origin>0.5 0.5</origin>
       <path>./art/bgsky.jpg</path>
+	  <color>AAAAAA</color>
       <zIndex>0</zIndex>
       <storyboard repeat="forever">
             <animation property="x" from="1" to="0" begin="" duration="80000" mode="Linear" autoReverse="true"/>
