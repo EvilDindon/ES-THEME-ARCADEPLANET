@@ -31,50 +31,48 @@
 
 		<text name="label">
 			<size>0.33 0.05</size>
-			<pos>0.5 0.85</pos>
+			<pos>0.5 0.75</pos>
 			<color>DDDDDDff</color>
 		</text>
 				
 		<text name="Version" extra="true">
-			<pos>0.5 0.230</pos>
+			<pos>0.5 0.2</pos>
+			<fontSize>0.016</fontSize>
+			<color>d2bfa8aa</color>
 			<text>Arcade Planet V0.97</text>			
 		</text>
 		
-		<text name="Platforms" extra="true">
+<!-- 		<text name="Platforms" extra="true">
 			<pos>0.5 0.280</pos>
 			<text>Theme for Batocera, Retrobat and Emuelec</text>			
-		</text>
+		</text> -->
 
-		<text lang="fr" name="Platforms" extra="true">
+<!-- 		<text lang="fr" name="Platforms" extra="true">
 			<pos>0.5 0.280</pos>
 			<text>Theme pour Batocera, Retrobat and Emuelec</text>			
-		</text>
+		</text> -->
 		
 		<text name="Loading" extra="true">
-			<fontSize>0.036</fontSize>
+			<fontSize>0.048</fontSize>
+			<color>A0A0AAff</color>
 			<pos>0.5 0.400</pos>
-			<color>880000FF</color>
 			<text>LOADING THEME</text>			
 		</text>
 
 		<text lang="fr" name="Loading" extra="true">
-			<fontSize>0.036</fontSize>
-			<pos>0.5 0.400</pos>
-			<color>880000ff</color>
 			<text>CHARGEMENT DU THEME</text>			
 		</text>
 		
 		<text name="Warning" extra="true">
-			<pos>0.5 0.680</pos>
+			<pos>0.018 0.95</pos>
+			<color>d2bfa8aa</color>
+			<alignment>left</alignment>
+			<origin>0 0.5</origin>
 			<fontSize>0.018</fontSize>
-			<color>A0A0A0FF</color>
 			<text>PLEASE REFER TO THE README IF THE THEME LOOKS WEIRD</text>			
 		</text>
 		
 		<text lang="fr" name="Warning" extra="true">
-			<pos>0.5 0.680</pos>
-			<fontSize>0.018</fontSize>
-			<color>A0A0A0FF</color>
 			<text>LISEZ-BIEN LE README SI LE THEME VOUS PARAIT BIZARRE</text>			
 		</text>
 						
@@ -85,9 +83,9 @@
 		</text>
 			
 		<image name="progressbar">
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.9</pos>
-			<size>0.455 0.035</size>
+			<origin>0 0.5</origin>
+			<pos>0.24 0.8</pos>
+			<size>0.25 0.03</size>
 			<color>800000</color>
 			<colorEnd>000000</colorEnd>
 		</image>
