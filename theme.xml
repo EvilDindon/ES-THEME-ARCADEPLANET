@@ -927,261 +927,8 @@ originally based on: "carbon"
     </text>
 	
   </view>
-    
-   <customView name="MiniLogos+Details" inherits="grid" displayName="${minilogos}">
-   	
-	<image name="md_thumbnail">
-		  <visible>true</visible>
-	  <pos>0.15 0.214</pos>
-          <maxSize>0.246 0.424</maxSize>
-	  <reflexion>0 0</reflexion>
-	  		<storyboard event="activate">
-                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="1" to="0" duration="" mode="Linear"/>
-			</storyboard>
-	</image>
-	
-	<image name="Chevron Haut">
-      <size>0.017 0</size>
-	  <pos>0.986 0.446</pos>
-    </image>
-	
-	<image name="Chevron Bas">
-      <size>0.017 0</size>
-	  <pos>0.986 0.9</pos>
-    </image>
-	
-	<imagegrid name="gamegrid">
-	  <margin>0 0</margin>
-      <padding>0 0 0 0</padding>
-      <pos>0 0.43</pos>
-      <size>1 0.49</size>
-	  <scrollDirection>vertical</scrollDirection>
-      <autoLayout>7 4</autoLayout>
-	  <imageSource>marquee</imageSource>
-      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
-      <centerSelection>false</centerSelection>
-    </imagegrid>
-	
-	<gridtile name="default">
-      <padding>8 8</padding>
-      <backgroundCenterColor>00000000</backgroundCenterColor>
-	  <backgroundEdgeColor>00000000</backgroundEdgeColor>
-	  <selectionMode>full</selectionMode>
-      <imageSizeMode>maxSize</imageSizeMode>
-      <imageColor>A7A7A7FF</imageColor>
-    </gridtile>
-	
-    <gridtile name="selected">
-      <backgroundCenterColor>006080FF</backgroundCenterColor>
-      <backgroundEdgeColor>006080FF</backgroundEdgeColor>
-	  <backgroundCenterColor ifSubset="selector:red">A00000FF</backgroundCenterColor>
-      <backgroundEdgeColor ifSubset="selector:red">A00000ff</backgroundEdgeColor>
-	  <backgroundCornerSize>8 8</backgroundCornerSize>
-	  <imageColor>FFFFFFFF</imageColor>
-      <padding>2 2</padding>
-    </gridtile>
-		
-  </customView>
   
-  <customView name="SmallBoxes+Details" inherits="grid" displayName="${smallboxes}">
- 	 
-	 <image name="Chevron Haut">
-	  <size>0.017 0</size>
-      <pos>0.5 0.45</pos>
-    </image>
-	
-	<image name="Chevron Bas">
-       <size>0.017 0</size>
-	  <pos>0.5 0.9</pos>
-     </image>
-	
-	<image name="md_marquee">
-	  <visible>true</visible>
-	  <pos>0.15 0.266</pos>
-      <size>0.208333 0</size>
-	  <origin>0.5 1</origin>
-	  <reflexion>0.36 0.08</reflexion>
-	  <zIndex>10</zIndex>
-	  		<storyboard event="activate">
-                <animation property="offsetX" from="-0.4" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="1" to="0" duration="" mode="Linear"/>
-			</storyboard>
-	</image>
-			
-    <imagegrid name="gamegrid">
-	  <margin>0 0</margin>
-      <padding>0 0 0 0</padding>
-      <pos>0 0.43</pos>
-      <size>1 0.49</size>
-	  <scrollDirection >vertical</scrollDirection>
-      <autoLayout>8 2</autoLayout>
-	  <imageSource>thumbnail</imageSource>
-      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
-      <centerSelection>false</centerSelection>
-	  <zIndex>11</zIndex>
-    </imagegrid>
-		
-	<gridtile name="default">
-      <padding>6 6</padding>
-      <backgroundCenterColor>00000000</backgroundCenterColor>
-	  <backgroundEdgeColor>00000000</backgroundEdgeColor>
-	  <selectionMode>image</selectionMode>
-      <imageSizeMode>maxSize</imageSizeMode>
-      <imageColor>A0A0A0FF</imageColor>
-    </gridtile>
-	
-    <gridtile name="selected">
-      <backgroundCenterColor>880000FF</backgroundCenterColor>
-      <backgroundEdgeColor>FF0000FF</backgroundEdgeColor>
-	  <backgroundCornerSize>6 6</backgroundCornerSize>
-	  <imageColor>FFFFFFFF</imageColor>
-      <padding>6 6</padding>
-    </gridtile>
-	
-   </customView>
-  
-  <customView name="MiniLogos+Details, SmallBoxes+Details, detailed">
-       		
-	<image name="background">
-	    <path>./art/bgminilogos+details.jpg</path>
-    </image>
-	
-	<image name="Controller" extra="true">
-	  <linearSmooth>false</linearSmooth>
-      <pos>0.88 0.266</pos>
-      <size>0.1375 0.2</size>
-      	  <zIndex>101</zIndex>
-	  <storyboard>
-				<animation property="offsetX" from="0.3" to="0" begin="0" duration="2000" mode="EaseOutQuint"/>
-	  </storyboard>
-	  	  	<storyboard event="activate">
-                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-			</storyboard>
-	</image>
-	
-	<image name="tv_frame">
-	  <pos>0.5 0.215</pos>
-    </image>
-	
-	<image name="tvframe2" extra="true">
-	  <pos>0.5 0.215</pos>
-    </image>
-	
-	<video name="md_video">
-	  <visible>true</visible>
-	  <pos>0.5 0.215</pos>
-    </video>
-	
-<!-- 	<image name="md_image">
-	  <visible>true</visible>
-	  <pos>0.5 0.215</pos>
-    </image> -->
-		
-	<image name="md_flag">
-		<visible>true</visible>
-		<pos>0.329 0.4135</pos>
-		<size>0.02</size>
-		<color>FFFFFF</color>
-	</image>
-	
-	<image name="md_favorite">
-	  <visible>true</visible>
-	  <pos>0.716 0.215</pos>
-      <color>A80000</color>
-	</image>
-	
-	<text name="md_name">
-      <color>FAFAFAff</color>
-      <pos>0.5 0.016</pos>
-	  <alignment>center</alignment>
-      <size>0.4 0.03</size>
-	  <fontSize>0.035</fontSize>
-      <glowColor>00000016</glowColor>
-      <glowSize>3</glowSize>
-    </text>
-			
-	<text name="md_description">
-	  <pos>0.85 0.08</pos>
-	  <size>0.3 0.164</size>    
-	  <alignment>left</alignment>
-    </text>
-	
-	<text name="md_developer, md_genre, md_playcount, md_players, md_releasedate">
-	  <alignment>left</alignment>
-	  <fontSize>0.026</fontSize>
-	  <glowColor>00000080</glowColor>
-	  <glowSize>1.5</glowSize>
-	  <glowOffset>1</glowOffset>
-	  <origin>0 0</origin>	  
-	</text>
-		
-	<text name="md_genre">
-      <color>E0E0E0</color>
-	  <pos>0.703 0.352</pos>
-      <size>0.27 0.05</size>
-    </text>
-	
-	<text name="md_players">
-	  <alignment>center</alignment>
-      <color>C8E0FF</color>
-      <pos>0.676 0.2532</pos>
-      <size>0.08 0</size>
-    </text>
-	
-	<text name="md_playcount">
-      <color>C8E0FF</color>
-      <pos>0.7372 0.3251</pos>
-      <size>0.18 0</size>
-    </text>
-	
-	<datetime name="md_releasedate">
-	  <alignment>right</alignment>
-	  <pos>0.582 0.3646</pos>
-      <fontSize>0.018</fontSize>
-	  <size>0.1 0.10</size>
-	  <zIndex>41</zIndex>
-	</datetime>
-	
-    <text name="md_developer">
-	  <fontPath>./art/ARCADE.TTF</fontPath>
-	  <fontSize>0.018</fontSize>
-      <pos>0.703 0.3955</pos>
-      <size>0.3 0.04</size>
-    </text>
-	
-	<rating name="md_rating">
-	  <pos>0.467 0.41</pos>
-      <size>0.025 0.025</size>
-	  <origin>0.5 0.5</origin>
-      <color>E0A020</color>
-      <unfilledColor>808080</unfilledColor>
-	  <zIndex>41</zIndex>
-    </rating>
-		
-	<text name="gridtile, gridtile:selected">
-      <visible>false</visible>
-    </text>
-	
-	<ninepatch name="gridtile.background:selected">
-  	  <animateColor>00507080</animateColor>
-	  <animateColor ifsubset="selector:red">600000</animateColor>
-	  <animateColorTime>1000</animateColorTime>
-    </ninepatch>
-	
-  </customView>
-  
-   <customView name="BoxCarousel" inherits="grid" displayName="${BoxCarousel}">
+  <customView name="BoxCarousel" inherits="grid" displayName="${BoxCarousel}">
     		
 	<image name="background">
 	  <path>./art/bgboxcarousel.jpg</path>
@@ -1366,7 +1113,7 @@ originally based on: "carbon"
 		
   </customView>
 
-<customView name="video,gamecarousel,BoxCarousel">
+ <customView name="video,gamecarousel,BoxCarousel">
   
     <helpsystem name="help">
 	  <pos>0.1 0.97</pos>
@@ -1780,6 +1527,259 @@ originally based on: "carbon"
 	
   </view>
   
+   <customView name="MiniLogos+Details" inherits="grid" displayName="${minilogos}">
+   	
+	<image name="md_thumbnail">
+		  <visible>true</visible>
+	  <pos>0.15 0.214</pos>
+          <maxSize>0.246 0.424</maxSize>
+	  <reflexion>0 0</reflexion>
+	  		<storyboard event="activate">
+                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="1" to="0" duration="" mode="Linear"/>
+			</storyboard>
+	</image>
+	
+	<image name="Chevron Haut">
+      <size>0.017 0</size>
+	  <pos>0.986 0.446</pos>
+    </image>
+	
+	<image name="Chevron Bas">
+      <size>0.017 0</size>
+	  <pos>0.986 0.9</pos>
+    </image>
+	
+	<imagegrid name="gamegrid">
+	  <margin>0 0</margin>
+      <padding>0 0 0 0</padding>
+      <pos>0 0.43</pos>
+      <size>1 0.49</size>
+	  <scrollDirection>vertical</scrollDirection>
+      <autoLayout>7 4</autoLayout>
+	  <imageSource>marquee</imageSource>
+      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+      <centerSelection>false</centerSelection>
+    </imagegrid>
+	
+	<gridtile name="default">
+      <padding>8 8</padding>
+      <backgroundCenterColor>00000000</backgroundCenterColor>
+	  <backgroundEdgeColor>00000000</backgroundEdgeColor>
+	  <selectionMode>full</selectionMode>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>A7A7A7FF</imageColor>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>006080FF</backgroundCenterColor>
+      <backgroundEdgeColor>006080FF</backgroundEdgeColor>
+	  <backgroundCenterColor ifSubset="selector:red">A00000FF</backgroundCenterColor>
+      <backgroundEdgeColor ifSubset="selector:red">A00000ff</backgroundEdgeColor>
+	  <backgroundCornerSize>8 8</backgroundCornerSize>
+	  <imageColor>FFFFFFFF</imageColor>
+      <padding>2 2</padding>
+    </gridtile>
+		
+  </customView>
+  
+  <customView name="SmallBoxes+Details" inherits="grid" displayName="${smallboxes}">
+ 	 
+	 <image name="Chevron Haut">
+	  <size>0.017 0</size>
+      <pos>0.5 0.45</pos>
+    </image>
+	
+	<image name="Chevron Bas">
+       <size>0.017 0</size>
+	  <pos>0.5 0.9</pos>
+     </image>
+	
+	<image name="md_marquee">
+	  <visible>true</visible>
+	  <pos>0.15 0.266</pos>
+      <size>0.208333 0</size>
+	  <origin>0.5 1</origin>
+	  <reflexion>0.36 0.08</reflexion>
+	  <zIndex>10</zIndex>
+	  		<storyboard event="activate">
+                <animation property="offsetX" from="-0.4" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="1" to="0" duration="" mode="Linear"/>
+			</storyboard>
+	</image>
+			
+    <imagegrid name="gamegrid">
+	  <margin>0 0</margin>
+      <padding>0 0 0 0</padding>
+      <pos>0 0.43</pos>
+      <size>1 0.49</size>
+	  <scrollDirection >vertical</scrollDirection>
+      <autoLayout>8 2</autoLayout>
+	  <imageSource>thumbnail</imageSource>
+      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+      <centerSelection>false</centerSelection>
+	  <zIndex>11</zIndex>
+    </imagegrid>
+		
+	<gridtile name="default">
+      <padding>6 6</padding>
+      <backgroundCenterColor>00000000</backgroundCenterColor>
+	  <backgroundEdgeColor>00000000</backgroundEdgeColor>
+	  <selectionMode>image</selectionMode>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>A0A0A0FF</imageColor>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>880000FF</backgroundCenterColor>
+      <backgroundEdgeColor>FF0000FF</backgroundEdgeColor>
+	  <backgroundCornerSize>6 6</backgroundCornerSize>
+	  <imageColor>FFFFFFFF</imageColor>
+      <padding>6 6</padding>
+    </gridtile>
+	
+   </customView>
+  
+  <customView name="MiniLogos+Details, SmallBoxes+Details, detailed">
+       		
+	<image name="background">
+	    <path>./art/bgminilogos+details.jpg</path>
+    </image>
+	
+	<image name="Controller" extra="true">
+	  <linearSmooth>false</linearSmooth>
+      <pos>0.88 0.266</pos>
+      <size>0.1375 0.2</size>
+      	  <zIndex>101</zIndex>
+	  <storyboard>
+				<animation property="offsetX" from="0.3" to="0" begin="0" duration="2000" mode="EaseOutQuint"/>
+	  </storyboard>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+	</image>
+	
+	<image name="tv_frame">
+	  <pos>0.5 0.215</pos>
+    </image>
+	
+	<image name="tvframe2" extra="true">
+	  <pos>0.5 0.215</pos>
+    </image>
+	
+	<video name="md_video">
+	  <visible>true</visible>
+	  <pos>0.5 0.215</pos>
+    </video>
+	
+<!-- 	<image name="md_image">
+	  <visible>true</visible>
+	  <pos>0.5 0.215</pos>
+    </image> -->
+		
+	<image name="md_flag">
+		<visible>true</visible>
+		<pos>0.329 0.4135</pos>
+		<size>0.02</size>
+		<color>FFFFFF</color>
+	</image>
+	
+	<image name="md_favorite">
+	  <visible>true</visible>
+	  <pos>0.716 0.215</pos>
+      <color>A80000</color>
+	</image>
+	
+	<text name="md_name">
+      <color>FAFAFAff</color>
+      <pos>0.5 0.016</pos>
+	  <alignment>center</alignment>
+      <size>0.4 0.03</size>
+	  <fontSize>0.035</fontSize>
+      <glowColor>00000016</glowColor>
+      <glowSize>3</glowSize>
+    </text>
+			
+	<text name="md_description">
+	  <pos>0.85 0.08</pos>
+	  <size>0.3 0.164</size>    
+	  <alignment>left</alignment>
+    </text>
+	
+	<text name="md_developer, md_genre, md_playcount, md_players, md_releasedate">
+	  <alignment>left</alignment>
+	  <fontSize>0.026</fontSize>
+	  <glowColor>00000080</glowColor>
+	  <glowSize>1.5</glowSize>
+	  <glowOffset>1</glowOffset>
+	  <origin>0 0</origin>	  
+	</text>
+		
+	<text name="md_genre">
+      <color>E0E0E0</color>
+	  <pos>0.703 0.352</pos>
+      <size>0.27 0.05</size>
+    </text>
+	
+	<text name="md_players">
+	  <alignment>center</alignment>
+      <color>C8E0FF</color>
+      <pos>0.676 0.2532</pos>
+      <size>0.08 0</size>
+    </text>
+	
+	<text name="md_playcount">
+      <color>C8E0FF</color>
+      <pos>0.7372 0.3251</pos>
+      <size>0.18 0</size>
+    </text>
+	
+	<datetime name="md_releasedate">
+	  <alignment>right</alignment>
+	  <pos>0.582 0.3646</pos>
+      <fontSize>0.018</fontSize>
+	  <size>0.1 0.10</size>
+	  <zIndex>41</zIndex>
+	</datetime>
+	
+    <text name="md_developer">
+	  <fontPath>./art/ARCADE.TTF</fontPath>
+	  <fontSize>0.018</fontSize>
+      <pos>0.703 0.3955</pos>
+      <size>0.3 0.04</size>
+    </text>
+	
+	<rating name="md_rating">
+	  <pos>0.467 0.41</pos>
+      <size>0.025 0.025</size>
+	  <origin>0.5 0.5</origin>
+      <color>E0A020</color>
+      <unfilledColor>808080</unfilledColor>
+	  <zIndex>41</zIndex>
+    </rating>
+		
+	<text name="gridtile, gridtile:selected">
+      <visible>false</visible>
+    </text>
+	
+	<ninepatch name="gridtile.background:selected">
+  	  <animateColor>00507080</animateColor>
+	  <animateColor ifsubset="selector:red">600000</animateColor>
+	  <animateColorTime>1000</animateColorTime>
+    </ninepatch>
+	
+  </customView>
+    
   <view name="detailed">
    
     <image name="background">
