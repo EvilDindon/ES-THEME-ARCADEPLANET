@@ -10,7 +10,7 @@
 
   </view>
     
-  <customView name="video,gamecarousel,BoxCarousel">
+  <customView name="video,gamecarousel,BoxCarousel,MiniLogos">
   	
 	<image name="bigtv" extra="true">
   	  <path>./art/bigtvsupervision.png</path>
@@ -18,7 +18,7 @@
 	
   </customView>   
   
-  <customView name="BoxCarousel">
+  <customView name="BoxCarousel,MiniLogos">
      		
 	<video name="md_video">
 	   <maxSize>0.43125 0.509</maxSize>

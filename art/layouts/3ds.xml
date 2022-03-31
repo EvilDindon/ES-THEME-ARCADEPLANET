@@ -5,7 +5,7 @@
   <view name="detailed">
   
     <image name="md_thumbnail">
-      <size>0.19 0</size>
+      <maxSize>0.19 0.3377</maxSize>
 	</image>
 	
   </view>
@@ -16,7 +16,7 @@
 	  <autoLayout>5 1</autoLayout>
 	</imagegrid>  
    	
-  </customView> 
+  </customView>
   
   <customView name="MiniLogos+Details">
       

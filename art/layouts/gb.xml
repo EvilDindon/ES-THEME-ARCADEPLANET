@@ -14,7 +14,7 @@
 	
   </view>
     
-    <customView name="video,gamecarousel,BoxCarousel">
+    <customView name="video,gamecarousel,BoxCarousel,MiniLogos">
 
 	<image name="bigtv" extra="true">
   	  <path>./art/bigtvgb.png</path>
@@ -46,6 +46,27 @@
 		</storyboard>
 	</video>
 
+  </customView> 
+ 
+  <customView name="MiniLogos">
+  
+    <video name="md_video">
+	   <maxSize>0.43125 0.509</maxSize>
+	   	  <delay>1</delay>
+	   	  <storyboard>
+               <animation property="offsetY" from="0" to="0" duration="" begin="" mode="Linear"/>
+		</storyboard>
+	</video>
+	
+	<imagegrid name="gamegrid">
+      <pos>0 0.636</pos>
+	  <autoLayout>7 3</autoLayout>
+	</imagegrid>
+
+    <image name="md_thumbnail">
+      <maxSize>0.162 0.28819</maxSize>
+	</image>	
+   	
   </customView> 
   
   <view name="detailed">

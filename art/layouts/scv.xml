@@ -18,6 +18,14 @@
    	
   </customView>   
   
+  <customView name="MiniLogos">
+
+	<imagegrid name="gamegrid">
+	  <autoLayout>7 3</autoLayout>
+	</imagegrid>
+   	
+  </customView> 
+  
   <customView name="MiniLogos+Details">
   
    <imagegrid name="gamegrid">

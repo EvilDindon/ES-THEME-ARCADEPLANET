@@ -25,6 +25,18 @@
 	
    </view>
   
+   <customView name="MiniLogos">
+   		
+	<image name="Chevron droite">
+      <pos>0.985 0.9</pos>
+    </image>
+	
+	<image name="Chevron gauche">
+      <pos>0.938 0.9</pos>
+    </image>
+	
+	</customView>
+	   
    <customView name="MiniLogos+Details" inherits="grid" displayName="${minilogos}">
    		
 	<image name="Chevron droite">
