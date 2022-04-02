@@ -1571,7 +1571,11 @@ originally based on: "carbon"
       <color>E0A020</color>
       <unfilledColor>808080</unfilledColor>
 	  <zIndex>41</zIndex>	  
-    </rating>	
+    </rating>
+	
+	<text name="md_genre">
+		<visible>false</visible>
+	</text>
 	
   </view>
 	
