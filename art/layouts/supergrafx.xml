@@ -31,6 +31,16 @@
 	</imagegrid>
    	
   </customView> 
+ 
+ <customView name="MiniLogosRight">
+   	
+	<imagegrid name="gamegrid">
+      <pos>0.5 0.132</pos>
+      <size>0.42291666 0.804</size>
+      <autoLayout>3 7</autoLayout>
+	</imagegrid>
+    
+  </customView>
   
    <customView name="MiniLogos+Details">
    

@@ -62,6 +62,27 @@
    	
   </customView> 
   
+  <customView name="MiniLogosRight">
+  
+  <video name="md_video">
+	   <maxSize>0.43125 0.509</maxSize>
+	   	  <delay>1</delay>
+	   	  <storyboard>
+               <animation property="offsetY" from="0" to="0" duration="" begin="" mode="Linear"/>
+		</storyboard>
+	</video>
+	
+	<imagegrid name="gamegrid">
+      <pos>0.5 0.132</pos>
+      <autoLayout>3 7</autoLayout>
+	</imagegrid>
+	
+    <image name="md_thumbnail">
+      <maxSize>0.130208 0.23148148</maxSize>
+	</image>
+  
+  </customView>
+  
   <view name="detailed">
   
     <image name="md_thumbnail">

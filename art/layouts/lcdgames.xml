@@ -27,6 +27,14 @@
 	</imagegrid>
    	
   </customView> 
+ 
+<customView name="MiniLogosRight">
+	
+	<imagegrid name="gamegrid">
+      <autoLayout>3 7</autoLayout>
+	</imagegrid>
+	 
+  </customView>
   
   <customView name="MiniLogos+Details">
   	

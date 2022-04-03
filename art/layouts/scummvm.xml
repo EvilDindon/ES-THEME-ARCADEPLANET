@@ -9,7 +9,7 @@
 	</video>
   </view>
 
-  <customView name="boxcarousel,Minilogos">
+  <customView name="boxcarousel,MiniLogos,MiniLogosRight">
     		
 	<video name="md_video">
 	   <maxSize>0.43125 0.509</maxSize>

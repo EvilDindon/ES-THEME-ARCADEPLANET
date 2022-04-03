@@ -18,6 +18,22 @@
    	
   </customView>
   
+  <customView name="MiniLogos">
+  
+    <image name="md_thumbnail">
+      <maxSize>0.16210935 0.28819425</maxSize>
+	</image>
+  
+  </customView>
+ 
+   <customView name="MiniLogosRight">
+  
+    <image name="md_thumbnail">
+      <maxSize>0.130208 0.23148148</maxSize>
+	</image>
+  
+  </customView>
+ 
   <customView name="MiniLogos+Details">
       
     <image name="md_thumbnail">
