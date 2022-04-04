@@ -38,7 +38,7 @@
 		<text name="Version" extra="true">
 			<pos>0.5 0.2</pos>
 			<fontSize>0.016</fontSize>
-			<color>d2bfa8aa</color>
+			<color>A0A0A0</color>
 			<text>Arcade Planet V0.97</text>			
 		</text>
 		
@@ -54,18 +54,18 @@
 		
 		<text name="Loading" extra="true">
 			<fontSize>0.048</fontSize>
-			<color>A0A0AAff</color>
+			<color>A00000</color>
 			<pos>0.5 0.400</pos>
-			<text>LOADING THEME</text>			
+			<text>LOADING</text>			
 		</text>
 
 		<text lang="fr" name="Loading" extra="true">
-			<text>CHARGEMENT DU THEME</text>			
+			<text>CHARGEMENT</text>			
 		</text>
 		
 		<text name="Warning" extra="true">
 			<pos>0.018 0.95</pos>
-			<color>d2bfa8aa</color>
+			<color>909090</color>
 			<alignment>left</alignment>
 			<origin>0 0.5</origin>
 			<fontSize>0.018</fontSize>
