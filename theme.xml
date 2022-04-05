@@ -115,6 +115,9 @@ originally based on: "carbon"
 	<minilogosright>Mini Logos on right</minilogosright>
 	<minilogosright lang="fr">Mini Logos à Droite</minilogosright>
 	
+	<boxcarousel>Box Carousel</boxcarousel>
+	<boxcarousel lang="fr">Carousel de Boîtes</boxcarousel>
+	
 	<smallboxes>Small Boxes + Details</smallboxes>
 	<smallboxes lang="fr">Petites Boîtes + Détails</smallboxes>
 	
@@ -131,7 +134,7 @@ originally based on: "carbon"
 	<logosontop lang="fr">Logos au-dessus + Aperçu</logosontop>
 	
 	<verticallogos>Vertical Logo Wheel + Preview</verticallogos>
-	<verticallogos lang="fr">Roue Verticale + Aperçu</verticallogos>
+	<verticallogos lang="fr">Roue de Logos Verticale + Aperçu</verticallogos>
 	
 	<retrotiles>Retro Tiles</retrotiles>
 	<retrotiles lang="fr">Tuiles Rétro</retrotiles>
@@ -931,7 +934,7 @@ originally based on: "carbon"
 	
   </view>
   
-  <customView name="BoxCarousel" inherits="grid" displayName="${BoxCarousel}">
+  <customView name="BoxCarousel" inherits="grid" displayName="${boxcarousel}">
     		
 	<image name="background">
 	  <path>./art/bgboxcarousel.jpg</path>
