@@ -133,8 +133,8 @@ originally based on: "carbon"
 	<logosontop>Logos on Top + Preview (old)</logosontop>
 	<logosontop lang="fr">Logos au-dessus + Aperçu (old)</logosontop>
 	
-	<verticallogos>Vertical Logo Wheel + Preview</verticallogos>
-	<verticallogos lang="fr">Roue de Logos Verticale + Aperçu</verticallogos>
+	<verticallogos>Vertical Logo Wheel + Preview (old)</verticallogos>
+	<verticallogos lang="fr">Roue de Logos Verticale + Aperçu (old)</verticallogos>
 	
 	<retrotiles>Retro Tiles</retrotiles>
 	<retrotiles lang="fr">Tuiles Rétro</retrotiles>
@@ -1858,6 +1858,141 @@ originally based on: "carbon"
    </text>
 	
   </view>
+   
+  <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
+    
+	<image name="background">
+	    <path>./art/bgretrotiles.jpg</path>
+    </image>
+	
+	<image name="background2" extra="true">
+      <path>./art/bgretrotiles2.png</path>
+	  <zIndex>16</zIndex>
+	</image>
+	
+	<image name="Chevron Haut">
+      <color>FFFFFF</color>
+	  <pos>0.7 0.4</pos>
+    </image>
+	
+	<image name="Chevron Bas">
+      <color>FFFFFF</color>
+	  <pos>0.7 0.6</pos>
+    </image>
+	
+    <image name="md_thumbnail">
+	  <visible>true</visible>
+	  <pos>0.8427 0.321</pos>
+	  <origin>0.5 0</origin>
+      <maxSize>0.26 0.44</maxSize>
+	  <reflexion>0.28 0</reflexion>
+	  <zIndex>17</zIndex>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+	</image>
+		
+   	<rating name="md_rating">
+      <pos>0.818 0.808</pos>
+      <size>0.03 0.03</size>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+    </rating>
+	
+	<text name="md_name">
+      <color>FFFFFFff</color>
+      <pos>0.8427 0.292</pos>
+      <size>0.296 0.10</size>
+	  <fontSize>0.042</fontSize>
+	  <glowSize>3</glowSize>
+	  <glowColor>000000ff</glowColor>
+	  <storyboard event="activate">
+                <animation property="opacity" from="0" to="1" duration="1200" mode="Linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+		</storyboard>
+    </text>
+	
+	<text name="md_developer">
+      <pos>0.8427 0.779</pos>
+      <size>0.3 0.12</size>
+	  <origin>0.5 0.5</origin>
+      <alignment>center</alignment>
+      <fontSize>0.029</fontSize>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+    </text>
+	
+	<text name="md_description">
+	  <pos>0.846 0.128</pos>
+	  <size>0.31 0.264</size>    
+	  <alignment>left</alignment>
+    </text>
+	
+	<imagegrid name="gamegrid">
+	  <padding>0 0.08 0 0</padding>
+      <pos>0 0.01</pos>
+      <size>0.69 0.91</size>
+	  <scrollDirection>vertical</scrollDirection>
+      <autoLayout>4 3</autoLayout>
+      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+	  <imageSource>image</imageSource>
+      <margin>0 0.03</margin>
+	  <showVideoAtDelay>100</showVideoAtDelay>
+	  <effect>none</effect>
+      <centerSelection>false</centerSelection>
+	  <scrollLoop>true</scrollLoop>
+	  <zIndex>41</zIndex>
+    </imagegrid>
+		
+    <gridtile name="default">
+      <padding>16 16</padding>
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>999999ff</backgroundEdgeColor>
+	  <selectionMode>image</selectionMode>
+      <imageSizeMode>maxSize</imageSizeMode>
+	  <imageColor>858585ff</imageColor>
+    </gridtile>
+	
+    <gridtile name="selected">
+	  <padding>6 6</padding>
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFFff</backgroundEdgeColor>
+	  <imageColor>FFFFFFFF</imageColor>
+	 </gridtile> 
+	    
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>FF0000ff</animateColor>
+      <animateColorTime>800</animateColorTime>
+    </ninepatch>
+	
+	<image name="gridtile.marquee">
+      <color>A5A5A5ff</color>
+      <pos>0.5 0</pos>
+      <origin>0.5 1</origin>
+      <size>0.7 0.4</size>
+    </image>
+	
+    <image name="gridtile.marquee:selected">
+      <color>FFFFFFFF</color>
+    </image>
+			
+  </customView>
   
   <customView name="VerticalLogos" inherits="grid" displayName="${verticallogos}">
  
@@ -2064,141 +2199,6 @@ originally based on: "carbon"
 	
    </customView>
    
-   <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
-    
-	<image name="background">
-	    <path>./art/bgretrotiles.jpg</path>
-    </image>
-	
-	<image name="background2" extra="true">
-      <path>./art/bgretrotiles2.png</path>
-	  <zIndex>16</zIndex>
-	</image>
-	
-	<image name="Chevron Haut">
-      <color>FFFFFF</color>
-	  <pos>0.7 0.4</pos>
-    </image>
-	
-	<image name="Chevron Bas">
-      <color>FFFFFF</color>
-	  <pos>0.7 0.6</pos>
-    </image>
-	
-    <image name="md_thumbnail">
-	  <visible>true</visible>
-	  <pos>0.8427 0.321</pos>
-	  <origin>0.5 0</origin>
-      <maxSize>0.26 0.44</maxSize>
-	  <reflexion>0.28 0</reflexion>
-	  <zIndex>17</zIndex>
-	  	  	<storyboard event="activate">
-                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-			</storyboard>
-	</image>
-		
-   	<rating name="md_rating">
-      <pos>0.818 0.808</pos>
-      <size>0.03 0.03</size>
-	  	  	<storyboard event="activate">
-                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-			</storyboard>
-    </rating>
-	
-	<text name="md_name">
-      <color>FFFFFFff</color>
-      <pos>0.8427 0.292</pos>
-      <size>0.296 0.10</size>
-	  <fontSize>0.042</fontSize>
-	  <glowSize>3</glowSize>
-	  <glowColor>000000ff</glowColor>
-	  <storyboard event="activate">
-                <animation property="opacity" from="0" to="1" duration="1200" mode="Linear"/>
-		</storyboard>
-		<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-		</storyboard>
-    </text>
-	
-	<text name="md_developer">
-      <pos>0.8427 0.779</pos>
-      <size>0.3 0.12</size>
-	  <origin>0.5 0.5</origin>
-      <alignment>center</alignment>
-      <fontSize>0.029</fontSize>
-	  	  	<storyboard event="activate">
-                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-			</storyboard>
-    </text>
-	
-	<text name="md_description">
-	  <pos>0.846 0.128</pos>
-	  <size>0.31 0.264</size>    
-	  <alignment>left</alignment>
-    </text>
-	
-	<imagegrid name="gamegrid">
-	  <padding>0 0.08 0 0</padding>
-      <pos>0 0.01</pos>
-      <size>0.69 0.91</size>
-	  <scrollDirection>vertical</scrollDirection>
-      <autoLayout>4 3</autoLayout>
-      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
-	  <imageSource>image</imageSource>
-      <margin>0 0.03</margin>
-	  <showVideoAtDelay>100</showVideoAtDelay>
-	  <effect>none</effect>
-      <centerSelection>false</centerSelection>
-	  <scrollLoop>true</scrollLoop>
-	  <zIndex>41</zIndex>
-    </imagegrid>
-		
-    <gridtile name="default">
-      <padding>16 16</padding>
-      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
-      <backgroundEdgeColor>999999ff</backgroundEdgeColor>
-	  <selectionMode>image</selectionMode>
-      <imageSizeMode>maxSize</imageSizeMode>
-	  <imageColor>858585ff</imageColor>
-    </gridtile>
-	
-    <gridtile name="selected">
-	  <padding>6 6</padding>
-      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
-      <backgroundEdgeColor>FFFFFFff</backgroundEdgeColor>
-	  <imageColor>FFFFFFFF</imageColor>
-	 </gridtile> 
-	    
-    <ninepatch name="gridtile.background:selected">
-      <animateColor>FF0000ff</animateColor>
-      <animateColorTime>800</animateColorTime>
-    </ninepatch>
-	
-	<image name="gridtile.marquee">
-      <color>A5A5A5ff</color>
-      <pos>0.5 0</pos>
-      <origin>0.5 1</origin>
-      <size>0.7 0.4</size>
-    </image>
-	
-    <image name="gridtile.marquee:selected">
-      <color>FFFFFFFF</color>
-    </image>
-			
-  </customView>
-  
    <customView name="MiniLogos+Details" inherits="grid" displayName="${minilogos}">
    	
 	<image name="md_thumbnail">
