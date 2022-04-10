@@ -118,20 +118,20 @@ originally based on: "carbon"
 	<boxcarousel>Box Carousel</boxcarousel>
 	<boxcarousel lang="fr">Carousel de Boîtes</boxcarousel>
 	
-	<smallboxes>Small Boxes + Details</smallboxes>
-	<smallboxes lang="fr">Petites Boîtes + Détails</smallboxes>
+	<smallboxes>Small Boxes + Details (old)</smallboxes>
+	<smallboxes lang="fr">Petites Boîtes + Détails (old)</smallboxes>
 	
-	<longlist>Long List + Preview</longlist>
-	<longlist lang="fr">Longue Liste + Aperçu</longlist>
+	<longlist>Long List + Preview (old)</longlist>
+	<longlist lang="fr">Longue Liste + Aperçu (old)</longlist>
 	
-	<coverflow>Cover Flow</coverflow>
-	<coverflow lang="fr">Flot de Jaquettes</coverflow>
+	<coverflow>Cover Flow (old)</coverflow>
+	<coverflow lang="fr">Flot de Jaquettes (old)</coverflow>
 	
-	<logoflow>Logo Flow + Preview</logoflow>
-	<logoflow lang="fr">Flot de Logos + Aperçu</logoflow>
+	<logoflow>Logo Flow + Preview (old)</logoflow>
+	<logoflow lang="fr">Flot de Logos + Aperçu (old)</logoflow>
 	
-	<logosontop>Logos on Top + Preview</logosontop>
-	<logosontop lang="fr">Logos au-dessus + Aperçu</logosontop>
+	<logosontop>Logos on Top + Preview (old)</logosontop>
+	<logosontop lang="fr">Logos au-dessus + Aperçu (old)</logosontop>
 	
 	<verticallogos>Vertical Logo Wheel + Preview</verticallogos>
 	<verticallogos lang="fr">Roue de Logos Verticale + Aperçu</verticallogos>
@@ -507,14 +507,6 @@ originally based on: "carbon"
             <animation property="offsetX" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
 	  </storyboard>
 	</image>
-	
-<!-- 	<image name="md_image">
-	  <default>./art/noimage.png</default>
-	  <linearSmooth>true</linearSmooth>
-	  <size>0.271875 0.36296296296</size>
-      <origin>0.5 0.5</origin>	
-      <zIndex>2</zIndex>	  
-	</image> -->
 	
 	<image name="md_thumbnail">
 	  <default>./art/noboxart.png</default>
@@ -1867,6 +1859,346 @@ originally based on: "carbon"
 	
   </view>
   
+  <customView name="VerticalLogos" inherits="grid" displayName="${verticallogos}">
+ 
+    <image name="background">
+	  <path>./art/bgverticallogos.jpg</path>
+    </image>
+		
+	<image name="tv_frame" extra="true">
+	  <pos>0.44375 0.3074</pos>
+	  <visible>true</visible>
+	  <zIndex>40</zIndex>
+    </image>
+	
+	<image name="tvframe2" extra="true">
+	  <pos>0.44375 0.3074</pos>
+      <zIndex>41</zIndex>
+    </image>
+	
+	<image name="Controller" extra="true">
+	  	    <pos>0.358 0.809</pos>
+      	  	<storyboard>
+			<animation property="offsetX" from="-0.558" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
+     		</storyboard>	  
+  	</image>
+	
+	<image name="Controller2" extra="true">
+	    	<pos>0.53375 0.809</pos>
+        	<storyboard>
+			<animation property="offsetX" from="0.66625" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
+      		</storyboard>       
+   	</image>
+	  
+	  <image name="Controller, Controller2">
+	  	<size>0.156 0</size>
+	  </image>
+		
+	<image name="Chevron Bas">
+      <pos>0.983 0.9</pos>
+    </image>
+	
+	<image name="Chevron Haut">
+	  <pos>0.983 0.022</pos>
+    </image>
+	
+	<image name="Red Arrow Right" extra="true">
+      <pos>0.968 0.4628</pos>
+      <origin>0.5 0.5</origin>
+      <size>0.0328125 0.03611111</size>
+	  <rotation>90</rotation>
+	  <opacity>0.8</opacity>
+	  <path>./art/RedArrowD.png</path>
+      <linearSmooth>false</linearSmooth>
+	  <zIndex>41</zIndex>
+	  <storyboard>
+            <animation property="x" from="0.968" to="0.978" begin="" duration="550" mode="Linear" autoReverse="true" repeat="forever"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Red Arrow Left" extra="true">
+      <pos>0.73 0.462037</pos>
+      <origin>0.5 0.5</origin>
+      <size>0.0328125 0.03611111</size>
+	  <path>./art/RedArrowD.png</path>
+      <linearSmooth>false</linearSmooth>
+	  <rotation>-90</rotation>
+	  <opacity>0.4</opacity>
+	  <zIndex>41</zIndex>
+	  <storyboard>
+            <animation property="x" from="0.73" to="0.72" begin="" duration="550" mode="Linear" autoReverse="true" repeat="forever"/>
+	  </storyboard>
+	</image>
+		
+    <video name="md_video">
+	  <pos>0.44375 0.3034</pos>
+      <visible>true</visible>
+	  <zIndex>2</zIndex>
+	</video>
+	
+	<image name="md_thumbnail">
+	  <visible>true</visible>
+	  <pos>0.123 0.518</pos>
+	  <origin>0.5 1</origin>
+          <maxSize>0.22 0.379</maxSize>
+	  <reflexion>0.3 0.05</reflexion>
+		  	<storyboard event="activate">
+                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="1" to="0" duration="" mode="Linear"/>
+			</storyboard>
+	</image>
+	
+	<image name="md_flag">
+		<visible>true</visible>
+		<pos>0.26 0.672</pos>
+		<size>0.024</size>
+		<color>FFFFFF</color>
+	</image>
+	
+	<image name="md_favorite">
+	  <visible>true</visible>
+	  <pos>0.445 0.502</pos>
+      <color>960000</color>
+	</image>	
+			
+	<text name="md_developer, md_genre, md_players, md_releasedate, md_description">
+	  <alignment>center</alignment>
+	  <fontSize>0.026</fontSize>
+	  <origin>0.5 0.5</origin>
+	</text>
+	
+	<datetime name="md_releasedate">
+      <pos>-0.108 0.671</pos>
+      <size>0.92 0.10</size>
+      <alignment>right</alignment>
+	</datetime>
+	
+	<text name="md_name">
+      <color>FFFFFFff</color>
+      <pos>0.44375 0.05</pos>
+      <size>0.66 0.10</size>
+      <alignment>center</alignment>
+      <glowColor>00000016</glowColor>
+      <glowSize>3</glowSize>
+	    <storyboard event="activate">
+                <animation property="opacity" from="0" to="1" duration="1200" mode="Linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+		</storyboard>
+    </text>
+	
+    <text name="md_developer">
+      <pos>0.538 0.671</pos>
+      <size>0.26 0.10</size>
+	  <origin>0 0.5</origin>
+      <alignment>left</alignment>
+      <fontSize>0.029</fontSize>
+    </text>
+		
+	<text name="md_genre">
+      <color>E0E0E0</color>
+      <pos>0.4458 0.671</pos>
+      <size>0.148 0.06</size>
+	  <fontSize>0.028</fontSize>
+    </text>
+	
+	<text name="md_description">
+      <pos>0.446 0.5898</pos>
+      <size>0.412 0.13333333</size>    
+      <fontSize>0.023</fontSize>
+    </text>
+		
+	<rating name="md_rating">
+      <pos>0.096 0.538</pos>
+      <size>0.028 0.028</size>
+	  		<storyboard event="activate">
+                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+	</rating>	
+	    	
+	<imagegrid name="gamegrid">
+	  <margin>0 0</margin>
+      <padding>0 0 0 0</padding>
+      <pos>0.744 0.003</pos>
+      <size>0.212 0.922</size>
+      <scrollDirection>vertical</scrollDirection>
+      <autoLayout>1 5</autoLayout>
+	  <imageSource>marquee</imageSource>
+      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+	</imagegrid>
+	
+    <gridtile name="default">
+      <padding>3.6 0</padding>
+      <backgroundCenterColor>44444400</backgroundCenterColor>
+	  <backgroundEdgeColor>66666600</backgroundEdgeColor>
+	  <selectionMode>image</selectionMode>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>999999FF</imageColor>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>88000000</backgroundCenterColor>
+      <backgroundEdgeColor>DD000000</backgroundEdgeColor>
+	  <backgroundCornerSize>0 0</backgroundCornerSize>
+	  <imageColor>FFFFFFFF</imageColor>
+      <padding>3.6 0</padding>
+    </gridtile>
+		
+	<ninepatch name="gridtile.background:selected">
+  	  <animateColor>AA660000</animateColor>
+    </ninepatch>
+	
+	 <text name="gridtile, gridtile:selected">
+      <visible>false</visible>
+    </text>
+	
+   </customView>
+   
+   <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
+    
+	<image name="background">
+	    <path>./art/bgretrotiles.jpg</path>
+    </image>
+	
+	<image name="background2" extra="true">
+      <path>./art/bgretrotiles2.png</path>
+	  <zIndex>16</zIndex>
+	</image>
+	
+	<image name="Chevron Haut">
+      <color>FFFFFF</color>
+	  <pos>0.7 0.4</pos>
+    </image>
+	
+	<image name="Chevron Bas">
+      <color>FFFFFF</color>
+	  <pos>0.7 0.6</pos>
+    </image>
+	
+    <image name="md_thumbnail">
+	  <visible>true</visible>
+	  <pos>0.8427 0.321</pos>
+	  <origin>0.5 0</origin>
+      <maxSize>0.26 0.44</maxSize>
+	  <reflexion>0.28 0</reflexion>
+	  <zIndex>17</zIndex>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+	</image>
+		
+   	<rating name="md_rating">
+      <pos>0.818 0.808</pos>
+      <size>0.03 0.03</size>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+    </rating>
+	
+	<text name="md_name">
+      <color>FFFFFFff</color>
+      <pos>0.8427 0.292</pos>
+      <size>0.296 0.10</size>
+	  <fontSize>0.042</fontSize>
+	  <glowSize>3</glowSize>
+	  <glowColor>000000ff</glowColor>
+	  <storyboard event="activate">
+                <animation property="opacity" from="0" to="1" duration="1200" mode="Linear"/>
+		</storyboard>
+		<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+		</storyboard>
+    </text>
+	
+	<text name="md_developer">
+      <pos>0.8427 0.779</pos>
+      <size>0.3 0.12</size>
+	  <origin>0.5 0.5</origin>
+      <alignment>center</alignment>
+      <fontSize>0.029</fontSize>
+	  	  	<storyboard event="activate">
+                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
+    </text>
+	
+	<text name="md_description">
+	  <pos>0.846 0.128</pos>
+	  <size>0.31 0.264</size>    
+	  <alignment>left</alignment>
+    </text>
+	
+	<imagegrid name="gamegrid">
+	  <padding>0 0.08 0 0</padding>
+      <pos>0 0.01</pos>
+      <size>0.69 0.91</size>
+	  <scrollDirection>vertical</scrollDirection>
+      <autoLayout>4 3</autoLayout>
+      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+	  <imageSource>image</imageSource>
+      <margin>0 0.03</margin>
+	  <showVideoAtDelay>100</showVideoAtDelay>
+	  <effect>none</effect>
+      <centerSelection>false</centerSelection>
+	  <scrollLoop>true</scrollLoop>
+	  <zIndex>41</zIndex>
+    </imagegrid>
+		
+    <gridtile name="default">
+      <padding>16 16</padding>
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>999999ff</backgroundEdgeColor>
+	  <selectionMode>image</selectionMode>
+      <imageSizeMode>maxSize</imageSizeMode>
+	  <imageColor>858585ff</imageColor>
+    </gridtile>
+	
+    <gridtile name="selected">
+	  <padding>6 6</padding>
+      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
+      <backgroundEdgeColor>FFFFFFff</backgroundEdgeColor>
+	  <imageColor>FFFFFFFF</imageColor>
+	 </gridtile> 
+	    
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>FF0000ff</animateColor>
+      <animateColorTime>800</animateColorTime>
+    </ninepatch>
+	
+	<image name="gridtile.marquee">
+      <color>A5A5A5ff</color>
+      <pos>0.5 0</pos>
+      <origin>0.5 1</origin>
+      <size>0.7 0.4</size>
+    </image>
+	
+    <image name="gridtile.marquee:selected">
+      <color>FFFFFFFF</color>
+    </image>
+			
+  </customView>
+  
    <customView name="MiniLogos+Details" inherits="grid" displayName="${minilogos}">
    	
 	<image name="md_thumbnail">
@@ -2021,12 +2353,7 @@ originally based on: "carbon"
 	  <visible>true</visible>
 	  <pos>0.5 0.215</pos>
     </video>
-	
-<!-- 	<image name="md_image">
-	  <visible>true</visible>
-	  <pos>0.5 0.215</pos>
-    </image> -->
-		
+			
 	<image name="md_flag">
 		<visible>true</visible>
 		<pos>0.329 0.4135</pos>
@@ -2693,347 +3020,7 @@ originally based on: "carbon"
     </ninepatch>
 			
   </customView>
-  
-  <customView name="VerticalLogos" inherits="grid" displayName="${verticallogos}">
- 
-    <image name="background">
-	  <path>./art/bgverticallogos.jpg</path>
-    </image>
-		
-	<image name="tv_frame" extra="true">
-	  <pos>0.44375 0.3074</pos>
-	  <visible>true</visible>
-	  <zIndex>40</zIndex>
-    </image>
-	
-	<image name="tvframe2" extra="true">
-	  <pos>0.44375 0.3074</pos>
-      <zIndex>41</zIndex>
-    </image>
-	
-	<image name="Controller" extra="true">
-	  	    <pos>0.358 0.809</pos>
-      	  	<storyboard>
-			<animation property="offsetX" from="-0.558" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
-     		</storyboard>	  
-  	</image>
-	
-	<image name="Controller2" extra="true">
-	    	<pos>0.53375 0.809</pos>
-        	<storyboard>
-			<animation property="offsetX" from="0.66625" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
-      		</storyboard>       
-   	</image>
-	  
-	  <image name="Controller, Controller2">
-	  	<size>0.156 0</size>
-	  </image>
-		
-	<image name="Chevron Bas">
-      <pos>0.983 0.9</pos>
-    </image>
-	
-	<image name="Chevron Haut">
-	  <pos>0.983 0.022</pos>
-    </image>
-	
-	<image name="Red Arrow Right" extra="true">
-      <pos>0.968 0.4628</pos>
-      <origin>0.5 0.5</origin>
-      <size>0.0328125 0.03611111</size>
-	  <rotation>90</rotation>
-	  <opacity>0.8</opacity>
-	  <path>./art/RedArrowD.png</path>
-      <linearSmooth>false</linearSmooth>
-	  <zIndex>41</zIndex>
-	  <storyboard>
-            <animation property="x" from="0.968" to="0.978" begin="" duration="550" mode="Linear" autoReverse="true" repeat="forever"/>
-	  </storyboard>
-	</image>
-	
-	<image name="Red Arrow Left" extra="true">
-      <pos>0.73 0.462037</pos>
-      <origin>0.5 0.5</origin>
-      <size>0.0328125 0.03611111</size>
-	  <path>./art/RedArrowD.png</path>
-      <linearSmooth>false</linearSmooth>
-	  <rotation>-90</rotation>
-	  <opacity>0.4</opacity>
-	  <zIndex>41</zIndex>
-	  <storyboard>
-            <animation property="x" from="0.73" to="0.72" begin="" duration="550" mode="Linear" autoReverse="true" repeat="forever"/>
-	  </storyboard>
-	</image>
-		
-    <video name="md_video">
-	  <pos>0.44375 0.3034</pos>
-      <visible>true</visible>
-	  <zIndex>2</zIndex>
-	</video>
-	
-	<image name="md_thumbnail">
-	  <visible>true</visible>
-	  <pos>0.123 0.518</pos>
-	  <origin>0.5 1</origin>
-          <maxSize>0.22 0.379</maxSize>
-	  <reflexion>0.3 0.05</reflexion>
-		  	<storyboard event="activate">
-                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="1" to="0" duration="" mode="Linear"/>
-			</storyboard>
-	</image>
-	
-	<image name="md_flag">
-		<visible>true</visible>
-		<pos>0.26 0.672</pos>
-		<size>0.024</size>
-		<color>FFFFFF</color>
-	</image>
-	
-	<image name="md_favorite">
-	  <visible>true</visible>
-	  <pos>0.445 0.502</pos>
-      <color>960000</color>
-	</image>	
-			
-	<text name="md_developer, md_genre, md_players, md_releasedate, md_description">
-	  <alignment>center</alignment>
-	  <fontSize>0.026</fontSize>
-	  <origin>0.5 0.5</origin>
-	</text>
-	
-	<datetime name="md_releasedate">
-      <pos>-0.108 0.671</pos>
-      <size>0.92 0.10</size>
-      <alignment>right</alignment>
-	</datetime>
-	
-	<text name="md_name">
-      <color>FFFFFFff</color>
-      <pos>0.44375 0.05</pos>
-      <size>0.66 0.10</size>
-      <alignment>center</alignment>
-      <glowColor>00000016</glowColor>
-      <glowSize>3</glowSize>
-	    <storyboard event="activate">
-                <animation property="opacity" from="0" to="1" duration="1200" mode="Linear"/>
-		</storyboard>
-		<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-		</storyboard>
-    </text>
-	
-    <text name="md_developer">
-      <pos>0.538 0.671</pos>
-      <size>0.26 0.10</size>
-	  <origin>0 0.5</origin>
-      <alignment>left</alignment>
-      <fontSize>0.029</fontSize>
-    </text>
-		
-	<text name="md_genre">
-      <color>E0E0E0</color>
-      <pos>0.4458 0.671</pos>
-      <size>0.148 0.06</size>
-	  <fontSize>0.028</fontSize>
-    </text>
-	
-	<text name="md_description">
-      <pos>0.446 0.5898</pos>
-      <size>0.412 0.13333333</size>    
-      <fontSize>0.023</fontSize>
-    </text>
-		
-	<rating name="md_rating">
-      <pos>0.096 0.538</pos>
-      <size>0.028 0.028</size>
-	  		<storyboard event="activate">
-                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-			</storyboard>
-	</rating>	
-	    	
-	<imagegrid name="gamegrid">
-	  <margin>0 0</margin>
-      <padding>0 0 0 0</padding>
-      <pos>0.744 0.003</pos>
-      <size>0.212 0.922</size>
-      <scrollDirection>vertical</scrollDirection>
-      <autoLayout>1 5</autoLayout>
-	  <imageSource>marquee</imageSource>
-      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
-      <centerSelection>true</centerSelection>
-      <scrollLoop>true</scrollLoop>
-	</imagegrid>
-	
-    <gridtile name="default">
-      <padding>3.6 0</padding>
-      <backgroundCenterColor>44444400</backgroundCenterColor>
-	  <backgroundEdgeColor>66666600</backgroundEdgeColor>
-	  <selectionMode>image</selectionMode>
-      <imageSizeMode>maxSize</imageSizeMode>
-      <imageColor>999999FF</imageColor>
-    </gridtile>
-	
-    <gridtile name="selected">
-      <backgroundCenterColor>88000000</backgroundCenterColor>
-      <backgroundEdgeColor>DD000000</backgroundEdgeColor>
-	  <backgroundCornerSize>0 0</backgroundCornerSize>
-	  <imageColor>FFFFFFFF</imageColor>
-      <padding>3.6 0</padding>
-    </gridtile>
-		
-	<ninepatch name="gridtile.background:selected">
-  	  <animateColor>AA660000</animateColor>
-    </ninepatch>
-	
-	 <text name="gridtile, gridtile:selected">
-      <visible>false</visible>
-    </text>
-	
-   </customView>
    
-   <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
-    
-	<image name="background">
-	    <path>./art/bgretrotiles.jpg</path>
-    </image>
-	
-	<image name="background2" extra="true">
-      <path>./art/bgretrotiles2.png</path>
-	  <zIndex>16</zIndex>
-	</image>
-	
-	<image name="Chevron Haut">
-      <color>FFFFFF</color>
-	  <pos>0.7 0.4</pos>
-    </image>
-	
-	<image name="Chevron Bas">
-      <color>FFFFFF</color>
-	  <pos>0.7 0.6</pos>
-    </image>
-	
-    <image name="md_thumbnail">
-	  <visible>true</visible>
-	  <pos>0.8427 0.321</pos>
-	  <origin>0.5 0</origin>
-      <maxSize>0.26 0.44</maxSize>
-	  <reflexion>0.28 0</reflexion>
-	  <zIndex>17</zIndex>
-	  	  	<storyboard event="activate">
-                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-			</storyboard>
-	</image>
-		
-   	<rating name="md_rating">
-      <pos>0.818 0.808</pos>
-      <size>0.03 0.03</size>
-	  	  	<storyboard event="activate">
-                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-			</storyboard>
-    </rating>
-	
-	<text name="md_name">
-      <color>FFFFFFff</color>
-      <pos>0.8427 0.292</pos>
-      <size>0.296 0.10</size>
-	  <fontSize>0.042</fontSize>
-	  <glowSize>3</glowSize>
-	  <glowColor>000000ff</glowColor>
-	  <storyboard event="activate">
-                <animation property="opacity" from="0" to="1" duration="1200" mode="Linear"/>
-		</storyboard>
-		<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-		</storyboard>
-    </text>
-	
-	<text name="md_developer">
-      <pos>0.8427 0.779</pos>
-      <size>0.3 0.12</size>
-	  <origin>0.5 0.5</origin>
-      <alignment>center</alignment>
-      <fontSize>0.029</fontSize>
-	  	  	<storyboard event="activate">
-                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-			</storyboard>
-    </text>
-	
-	<text name="md_description">
-	  <pos>0.846 0.128</pos>
-	  <size>0.31 0.264</size>    
-	  <alignment>left</alignment>
-    </text>
-	
-	<imagegrid name="gamegrid">
-	  <padding>0 0.08 0 0</padding>
-      <pos>0 0.01</pos>
-      <size>0.69 0.91</size>
-	  <scrollDirection>vertical</scrollDirection>
-      <autoLayout>4 3</autoLayout>
-      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
-	  <imageSource>image</imageSource>
-      <margin>0 0.03</margin>
-	  <showVideoAtDelay>100</showVideoAtDelay>
-	  <effect>none</effect>
-      <centerSelection>false</centerSelection>
-	  <scrollLoop>true</scrollLoop>
-	  <zIndex>41</zIndex>
-    </imagegrid>
-		
-    <gridtile name="default">
-      <padding>16 16</padding>
-      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
-      <backgroundEdgeColor>999999ff</backgroundEdgeColor>
-	  <selectionMode>image</selectionMode>
-      <imageSizeMode>maxSize</imageSizeMode>
-	  <imageColor>858585ff</imageColor>
-    </gridtile>
-	
-    <gridtile name="selected">
-	  <padding>6 6</padding>
-      <backgroundCenterColor>FFFFFF00</backgroundCenterColor>
-      <backgroundEdgeColor>FFFFFFff</backgroundEdgeColor>
-	  <imageColor>FFFFFFFF</imageColor>
-	 </gridtile> 
-	    
-    <ninepatch name="gridtile.background:selected">
-      <animateColor>FF0000ff</animateColor>
-      <animateColorTime>800</animateColorTime>
-    </ninepatch>
-	
-	<image name="gridtile.marquee">
-      <color>A5A5A5ff</color>
-      <pos>0.5 0</pos>
-      <origin>0.5 1</origin>
-      <size>0.7 0.4</size>
-    </image>
-	
-    <image name="gridtile.marquee:selected">
-      <color>FFFFFFFF</color>
-    </image>
-			
-  </customView>
-  
   <customView name="RetroTiles,CoverFlow,LogosOnTop,LogoFlow,SmallBoxes+Details,BoxCarousel,MiniLogos,MiniLogosRight">
   
     <text name="gridtile, gridtile:selected">
