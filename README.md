@@ -50,6 +50,3 @@ Gamelist view : Grid
 
 Gamelist view : Logo Flow
 ![LMt9B5f](https://user-images.githubusercontent.com/30436625/132183473-da138639-3343-4d9f-9de9-1f658f1e72ee.jpg)
-
-Gamelist view : Logos on Top
-![ikqiCzm](https://user-images.githubusercontent.com/30436625/132183529-9c2245ac-86bc-4054-af8c-b38d6a79a409.jpg)
