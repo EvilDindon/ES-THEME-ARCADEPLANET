@@ -36,12 +36,6 @@ System View Vertical
 Gamelist view : Vertical Logos
 ![scVZb4N](https://user-images.githubusercontent.com/30436625/132179340-c66d6c83-b6da-4a5a-8244-82416863fb56.jpg)
 
-Gamelist view : Detailed
-![5mBqnyL](https://user-images.githubusercontent.com/30436625/132183090-8c88b927-d0b1-470f-8035-8e155c924f35.jpg)
-
-Gamelist view : Long List + preview
-![pvmhlEu](https://user-images.githubusercontent.com/30436625/132183122-6776feb7-e2ff-4f84-9b66-959c5b5815f7.jpg)
-
 Gamelist View : mini logos + Details
 ![wT0EgPz](https://user-images.githubusercontent.com/30436625/132179629-49462b7b-74e2-426d-8bd9-546530b57add.jpg)
 
@@ -53,9 +47,6 @@ Gamelist view : Retro Tiles
 
 Gamelist view : Grid
 ![y6C4vZe](https://user-images.githubusercontent.com/30436625/132183241-e6b301e8-5f8a-4c31-afb4-90c8e8828e40.jpg)
-
-Gamelist view : Cover Flow
-![coverflow](https://user-images.githubusercontent.com/30436625/132210447-146a5ac5-44fd-4117-a0ea-89ec79d80fdc.jpg)
 
 Gamelist view : Logo Flow
 ![LMt9B5f](https://user-images.githubusercontent.com/30436625/132183473-da138639-3343-4d9f-9de9-1f658f1e72ee.jpg)
