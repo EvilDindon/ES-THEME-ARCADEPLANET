@@ -31,7 +31,7 @@ System View Horizontal
 ![lR2KgLw](https://user-images.githubusercontent.com/30436625/132178969-fcaf1486-0fa5-45cd-9a0c-c91134e9a14b.jpg)
 
 System View Vertical
-![MUHu4DS](https://user-images.githubusercontent.com/30436625/132180746-daae1ee2-dbbd-4338-ac0b-88b914142dd9.jpg)
+![vertical nes](https://user-images.githubusercontent.com/30436625/188264724-002f842e-8779-426f-aa51-1a337e15c2d7.jpg)
 
 Gamelist view : Vertical Logos
 ![scVZb4N](https://user-images.githubusercontent.com/30436625/132179340-c66d6c83-b6da-4a5a-8244-82416863fb56.jpg)
