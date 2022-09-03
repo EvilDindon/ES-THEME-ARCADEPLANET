@@ -27,9 +27,6 @@ I recommand SCRAPING all your games using screenscraper with the following param
 These 3 parameters are mandatory. If you put other thing (mix images, etc.) the theme will not look as good as intended.
 https://youtu.be/zvwetGzfFKs
 
-System View Horizontal
-![lR2KgLw](https://user-images.githubusercontent.com/30436625/132178969-fcaf1486-0fa5-45cd-9a0c-c91134e9a14b.jpg)
-
 System View Vertical
 ![vertical nes](https://user-images.githubusercontent.com/30436625/188264724-002f842e-8779-426f-aa51-1a337e15c2d7.jpg)
 
