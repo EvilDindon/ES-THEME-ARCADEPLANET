@@ -77,6 +77,12 @@ SOME CUSTOM COLLECTIONS SCREENSHOTS !
 ![simpsons](https://user-images.githubusercontent.com/30436625/188311734-9b12c117-53a4-441b-bb83-029332523874.jpg)
 ![kirby](https://user-images.githubusercontent.com/30436625/188311735-038347c4-d5b5-4eed-8d76-0a3213e56b83.jpg)
 ![goldenaxe](https://user-images.githubusercontent.com/30436625/188311736-3245e612-8239-44c4-8247-a1ed4d63436d.jpg)
+![tmnt](https://user-images.githubusercontent.com/30436625/188311766-7b7fa8ea-ff85-4298-9580-bc3a6368a2bd.jpg)
+![ghouls](https://user-images.githubusercontent.com/30436625/188311767-f67e5db6-cd44-4482-b1d4-399b0a89c838.jpg)
+![sonic](https://user-images.githubusercontent.com/30436625/188311768-e569350b-568c-4643-b27a-01d86dcb4c9a.jpg)
+![mario](https://user-images.githubusercontent.com/30436625/188311770-4c7dd9c6-e8a6-46fb-957f-fb9b3c836b81.jpg)
+![shinobi](https://user-images.githubusercontent.com/30436625/188311772-50f39c58-a1ab-44f4-96c2-5744b27f806c.jpg)
+
 
 
 
