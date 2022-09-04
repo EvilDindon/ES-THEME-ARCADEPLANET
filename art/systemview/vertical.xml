@@ -27,9 +27,7 @@
 	  <logoPos>0 -1</logoPos>
 	  <logoScale>1</logoScale>
       <logoSize>0.1375</logoSize>
-      <maxLogoCount  ifsubset="systemviewlogocount:5">5</maxLogoCount>
-      <maxLogoCount  ifsubset="systemviewlogocount:7">7</maxLogoCount>
-	  <scrollSound>./../scroll3.wav</scrollSound>
+      <scrollSound>./../scroll3.wav</scrollSound>
       <systemInfoDelay>1000</systemInfoDelay>
 	  <zIndex>38</zIndex>
     </carousel>

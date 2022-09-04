@@ -161,6 +161,15 @@ originally based on: "carbon"
     <include name="5"/>
 	<include name="7"/>
   </subset>
+  
+   <!-- Subset options for Selected logo Color -->
+	<subset name="logocolor" displayName="${LogoColor}">
+		<include name="yellow" displayName="${yellow}"></include>
+		<include name="white" displayName="${white}">./art/systemview/colors/white.xml</include>
+		<include name="blue" displayName="${blue}">./art/systemview/colors/blue.xml</include>
+		<include name="red" displayName="${red}">./art/systemview/colors/red.xml</include>
+		<include name="purple" displayName="${purple}">./art/systemview/colors/purple.xml</include>
+    </subset>
    
   <!-- Subsets options for Random Art -->
 	<subset name="randomart" displayName="${RandomArt}">
@@ -174,15 +183,6 @@ originally based on: "carbon"
 		<include name="crossover" displayName="${crossover}"/>
 		<include name="crossoverx2" displayName="${crossoverx2}"/>
 	</subset>
-	   
-  <!-- Subset options for Selected logo Color -->
-	<subset name="logocolor" displayName="${LogoColor}">
-		<include name="yellow" displayName="${yellow}"></include>
-		<include name="white" displayName="${white}">./art/systemview/colors/white.xml</include>
-		<include name="blue" displayName="${blue}">./art/systemview/colors/blue.xml</include>
-		<include name="red" displayName="${red}">./art/systemview/colors/red.xml</include>
-		<include name="purple" displayName="${purple}">./art/systemview/colors/purple.xml</include>
-    </subset>
   
    <!-- Subset options for Tv Frame Color -->
 	<subset name="tvframecolor" displayName="${TVFrameColor}" appliesTo="detailed,LongList+Preview,MiniLogos+Details,SmallBoxes+Details,LogoFlow,LogosOnTop,VerticalLogos">
@@ -361,6 +361,11 @@ originally based on: "carbon"
 			<animation property="y" from="0.324" to="-0.07" begin="" duration="80000" mode="Linear" autoReverse="true"/>
 	  </storyboard>	  	  
     </image>
+	
+	<carousel name="systemcarousel">
+	  <maxLogoCount>5</maxLogoCount>
+      <maxLogoCount ifSubset="systemviewlogocount:7">7</maxLogoCount>
+    </carousel>
 	
 	<image name="Chevron droite, Chevron gauche, Chevron Haut, Chevron Bas" extra="static">
       <origin>0.5 0.5</origin>
@@ -2450,7 +2455,7 @@ originally based on: "carbon"
 	
 	<ninepatch name="gridtile.background:selected">
   	  <animateColor>00507080</animateColor>
-	  <animateColor ifsubset="selector:red">600000</animateColor>
+	  <animateColor ifSubset="selector:red">600000</animateColor>
 	  <animateColorTime>1000</animateColorTime>
     </ninepatch>
 	
