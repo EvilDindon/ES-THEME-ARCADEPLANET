@@ -7,6 +7,7 @@
  Features :
  - 2 System Views (Vertical and Horizontal)
  - 11 Gamelist Views (using a lot logo art and box art)
+ - 30 custom collections themed
  - Regional Logos and Artwork (only EU and US for now)
  - Some custom background music, artwork and animations
  - 16/9 Only, not compatible with 4/3 or 5/4 for now
@@ -59,3 +60,18 @@ Gamelist view : Grid
 
 Gamelist view : Logo Flow
 ![LMt9B5f](https://user-images.githubusercontent.com/30436625/132183473-da138639-3343-4d9f-9de9-1f658f1e72ee.jpg)
+
+SOME CUSTOM COLLECTIONS SCREENSHOTS !
+![kof](https://user-images.githubusercontent.com/30436625/188311653-75c0d1e4-e52a-4d24-aac0-8a25e2996802.jpg)
+![disney](https://user-images.githubusercontent.com/30436625/188311655-416e3738-6d61-4cc9-88d4-7b35ff66877d.jpg)
+![dk](https://user-images.githubusercontent.com/30436625/188311656-a74809f9-2dd4-4ec4-b91b-a24ef1b9fba5.jpg)
+![wboy](https://user-images.githubusercontent.com/30436625/188311657-64022bac-2e18-47b8-ba55-664d5aeca05f.jpg)
+![megaman](https://user-images.githubusercontent.com/30436625/188311658-4558d4cb-0053-47d4-bad5-29cfa046a47b.jpg)
+![metroid](https://user-images.githubusercontent.com/30436625/188311659-41c22fbd-b76b-41fd-bb18-47ac443b89f0.jpg)
+![contra](https://user-images.githubusercontent.com/30436625/188311660-a4d43197-18fb-40c0-9fe6-8d8761e5180f.jpg)
+![castlevania](https://user-images.githubusercontent.com/30436625/188311661-99feb947-62d9-4565-a71f-cf9457f9185a.jpg)
+![bomberman](https://user-images.githubusercontent.com/30436625/188311662-cb52d056-2dcf-43dd-b603-2da5d14e9476.jpg)
+![metalslug](https://user-images.githubusercontent.com/30436625/188311664-79883ed3-1e1e-4cd9-a358-8f0a6e2fce0f.jpg)
+![sf](https://user-images.githubusercontent.com/30436625/188311665-bcbbd8ee-bcce-468c-9129-63660020083f.jpg)
+
+
