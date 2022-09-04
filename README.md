@@ -30,14 +30,26 @@ https://youtu.be/zvwetGzfFKs
 System View Vertical
 ![vertical nes](https://user-images.githubusercontent.com/30436625/188264724-002f842e-8779-426f-aa51-1a337e15c2d7.jpg)
 
+System View Horizontal
+![horizontal7 N-'](https://user-images.githubusercontent.com/30436625/188309126-50af3c05-9fc6-49b0-8131-de9011b52e3b.jpg)
+
+Gamelist view : Video
+![atari ST video](https://user-images.githubusercontent.com/30436625/188309173-81c46123-64dc-46e7-a27e-ab2c4bfa06c9.jpg)
+
+Gamelist view : GameCarousel
+![c64 gamecarousel](https://user-images.githubusercontent.com/30436625/188309195-eb2e6195-b28e-489c-bd42-f505a3d0153a.jpg)
+
+Gamelist view : Box Carousel
+![boxcarousel nes](https://user-images.githubusercontent.com/30436625/188309212-f5561d84-1a0f-4167-a965-725badb85cd6.jpg)
+
+Gamelist view : Mini Logos
+![minilogos](https://user-images.githubusercontent.com/30436625/188309244-d7a5ef41-98c5-4e9b-b3dd-765be5ebaadb.jpg)
+
+Gamelist view : Mini Logos Right
+![minilogos right](https://user-images.githubusercontent.com/30436625/188309262-8e17e4e7-a923-4ae1-81fe-07fdf59f11a4.jpg)
+
 Gamelist view : Vertical Logos
 ![scVZb4N](https://user-images.githubusercontent.com/30436625/132179340-c66d6c83-b6da-4a5a-8244-82416863fb56.jpg)
-
-Gamelist View : mini logos + Details
-![wT0EgPz](https://user-images.githubusercontent.com/30436625/132179629-49462b7b-74e2-426d-8bd9-546530b57add.jpg)
-
-Gamelist View : small boxes + Details
-![0OQHUTz](https://user-images.githubusercontent.com/30436625/132179758-403f36b1-e5d5-4c1b-837a-e1c0fedaeb70.jpg)
 
 Gamelist view : Retro Tiles
 ![Ezk1YE9](https://user-images.githubusercontent.com/30436625/132179911-8753d1d7-769e-4c10-8fa3-64dbccf74049.jpg)
