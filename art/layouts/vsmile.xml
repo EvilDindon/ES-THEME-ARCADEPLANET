@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+  
+  <view name="detailed, grid">
+  
+    <video name="md_video">
+      <maxSize>0.179166666 0.23888888</maxSize>
+	  <delay>0</delay>
+			<storyboard>
+               <animation property="offsetY" from="-0.046296" to="-0.046296" duration="" mode="Linear"/>
+			</storyboard>
+    </video>
+		
+  </view>
+   
+   <customView name="BoxCarousel, MiniLogos, MiniLogosRight">
+  	    		
+	<video name="md_video">
+	   <maxSize>0.43125 0.509</maxSize>
+	   	  <delay>1</delay>
+	   	  <storyboard>
+               <animation property="offsetY" from="0" to="0" duration="" begin="" mode="Linear"/>
+		</storyboard>
+	</video>
+
+  </customView> 
+   
+</theme>
