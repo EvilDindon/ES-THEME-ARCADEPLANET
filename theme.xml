@@ -24,6 +24,9 @@ originally based on: "carbon"
 	
 	<SystemViewStyle>System View Style</SystemViewStyle>
     <SystemViewStyle lang="fr">Style de Vue Système</SystemViewStyle>
+	
+	<SystemLogoCount>System View Logo Count</SystemLogoCount>
+	<SystemLogoCount lang="fr">Nombre de Logos Dans Vue Système</SystemLogoCount>
 		
 	<TVFrameColor>TV Frame Color</TVFrameColor>
     <TVFrameColor lang="fr">Couleur du Cadre TV</TVFrameColor>
@@ -146,6 +149,18 @@ originally based on: "carbon"
 		<include name="EU"/>
 		<include name="US"/>
 	</subset>
+	
+	<!-- Subset options for System View -->
+  <subset name="systemview" displayName="${SystemViewStyle}">
+    <include name="horizontal">./art/systemview/horizontal.xml</include>
+	<include name="vertical">./art/systemview/vertical.xml</include>
+  </subset>
+  
+  	<!-- Subset options for Logo Count in System Views -->
+  <subset name="systemviewlogocount" displayName="${SystemLogoCount}">
+    <include name="5"/>
+	<include name="7"/>
+  </subset>
    
   <!-- Subsets options for Random Art -->
 	<subset name="randomart" displayName="${RandomArt}">
@@ -159,13 +174,7 @@ originally based on: "carbon"
 		<include name="crossover" displayName="${crossover}"/>
 		<include name="crossoverx2" displayName="${crossoverx2}"/>
 	</subset>
-	
-	<!-- Subset options for System View -->
-  <subset name="systemview" displayName="${SystemViewStyle}">
-    <include name="horizontal">./art/systemview/horizontal.xml</include>
-	<include name="vertical">./art/systemview/vertical.xml</include>
-  </subset>
-   
+	   
   <!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}">
 		<include name="yellow" displayName="${yellow}"></include>
