@@ -73,5 +73,10 @@ SOME CUSTOM COLLECTIONS SCREENSHOTS !
 ![bomberman](https://user-images.githubusercontent.com/30436625/188311662-cb52d056-2dcf-43dd-b603-2da5d14e9476.jpg)
 ![metalslug](https://user-images.githubusercontent.com/30436625/188311664-79883ed3-1e1e-4cd9-a358-8f0a6e2fce0f.jpg)
 ![sf](https://user-images.githubusercontent.com/30436625/188311665-bcbbd8ee-bcce-468c-9129-63660020083f.jpg)
+![tombraider](https://user-images.githubusercontent.com/30436625/188311732-0b0bd163-7768-49f1-a25a-b60762550117.jpg)
+![simpsons](https://user-images.githubusercontent.com/30436625/188311734-9b12c117-53a4-441b-bb83-029332523874.jpg)
+![kirby](https://user-images.githubusercontent.com/30436625/188311735-038347c4-d5b5-4eed-8d76-0a3213e56b83.jpg)
+![goldenaxe](https://user-images.githubusercontent.com/30436625/188311736-3245e612-8239-44c4-8247-a1ed4d63436d.jpg)
+
 
 
