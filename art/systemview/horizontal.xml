@@ -7,8 +7,7 @@
   <view name="system">
   
     <image name="logo">
-		 <color>909098ff</color>
-		 <opacity>1</opacity>
+		 <color>AAAAAAff</color>
 	     <linearSmooth>false</linearSmooth>
 	     <path>./art/wheel/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
@@ -16,14 +15,12 @@
  			<animation property="color" from="FFFF00ff" to="909000ff" begin="350" duration="1200" mode="Linear" autoreverse="true" repeat="forever"/>
 		 </storyboard>
 		 <storyboard event="deactivate">
- 			<animation property="color" from="909098ff" to="909098ff" begin="" duration="" mode="Linear"/>
+ 			<animation property="color" from="AAAAAAff" to="AAAAAAff" begin="" duration="" mode="Linear"/>
 	     </storyboard>	
 	</image>
   	
     <carousel name="systemcarousel">
 	  <defaultTransition>fade</defaultTransition>
-      <color>00000000</color>
-      <colorEnd>00000000</colorEnd>
       <size>1 0.375</size>
       <pos>0 0.592</pos>
       <origin>0 0</origin>
@@ -31,7 +28,6 @@
 	  <logoScale>1</logoScale>
       <logoSize>0.1375 0.2963</logoSize>
 	  <scrollSound>./../scroll3.wav</scrollSound>
-   	  <systemInfoDelay>1000</systemInfoDelay>
 	  <zIndex>37</zIndex>
     </carousel>
 		
@@ -229,5 +225,14 @@
     	<include ifSubset="randomartanimationstyle:easeinandout">./animations/easeinandout.xml</include>
 		<include ifSubset="randomartanimationstyle:crossover">./animations/crossover.xml</include>
 		<include ifSubset="randomartanimationstyle:crossoverx2">./animations/crossoverx2.xml</include>
+
+<!-- Subset options for Selected logo Color -->
+	<subset name="logocolor" displayName="${LogoColor}">
+		<include name="yellow" displayName="${yellow}"></include>
+		<include name="white" displayName="${white}">./colors/whiteH.xml</include>
+		<include name="blue" displayName="${blue}">./colors/blueH.xml</include>
+		<include name="red" displayName="${red}">./colors/redH.xml</include>
+		<include name="purple" displayName="${purple}">./colors/purpleH.xml</include>
+    </subset>
 	
 </theme>

@@ -161,16 +161,7 @@ originally based on: "carbon"
     <include name="5"/>
 	<include name="7"/>
   </subset>
-  
-   <!-- Subset options for Selected logo Color -->
-	<subset name="logocolor" displayName="${LogoColor}">
-		<include name="yellow" displayName="${yellow}"></include>
-		<include name="white" displayName="${white}">./art/systemview/colors/white.xml</include>
-		<include name="blue" displayName="${blue}">./art/systemview/colors/blue.xml</include>
-		<include name="red" displayName="${red}">./art/systemview/colors/red.xml</include>
-		<include name="purple" displayName="${purple}">./art/systemview/colors/purple.xml</include>
-    </subset>
-   
+     
   <!-- Subsets options for Random Art -->
 	<subset name="randomart" displayName="${RandomArt}">
 		<include name="none" displayName="${none}"/>
@@ -363,8 +354,11 @@ originally based on: "carbon"
     </image>
 	
 	<carousel name="systemcarousel">
+	  <color>00000000</color>
+      <colorEnd>00000000</colorEnd>
 	  <maxLogoCount>5</maxLogoCount>
       <maxLogoCount ifSubset="systemviewlogocount:7">7</maxLogoCount>
+	  <systemInfoDelay>1000</systemInfoDelay>
     </carousel>
 	
 	<image name="Chevron droite, Chevron gauche, Chevron Haut, Chevron Bas" extra="static">

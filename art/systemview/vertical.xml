@@ -5,7 +5,7 @@
    <view name="system">
    
    <image name="logo">
-		 <color>909098ff</color>
+		 <color>CCCCCCff</color>
 	     <linearSmooth>false</linearSmooth>
 	     <path>./art/wheelv/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
@@ -13,7 +13,7 @@
  			<animation property="color" from="FFFF00ff" to="909000ff" begin="" duration="1200" mode="Linear" autoreverse="true" repeat="forever"/>
 		 </storyboard>
 		 <storyboard event="deactivate">
- 			<animation property="color" from="909098ff" to="909098ff" begin="" duration="" mode="Linear"/>
+ 			<animation property="color" from="CCCCCCff" to="CCCCCCff" begin="" duration="" mode="Linear"/>
 	     </storyboard>	
 	</image>
 
@@ -22,13 +22,10 @@
 	  <type>vertical</type>
       <pos>0.1518 0.005</pos>
       <size>0.267 0.915</size>
-      <color>00000000</color>
-      <colorEnd>00000000</colorEnd>
-	  <logoPos>0 -1</logoPos>
+      <logoPos>0 -1</logoPos>
 	  <logoScale>1</logoScale>
       <logoSize>0.1375</logoSize>
       <scrollSound>./../scroll3.wav</scrollSound>
-      <systemInfoDelay>1000</systemInfoDelay>
 	  <zIndex>38</zIndex>
     </carousel>
 		
@@ -242,5 +239,14 @@
   </view>
 
   <include>./layouts/${system.theme}.xml</include>
+  
+  <!-- Subset options for Selected logo Color -->
+	<subset name="logocolor" displayName="${LogoColor}">
+		<include name="yellow" displayName="${yellow}"></include>
+		<include name="white" displayName="${white}">./colors/white.xml</include>
+		<include name="blue" displayName="${blue}">./colors/blue.xml</include>
+		<include name="red" displayName="${red}">./colors/red.xml</include>
+		<include name="purple" displayName="${purple}">./colors/purple.xml</include>
+    </subset>
    
 </theme>
