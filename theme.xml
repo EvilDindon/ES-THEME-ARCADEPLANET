@@ -161,20 +161,7 @@ originally based on: "carbon"
     <include name="5"/>
 	<include name="7"/>
   </subset>
-     
-  <!-- Subsets options for Random Art -->
-	<subset name="randomart" displayName="${RandomArt}">
-		<include name="none" displayName="${none}"/>
-		<include name="marquee" displayName="logos"/>
-		<include name="thumbnail" displayName="${boxarts}"/>
-	</subset>
-	
-	<subset name="randomartanimationstyle" displayName="${RandomArtAnimationStyle}">
-		<include name="easeinandout" displayName="${easeinandout}"/>
-		<include name="crossover" displayName="${crossover}"/>
-		<include name="crossoverx2" displayName="${crossoverx2}"/>
-	</subset>
-  
+    
    <!-- Subset options for Tv Frame Color -->
 	<subset name="tvframecolor" displayName="${TVFrameColor}" appliesTo="detailed,LongList+Preview,MiniLogos+Details,SmallBoxes+Details,LogoFlow,LogosOnTop,VerticalLogos">
 		<include name="dark purple" displayName="${darkpurple}"/>

@@ -222,9 +222,20 @@
 	</image>
 	
 	</view>
-    	<include ifSubset="randomartanimationstyle:easeinandout">./animations/easeinandout.xml</include>
-		<include ifSubset="randomartanimationstyle:crossover">./animations/crossover.xml</include>
-		<include ifSubset="randomartanimationstyle:crossoverx2">./animations/crossoverx2.xml</include>
+    	
+<!-- Subsets options for Random Art -->
+	
+	<subset name="randomart" displayName="${RandomArt}">
+		<include name="none" displayName="${none}"/>
+		<include name="marquee" displayName="logos"/>
+		<include name="thumbnail" displayName="${boxarts}"/>
+	</subset>
+	
+	<subset name="randomartanimationstyle" displayName="${RandomArtAnimationStyle}">
+		<include name="easeinandout" displayName="${easeinandout}">./animations/easeinandout.xml</include>
+		<include name="crossover" displayName="${crossover}">./animations/crossover.xml</include>
+		<include name="crossoverx2" displayName="${crossoverx2}">./animations/crossoverx2.xml</include>
+	</subset>
 
 <!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}">
