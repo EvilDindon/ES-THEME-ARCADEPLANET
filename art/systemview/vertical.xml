@@ -5,15 +5,15 @@
    <view name="system">
    
    <image name="logo">
-		 <color>CCCCCCff</color>
+		 <color>DDDDFFff</color>
 	     <linearSmooth>false</linearSmooth>
 	     <path>./art/wheelv/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
 		  <storyboard event="activate">
- 			<animation property="color" from="FFFF00ff" to="909000ff" begin="" duration="1200" mode="Linear" autoreverse="true" repeat="forever"/>
+ 			<animation property="color" from="FFFF00ff" to="AAAA00ff" begin="" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>
 		 </storyboard>
 		 <storyboard event="deactivate">
- 			<animation property="color" from="CCCCCCff" to="CCCCCCff" begin="" duration="" mode="Linear"/>
+ 			<animation property="color" from="DDDDFFff" to="DDDDFFff" begin="" duration="" mode="Linear"/>
 	     </storyboard>	
 	</image>
 

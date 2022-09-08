@@ -7,15 +7,14 @@
   <view name="system">
   
     <image name="logo">
-		 <color>AAAAAAff</color>
+		 <color>DDDDEEff</color>
 	     <linearSmooth>false</linearSmooth>
 	     <path>./art/wheel/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
 		 <storyboard event="activate">
- 			<animation property="color" from="FFFF00ff" to="909000ff" begin="350" duration="1200" mode="Linear" autoreverse="true" repeat="forever"/>
-		 </storyboard>
+		 <animation property="color" from="FFFF00ff" to="AAAA00ff" begin="335" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>		 </storyboard>
 		 <storyboard event="deactivate">
- 			<animation property="color" from="AAAAAAff" to="AAAAAAff" begin="" duration="" mode="Linear"/>
+ 			<animation property="color" from="DDDDEEff" to="DDDDEEff" begin="" duration="" mode="Linear"/>
 	     </storyboard>	
 	</image>
   	
@@ -62,7 +61,7 @@
       <path>./../bgh3.png</path>
       <zIndex>38</zIndex>
 	  <storyboard>
-			<animation property="opacity" from="1" to="1" begin="350" duration="" mode="Linear"/>
+			<animation property="opacity" from="1" to="1" begin="335" duration="" mode="Linear"/>
       </storyboard>	  
     </image>
 	
