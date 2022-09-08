@@ -171,7 +171,7 @@
     </image>
 		
 	<image name="Chevron Bas" extra="static">
-      <pos>0.2204 0.896</pos>
+      <pos>0.2204 0.899</pos>
 	  <flipY>true</flipY>
       <color>606090</color>
 	  <storyboard repeatAt="1">

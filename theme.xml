@@ -350,7 +350,7 @@ originally based on: "carbon"
 	
 	<image name="Chevron droite, Chevron gauche, Chevron Haut, Chevron Bas" extra="static">
       <origin>0.5 0.5</origin>
-      <size>0.02 0</size>
+      <size>0.015 0</size>
 	  <color>D0D0D0</color>
 	  <path>./art/chevron-arrows-svgrepo-com.svg</path>
       <linearSmooth>true</linearSmooth>
