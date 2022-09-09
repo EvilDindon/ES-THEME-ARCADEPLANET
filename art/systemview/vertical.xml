@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
-  
+   
+   <!-- Subset options for Neo Geo Artwork Style -->
+	<subset name="neogeostyle" displayName="Neo-Geo Style">
+		<include name="aes" displayName="AES (Console)"/>
+		<include name="mvs" displayName="MVS (Arcade)"/>
+	</subset>
+	
    <view name="system">
    
    <image name="logo">
@@ -9,6 +15,7 @@
 	     <linearSmooth>false</linearSmooth>
 	     <path>./art/wheelv/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
+		 <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>
 		  <storyboard event="activate">
  			<animation property="color" from="FFFF00ff" to="AAAA00ff" begin="" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>
 		 </storyboard>
@@ -102,7 +109,8 @@
 	  <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
 	  <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
-      <linearSmooth>true</linearSmooth>
+	  <path ifSubset="neogeostyle:mvs">./../Colorlogos/special/${system.theme}.png</path>
+	  <linearSmooth>true</linearSmooth>
 	  <zIndex>22</zIndex>
 	  <scale>0</scale>
 	  <storyboard>
@@ -143,7 +151,7 @@
       <path>./../controllers/${system.theme}.svg</path>
 	  <path ifSubset="artworkregion:US">./../controllers/US/default.png</path>
 	  <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.svg</path>
+	  <path ifSubset="neogeostyle:mvs">./../controllers/special/${system.theme}.png</path>
       <reflexion>0.0 0.0</reflexion>
 	  <zIndex>21</zIndex>
 	  <storyboard>
@@ -162,7 +170,7 @@
       <path>./../controllers/${system.theme}.svg</path>
 	  <path ifSubset="artworkregion:US">./../controllers/US/default.png</path>
 	  <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.svg</path>
+	  <path ifSubset="neogeostyle:mvs">./../controllers/special/${system.theme}.png</path>
       <reflexion>0.0 0.0</reflexion>
 	  <zIndex>21</zIndex>
 	  <storyboard>

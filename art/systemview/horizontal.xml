@@ -3,6 +3,12 @@
 
 <theme>
   <formatVersion>7</formatVersion>
+
+  <!-- Subset options for Neo Geo Artwork Style -->
+	<subset name="neogeostyle" displayName="Neo-Geo Style">
+		<include name="aes" displayName="AES (Console)"/>
+		<include name="mvs" displayName="MVS (Arcade)"/>
+	</subset>
 	
   <view name="system">
   
@@ -11,6 +17,7 @@
 	     <linearSmooth>false</linearSmooth>
 	     <path>./art/wheel/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
+		 <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
 		 <storyboard event="activate">
 		 <animation property="color" from="FFFF00ff" to="AAAA00ff" begin="335" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>		 </storyboard>
 		 <storyboard event="deactivate">
@@ -123,6 +130,7 @@
       <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
 	  <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
+	  <path ifSubset="neogeostyle:mvs">./../Colorlogos/special/${system.theme}.png</path>
 	  <linearSmooth>true</linearSmooth>
       <zIndex>21</zIndex>
 	  <scale>0</scale>
@@ -159,6 +167,7 @@
       <size>0.1375 0</size>
 	  <path>./../controllers/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.png</path>
+	  <path ifSubset="neogeostyle:mvs">./../controllers/special/${system.theme}.png</path>
 	  <linearSmooth>false</linearSmooth>
       <zIndex>40</zIndex>
 		<storyboard repeatAt="2">
