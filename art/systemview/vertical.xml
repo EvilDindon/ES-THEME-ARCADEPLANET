@@ -130,7 +130,8 @@
 	  <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
 	  <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
-      <linearSmooth>true</linearSmooth>
+      <path ifSubset="neogeostyle:mvs">./../Colorlogos/special/${system.theme}.png</path>
+	  <linearSmooth>true</linearSmooth>
 	  <opacity>0</opacity>
 	  <zIndex>21</zIndex>
 	  <storyboard>
