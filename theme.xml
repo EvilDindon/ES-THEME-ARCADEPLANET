@@ -664,11 +664,11 @@ originally based on: "carbon"
 	  <path>./art/bgbasic.jpg</path>
 	</image>
 	
-	<image name="Chevrons Bas">
+	<image name="Chevron Bas">
       <pos>0.5 0.897</pos>
 	</image>
 	
-	<image name="Chevrons Haut">
+	<image name="Chevron Haut">
       <pos>0.5 0.245</pos>
 	</image>
 		
@@ -1093,12 +1093,14 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="Chevron Haut">
-      <size>0.017 0</size>
+      <visible>true</visible>
+	  <size>0.017 0</size>
 	  <pos>0.961 0.875</pos>
     </image>
 	
 	<image name="Chevron Bas">
-      <size>0.017 0</size>
+      <visible>true</visible>
+	  <size>0.017 0</size>
 	  <pos>0.961 0.92</pos>
     </image>
 	
@@ -2022,7 +2024,7 @@ originally based on: "carbon"
 			
   </customView>
   
-   <customView name="basic,video,gamecarousel">
+   <customView name="basic,video,gamecarousel,MiniLogos,MiniLogosRight">
   
     <image name="Chevron gauche, Chevron droite">
 	  <visible>false</visible>
