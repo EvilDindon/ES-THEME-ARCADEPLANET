@@ -2024,7 +2024,7 @@ originally based on: "carbon"
 			
   </customView>
   
-   <customView name="basic,video,gamecarousel,MiniLogos,MiniLogosRight">
+   <customView name="basic,video,gamecarousel,MiniLogos,MiniLogosRight,RetroTiles">
   
     <image name="Chevron gauche, Chevron droite">
 	  <visible>false</visible>
