@@ -1648,7 +1648,7 @@ originally based on: "carbon"
 	 <selectorColorEnd ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:plainpurple">6e55a7</selectorColorEnd>
 	  <selectorOffsetY>0.01</selectorOffsetY>
-	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey|plainorange|plainyellow|plainpurple">-0.0025</selectorOffsetY>
+	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey|plainorange|plainyellow|plainpurple">-0.0011</selectorOffsetY>
 	  <selectedColor>88D8F0</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:red">FF0000</selectedColor>
