@@ -149,8 +149,8 @@ originally based on: "carbon"
   
   	<!-- Subset options for Logo Count in System Views -->
   <subset name="systemviewlogocount" displayName="${SystemLogoCount}">
-    <include name="5"/>
-	<include name="7"/>
+   	<include name="7"/>
+	<include name="5"/>
   </subset>
 		
 	<!-- Subset options for Selector Bar Color -->
