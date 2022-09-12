@@ -333,8 +333,8 @@ originally based on: "carbon"
 	<carousel name="systemcarousel">
 	  <color>00000000</color>
       <colorEnd>00000000</colorEnd>
-	  <maxLogoCount>5</maxLogoCount>
-      <maxLogoCount ifSubset="systemviewlogocount:7">7</maxLogoCount>
+	  <maxLogoCount>7</maxLogoCount>
+      <maxLogoCount ifSubset="systemviewlogocount:5">5</maxLogoCount>
 	  <systemInfoDelay>1000</systemInfoDelay>
     </carousel>
 	
@@ -708,7 +708,7 @@ originally based on: "carbon"
 	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:plainblue">3070FF</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainred">c21302ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainred">B21302ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:plainblack">000000ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:plaingrey">404040ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:plainorange">EE8800ff</selectorColor>
@@ -1630,7 +1630,7 @@ originally based on: "carbon"
 	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:plainblue">3070FFff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainred">c21302ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainred">B21302ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:plainblack">000000ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:plaingrey">404040ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:plainorange">EE8800ff</selectorColor>
