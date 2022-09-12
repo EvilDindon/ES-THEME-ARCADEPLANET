@@ -2022,7 +2022,7 @@ originally based on: "carbon"
 			
   </customView>
   
-   <customView name="basic,video,gamecarousel,detailed">
+   <customView name="basic,video,gamecarousel">
   
     <image name="Chevron gauche, Chevron droite">
 	  <visible>false</visible>

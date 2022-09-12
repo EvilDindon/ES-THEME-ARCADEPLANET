@@ -36,7 +36,7 @@
     </image>
 	
 	</customView>
-	        
+       
    <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
     		
     <image name="Chevron droite">
