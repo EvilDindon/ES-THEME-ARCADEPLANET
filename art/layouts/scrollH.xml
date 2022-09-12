@@ -25,7 +25,7 @@
 	
    </view>
   
-   <customView name="MiniLogos,MiniLogosRight">
+   <customView name="BoxCarousel,MiniLogos,MiniLogosRight">
    		
 	<image name="Chevron droite">
       <pos>0.985 0.9</pos>
