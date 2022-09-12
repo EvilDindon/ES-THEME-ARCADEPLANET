@@ -2,13 +2,6 @@
 <theme>
   <formatVersion>7</formatVersion>
     
-  <view name="detailed">
-  
-    <image name="md_thumbnail">
-      <maxSize>0.19 0.3377</maxSize>
-	</image>
-	
-  </view>
   
    <customView name="BoxCarousel">
   
@@ -33,55 +26,7 @@
 	</image>
   
   </customView>
- 
-  <customView name="MiniLogos+Details">
-      
-    <image name="md_thumbnail">
-      <size>0.19 0</size>
-	</image>
-   
-  </customView>
   
-  <customView name="CoverFlow">
-  
-    <imagegrid name="gamegrid">
-	  <padding>0.029 0.06 0.029 0.04</padding>
-      <pos>0 0.14</pos>
-      <autoLayout>5 1</autoLayout>
-	  <autoLayoutSelectedZoom>1.12</autoLayoutSelectedZoom>
-      <margin>0.026 0.026</margin>
-    </imagegrid>
-   
-  </customView>
-  
-  <customView name="VerticalLogos">
-  
-    <image name="Controller" extra="true">
-	  <x>0.444</x>	  
-    </image>
-	
-	<image name="Controller2" extra="true">
-	  <x>0.444</x>
-    </image>
-	
-	<image name="md_thumbnail">
-      <size>0.19 0</size>
-	</image>
-	 
- </customView>
- 
- <customView name="LongList+Preview">
-  
-    <image name="Controller1" extra="true">
-	  <x>0.32083333</x>	  
-    </image>
-	
-	<image name="Controller2" extra="true">
-	  <x>0.32083333</x>
-    </image>
-		 
- </customView>
- 
  <customView name="RetroTiles">
 	
    	<imagegrid name="gamegrid">

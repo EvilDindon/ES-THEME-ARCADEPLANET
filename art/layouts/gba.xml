@@ -1,19 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
-  
-  <view name="detailed, grid">
-  
-    <video name="md_video">
-      <maxSize>0.222916 0.26296296</maxSize>
-	  <delay>0</delay>
-			<storyboard>
-               <animation property="offsetY" from="-0.029629" to="-0.029629" duration="" mode="Linear"/>
-			</storyboard>
-    </video>
-	
-  </view>
-  
+    
   <view name="grid">
   
    <imagegrid name="gamegrid">
@@ -29,27 +17,11 @@
       <pos>0 0.625</pos>
 	  <autoLayout>5 1</autoLayout>
 	</imagegrid> 
-	    		
-	<video name="md_video">
-	   <maxSize>0.43125 0.509</maxSize>
-	   	  <delay>1</delay>
-	   	  <storyboard>
-               <animation property="offsetY" from="0" to="0" duration="" begin="" mode="Linear"/>
-		</storyboard>
-	</video>
-
+	    	
   </customView> 
   
   <customView name="MiniLogos">
-  
-    <video name="md_video">
-	   <maxSize>0.43125 0.509</maxSize>
-	   	  <delay>1</delay>
-	   	  <storyboard>
-               <animation property="offsetY" from="0" to="0" duration="" begin="" mode="Linear"/>
-		</storyboard>
-	</video>
-	
+  	
 	<imagegrid name="gamegrid">
       <pos>0 0.636</pos>
 	  <autoLayout>7 3</autoLayout>
@@ -62,15 +34,7 @@
   </customView> 
  
 <customView name="MiniLogosRight">
-  
-  <video name="md_video">
-	   <maxSize>0.43125 0.509</maxSize>
-	   	  <delay>1</delay>
-	   	  <storyboard>
-               <animation property="offsetY" from="0" to="0" duration="" begin="" mode="Linear"/>
-		</storyboard>
-	</video>
-	
+    	
 	<imagegrid name="gamegrid">
       <pos>0.5 0.132</pos>
       <autoLayout>3 7</autoLayout>
@@ -81,100 +45,7 @@
 	</image>
   
   </customView>
-  
-  <view name="detailed">
-  
-    <image name="md_thumbnail">
-      <size>0.19 0</size>
-	</image>
-	
-  </view>
-  
-  <customView name="MiniLogos+Details">
    
-   <imagegrid name="gamegrid">
-      <pos>0 0.43</pos>
-      <autoLayout>7 4</autoLayout>
-   </imagegrid>
-   
-    <image name="md_thumbnail">
-      <size>0.19 0</size>
-	</image>
-  	
-  </customView>
-  
-  <customView name="SmallBoxes+Details">
-  
-   <imagegrid name="gamegrid">
-      <pos>0 0.43</pos>
-      <autoLayout>8 2</autoLayout>
-   </imagegrid>
-   
-  </customView>
-  
-  <customView name="CoverFlow">
-  
-    <imagegrid name="gamegrid">
-      <padding>0.029 0 0.029 0</padding>
-	  <pos>0 0.14</pos>
-      <autoLayout>5 1</autoLayout>
-	  <autoLayoutSelectedZoom>1.26</autoLayoutSelectedZoom>
-      <margin>0.026 0.026</margin>
-    </imagegrid>
-   
-  </customView>
-  
-  <customView name="LogoFlow">
-  
-    <imagegrid name="gamegrid">
-	  <pos>0 0.36</pos>
-      <autoLayout>5 1</autoLayout>
-   </imagegrid>
-          
-  </customView>
-  
-  <customView name="LogosOnTop">
-	
-   	<imagegrid name="gamegrid">
-	  <pos>0 -0.042</pos>
-      <autoLayout>5 1</autoLayout>
-    </imagegrid>
-	    	
-  </customView>
-  
-  <customView name="VerticalLogos">
-  
-    <image name="Controller" extra="true">
-	  <x>0.444</x>	  
-    </image>
-	
-	<image name="Controller2" extra="true">
-	  <x>0.444</x>
-     </image>
-	 
-	<image name="md_thumbnail">
-      <size>0.19 0</size>
-	</image>
-	
-	<imagegrid name="gamegrid">
-     <pos>0.744 0.003</pos>
-     <autoLayout>1 5</autoLayout>
-   </imagegrid>
-	 
- </customView>
- 
- <customView name="LongList+Preview">
-  
-    <image name="Controller1" extra="true">
-	  <x>0.32083333</x>	  
-    </image>
-	
-	<image name="Controller2" extra="true">
-	  <x>0.32083333</x>
-    </image>
-		 
- </customView>
- 
  <customView name="RetroTiles">
 	
    	<imagegrid name="gamegrid">

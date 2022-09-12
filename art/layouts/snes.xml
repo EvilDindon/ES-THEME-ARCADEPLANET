@@ -1,16 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <theme>
   <formatVersion>7</formatVersion>
-  
-  <view name="grid">
-  
-   <imagegrid name="gamegrid">
-    <pos>0 0.08</pos>
-    <autoLayout>5 2</autoLayout>
-   </imagegrid>
-   
-  </view>
-   
+     
    <customView name="BoxCarousel">
   
 	<imagegrid name="gamegrid">
@@ -37,72 +28,5 @@
 	</imagegrid>
       
   </customView>
-  
-  <customView name="MiniLogos+Details">
-   
-   <imagegrid name="gamegrid">
-      <pos>0 0.43</pos>
-      <autoLayout>7 4</autoLayout>
-   </imagegrid>
-   
-  </customView>
-  
-  <customView name="SmallBoxes+Details">
-  
-   <imagegrid name="gamegrid">
-      <pos>0 0.43</pos>
-      <autoLayout>7 2</autoLayout>
-   </imagegrid>
-   
-  </customView>
-  
-  <customView name="CoverFlow">
-  
-   <imagegrid name="gamegrid">
-   	  <padding>0.066 0.17 0.066 0.13</padding>
-      <pos>0 0.14</pos>
-	  <size>1 0.774</size>
-      <autoLayoutSelectedZoom>1.16</autoLayoutSelectedZoom>
-      <margin>0.066 0.066</margin>
-      <autoLayout>3 1</autoLayout>
-   </imagegrid>
-   
-  </customView>
  
-  <customView name="LogoFlow">
-  
-    <imagegrid name="gamegrid">
-	  <pos>0 0.36</pos>
-      <autoLayout>5 1</autoLayout>
-   </imagegrid>
-   
-  </customView>
-  
-  <customView name="LogosOnTop">
-	
-   	<imagegrid name="gamegrid">
-	  <pos>0 -0.042</pos>
-      <autoLayout>5 1</autoLayout>
-    </imagegrid>
-	    	
-  </customView>
-  
-  <customView name="VerticalLogos">
-	
-   	<imagegrid name="gamegrid">
-	  <pos>0.744 0.003</pos>
-      <autoLayout>1 5</autoLayout>	  
-	</imagegrid>
-	    	
-  </customView>
-  
-  <customView name="RetroTiles">
-	
-   	<imagegrid name="gamegrid">
-      <pos>0 0.018</pos>
-      <autoLayout>4 3</autoLayout>
-    </imagegrid>
-	    	
-  </customView>
-  
 </theme>

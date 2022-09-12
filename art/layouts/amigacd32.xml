@@ -11,14 +11,6 @@
    
   </view>
   
-  <view name="detailed">
-  
-    <image name="md_thumbnail">
-      <size>0.19 0</size>
-	</image>
-	
-  </view>
-
    <customView name="BoxCarousel">
   
 	<imagegrid name="gamegrid">
@@ -75,50 +67,7 @@
    </imagegrid>
    
   </customView>
-  
-  <customView name="CoverFlow">
-  
-    <imagegrid name="gamegrid">
-	  <padding>0.029 0 0.029 0</padding>
-      <pos>0 0.14</pos>
-      <autoLayout>5 1</autoLayout>
-	  <autoLayoutSelectedZoom>1.26</autoLayoutSelectedZoom>
-      <margin>0.026 0.026</margin>
-    </imagegrid>
    
-  </customView>
-  
-  <customView name="LogoFlow">
-  
-   <imagegrid name="gamegrid">
-    <pos>0 0.36</pos>
-    <autoLayout>5 1</autoLayout>
-   </imagegrid>
-   
-  </customView>
-  
-  <customView name="LogosOnTop">
-	
-   	<imagegrid name="gamegrid">
-	  <pos>0 -0.042</pos>
-      <autoLayout>5 1</autoLayout>
-    </imagegrid>
-	    	
-  </customView>
-  
-  <customView name="VerticalLogos">
-  
-    <image name="md_thumbnail">
-      <size>0.19 0</size>
-	</image>
-	 
-	 <imagegrid name="gamegrid">
-     <pos>0.744 0.003</pos>
-     <autoLayout>1 5</autoLayout>
-   </imagegrid>
-	 
- </customView>
- 
  <customView name="RetroTiles">
 	
    	<imagegrid name="gamegrid">
