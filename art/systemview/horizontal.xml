@@ -26,7 +26,7 @@
 	</image>
   	
     <carousel name="systemcarousel">
-	  <defaultTransition>fade</defaultTransition>
+	  <defaultTransition>instant</defaultTransition>
       <size>1 0.375</size>
       <pos>0 0.592</pos>
       <origin>0 0</origin>
