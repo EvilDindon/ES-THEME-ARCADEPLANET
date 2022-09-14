@@ -407,9 +407,8 @@ originally based on: "carbon"
       <path ifSubset="artworkregion:US">./art/Colorlogos/US/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/Colorlogos/US/${system.theme}.svg</path>
 	  <path ifSubset="neogeostyle:mvs">./art/Colorlogos/special/${system.theme}.png</path>	 
-      <path ifSubset="neogeostyle:mvs">./art/Colorlogos/special/${system.theme}.svg</path>	  
 	  <pos>0.5 0.5</pos>
-      <maxSize>0.12 0.076 </maxSize>
+      <maxSize>0.12 0.076</maxSize>
       <origin>0.5 0.5</origin>
 	  <scale>0</scale>
 	  <zIndex>201</zIndex>
@@ -882,8 +881,161 @@ originally based on: "carbon"
     </text>
 	
   </view>
-  
+ 
   <customView name="BoxCarousel" inherits="grid" displayName="${boxcarousel}">
+  </customView>
+  
+  <customView name="video,gamecarousel,BoxCarousel">
+  
+    <helpsystem name="help">
+	  <pos>0.1 0.97</pos>
+	  <origin>0 0.5</origin>
+	  <fontSize>0.033</fontSize>
+      <textColor>686068</textColor>
+      <iconColor>68608A</iconColor>
+    </helpsystem>
+	  
+	<image name="bigtv" extra="true">
+      <size>0.5 0</size>
+	  <origin>0.5 0.5</origin>
+	  <path>./art/bigtv.png</path>
+	  <zIndex>9</zIndex>
+	</image>
+
+	<video name="md_video">
+	  <maxSize>0.43125 0.509</maxSize>
+	</video>
+	  
+	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
+	  <x>0.961979166</x>
+	  <size>0.031 0</size>
+      <color>767676</color>
+	  <origin>0.5 0.5</origin>
+	</image>
+	
+	<image name="md_hidden">
+      <path>./art/hidden.svg</path>
+    </image>
+	
+    <image name="md_kidgame, md_notkidgame">
+	  <y>0.9</y>
+	  <size>0.02 0</size>
+	  <color>50201080</color>
+      <path>./art/kid.svg</path>
+    </image>
+	
+	<image name="md_notkidgame">
+			<color>33333340</color>
+	</image>
+	
+    <image name="md_favorite, ghostfavorite">
+	  <y>0.067</y>
+      <path>./art/favorite.svg</path>
+      <color>960000</color>
+	</image>
+	
+	<image name="ghostfavorite" extra="true">
+      <color>76767640</color>
+	</image>
+	
+	<image name="md_flag">
+		<y>0.258</y>
+		<color>EEEEEE</color>
+	</image>
+	
+	<image name="md_manual, md_nomanual, ghostmanual">
+			<size>0.035 0</size>
+			<path>./art/manual.png</path>
+			<y>0.806</y>
+	</image>
+	
+	<image name="md_manual">
+		<color>009600</color>
+	</image>
+	
+	<image name="ghostmanual" extra="true">
+			<color>76767640</color>
+	</image>
+	
+	<image name="md_cheevos, md_notcheevos, ghostcheevos">
+			<size>0.032 0</size>
+			<path>./art/cheevos.png</path>
+			<y>0.533333</y>
+	</image>
+	
+	<image name="md_cheevos">
+			<color>969600</color>
+	</image>
+	
+	<image name="ghostcheevos" extra="true">
+			<color>76767640</color>
+	</image>
+		
+	<image name="md_savestate, md_nosavestate, ghostsavestate">
+			<path>./art/SaveState.png</path>
+			<y>0.670370370</y>
+	</image>
+	
+	<image name="md_savestate">
+			<color>0022FF</color>
+	</image>
+	
+	<image name="ghostsavestate" extra="true">
+			<color>76767640</color>
+	</image>
+	
+	<text name="md_playcount">
+		<visible>true</visible>
+		<origin>0.5 0.5</origin>
+		<alignment>right></alignment>
+		<size>0.04 0.037037</size>
+		<pos>0.99 0.159</pos>
+		<glowColor>00000016</glowColor>
+        <fontSize>0.034</fontSize>
+        <glowSize>2</glowSize>
+		<color>928e94</color>
+	    <zIndex>41</zIndex>
+	</text>	
+	
+	<text name="md_players">
+      <color>928e94</color>
+	  <origin>0.5 0.5</origin>
+	  <size>0.03 0.037037</size>
+	  <alignment>left</alignment>
+	  <pos>0.98 0.397</pos>
+	  <forceUppercase>1</forceUppercase>
+	  <glowColor>00000016</glowColor>
+      <fontSize>0.034</fontSize>
+      <glowSize>2</glowSize>
+	  <zIndex>41</zIndex>
+	</text>
+
+	<text name="md_developer">
+      <color>928e94</color>
+	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontSize>0.032</fontSize>
+	</text>
+		
+	<datetime name="md_releasedate">
+      <color>846e74</color>
+	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontSize>0.032</fontSize>
+	</datetime>
+    
+	<text name="md_description">
+      <color>E0E0E0ff</color>
+      <forceUppercase>0</forceUppercase>
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <fontSize>0.023</fontSize>
+	  <glowColor>00000080</glowColor>
+	  <glowSize>3</glowSize>
+	  <glowOffset>1</glowOffset>
+      <zIndex>15</zIndex>
+    </text>
+	
+  </customView>
+  
+   <customView name="BoxCarousel">
     		
 	<image name="background">
 	  <path>./art/bgboxcarousel.jpg</path>
@@ -898,7 +1050,6 @@ originally based on: "carbon"
 	
 	<video name="md_video">
 	  <visible>true</visible>
-	  <maxSize>0.43125 0.509</maxSize>
 	  <pos>0.249479 0.31</pos>
 	</video>
 	
@@ -928,14 +1079,13 @@ originally based on: "carbon"
       <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>
       <size>0.1375 0</size>
-	  <origin>0.5 0</origin>
+	  <color>FFFFFFbb</color>
 	  <storyboard>
 	 	<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
-		<animation property="scale" from="2" to="0.76" begin="620" duration="175" mode="Linear"/>
+		<animation property="scale" from="2" to="0.754" begin="620" duration="175" mode="Linear"/>
 		<animation property="x" from="0.5" to="0.249479" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.565" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.602" begin="620" duration="175" mode="Linear"/>
 	   </storyboard>
-	   <zIndex>10</zIndex>
 	</image>
 	
 	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate,md_players">
@@ -1112,7 +1262,6 @@ originally based on: "carbon"
       <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
       <size>0.1375 0</size>
-	  <origin>0.5 0.5</origin>
 	  <storyboard>
 	 	<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
@@ -1377,163 +1526,7 @@ originally based on: "carbon"
     </text>
 		
   </customView>
-  
-  <customView name="video,gamecarousel,BoxCarousel,MiniLogos,MiniLogosRight">
-  
-    <helpsystem name="help">
-	  <pos>0.1 0.97</pos>
-	  <origin>0 0.5</origin>
-	  <fontSize>0.033</fontSize>
-      <textColor>686068</textColor>
-      <iconColor>68608A</iconColor>
-    </helpsystem>
-		
-	<image name="logo">
-  	  <pos>0.5 0.5</pos>
-	  <color>BBBBBB</color>
-	  <scale>0</scale>
-	</image>
-	  
-	<image name="bigtv" extra="true">
-      <size>0.5 0</size>
-	  <origin>0.5 0.5</origin>
-	  <path>./art/bigtv.png</path>
-	  <zIndex>9</zIndex>
-	</image>
-
-	<video name="md_video">
-	  <maxSize>0.43125 0.509</maxSize>
-	</video>
-	  
-	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
-	  <x>0.961979166</x>
-	  <size>0.031 0</size>
-      <color>767676</color>
-	  <origin>0.5 0.5</origin>
-	</image>
-	
-	<image name="md_hidden">
-      <path>./art/hidden.svg</path>
-    </image>
-	
-    <image name="md_kidgame, md_notkidgame">
-	  <y>0.9</y>
-	  <size>0.02 0</size>
-	  <color>50201080</color>
-      <path>./art/kid.svg</path>
-    </image>
-	
-	<image name="md_notkidgame">
-			<color>33333340</color>
-	</image>
-	
-    <image name="md_favorite, ghostfavorite">
-	  <y>0.067</y>
-      <path>./art/favorite.svg</path>
-      <color>960000</color>
-	</image>
-	
-	<image name="ghostfavorite" extra="true">
-      <color>76767640</color>
-	</image>
-	
-	<image name="md_flag">
-		<y>0.258</y>
-		<color>EEEEEE</color>
-	</image>
-	
-	<image name="md_manual, md_nomanual, ghostmanual">
-			<size>0.035 0</size>
-			<path>./art/manual.png</path>
-			<y>0.806</y>
-	</image>
-	
-	<image name="md_manual">
-		<color>009600</color>
-	</image>
-	
-	<image name="ghostmanual" extra="true">
-			<color>76767640</color>
-	</image>
-	
-	<image name="md_cheevos, md_notcheevos, ghostcheevos">
-			<size>0.032 0</size>
-			<path>./art/cheevos.png</path>
-			<y>0.533333</y>
-	</image>
-	
-	<image name="md_cheevos">
-			<color>969600</color>
-	</image>
-	
-	<image name="ghostcheevos" extra="true">
-			<color>76767640</color>
-	</image>
-		
-	<image name="md_savestate, md_nosavestate, ghostsavestate">
-			<path>./art/SaveState.png</path>
-			<y>0.670370370</y>
-	</image>
-	
-	<image name="md_savestate">
-			<color>0022FF</color>
-	</image>
-	
-	<image name="ghostsavestate" extra="true">
-			<color>76767640</color>
-	</image>
-	
-	<text name="md_playcount">
-		<visible>true</visible>
-		<origin>0.5 0.5</origin>
-		<alignment>right></alignment>
-		<size>0.04 0.037037</size>
-		<pos>0.99 0.159</pos>
-		<glowColor>00000016</glowColor>
-        <fontSize>0.034</fontSize>
-        <glowSize>2</glowSize>
-		<color>928e94</color>
-	    <zIndex>41</zIndex>
-	</text>	
-	
-	<text name="md_players">
-      <color>928e94</color>
-	  <origin>0.5 0.5</origin>
-	  <size>0.03 0.037037</size>
-	  <alignment>left</alignment>
-	  <pos>0.98 0.397</pos>
-	  <forceUppercase>1</forceUppercase>
-	  <glowColor>00000016</glowColor>
-      <fontSize>0.034</fontSize>
-      <glowSize>2</glowSize>
-	  <zIndex>41</zIndex>
-	</text>
-
-	<text name="md_developer">
-      <color>928e94</color>
-	  <fontPath>./art/BebasNeue.otf</fontPath>
-	  <fontSize>0.032</fontSize>
-	</text>
-		
-	<datetime name="md_releasedate">
-      <color>846e74</color>
-	  <fontPath>./art/BebasNeue.otf</fontPath>
-	  <fontSize>0.032</fontSize>
-	</datetime>
     
-	<text name="md_description">
-      <color>E0E0E0ff</color>
-      <forceUppercase>0</forceUppercase>
-      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <fontSize>0.023</fontSize>
-	  <glowColor>00000080</glowColor>
-	  <glowSize>3</glowSize>
-	  <glowOffset>1</glowOffset>
-      <zIndex>15</zIndex>
-    </text>
-	
-  </customView>
-  
   <view name="video">
 
 	<image name="background">

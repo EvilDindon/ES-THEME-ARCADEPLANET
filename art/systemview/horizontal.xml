@@ -172,13 +172,13 @@
 	  <linearSmooth>false</linearSmooth>
       <zIndex>40</zIndex>
 		<storyboard repeatAt="2">
-			<animation property="opacity" from="1" to="1" begin="350" duration="" mode="Linear"/>
+			<animation property="opacity" from="1" to="1" begin="335" duration="" mode="Linear"/>
             <animation property="offsetY" from="0" to="-0.06" begin="620" duration="350" mode="EaseOutCubic" autoReverse="true"/>
             <animation property="offsetY" from="0" to="-0.038" begin="1320" duration="250" mode="EaseOutCubic" autoReverse="true"/>
 			<animation property="offsetY" from="0" to="-0.024" begin="1820" duration="140" mode="EaseOutCubic" autoReverse="true"/>
 			<animation property="offsetY" from="0" to="-0.009" begin="2100" duration="60" mode="EaseOutCubic" autoReverse="true"/>
 			<animation property="offsetY" from="0" to="-0.0025" begin="2220" duration="20" mode="EaseOutCubic" autoReverse="true"/>
-			<animation property="offsetY" from="0" to="0" begin="2260" duration="2500" mode="Linear" autoReverse="true"/>
+			<animation property="offsetY" from="0" to="0" begin="2260" duration="2500" mode="Linear"/>
 	  </storyboard>	  
 	</image>
 	
