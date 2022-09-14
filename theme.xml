@@ -1082,7 +1082,7 @@ originally based on: "carbon"
 	  <color>FFFFFFbb</color>
 	  <storyboard>
 	 	<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
-		<animation property="scale" from="2" to="0.754" begin="620" duration="175" mode="Linear"/>
+		<animation property="scale" from="2" to="0.68" begin="620" duration="175" mode="Linear"/>
 		<animation property="x" from="0.5" to="0.249479" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.602" begin="620" duration="175" mode="Linear"/>
 	   </storyboard>
