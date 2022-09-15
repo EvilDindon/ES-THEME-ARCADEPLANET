@@ -353,7 +353,7 @@ originally based on: "carbon"
 	<image name="randomArt01,randomArt02,randomArt03,randomArt04" extra="true" ifSubset="randomart:marquee|thumbnail">
 			<linearSmooth>true</linearSmooth>
             <maxSize ifSubset="randomart:thumbnail">0.185 0.3288888</maxSize>
-            <maxSize ifSubset="randomart:marquee">0.20833333 0.22222222</maxSize>
+            <maxSize ifSubset="randomart:marquee">0.20833333 0.24</maxSize>
 			<path ifSubset="randomart:marquee">{random:marquee}</path>
 			<path ifSubset="randomart:thumbnail">{random:thumbnail}</path>
 			<color>E0E0E0</color>
