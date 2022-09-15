@@ -8,6 +8,8 @@
   	 		
 		<image name="randomArt01" extra="true">
 		   	<pos>1.10417 0.37</pos>
+			<origin>0.5 1</origin>
+			<reflexion>0.25 0</reflexion>
 			<storyboard autoreverse="true" repeat="forever">
 				<animation property="offsetX" from="0" to="0" begin="" duration="1000" mode="linear"/>
 				<animation property="offsetX" from="0" to="-1.208333" begin="1000" duration="4000" mode="linear"/>
@@ -16,6 +18,8 @@
 				  	
 		<image name="randomArt02" extra="true">
 	       	<pos>-0.10417 0.37</pos>
+			<origin>0.5 1</origin>
+			<reflexion>0.25 0</reflexion>
 			<storyboard autoreverse="true" repeat="forever">
                 <animation property="offsetX" from="0" to="0" begin="" duration="1000" mode="linear"/>
 				<animation property="offsetX" from="0" to="1.208333" begin="1000" duration="4000" mode="linear"/>
@@ -24,6 +28,8 @@
 		
 		<image name="randomArt03" extra="true">
 		   	<pos>1.10417 0.37</pos>
+			<origin>0.5 1</origin>
+			<reflexion>0.25 0</reflexion>
 			<storyboard autoreverse="true" repeatAt="1">
 				<animation property="offsetX" from="0" to="0" duration="6000" mode="linear"/>
 				<animation property="offsetX" from="0" to="-1.208333" begin="6000" duration="4000" mode="linear"/>
@@ -32,6 +38,8 @@
 				  	
 		<image name="randomArt04" extra="true">
 	       	<pos>-0.10417 0.37</pos>
+			<origin>0.5 1</origin>
+			<reflexion>0.25 0</reflexion>
 			<storyboard autoreverse="true" repeatAt="1">
                 <animation property="offsetX" from="0" to="0" duration="6000" mode="linear"/>
 				<animation property="offsetX" from="0" to="1.208333" begin="6000" duration="4000" mode="linear"/>

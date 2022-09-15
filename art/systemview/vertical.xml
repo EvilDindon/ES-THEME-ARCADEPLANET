@@ -8,6 +8,14 @@
 		<include name="mvs" displayName="MVS (Arcade)"/>
 	</subset>
 	
+	<!-- Subsets options for Random Art -->
+	
+	<subset name="randomart" displayName="${RandomArt}">
+		<include name="none" displayName="${none}"/>
+		<include name="marquee" displayName="logos">./animations/2logos.xml</include>
+		<include name="thumbnail" displayName="${boxarts}">./animations/2boxarts.xml</include>
+	</subset>
+
    <view name="system">
    
    <image name="logo">
@@ -27,11 +35,13 @@
     <carousel name="systemcarousel">
       <defaultTransition>instant</defaultTransition>
 	  <type>vertical</type>
-      <pos>0.1518 0.005</pos>
+      <pos>0.2 0</pos>
+	  <pos ifSubset="randomart:marquee|thumbnail">0.1385416 0</pos>
+	  <origin>0.5 0</origin>
       <size>0.267 0.915</size>
-      <logoPos>0 -1</logoPos>
 	  <logoScale>1</logoScale>
       <logoSize>0.1375</logoSize>
+	  <logoAlignment>center</logoAlignment>
       <scrollSound>./../scroll3.wav</scrollSound>
 	  <zIndex>38</zIndex>
     </carousel>
@@ -45,7 +55,6 @@
     </image>
 	
 	<image name="bg2" extra="static">
-      <tile>false</tile>
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
@@ -54,13 +63,23 @@
 	  <opacity>0</opacity>
 	  <storyboard>
             <animation property="opacity" from="0" to="1" begin="" duration="1400" mode="Linear" autoReverse="true" repeat="forever"/>
-			<animation property="color" from="FFFFFF" to="55AAFF" begin="" duration="6300" mode="Linear" autoReverse="true" repeat="forever"/>
+			<animation property="color" from="FF0000" to="55AAFF" begin="" duration="6300" mode="Linear" autoReverse="true" repeat="forever"/>
 	  </storyboard>	  
     </image>
 	
+	<image name="bg3" extra="static">
+      <pos>0.2 -0.005</pos>
+	  <pos ifSubset="randomart:marquee|thumbnail">0.1385416 -0.005</pos>
+      <size>0.170833333 0.91388888</size>
+      <origin>0.5 0</origin>
+      <path>./../BGV3.png</path>
+      <zIndex>3</zIndex>
+    </image>
+	
 	<image name="Sprites" extra="static">
-      <pos>0.667 0.464</pos>
-      <origin>0.5 0.5</origin>
+      <pos>0.62 0.45</pos>
+      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.45</pos>
+	  <origin>0.5 0.5</origin>
       <size>0.5 0</size>
 	  <scale>0</scale>
 	  <path>./../sprites/${system.theme}.png</path>
@@ -74,8 +93,9 @@
     </image>
 	
 	<image name="Sprites2" extra="static">
-      <pos>0.667 0.464</pos>
-      <origin>0.5 0.5</origin>
+      <pos>0.62 0.45</pos>
+      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.45</pos>
+	  <origin>0.5 0.5</origin>
       <size>0.5 0</size>
       <path>./../sprites2/${system.theme}.png</path>
       <linearSmooth>false</linearSmooth>
@@ -87,8 +107,9 @@
     </image>
 	
 	<image name="Sprites3" extra="static">
-     <pos>0.667 0.464</pos>
-      <origin>0.5 0.5</origin>
+      <pos>0.62 0.45</pos>
+      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.45</pos>
+	  <origin>0.5 0.5</origin>
       <size>0.5 0</size>
       <path>./../sprites3/${system.theme}.png</path>
       <linearSmooth>false</linearSmooth>
@@ -100,8 +121,9 @@
     </image>
 	
 	<image name="Color Logos" extra="static">
-      <pos>0.667 0.48</pos>
-      <origin>0.5 0.5</origin>
+      <pos>0.62 0.48</pos>
+      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.48</pos>
+	  <origin>0.5 0.5</origin>
       <maxSize>0.334 0.2</maxSize>
 	  <path>./../Colorlogos/default.png</path>
 	  <path>./../Colorlogos/${system.theme}.png</path>
@@ -116,13 +138,14 @@
 	  <storyboard>
 		  <animation property="scale" from="0" to="1.5" begin="" duration="300" mode="Linear"/>
 		  <animation property="scale" from="1.5" to="1" begin="620" duration="375" mode="EaseOut"/>
-		  <animation property="y" from="0.48" to="0.14" begin="620" duration="375" mode="EaseOut"/>
+		  <animation property="y" from="0.48" to="0.11" begin="620" duration="375" mode="EaseOut"/>
 	  </storyboard>
     </image>
 		
 	<image name="VanishingColorLogos" extra="static">
-      <pos>0.667 0.14</pos>
-      <origin>0.5 0.5</origin>
+      <pos>0.62 0.11</pos>
+      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.11</pos>
+	  <origin>0.5 0.5</origin>
       <maxSize>0.334 0.2</maxSize>
 	  <path>./../Colorlogos/default.png</path>
 	  <path>./../Colorlogos/${system.theme}.png</path>
@@ -141,46 +164,31 @@
 	  </storyboard>
     </image>
 	
-	<image name="Controllers 1" extra="static">
-      <tile>false</tile>
-	  <linearSmooth>false</linearSmooth>
-      <pos>1.2 0.804</pos>
-      <origin>0.5 0.5</origin>
-      <size>0.1375 0.2</size>
+	<image name="Controller" extra="static">
+	  <linearSmooth>true</linearSmooth>
+      <pos>0.62 0.8</pos>
+	  <pos ifSubset="randomart:marquee|thumbnail">0.51 0.8</pos>
+	  <origin>0.5 0.5</origin>
+      <size>0.164 0</size>
 	  <path>./../controllers/default.png</path>
 	  <path>./../controllers/${system.theme}.png</path>
-      <path>./../controllers/${system.theme}.svg</path>
-	  <path ifSubset="artworkregion:US">./../controllers/US/default.png</path>
 	  <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./../controllers/special/${system.theme}.png</path>
       <reflexion>0.0 0.0</reflexion>
-	  <zIndex>21</zIndex>
-	  <storyboard>
-				<animation property="x" from="1.1" to="0.754" begin="1605" duration="375" mode="EaseOut"/>
-      </storyboard>
-    </image>
-	
-    <image name="Controllers 2" extra="static">
-      <tile>false</tile>
-	  <linearSmooth>false</linearSmooth>
-      <pos>1.2 0.804</pos>
-      <origin>0.5 0.5</origin>
-      <size>0.1375 0.2</size>
-	  <path>./../controllers/default.png</path>
-	  <path>./../controllers/${system.theme}.png</path>
-      <path>./../controllers/${system.theme}.svg</path>
-	  <path ifSubset="artworkregion:US">./../controllers/US/default.png</path>
-	  <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.png</path>
-	  <path ifSubset="neogeostyle:mvs">./../controllers/special/${system.theme}.png</path>
-      <reflexion>0.0 0.0</reflexion>
-	  <zIndex>21</zIndex>
-	  <storyboard>
-				<animation property="x" from="0.346" to="0.58" begin="1605" duration="375" mode="EaseOut"/>
-      </storyboard>
-    </image>
-		
+	  <zIndex>41</zIndex>
+	  <storyboard repeat="forever">
+			<animation property="offsetY" from="0" to="-0.06" begin="620" duration="350" mode="EaseOutCubic" autoReverse="true"/>
+            <animation property="offsetY" from="0" to="-0.038" begin="1320" duration="250" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetY" from="0" to="-0.024" begin="1820" duration="140" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetY" from="0" to="-0.009" begin="2100" duration="60" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetY" from="0" to="-0.0025" begin="2220" duration="20" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetY" from="0" to="0" begin="2260" duration="2500" mode="Linear"/>
+	  </storyboard>	  
+	</image>
+	   		
 	<image name="Chevron Bas" extra="static">
-      <pos>0.2204 0.904</pos>
+      <pos>0.1 0.612</pos>
+	  <pos ifSubset="randomart:marquee|thumbnail">0.028 0.612</pos>
 	  <flipY>true</flipY>
       <color>606090</color>
 	  <storyboard repeatAt="1">
@@ -190,32 +198,19 @@
 	</image>
 	
 	<image name="Chevron Haut" extra="static">
-      <pos>0.2204 0.019</pos>
-      <flipY>false</flipY>
+      <pos>0.1 0.312</pos>
+	  <pos ifSubset="randomart:marquee|thumbnail">0.028 0.312</pos>
+	  <flipY>false</flipY>
 	  <color>606090</color>
 	  <storyboard repeatAt="1">
             <animation property="offsetY" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
 	  </storyboard>
 	</image>
-	
-	<image name="Red Arrow Right" extra="static">
-      <pos>0.312 0.462037</pos>
-      <origin>0.5 0.5</origin>
-      <size>0.0328125 0.03611111</size>
-	  <rotation>90</rotation>
-	  <opacity>0.8</opacity>
-	  <path>./../RedArrowD.png</path>
-      <linearSmooth>false</linearSmooth>
-	  <zIndex>41</zIndex>
-	  <storyboard>
-            <animation property="x" from="0.302" to="0.312" begin="" duration="550" mode="Linear" autoReverse="true" repeat="forever"/>
-	  </storyboard>
-	</image>
-	
-	
-	<image name="Red Arrow Left" extra="static">
-      <pos>0.12875 0.462037</pos>
-      <origin>0.5 0.5</origin>
+		
+	<image name="Red Arrow" extra="static">
+      <pos>0.105 0.462037</pos>
+	  <pos ifSubset="randomart:marquee|thumbnail">0.032 0.462037</pos>
+	  <origin>0.5 0.5</origin>
       <size>0.0328125 0.03611111</size>
 	  <path>./../RedArrowD.png</path>
       <linearSmooth>false</linearSmooth>
@@ -223,7 +218,7 @@
 	  <opacity>0.4</opacity>
 	  <zIndex>41</zIndex>
 	  <storyboard>
-            <animation property="x" from="0.13875" to="0.12873" begin="" duration="550" mode="Linear" autoReverse="true" repeat="forever"/>
+            <animation property="offsetX" from="-0.01" to="0" begin="" duration="550" mode="Linear" autoReverse="true" repeat="forever"/>
 	  </storyboard>
 	</image>
 	
@@ -232,8 +227,9 @@
 	  <fontSize>0.028</fontSize>
 	  <origin>0.5 0.5</origin>
 	  <alignment>center</alignment>
-      <pos>0.667 0.936</pos>
-      <size>1 0.25</size>
+      <pos>0.62 0.936</pos>
+      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.936</pos>
+	  <size>1 0.25</size>
       <backgroundColor>0000FF00</backgroundColor>
       <color>606080ff</color>
       <glowColor>00000000</glowColor>
@@ -246,8 +242,6 @@
 	</image>
 		
   </view>
-
-  <include>./layouts/${system.theme}.xml</include>
   
   <!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}">
@@ -256,6 +250,7 @@
 		<include name="blue" displayName="${blue}">./colors/blue.xml</include>
 		<include name="red" displayName="${red}">./colors/red.xml</include>
 		<include name="purple" displayName="${purple}">./colors/purple.xml</include>
+		<include name="green" displayName="${green}">./colors/green.xml</include>		
     </subset>
-   
+	
 </theme>

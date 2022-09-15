@@ -79,6 +79,9 @@ originally based on: "carbon"
     <purple>purple</purple>
     <purple lang="fr">violet</purple>
 	
+	<green>green</green>
+    <green lang="fr">vert</green>
+	
 	<plainblack>plain black</plainblack>
     <plainblack lang="fr">noir plein</plainblack>
 	
@@ -349,14 +352,11 @@ originally based on: "carbon"
 			
 	<image name="randomArt01,randomArt02,randomArt03,randomArt04" extra="true" ifSubset="randomart:marquee|thumbnail">
 			<linearSmooth>true</linearSmooth>
-			<reflexion>0.25 0</reflexion>
-            <maxSize ifSubset="randomart:thumbnail">0.185 0.32</maxSize>
+            <maxSize ifSubset="randomart:thumbnail">0.185 0.3288888</maxSize>
             <maxSize ifSubset="randomart:marquee">0.20833333 0.22222222</maxSize>
-			<origin>0.5 1</origin>
 			<path ifSubset="randomart:marquee">{random:marquee}</path>
 			<path ifSubset="randomart:thumbnail">{random:thumbnail}</path>
 			<color>E0E0E0</color>
-			<zIndex>4</zIndex>
 	</image>
 	
   </view>

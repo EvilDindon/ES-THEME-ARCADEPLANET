@@ -253,6 +253,7 @@
 		<include name="blue" displayName="${blue}">./colors/blueH.xml</include>
 		<include name="red" displayName="${red}">./colors/redH.xml</include>
 		<include name="purple" displayName="${purple}">./colors/purpleH.xml</include>
+		<include name="green" displayName="${green}">./colors/greenH.xml</include>		
     </subset>
 	
 </theme>
