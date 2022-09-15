@@ -63,7 +63,7 @@
 	  <opacity>0</opacity>
 	  <storyboard>
             <animation property="opacity" from="0" to="1" begin="" duration="1400" mode="Linear" autoReverse="true" repeat="forever"/>
-			<animation property="color" from="CC0000" to="55AAFF" begin="" duration="6300" mode="Linear" autoReverse="true" repeat="forever"/>
+			<animation property="color" from="BB0000" to="55AAFF" begin="" duration="6300" mode="Linear" autoReverse="true" repeat="forever"/>
 	  </storyboard>	  
     </image>
 	
