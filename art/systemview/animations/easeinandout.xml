@@ -8,7 +8,7 @@
   	 		
 		<image name="randomArt01" extra="true">
 		    <pos>0.89 0.37</pos>
-			<reflexion>0.25 0</reflexion>
+			<reflexion>0.15 0</reflexion>
 			<origin>0.5 1</origin>
 			<storyboard repeatAt="1">
 				<animation property="offsetX" from="0.218" to="0.218" duration="2000" mode="linear"/>
@@ -20,7 +20,7 @@
 				
 		<image name="randomArt02" extra="true">
 	        <pos>0.11 0.37</pos>
-			<reflexion>0.25 0</reflexion>
+			<reflexion>0.15 0</reflexion>
 			<origin>0.5 1</origin>
 			<storyboard repeatAt="1">
                 <animation property="offsetX" from="-0.218" to="-0.218" duration="2250" mode="linear"/>
@@ -32,7 +32,7 @@
 		
 		<image name="randomArt03" extra="true">
 		    <pos>0.89 0.37</pos>
-			<reflexion>0.25 0</reflexion>
+			<reflexion>0.15 0</reflexion>
 			<origin>0.5 1</origin>
 			<storyboard repeatAt="1">
 				<animation property="offsetX" from="0.218" to="0.218" duration="7000" mode="linear"/>
@@ -42,7 +42,7 @@
 		</image>
 				
 		<image name="randomArt04" extra="true">
-			<reflexion>0.25 0</reflexion>
+			<reflexion>0.15 0</reflexion>
 			<origin>0.5 1</origin>
 	        <pos>0.11 0.37</pos>
 			<storyboard repeatAt="1">
