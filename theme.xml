@@ -40,6 +40,9 @@ originally based on: "carbon"
 	<LogoColor>Active Logo Color</LogoColor>
     <LogoColor lang="fr">Couleur du Logo Actif</LogoColor>
 	
+	<logostyle>Logo Style in Simplified Horizontal view</logostyle>
+    <logostyle lang="fr">Style de logo dans la vue Horizontale simplifiée</logostyle>
+	
 	<SelectorBarColor>Selector Bar Color</SelectorBarColor>
     <SelectorBarColor lang="fr">Couleur de la Barre de Selection</SelectorBarColor>
 	
@@ -73,9 +76,12 @@ originally based on: "carbon"
     <no>no</no>
     <no lang="fr">non</no>
 		
-	<none>none</none>
-    <none lang="fr">aucun</none>
+	<color>Color</color>
+    <color lang="fr">couleur</color>
    
+   	<none>none</none>
+    <none lang="fr">aucun</none>
+	
     <red>red</red>
     <red lang="fr">rouge</red>
             

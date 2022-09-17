@@ -9,12 +9,27 @@
 		<include name="aes" displayName="AES (Console)"/>
 		<include name="mvs" displayName="MVS (Arcade)"/>
 	</subset>
+
+  <!-- Subset options for Logo style -->
+	<subset name="logostyle" displayName="logostyle">
+		<include name="color" displayName="color"/>
+		<include name="white" displayName="white"/>
+	</subset>
 	
   <view name="system">
   
-    <image name="logo">
+    <image name="logo" ifSubset="logostyle:white">
 	  <linearSmooth>true</linearSmooth>
-	  <path>./../Colorlogos/default.png</path>
+	  <path>./../wheelv/${system.theme}.png</path>
+      <path>./../wheelv/${system.theme}.svg</path>
+      <path ifSubset="artworkregion:US">./../wheelv/US/default.png</path>
+	  <path ifSubset="artworkregion:US">./../wheelv/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./../wheelv/US/${system.theme}.svg</path>
+	  <path ifSubset="neogeostyle:mvs">./../wheelv/special/${system.theme}.png</path>
+	</image>
+	
+	<image name="logo" ifSubset="logostyle:color">
+	  <linearSmooth>true</linearSmooth>
 	  <path>./../Colorlogos/${system.theme}.png</path>
       <path>./../Colorlogos/${system.theme}.svg</path>
       <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
