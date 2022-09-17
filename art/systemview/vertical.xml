@@ -197,6 +197,7 @@
 	<image name="Chevron Bas" extra="static">
       <pos>0.1 0.612</pos>
 	  <pos ifSubset="randomart:marquee|thumbnail">0.028 0.612</pos>
+	  <size>0.015 0</size>
 	  <flipY>true</flipY>
       <color>606090</color>
 	  <storyboard repeatAt="1">
@@ -208,6 +209,7 @@
 	<image name="Chevron Haut" extra="static">
       <pos>0.1 0.312</pos>
 	  <pos ifSubset="randomart:marquee|thumbnail">0.028 0.312</pos>
+	  <size>0.015 0</size>
 	  <flipY>false</flipY>
 	  <color>606090</color>
 	  <storyboard repeatAt="1">
