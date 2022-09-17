@@ -14,6 +14,7 @@
 				<animation property="offsetX" from="0" to="0" begin="" duration="1000" mode="linear"/>
 				<animation property="offsetX" from="0" to="-1.208333" begin="1000" duration="4000" mode="linear"/>
             </storyboard>
+			<zIndex>5</zIndex>	
 		</image>
 				  	
 		<image name="randomArt02" extra="true">
@@ -24,6 +25,7 @@
                 <animation property="offsetX" from="0" to="0" begin="" duration="1000" mode="linear"/>
 				<animation property="offsetX" from="0" to="1.208333" begin="1000" duration="4000" mode="linear"/>
 			</storyboard>
+			<zIndex>5</zIndex>	
 		</image>
 		
 		<image name="randomArt03" extra="true">
@@ -34,6 +36,7 @@
 				<animation property="offsetX" from="0" to="0" duration="6000" mode="linear"/>
 				<animation property="offsetX" from="0" to="-1.208333" begin="6000" duration="4000" mode="linear"/>
 			</storyboard>
+			<zIndex>5</zIndex>	
 		</image>
 				  	
 		<image name="randomArt04" extra="true">
@@ -44,6 +47,7 @@
                 <animation property="offsetX" from="0" to="0" duration="6000" mode="linear"/>
 				<animation property="offsetX" from="0" to="1.208333" begin="6000" duration="4000" mode="linear"/>
             </storyboard>
+			<zIndex>5</zIndex>				
 		</image>
 			    
   </view>

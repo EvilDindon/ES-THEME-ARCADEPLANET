@@ -25,9 +25,12 @@ originally based on: "carbon"
 	<SystemViewStyle>System View Style</SystemViewStyle>
     <SystemViewStyle lang="fr">Style de Vue Système</SystemViewStyle>
 	
-	<SystemLogoCount>System View Logo Count</SystemLogoCount>
-	<SystemLogoCount lang="fr">Nombre de Logos Dans Vue Système</SystemLogoCount>
-		
+	<SystemLogoCountH>System View Horizontal Logo Count</SystemLogoCountH>
+	<SystemLogoCountH lang="fr">Nombre de Logos Dans Vue Système Horizontale</SystemLogoCountH>
+	
+	<SystemLogoCountV>System View Vertical Logo Count</SystemLogoCountV>
+	<SystemLogoCountV lang="fr">Nombre de Logos Dans Vue Système Verticale</SystemLogoCountV>	
+	
 	<TVFrameColor>TV Frame Color</TVFrameColor>
     <TVFrameColor lang="fr">Couleur du Cadre TV</TVFrameColor>
 	
@@ -149,13 +152,7 @@ originally based on: "carbon"
     <include name="horizontal">./art/systemview/horizontal.xml</include>
 	<include name="vertical">./art/systemview/vertical.xml</include>
   </subset>
-  
-  	<!-- Subset options for Logo Count in System Views -->
-  <subset name="systemviewlogocount" displayName="${SystemLogoCount}">
-   	<include name="7"/>
-	<include name="5"/>
-  </subset>
-		
+  		
 	<!-- Subset options for Selector Bar Color -->
 	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="menu,basic,video">
 		<include name="transparentblue" displayName="${transparentblue}"/>
@@ -336,8 +333,6 @@ originally based on: "carbon"
 	<carousel name="systemcarousel">
 	  <color>00000000</color>
       <colorEnd>00000000</colorEnd>
-	  <maxLogoCount>7</maxLogoCount>
-      <maxLogoCount ifSubset="systemviewlogocount:5">5</maxLogoCount>
 	  <systemInfoDelay>1000</systemInfoDelay>
     </carousel>
 	

@@ -7,7 +7,13 @@
 		<include name="aes" displayName="AES (Console)"/>
 		<include name="mvs" displayName="MVS (Arcade)"/>
 	</subset>
-	
+
+<!-- Subset options for Logo Count in System View Vertical -->
+  <subset name="systemviewlogocountV" displayName="${SystemLogoCountV}">
+ 	<include name="7"/>
+	<include name="5"/>
+  </subset>	
+  
 	<!-- Subsets options for Random Art -->
 	
 	<subset name="randomart" displayName="${RandomArt}">
@@ -39,6 +45,8 @@
 	  <pos ifSubset="randomart:marquee|thumbnail">0.1385416 0</pos>
 	  <origin>0.5 0</origin>
       <size>0.267 0.915</size>
+	  <maxLogoCount>7</maxLogoCount>
+      <maxLogoCount ifSubset="systemviewlogocountV:5">5</maxLogoCount>
 	  <logoScale>1</logoScale>
       <logoSize>0.1375</logoSize>
 	  <logoAlignment>center</logoAlignment>

@@ -15,6 +15,7 @@
 				<animation property="offsetX" from="0" to="-1.208333" begin="1000" duration="8000" mode="linear"/>
 				<animation property="offsetX" from="-1.208333" to="-1.208333" begin="9000" duration="1000" mode="linear"/>
             </storyboard>
+			<zIndex>5</zIndex>	
 		</image>
 				  	
 		<image name="randomArt02" extra="true">
@@ -26,6 +27,7 @@
 				<animation property="offsetX" from="0" to="1.208333" begin="1000" duration="8000" mode="linear"/>
 				<animation property="offsetX" from="1.208333" to="1.208333" begin="9000" duration="1000" mode="linear"/>
             </storyboard>
+			<zIndex>5</zIndex>	
 		</image>
 			    
   </view>

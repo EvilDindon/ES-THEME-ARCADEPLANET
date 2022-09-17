@@ -10,6 +10,12 @@
 		<include name="mvs" displayName="MVS (Arcade)"/>
 	</subset>
 	
+<!-- Subset options for Logo Count in System View Horizontal -->
+  <subset name="systemviewlogocountH" displayName="${SystemLogoCountH}">
+   	<include name="5"/>
+	<include name="7"/>
+  </subset>
+	
   <view name="system">
   
     <image name="logo">
@@ -30,6 +36,8 @@
       <size>1 0.375</size>
       <pos>0 0.592</pos>
       <origin>0 0</origin>
+	  <maxLogoCount>5</maxLogoCount>
+      <maxLogoCount ifSubset="systemviewlogocountH:7">7</maxLogoCount>
 	  <logoPos>-1 0</logoPos>
 	  <logoScale>1</logoScale>
       <logoSize>0.1375 0.2963</logoSize>
