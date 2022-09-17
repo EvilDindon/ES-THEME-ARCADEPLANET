@@ -344,7 +344,7 @@ originally based on: "carbon"
 	<carousel name="systemcarousel">
 	  <color>00000000</color>
       <colorEnd>00000000</colorEnd>
-	  <systemInfoDelay>1000</systemInfoDelay>
+	  <systemInfoDelay>0</systemInfoDelay>
     </carousel>
 	
 	<image name="Chevron droite, Chevron gauche, Chevron Haut, Chevron Bas" extra="static">

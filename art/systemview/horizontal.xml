@@ -25,7 +25,8 @@
 		 <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
 		 <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
 		 <storyboard event="activate">
-		 <animation property="color" from="FFFF00ff" to="AAAA00ff" begin="335" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>		 </storyboard>
+			<animation property="color" from="FFFF00ff" to="AAAA00ff" begin="335" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>
+		 </storyboard>
 		 <storyboard event="deactivate">
  			<animation property="color" from="DDDDEEff" to="DDDDEEff" begin="" duration="" mode="Linear"/>
 	     </storyboard>	
