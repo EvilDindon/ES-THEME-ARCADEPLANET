@@ -239,7 +239,7 @@
       <pos ifSubset="randomart:marquee|thumbnail">0.51 0.936</pos>
 	  <size>1 0.25</size>
       <backgroundColor>0000FF00</backgroundColor>
-      <color>606080ff</color>
+      <color>A0A0D0ff</color>
       <glowColor>00000000</glowColor>
       <glowSize>0.1</glowSize>
       <reflexion>0.0 0.0</reflexion>
