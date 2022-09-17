@@ -25,12 +25,12 @@
   	
     <carousel name="systemcarousel">
 	  <defaultTransition>slide</defaultTransition>
-      <size>1 0.3</size>
-      <pos>0.5 0.79</pos>
+      <size>1 0.22</size>
+      <pos>0.5 0.794</pos>
       <origin>0.5 0.5</origin>
 	  <maxLogoCount>5</maxLogoCount>
 	  <logoScale>1.46</logoScale>
-      <logoSize>0.1375 0.2222222</logoSize>
+      <logoSize>0.1375 0.13</logoSize>
 	  <scrollSound>./../scroll3.wav</scrollSound>
 	  <zIndex>37</zIndex>
     </carousel>
