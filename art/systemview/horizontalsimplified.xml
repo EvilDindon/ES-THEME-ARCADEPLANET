@@ -167,11 +167,11 @@
 	  <fontSize>0.028</fontSize>
 	  <forceUppercase>0</forceUppercase>
 	  <origin>0 0.5</origin>
-	  <alignment>lrft</alignment>
-      <pos>0.47 0.904</pos>
+	  <alignment>left</alignment>
+      <pos>0.51 0.904</pos>
       <size>0.2 0.026</size>
       <backgroundColor>5522FF00</backgroundColor>
-      <color>a0a4D8dd</color>
+      <color>bbbbbbdd</color>
       <glowColor>00000000</glowColor>
       <glowSize>0.1</glowSize>
       <reflexion>0.0 0.0</reflexion>
@@ -186,7 +186,7 @@
 	  <alignment>right</alignment>
       <pos>0.5 0.904</pos>
       <size>1 0.27</size>
-      <color>a0a4D8dd</color>
+      <color>bbbbbbdd</color>
       <glowColor>00000000</glowColor>
       <glowSize>0.1</glowSize>
       <reflexion>0.0 0.0</reflexion>
