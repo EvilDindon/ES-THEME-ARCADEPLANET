@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 
 <theme>
@@ -28,6 +28,25 @@
 	  <path ifSubset="neogeostyle:mvs">./../wheelv/special/${system.theme}.png</path>
 	</image>
 	
+	<image name="whitelogoshadow" extra="true" ifSubset="logostyle:white">
+	  <linearSmooth>true</linearSmooth>
+	  <path>./../wheelv/${system.theme}.png</path>
+      <path>./../wheelv/${system.theme}.svg</path>
+      <path ifSubset="artworkregion:US">./../wheelv/US/default.png</path>
+	  <path ifSubset="artworkregion:US">./../wheelv/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./../wheelv/US/${system.theme}.svg</path>
+	  <path ifSubset="neogeostyle:mvs">./../wheelv/special/${system.theme}.png</path>
+	  <color>00000077</color>
+	  <pos>0.504 0.798</pos>
+	  <origin>0.5 0.5</origin>
+	  <size>0.20075 0</size>
+	  <zIndex>36</zIndex>
+	  <opacity>0</opacity>
+	  <storyboard>
+  			<animation property="opacity" from="0" to="1" begin="300" duration="75" mode="Linear"/>
+	  </storyboard>	
+	</image>
+	
 	<image name="logo" ifSubset="logostyle:color">
 	  <linearSmooth>true</linearSmooth>
 	  <path>./../Colorlogos/${system.theme}.png</path>
@@ -36,6 +55,25 @@
 	  <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
 	  <path ifSubset="neogeostyle:mvs">./../Colorlogos/special/${system.theme}.png</path>
+	</image>
+	
+	<image name="colorlogoshadow" extra="true" ifSubset="logostyle:color">
+	  <linearSmooth>true</linearSmooth>
+	  <path>./../Colorlogos/${system.theme}.png</path>
+      <path>./../Colorlogos/${system.theme}.svg</path>
+      <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
+	  <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
+	  <path ifSubset="neogeostyle:mvs">./../Colorlogos/special/${system.theme}.png</path>
+	  <color>00000077</color>
+	  <pos>0.504 0.798</pos>
+	  <origin>0.5 0.5</origin>
+	  <size>0.20075 0</size>
+	  <zIndex>36</zIndex>
+	  <opacity>0</opacity>
+	  <storyboard>
+  			<animation property="opacity" from="0" to="1" begin="300" duration="75" mode="Linear"/>
+	  </storyboard>	
 	</image>
   	
     <carousel name="systemcarousel">
@@ -48,7 +86,7 @@
       <logoSize>0.1375 0.116</logoSize>
 	  <scrollSound>./../scroll3.wav</scrollSound>
 	  <zIndex>37</zIndex>
-    </carousel>
+	</carousel>
 		
     <image name="bghlandscapeSimple" extra="static">
       <pos>0 0</pos>
@@ -198,9 +236,18 @@
 	</image>
 	
 	</view>
-    	
-<!-- Subsets options for Random Art -->
+ 
+	<!-- Subset options for Selected logo Color -->
+	<subset name="logocolor" displayName="${LogoColor}" ifSubset="logostyle:white">
+		<include name="white" displayName="${white}">./colors/white.xml</include>
+		<include name="yellow" displayName="${yellow}">./colors/yellow.xml</include>
+		<include name="blue" displayName="${blue}">./colors/blue.xml</include>
+		<include name="red" displayName="${red}">./colors/red.xml</include>
+		<include name="purple" displayName="${purple}">./colors/purple.xml</include>
+		<include name="green" displayName="${green}">./colors/green.xml</include>		
+    </subset>
 	
+	<!-- Subsets options for Random Art -->
 	<subset name="randomart" displayName="${RandomArt}">
 		<include name="none" displayName="${none}"></include>
 		<include name="marquee" displayName="logos">./animations/easeinandout.xml</include>
