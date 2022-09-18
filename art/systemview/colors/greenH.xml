@@ -6,7 +6,7 @@
   
 	<image name="logo">
 	     <storyboard event="activate">
- 			<animation property="color" from="0ae837" to="0ae83788" begin="350" duration="1200" mode="Linear" autoreverse="true" repeat="forever"/>
+ 			<animation property="color" from="0ae837" to="0ae83788" begin="335" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>
 		 </storyboard>
 	</image>
 	

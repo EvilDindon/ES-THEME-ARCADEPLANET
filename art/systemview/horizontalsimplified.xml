@@ -12,8 +12,8 @@
 
   <!-- Subset options for Logo style -->
 	<subset name="logostyle" displayName="${logostyle}">
-		<include name="color" displayName="color"/>
 		<include name="white" displayName="white"/>
+		<include name="color" displayName="color"/>
 	</subset>
 	
   <view name="system">
@@ -78,12 +78,12 @@
   	
     <carousel name="systemcarousel">
 	  <defaultTransition>instant</defaultTransition>
-      <size>1 0.22</size>
+      <size>1 0.187962962</size>
       <pos>0.5 0.794</pos>
       <origin>0.5 0.5</origin>
 	  <maxLogoCount>5</maxLogoCount>
 	  <logoScale>1.46</logoScale>
-      <logoSize>0.1375 0.116</logoSize>
+      <logoSize>0.1375 0.128741755</logoSize>
 	  <scrollSound>./../scroll3.wav</scrollSound>
 	  <zIndex>37</zIndex>
 	</carousel>
@@ -167,8 +167,8 @@
 	</image>
 	
 	<image name="Chevron droite">
-		<pos>0.675521 0.58</pos>
-		<size>0.028 0</size>
+		<pos>0.65 0.598</pos>
+		<size>0.022 0</size>
 		<opacity>0.75</opacity>
 		<rotation>90</rotation>
 		<storyboard repeat="forever">
@@ -178,8 +178,8 @@
 	</image>
 	
 	<image name="Chevron gauche">
-      <pos>0.324479 0.58</pos>
-	  <size>0.028 0</size>
+      <pos>0.35 0.598</pos>
+	  <size>0.022 0</size>
 	  <opacity>0.75</opacity>
 	  <rotation>-90</rotation>
       <storyboard repeatAt="1">

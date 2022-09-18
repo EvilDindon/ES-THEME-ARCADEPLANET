@@ -26,7 +26,7 @@
    
    <image name="logo">
 		 <color>DDDDFFff</color>
-	     <linearSmooth>false</linearSmooth>
+	     <linearSmooth>true</linearSmooth>
 	     <path>./art/wheelv/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
 		 <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>
@@ -47,7 +47,7 @@
       <size>0.267 0.915</size>
 	  <maxLogoCount>7</maxLogoCount>
       <maxLogoCount ifSubset="systemviewlogocountV:5">5</maxLogoCount>
-	  <logoScale>1</logoScale>
+	  <logoScale>1.16</logoScale>
       <logoSize>0.1375</logoSize>
 	  <logoAlignment>center</logoAlignment>
       <scrollSound>./../scroll3.wav</scrollSound>
@@ -229,7 +229,7 @@
       <pos>0.105 0.462037</pos>
 	  <pos ifSubset="randomart:marquee|thumbnail">0.032 0.462037</pos>
 	  <origin>0.5 0.5</origin>
-      <size>0.0328125 0.03611111</size>
+      <size>0.025 0</size>
 	  <path>./../RedArrowD.png</path>
       <linearSmooth>false</linearSmooth>
 	  <rotation>-90</rotation>
@@ -279,10 +279,10 @@
 		
   </view>
   
-  <!-- Subset options for Selected logo Color -->
+	<!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}">
-		<include name="yellow" displayName="${yellow}"></include>
 		<include name="white" displayName="${white}">./colors/white.xml</include>
+		<include name="yellow" displayName="${yellow}">./colors/yellow.xml</include>
 		<include name="blue" displayName="${blue}">./colors/blue.xml</include>
 		<include name="red" displayName="${red}">./colors/red.xml</include>
 		<include name="purple" displayName="${purple}">./colors/purple.xml</include>

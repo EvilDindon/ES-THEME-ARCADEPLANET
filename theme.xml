@@ -158,8 +158,8 @@ originally based on: "carbon"
 	
 	<!-- Subset options for System View -->
   <subset name="systemview" displayName="${SystemViewStyle}">
-    <include name="horizontal">./art/systemview/horizontal.xml</include>
 	<include name="horizontalsimplified" displayName="${HorizontalSimplified}">./art/systemview/horizontalsimplified.xml</include>
+	<include name="horizontal">./art/systemview/horizontal.xml</include>
 	<include name="vertical">./art/systemview/vertical.xml</include>
   <!-- 	<include name="verticalalt" displayName="Vertical Alt">./art/systemview/verticalalt.xml"</include> -->
   </subset>
@@ -305,7 +305,7 @@ originally based on: "carbon"
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/Bank Gothic Light BT.ttf</fontPath>
-	  <fontSize>0.038</fontSize>
+	  <fontSize>0.032</fontSize>
 	  <textColor>686068</textColor>
       <iconColor>68608A</iconColor>
     </helpsystem>

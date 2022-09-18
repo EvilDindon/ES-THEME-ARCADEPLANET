@@ -19,27 +19,21 @@
   <view name="system">
   
     <image name="logo">
-		 <color>DDDDEEff</color>
+		 <color>FFFFFFff</color>
 	     <linearSmooth>false</linearSmooth>
 	     <path>./art/wheel/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
 		 <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
-		 <storyboard event="activate">
-			<animation property="color" from="FFFF00ff" to="AAAA00ff" begin="335" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>
-		 </storyboard>
-		 <storyboard event="deactivate">
- 			<animation property="color" from="DDDDEEff" to="DDDDEEff" begin="" duration="" mode="Linear"/>
-	     </storyboard>	
 	</image>
-  	
-    <carousel name="systemcarousel">
+    
+	<carousel name="systemcarousel">
 	  <defaultTransition>instant</defaultTransition>
-      <size>1 0.375</size>
-      <pos>0 0.592</pos>
-      <origin>0 0</origin>
+      <size>1 0.592592592</size>
+      <pos>0.5 0.74</pos>
+      <origin>0.5 0.5</origin>
 	  <maxLogoCount>5</maxLogoCount>
       <maxLogoCount ifSubset="systemviewlogocountH:7">7</maxLogoCount>
-	  <logoPos>-1 0</logoPos>
+<!-- 	  <logoPos>-1 0</logoPos> -->
 	  <logoScale>1</logoScale>
       <logoSize>0.1375 0.2963</logoSize>
 	  <scrollSound>./../scroll3.wav</scrollSound>
@@ -272,10 +266,10 @@
 		<include name="crossoverx2" displayName="${crossoverx2}">./animations/crossoverx2.xml</include>
 	</subset>
 
-<!-- Subset options for Selected logo Color -->
+	<!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}">
-		<include name="yellow" displayName="${yellow}"></include>
 		<include name="white" displayName="${white}">./colors/whiteH.xml</include>
+		<include name="yellow" displayName="${yellow}">./colors/yellowH.xml</include>
 		<include name="blue" displayName="${blue}">./colors/blueH.xml</include>
 		<include name="red" displayName="${red}">./colors/redH.xml</include>
 		<include name="purple" displayName="${purple}">./colors/purpleH.xml</include>
