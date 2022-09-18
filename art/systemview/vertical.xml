@@ -54,7 +54,7 @@
 	  <zIndex>38</zIndex>
     </carousel>
 		
-	<image name="bglandscape" extra="static">
+	<image name="bgvlandscape" extra="static">
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
@@ -62,26 +62,34 @@
       <zIndex>1</zIndex>	  
     </image>
 	
-	<image name="bg2" extra="static">
+	<image name="bgv2" extra="static">
       <pos>0 0</pos>
-      <size>1 1</size>
+      <pos ifSubset="randomart:marquee|thumbnail">-0.11 0</pos>
+	  <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../BGV2.png</path>
-      <zIndex>2</zIndex>
-	  <opacity>0</opacity>
+      <path>./../bgv2.png</path>
+      <zIndex>5</zIndex>
 	  <storyboard>
-            <animation property="opacity" from="0" to="0.62" begin="" duration="1400" mode="Linear" autoReverse="true" repeat="forever"/>
-			<animation property="color" from="AA2266" to="55AAFF" begin="" duration="6300" mode="Linear" autoReverse="true" repeat="forever"/>
+ 			<animation property="color" from="ffffffff" to="88AADDff" begin="" duration="4000" mode="Linear" autoReverse="true" repeat="forever"/>
 	  </storyboard>	  
     </image>
 	
-	<image name="bg3" extra="static">
+	<image name="bgv3" extra="static">
       <pos>0.2 -0.005</pos>
 	  <pos ifSubset="randomart:marquee|thumbnail">0.1385416 -0.005</pos>
       <size>0.170833333 0.91388888</size>
       <origin>0.5 0</origin>
       <path>./../BGV3.png</path>
-      <zIndex>3</zIndex>
+      <zIndex>6</zIndex>
+    </image>
+	
+	<image name="bgv4" extra="static">
+      <pos>0.62 0.6935185</pos>
+	  <pos ifSubset="randomart:marquee|thumbnail">0.51 0.6935185</pos>
+      <size>1.5625 0.43611111</size>
+      <origin>0.5 0.5</origin>
+      <path>./../BGV4.png</path>
+      <zIndex>4</zIndex>
     </image>
 	
 	<image name="Sprites" extra="static">
@@ -231,20 +239,38 @@
             <animation property="offsetX" from="-0.01" to="0" begin="" duration="550" mode="Linear" autoReverse="true" repeat="forever"/>
 	  </storyboard>
 	</image>
-	
+		
 	<text name="systemInfo">
 	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
 	  <fontSize>0.028</fontSize>
-	  <origin>0.5 0.5</origin>
-	  <alignment>center</alignment>
-      <pos>0.62 0.936</pos>
-      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.936</pos>
-	  <size>1 0.25</size>
-      <backgroundColor>0000FF00</backgroundColor>
-      <color>A0A0D0ff</color>
+	  <forceUppercase>0</forceUppercase>
+	  <origin>0 0.5</origin>
+	  <alignment>left</alignment>
+      <pos>0.625 0.973</pos>
+      <pos ifSubset="randomart:marquee|thumbnail">0.515 0.973</pos>
+	  <size>0.2 0.026</size>
+      <backgroundColor>5522FF00</backgroundColor>
+      <color>bbbbbbdd</color>
       <glowColor>00000000</glowColor>
       <glowSize>0.1</glowSize>
       <reflexion>0.0 0.0</reflexion>
+    </text>
+	
+	<text name="hardwaretype" extra="static">
+	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+	  <fontSize>0.028</fontSize>
+	  <text>${system.hardwareType} ${system.releaseYearOrNull} |</text>
+	  <forceUppercase>0</forceUppercase>
+	  <origin>1 0.5</origin>
+	  <alignment>right</alignment>
+      <pos>0.62 0.973</pos>
+      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.973</pos>
+	  <size>1 0.27</size>
+      <color>bbbbbbdd</color>
+      <glowColor>00000000</glowColor>
+      <glowSize>0.1</glowSize>
+      <reflexion>0.0 0.0</reflexion>
+      <zIndex>40</zIndex>
 	</text>
 	
 	<image name="Chevron gauche, Chevron droite">

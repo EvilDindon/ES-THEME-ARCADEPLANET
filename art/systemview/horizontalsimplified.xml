@@ -66,7 +66,7 @@
       <path>./../bgh2.png</path>
       <zIndex>1</zIndex>
 	  <storyboard>
-  			<animation property="color" from="FFFFFF" to="00FFFF88" begin="" duration="4500" mode="Linear" autoReverse="true" repeat="forever"/>
+  			<animation property="color" from="FFFFFF" to="0088BBff" begin="" duration="4500" mode="Linear" autoReverse="true" repeat="forever"/>
 	  </storyboard>	  
     </image>
 			
@@ -150,7 +150,7 @@
 	</image>
 	
 	<image name="Red Arrow" extra="static">
-      <pos>0.5 0.68</pos>
+      <pos>0.5 0.689</pos>
       <origin>0.5 0.5</origin>
       <size>0.025 0</size>
 	  <path>./../RedArrowD.png</path>

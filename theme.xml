@@ -302,12 +302,12 @@ originally based on: "carbon"
   
     <helpsystem name="help">
 	  <pos>0.01 0.935</pos>
+	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/Bank Gothic Light BT.ttf</fontPath>
-	  <fontSize>0.028</fontSize>
-      <textColor>ae9946</textColor>
-      <iconColor>c21302</iconColor>
-	  <iconSize>5</iconSize>
+	  <fontSize>0.038</fontSize>
+	  <textColor>686068</textColor>
+      <iconColor>68608A</iconColor>
     </helpsystem>
 	
 	<sound name="bgsound">

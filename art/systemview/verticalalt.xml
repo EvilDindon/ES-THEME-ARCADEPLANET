@@ -66,7 +66,7 @@
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../BGV2.png</path>
+      <path>./../bgv2alt.png</path>
       <zIndex>2</zIndex>
 	  <opacity>0</opacity>
 	  <storyboard>
