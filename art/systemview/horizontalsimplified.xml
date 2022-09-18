@@ -39,7 +39,7 @@
 	</image>
   	
     <carousel name="systemcarousel">
-	  <defaultTransition>slide</defaultTransition>
+	  <defaultTransition>instant</defaultTransition>
       <size>1 0.22</size>
       <pos>0.5 0.794</pos>
       <origin>0.5 0.5</origin>
