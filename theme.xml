@@ -161,7 +161,7 @@ originally based on: "carbon"
     <include name="horizontal">./art/systemview/horizontal.xml</include>
 	<include name="horizontalsimplified" displayName="${HorizontalSimplified}">./art/systemview/horizontalsimplified.xml</include>
 	<include name="vertical">./art/systemview/vertical.xml</include>
-  	<include name="verticalalt" displayName="Vertical Alt">./art/systemview/verticalalt.xml"</include>
+  <!-- 	<include name="verticalalt" displayName="Vertical Alt">./art/systemview/verticalalt.xml"</include> -->
   </subset>
   		
 	<!-- Subset options for Selector Bar Color -->
