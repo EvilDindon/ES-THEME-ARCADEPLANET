@@ -61,10 +61,8 @@
       <origin>0 0</origin>
       <path>./../bgh2.png</path>
       <zIndex>1</zIndex>
-	  <opacity>0</opacity>
 	  <storyboard>
-            <animation property="opacity" from="0" to="1" begin="" duration="1400" mode="Linear" autoReverse="true" repeat="forever"/>
-			<animation property="color" from="FFFFFF" to="55AAFF" begin="" duration="6300" mode="Linear" autoReverse="true" repeat="forever"/>
+  			<animation property="color" from="FFFFFF" to="0088BBff" begin="" duration="4500" mode="Linear" autoReverse="true" repeat="forever"/>
 	  </storyboard>	  
     </image>
 	
@@ -213,13 +211,13 @@
 	<image name="Red Arrow" extra="static">
       <pos>0.5 0.56</pos>
       <origin>0.5 0.5</origin>
-      <size>0.0328125 0.03611111</size>
+      <size>0.025 0</size>
 	  <path>./../RedArrowD.png</path>
       <linearSmooth>false</linearSmooth>                                                       
 	  <opacity>0.67</opacity>
 	  <zIndex>36</zIndex>
 	  <storyboard>
-			<animation property="offsetY" from="0.01" to="0" begin="" duration="550" mode="Linear" autoReverse="true" repeat="forever"/>
+			<animation property="offsetY" from="0.01" to="0" begin="" duration="400" mode="Linear" autoReverse="true" repeat="forever"/>
 		</storyboard>
 	</image>
 		
@@ -227,15 +225,32 @@
 	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
 	  <fontSize>0.028</fontSize>
 	  <forceUppercase>0</forceUppercase>
-	  <origin>0.5 0.5</origin>
-      <pos>0.5 0.902</pos>
-      <size>1 0.27</size>
-      <backgroundColor>0000FF00</backgroundColor>
-      <color>A0A0D0ff</color>
+	  <origin>0 0.5</origin>
+	  <alignment>left</alignment>
+      <pos>0.505 0.904</pos>
+      <size>0.2 0.026</size>
+      <backgroundColor>5522FF00</backgroundColor>
+      <color>bbbbbbdd</color>
       <glowColor>00000000</glowColor>
       <glowSize>0.1</glowSize>
       <reflexion>0.0 0.0</reflexion>
     </text>
+	
+	<text name="hardwaretype" extra="static">
+	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+	  <fontSize>0.028</fontSize>
+	  <text>${system.hardwareType} ${system.releaseYearOrNull} |</text>
+	  <forceUppercase>0</forceUppercase>
+	  <origin>1 0.5</origin>
+	  <alignment>right</alignment>
+      <pos>0.5 0.904</pos>
+      <size>1 0.27</size>
+      <color>bbbbbbdd</color>
+      <glowColor>00000000</glowColor>
+      <glowSize>0.1</glowSize>
+      <reflexion>0.0 0.0</reflexion>
+      <zIndex>40</zIndex>
+	</text>
 	
 	<image name="Chevron Haut, Chevron Bas">
 	  <visible>false</visible>

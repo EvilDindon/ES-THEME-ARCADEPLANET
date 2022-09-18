@@ -29,7 +29,7 @@ originally based on: "carbon"
 	<SystemLogoCountH lang="fr">Nombre de Logos Dans Vue Système Horizontale</SystemLogoCountH>
 	
 	<HorizontalSimplified>Horizontal Simplified</HorizontalSimplified>
-    <SystemViewStyle lang="fr">Horizontal Simplifié</SystemViewStyle>
+    <HorizontalSimplified lang="fr">Horizontal Simplifié</HorizontalSimplified>
 	
 	<SystemLogoCountV>System View Vertical Logo Count</SystemLogoCountV>
 	<SystemLogoCountV lang="fr">Nombre de Logos Dans Vue Système Verticale</SystemLogoCountV>	
@@ -40,8 +40,8 @@ originally based on: "carbon"
 	<LogoColor>Active Logo Color</LogoColor>
     <LogoColor lang="fr">Couleur du Logo Actif</LogoColor>
 	
-	<logostyle>Logo Style in Simplified Horizontal view</logostyle>
-    <logostyle lang="fr">Style de logo dans la vue Horizontale simplifiée</logostyle>
+	<logostyle>Logo Style</logostyle>
+    <logostyle lang="fr">Style de logo</logostyle>
 	
 	<SelectorBarColor>Selector Bar Color</SelectorBarColor>
     <SelectorBarColor lang="fr">Couleur de la Barre de Selection</SelectorBarColor>
@@ -158,10 +158,10 @@ originally based on: "carbon"
 	
 	<!-- Subset options for System View -->
   <subset name="systemview" displayName="${SystemViewStyle}">
-    <include name="horizontalsimplified" displayName="${HorizontalSimplified}">./art/systemview/horizontalsimplified.xml</include>
+    <include name="horizontal">./art/systemview/horizontal.xml</include>
+	<include name="horizontalsimplified" displayName="${HorizontalSimplified}">./art/systemview/horizontalsimplified.xml</include>
 	<include name="vertical">./art/systemview/vertical.xml</include>
-	<include name="horizontal">./art/systemview/horizontal.xml</include>
-   
+  	<include name="verticalalt" displayName="Vertical Alt">./art/systemview/verticalalt.xml"</include>
   </subset>
   		
 	<!-- Subset options for Selector Bar Color -->
@@ -304,10 +304,10 @@ originally based on: "carbon"
 	  <pos>0.01 0.935</pos>
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/Bank Gothic Light BT.ttf</fontPath>
-	  <fontSize>0.0264</fontSize>
+	  <fontSize>0.028</fontSize>
       <textColor>ae9946</textColor>
       <iconColor>c21302</iconColor>
-	  <iconSize>3</iconSize>
+	  <iconSize>5</iconSize>
     </helpsystem>
 	
 	<sound name="bgsound">
