@@ -48,6 +48,4 @@ Gamelist view : Retro Tiles
 
 Gamelist view : Grid
 
-Gamelist view : Logo Flow
-
 SOME CUSTOM COLLECTIONS SCREENSHOTS !
