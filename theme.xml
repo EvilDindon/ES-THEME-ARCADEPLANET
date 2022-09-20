@@ -9,8 +9,11 @@ originally based on: "carbon"
 <theme defaultView="video">
 
   <formatVersion>7</formatVersion>
-  	
+  
+<!-- VARIABLES -->
+  
 	<variables>
+	
     <!--menu colors-->
     <baseColor>8b0000</baseColor>
     <gradientEndColor>000000</gradientEndColor>
@@ -179,12 +182,11 @@ originally based on: "carbon"
 		<include name="red" displayName="${red}"/>
 		<include name="blue" displayName="${blue}"/>
 		<include name="purple" displayName="${purple}"/>
-		
 		<include name="none" displayName="${none}"/>
 	</subset>
 	
-	<!-- Subset options for Selector Text -->
-		<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="menu,basic,video">
+	<!-- Subset options for Selected Text -->
+		<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="menu,basic,detailed,video">
 		<include name="white" displayName="${white}"/>
 		<include name="black" displayName="${black}"/>
 		<include name="yellow" displayName="${yellow}"/>
@@ -192,6 +194,8 @@ originally based on: "carbon"
 		<include name="red" displayName="${red}"/>
 		<include name="purple" displayName="${purple}"/>
 	</subset>
+
+<!-- MENU -->
 	
   <view name="menu">
   
@@ -272,7 +276,9 @@ originally based on: "carbon"
     </menuButton>
 	
   </view>
-  
+ 
+<!-- SCREEN Elements -->
+ 
   <view name="screen">
     
 	<text name="clock">
@@ -298,6 +304,8 @@ originally based on: "carbon"
 	
   </view>
   
+  <!-- HELP SYSTEM -->
+  
   <view name="system,basic,grid">
   
     <helpsystem name="help">
@@ -315,6 +323,8 @@ originally based on: "carbon"
 	</sound>
 		   			
   </view>
+  
+  <!-- SYSTEM VIEW Common Elements -->
   
   <view name="system">
   	
@@ -365,8 +375,10 @@ originally based on: "carbon"
 	</image>
 	
   </view>
-      
-  <view name="basic,video,grid,gamecarousel">
+  
+<!-- COMMON ELEMENTS in Gamelist Views -->
+  
+  <view name="basic,detailed,video,grid,gamecarousel">
   
     <image name="background, background2, black screen">
 	  <pos>0 0</pos>
@@ -387,24 +399,7 @@ originally based on: "carbon"
      	  </storyboard>
 	  <zIndex>200</zIndex>
 	</image>
-	
-	<text name="logoText">
-      <pos>0.5 0.5</pos>
-	  <origin>0.5 0.5</origin>
-      <size>0.98 0.126</size>
-      <alignment>center</alignment>
-      <fontSize>0.04</fontSize>
-      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <color>${baseColor}</color>
-	  <zIndex>201</zIndex>
-	  <storyboard>
-		  <animation property="scale" from="0" to="5" begin="" duration="300" mode="Linear"/>
-		  <animation property="scale" from="5" to="1" begin="620" duration="175" mode="Linear"/>
-		  <animation property="x" from="0.5" to="0.86" begin="620" duration="175" mode="Linear"/>
-		  <animation property="y" from="0.5" to="0.96" begin="620" duration="175" mode="Linear"/>
-	  </storyboard>
-	</text>
-	
+
     <image name="logo">
 	  <linearSmooth>true</linearSmooth>
       <path>./art/Colorlogos/${system.theme}.png</path>
@@ -614,18 +609,62 @@ originally based on: "carbon"
 	</datetime>
 			
     </view>
+	
+<!-- GAMELIST Common Elements (basic, detailed, video) -->
+
+ <view name="basic,detailed,video">
+ 
+ 	<textlist name="gamelist">
+     <selectorColor>0080D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:none">00000000</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
+     <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentred">E8000060</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblue">3070FFff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainred">B21302ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblack">000000ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plaingrey">404040ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainorange">EE8800ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainpurple">6e55a7</selectorColor>
+	 <selectorColorEnd>00000000</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentblue">48A8E810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblue">3070FFff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainred">c21302ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblack">000000ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plaingrey">404040ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainorange">EE8800ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainpurple">6e55a7</selectorColorEnd>
+	  <selectorOffsetY>0.01</selectorOffsetY>
+	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey|plainorange|plainyellow|plainpurple">-0.0011</selectorOffsetY>
+	  <selectedColor>88D8F0</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">FF0000</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
+	  <primaryColor>999999</primaryColor>
+      <secondaryColor>7a6161</secondaryColor>
+	  <scrollSound>./art/scroll.wav</scrollSound>
+	  <forceUppercase>1</forceUppercase>
+	  <zIndex>15</zIndex>	  
+	</textlist>
+ 
+ </view> 
+ 
+<!-- BASIC -->
    	
     <view name="basic">
   
     <text name="logoText">
       <size>0.98 0.126</size>
-      <fontSize>0.06</fontSize>
-      <color>${baseColor}</color>
-	  <storyboard>
-		  <animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
-		  <animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
-		  <animation property="y" from="0.5" to="0.1" begin="620" duration="175" mode="Linear"/>
-	  </storyboard>
+      <fontSize>0.1</fontSize>
+      <color>FFFFFF</color>
 	</text>
 	
     <image name="logo">
@@ -704,41 +743,6 @@ originally based on: "carbon"
     </image>
 	 	  
 	<textlist name="gamelist">
-     <selectorColor>0080D0E0</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:none">00000000</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
-     <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:transparentred">E8000060</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainblue">3070FF</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainred">B21302ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainblack">000000ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plaingrey">404040ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainorange">EE8800ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainpurple">6e55a7</selectorColor>
-	 <selectorColorEnd>00000000</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:transparentblue">48A8E810</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainblue">3070FF</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainred">c21302ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainblack">000000ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plaingrey">404040ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainorange">EE8800ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainpurple">6e55a7</selectorColorEnd>
-	  <selectorOffsetY>0.01</selectorOffsetY>
-	<selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey|plainorange|plainyellow|plainpurple">0</selectorOffsetY>
-	  <selectedColor>48B8F0</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:red">FF0000</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-	  <primaryColor>A0AABB</primaryColor>
-      <secondaryColor>7a6161</secondaryColor>
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <forceUppercase>1</forceUppercase>
       <pos>0.25 0.263</pos>
@@ -747,12 +751,340 @@ originally based on: "carbon"
       <horizontalMargin>0.005</horizontalMargin>
       <fontSize>0.0324</fontSize>
 	  <lines>11</lines>
-	  <scrollSound>./art/scroll.wav</scrollSound>
-	  <zIndex>15</zIndex>	  
 	</textlist>
 	
    </view>
+
+<!-- DETAILED, VIDEO Common Elements -->
+
+ <view name="detailed,video">
+		
+	<image name="Chevron Bas">
+	  <opacity>0.7</opacity>
+      <pos>0.91145 0.91</pos>
+	</image>	
+	
+	<image name="Chevron Haut">
+		<opacity>0.7</opacity>
+		<pos>0.91145 0.148</pos>
+	</image>
+	
+	<image name="logo">
+    <path>./art/wheelv/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
+	  <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>	  
+	 <size>0.164 0</size>
+	  <storyboard>
+		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
+		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.7203125" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.06574074074" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</image>
+		
+	<textlist name="gamelist">
+      <pos>0.713 0.5333333</pos>
+	  <origin>0.5 0.5</origin>
+      <size>0.42291666 0.78703703</size>
+      <horizontalMargin>0.005</horizontalMargin>
+	</textlist>
+	
+  </view>
   
+  <!-- DETAILED -->
+ 
+  <view name="detailed">
+
+	<image name="background">
+	  <path>./art/bgdetailed.jpg</path>
+	</image>
+		
+	<image name="md_thumbnail">
+	  <pos>0.249479 0.4</pos>
+	  <origin>0.5 0.5</origin>
+      <maxSize>0.37 0.65777777</maxSize>
+	  <reflexion>0.05 0</reflexion>
+	</image>
+	
+    <image name="md_marquee">
+	  <visible>false</visible>
+	</image>
+	
+	<video name="md_video">
+		  <visible>false</visible>
+	</video>
+		
+	<textlist name="gamelist">
+      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <size>0.42291666 0.78703703</size>
+      <alignment>left</alignment>
+      <horizontalMargin>0.01</horizontalMargin>
+      <fontSize>0.034</fontSize>
+	  <lines>11</lines>
+	</textlist>
+	
+	<text name="md_developer">
+	  <origin>0 0.5</origin>
+	  <size>0.401041666 0.03</size>
+	  <pos>0.082 0.809</pos>
+	</text>
+		
+	<datetime name="md_releasedate">
+	  <alignment>right</alignment>
+	  <pos>0.018 0.809</pos>
+	  <origin>0 0.5</origin>
+	  <size>0.055 0.037</size>
+	</datetime>
+	
+	<text name="md_description">
+      <origin>0.5 0.5</origin>
+	  <pos>0.244 0.885</pos>
+	  <size>0.48 0.10185185</size>
+	  <alignment>left</alignment>
+    </text>
+	
+	<rating name="md_rating">
+      <pos>0.444 0.809</pos>
+      <size>0.08 0.025</size>
+	  <origin>0.5 0.5</origin>
+      <color>E0A020</color>
+      <unfilledColor>808080</unfilledColor>
+	  <zIndex>41</zIndex>	  
+    </rating>
+	
+	<text name="md_genre">
+		<visible>false</visible>
+	</text>
+	
+  </view>
+ 
+<!-- VIDEO -->
+ 
+  <view name="video">
+
+	<image name="background">
+	  <path>./art/bgvideo.jpg</path>
+	</image>
+	
+	<image name="bgvideo2" extra="true">
+	  	  <path>./art/bgvideo2.png</path>
+		  <zIndex>1</zIndex>
+		  <storyboard>
+			<animation property="opacity" from="0" to="1" begin="" duration="4000" mode="Linear" autoReverse="true" repeat="forever"/>
+		</storyboard>
+	</image>	
+	
+	<image name="bigtv">
+	  <pos>0.249479 0.521296296</pos>
+	</image>
+	
+	<video name="md_video">
+	  <pos>0.249479 0.521296296</pos>
+	</video>
+		
+	<image name="Controller" extra="true">
+			<pos>0.0916666 0.116</pos>
+			<size>0.164 0</size>	       	
+			<path>./art/controller.png</path>
+     		<path>./art/controllers/${system.theme}.png</path>
+      		<path ifSubset="artworkregion:US">./art/controller.png</path>
+     		<path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
+	 	    <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
+			<path ifSubset="neogeostyle:mvs">./art/controllers/special/${system.theme}.png</path>
+	  <storyboard>
+	    <animation property="offsetX" from="-0.2" to="-0.2" begin="" duration="1000" mode="Linear"/>
+		<animation property="offsetX" from="-0.2" to="0" begin="1000" duration="250" mode="Linear"/>
+	  </storyboard>
+	<zIndex>101</zIndex>
+	</image>
+	
+	<image name="md_thumbnail">
+      <visible>false</visible>
+	</image>
+	
+	<image name="md_marquee">
+	  <linearSmooth>true</linearSmooth>
+	  <maxSize>0.3 0.22685185</maxSize>
+	  <pos>0.329 0.116</pos>
+	  <origin>0.5 0.5</origin>
+	  <zIndex>42</zIndex>
+	  	  	
+			<storyboard event="open">
+                <animation property="offsetY" from="-0.25" to="-0.25" duration="1000" mode="Linear"/>
+				<animation property="offsetY" from="-0.25" to="0" begin="1000" duration="250" mode="Linear"/>
+			</storyboard>
+			
+			<storyboard event="activate">
+                <animation property="offsetY" from="-0.25" to="0" duration="500" mode="Linear"/>
+				<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			
+			<storyboard event="deactivate">
+			    <animation property="scale" from="1" to="0" duration="500" mode="Linear"/>
+			</storyboard>
+	</image>	  
+	
+	<textlist name="gamelist">
+      <fontPath>./art/BebasNeue.otf</fontPath>
+      <forceUppercase>1</forceUppercase>
+      <pos>0.713 0.5333333</pos>
+	  <origin>0.5 0.5</origin>
+      <size>0.42291666 0.78703703</size>
+      <alignment>left</alignment>
+      <horizontalMargin>0.005</horizontalMargin>
+      <fontSize>0.042</fontSize>
+	  <lines>13</lines>
+	</textlist>
+	
+	<text name="md_developer">
+	  <origin>0 0.5</origin>
+	  <size>0.401041666 0.03</size>
+	  <pos>0.082 0.809</pos>
+	</text>
+		
+	<datetime name="md_releasedate">
+	  <alignment>right</alignment>
+	  <pos>0.018 0.809</pos>
+	  <origin>0 0.5</origin>
+	  <size>0.055 0.037</size>
+	</datetime>
+	
+	<text name="md_description">
+      <origin>0.5 0.5</origin>
+	  <pos>0.244 0.885</pos>
+	  <size>0.48 0.10185185</size>
+	  <alignment>right</alignment>
+    </text>
+	
+	<rating name="md_rating">
+      <pos>0.444 0.809</pos>
+      <size>0.08 0.025</size>
+	  <origin>0.5 0.5</origin>
+      <color>E0A020</color>
+      <unfilledColor>808080</unfilledColor>
+	  <zIndex>41</zIndex>	  
+    </rating>
+	
+	<text name="md_genre">
+		<visible>false</visible>
+	</text>
+	
+  </view>
+
+<view name="gamecarousel">
+    
+	<image name="background">
+	  <path>./art/bggamecarousel.jpg</path>
+	</image>
+
+	<video name="md_video">
+	  <pos>0.249479 0.415740740</pos>
+	</video>
+	
+	<image name="bigtv">
+	  <pos>0.249479 0.415740740</pos>
+	</image>
+	
+	<image name="Chevron Bas">
+	  <opacity>0.7</opacity>
+      <pos>0.51 0.7</pos>
+	</image>	
+	
+	<image name="Chevron Haut">
+		<opacity>0.7</opacity>
+		<pos>0.51 0.24</pos>
+	</image>
+	
+	<image name="logo">
+      <path>./art/wheel/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
+      <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
+	  <size>0.1375 0</size>
+	  <storyboard>
+		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
+		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.84" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.467592592" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="md_marquee,Controller,md_thumbnail">
+	  <visible>false</visible>
+	</image>	  
+	
+	<gamecarousel name="gamecarousel">
+      <type>vertical_wheel</type>
+	  <logoAlignment>center</logoAlignment>
+	  <logoRotationOrigin>3.6 0.5</logoRotationOrigin>
+	  <logoRotation>12</logoRotation>
+	  <origin>0.5 0.5</origin>
+      <pos>0.612 0.47</pos>
+      <size>0.5 0.93</size>
+      <logoScale>2</logoScale>
+      <logoSize>0.20833333 0.22222</logoSize>
+      <maxLogoCount>11</maxLogoCount>
+      <imageSource>marquee</imageSource>
+      <zIndex>10</zIndex>
+	  <scrollSound>./art/scroll2.wav</scrollSound>
+    </gamecarousel>    
+    
+	<text name="gamecarouselLogoText">
+      <fontPath>./art/BebasNeue.otf</fontPath>
+	  <color>AABBBBFF</color>
+	  <fontSize>0.042</fontSize>
+      <glowColor>000000FF</glowColor>
+      <glowSize>4</glowSize>
+      <lineSpacing>1.0</lineSpacing>
+    </text>
+	
+	<text name="md_name">
+      <color>DDD000</color>
+	  <pos>0.252 0.0563</pos>
+      <fontPath>./art/BebasNeue.otf</fontPath>  
+	  <size>0.4791666 0.11</size>
+	  <lineSpacing>1.1</lineSpacing>
+      <alignment>center</alignment>
+	  <fontSize>0.047</fontSize>
+	  <origin>0.5 0.5</origin>
+	  <glowColor>000000ff</glowColor>
+      <glowSize>3</glowSize>
+	  <zIndex>41</zIndex>
+	  <storyboard repeat="forever">
+            <animation property="color" from="DDD000" to="908A40" begin="" duration="1150" mode="Linear" autoReverse="true"/>
+	  </storyboard>	  	  
+	</text>
+	
+	<text name="md_developer">
+	  <origin>0 0.5</origin>
+	  <size>0.401041666 0.03</size>
+ 	  <pos>0.082 0.703703</pos>
+	</text>
+		
+	<datetime name="md_releasedate">
+	  <alignment>right</alignment>
+ 	  <pos>0.018 0.703703</pos>
+	  <origin>0 0.5</origin>
+	  <size>0.055 0.037</size>
+	</datetime>
+	
+	<rating name="md_rating">
+      <pos>0.444 0.703703</pos>
+      <size>0.08 0.025</size>
+	  <origin>0.5 0.5</origin>
+      <color>E0A020</color>
+      <unfilledColor>808080</unfilledColor>
+	  <zIndex>41</zIndex>	  
+    </rating>	
+	
+	<text name="md_description">
+      <origin>0.5 0.5</origin>
+	  <pos>0.244 0.835185185</pos>
+	  <size>0.48 0.2</size>
+	  <alignment>right</alignment>
+   </text>
+   	
+  </view>
+ 
    <view name="grid">
   
     <image name="background">
@@ -1531,292 +1863,7 @@ originally based on: "carbon"
     </text>
 		
   </customView>
-    
-  <view name="video">
-
-	<image name="background">
-	  <path>./art/bgvideo.jpg</path>
-	</image>
-	
-	<image name="bgvideo2" extra="true">
-	  	  <path>./art/bgvideo2.png</path>
-		  <zIndex>1</zIndex>
-		  <storyboard>
-			<animation property="opacity" from="0" to="1" begin="" duration="4000" mode="Linear" autoReverse="true" repeat="forever"/>
-		</storyboard>
-	</image>	
-	
-	<image name="bigtv">
-	  <pos>0.249479 0.521296296</pos>
-	</image>
-	
-	<video name="md_video">
-	  <pos>0.249479 0.521296296</pos>
-	</video>
-	
-	<image name="Chevron Bas">
-	  <opacity>0.7</opacity>
-      <pos>0.91145 0.91</pos>
-	</image>	
-	
-	<image name="Chevron Haut">
-		<opacity>0.7</opacity>
-		<pos>0.91145 0.148</pos>
-	</image>
-	
-	<image name="logo">
-    <path>./art/wheelv/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
-	  <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>	  
-	 <size>0.164 0</size>
-	  <storyboard>
-		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
-		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.7203125" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.06574074074" begin="620" duration="175" mode="Linear"/>
-	  </storyboard>
-	</image>
-	
-	<image name="Controller" extra="true">
-			<pos>0.0916666 0.116</pos>
-			<size>0.164 0</size>	       	
-			<path>./art/controller.png</path>
-     		<path>./art/controllers/${system.theme}.png</path>
-      		<path ifSubset="artworkregion:US">./art/controller.png</path>
-     		<path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
-	 	    <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
-			<path ifSubset="neogeostyle:mvs">./art/controllers/special/${system.theme}.png</path>
-	  <storyboard>
-	    <animation property="offsetX" from="-0.2" to="-0.2" begin="" duration="1000" mode="Linear"/>
-		<animation property="offsetX" from="-0.2" to="0" begin="1000" duration="250" mode="Linear"/>
-	  </storyboard>
-	<zIndex>101</zIndex>
-	</image>
-	
-	<image name="md_thumbnail">
-      <visible>false</visible>
-	</image>
-	
-	<image name="md_marquee">
-	  <linearSmooth>true</linearSmooth>
-	  <maxSize>0.3 0.22685185</maxSize>
-	  <pos>0.329 0.116</pos>
-	  <origin>0.5 0.5</origin>
-	  <zIndex>42</zIndex>
-	  	  	
-			<storyboard event="open">
-                <animation property="offsetY" from="-0.25" to="-0.25" duration="1000" mode="Linear"/>
-				<animation property="offsetY" from="-0.25" to="0" begin="1000" duration="250" mode="Linear"/>
-			</storyboard>
-			
-			<storyboard event="activate">
-                <animation property="offsetY" from="-0.25" to="0" duration="500" mode="Linear"/>
-				<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			
-			<storyboard event="deactivate">
-			    <animation property="scale" from="1" to="0" duration="500" mode="Linear"/>
-			</storyboard>
-	</image>	  
-	
-	<textlist name="gamelist">
-     <selectorColor>0080D0E0</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:none">00000000</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
-     <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:transparentred">E8000060</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainblue">3070FFff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainred">B21302ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainblack">000000ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plaingrey">404040ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainorange">EE8800ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainpurple">6e55a7</selectorColor>
-	 <selectorColorEnd>00000000</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:transparentblue">48A8E810</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainblue">3070FFff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainred">c21302ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainblack">000000ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plaingrey">404040ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainorange">EE8800ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainpurple">6e55a7</selectorColorEnd>
-	  <selectorOffsetY>0.01</selectorOffsetY>
-	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey|plainorange|plainyellow|plainpurple">-0.0011</selectorOffsetY>
-	  <selectedColor>88D8F0</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:red">FF0000</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-	  <primaryColor>899898</primaryColor>
-      <secondaryColor>7a6161</secondaryColor>
-      <fontPath>./art/BebasNeue.otf</fontPath>
-      <forceUppercase>1</forceUppercase>
-      <pos>0.713 0.5333333</pos>
-	  <origin>0.5 0.5</origin>
-      <size>0.42291666 0.78703703</size>
-      <alignment>left</alignment>
-      <horizontalMargin>0.005</horizontalMargin>
-      <fontSize>0.042</fontSize>
-	  <lines>13</lines>
-	  <scrollSound>./art/scroll.wav</scrollSound>
-	  <zIndex>13</zIndex>	  
-	</textlist>
-	
-	<text name="md_developer">
-	  <origin>0 0.5</origin>
-	  <size>0.401041666 0.03</size>
-	  <pos>0.082 0.809</pos>
-	</text>
-		
-	<datetime name="md_releasedate">
-	  <alignment>right</alignment>
-	  <pos>0.018 0.809</pos>
-	  <origin>0 0.5</origin>
-	  <size>0.055 0.037</size>
-	</datetime>
-	
-	<text name="md_description">
-      <origin>0.5 0.5</origin>
-	  <pos>0.244 0.885</pos>
-	  <size>0.48 0.10185185</size>
-	  <alignment>right</alignment>
-    </text>
-	
-	<rating name="md_rating">
-      <pos>0.444 0.809</pos>
-      <size>0.08 0.025</size>
-	  <origin>0.5 0.5</origin>
-      <color>E0A020</color>
-      <unfilledColor>808080</unfilledColor>
-	  <zIndex>41</zIndex>	  
-    </rating>
-	
-	<text name="md_genre">
-		<visible>false</visible>
-	</text>
-	
-  </view>
-	
-  <view name="gamecarousel">
-    
-	<image name="background">
-	  <path>./art/bggamecarousel.jpg</path>
-	</image>
-
-	<video name="md_video">
-	  <pos>0.249479 0.415740740</pos>
-	</video>
-	
-	<image name="bigtv">
-	  <pos>0.249479 0.415740740</pos>
-	</image>
-	
-	<image name="Chevron Bas">
-	  <opacity>0.7</opacity>
-      <pos>0.51 0.7</pos>
-	</image>	
-	
-	<image name="Chevron Haut">
-		<opacity>0.7</opacity>
-		<pos>0.51 0.24</pos>
-	</image>
-	
-	<image name="logo">
-      <path>./art/wheel/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
-      <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
-	  <size>0.1375 0</size>
-	  <storyboard>
-		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
-		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.84" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.467592592" begin="620" duration="175" mode="Linear"/>
-	  </storyboard>
-	</image>
-	
-	<image name="md_marquee,Controller,md_thumbnail">
-	  <visible>false</visible>
-	</image>	  
-	
-	<gamecarousel name="gamecarousel">
-      <type>vertical_wheel</type>
-	  <logoAlignment>center</logoAlignment>
-	  <logoRotationOrigin>3.6 0.5</logoRotationOrigin>
-	  <logoRotation>12</logoRotation>
-	  <origin>0.5 0.5</origin>
-      <pos>0.612 0.47</pos>
-      <size>0.5 0.93</size>
-      <logoScale>2</logoScale>
-      <logoSize>0.20833333 0.22222</logoSize>
-      <maxLogoCount>11</maxLogoCount>
-      <imageSource>marquee</imageSource>
-      <zIndex>10</zIndex>
-	  <scrollSound>./art/scroll2.wav</scrollSound>
-    </gamecarousel>    
-    
-	<text name="gamecarouselLogoText">
-      <fontPath>./art/BebasNeue.otf</fontPath>
-	  <color>AABBBBFF</color>
-	  <fontSize>0.042</fontSize>
-      <glowColor>000000FF</glowColor>
-      <glowSize>4</glowSize>
-      <lineSpacing>1.0</lineSpacing>
-    </text>
-	
-	<text name="md_name">
-      <color>DDD000</color>
-	  <pos>0.252 0.0563</pos>
-      <fontPath>./art/BebasNeue.otf</fontPath>  
-	  <size>0.4791666 0.11</size>
-	  <lineSpacing>1.1</lineSpacing>
-      <alignment>center</alignment>
-	  <fontSize>0.047</fontSize>
-	  <origin>0.5 0.5</origin>
-	  <glowColor>000000ff</glowColor>
-      <glowSize>3</glowSize>
-	  <zIndex>41</zIndex>
-	  <storyboard repeat="forever">
-            <animation property="color" from="DDD000" to="908A40" begin="" duration="1150" mode="Linear" autoReverse="true"/>
-	  </storyboard>	  	  
-	</text>
-	
-	<text name="md_developer">
-	  <origin>0 0.5</origin>
-	  <size>0.401041666 0.03</size>
- 	  <pos>0.082 0.703703</pos>
-	</text>
-		
-	<datetime name="md_releasedate">
-	  <alignment>right</alignment>
- 	  <pos>0.018 0.703703</pos>
-	  <origin>0 0.5</origin>
-	  <size>0.055 0.037</size>
-	</datetime>
-	
-	<rating name="md_rating">
-      <pos>0.444 0.703703</pos>
-      <size>0.08 0.025</size>
-	  <origin>0.5 0.5</origin>
-      <color>E0A020</color>
-      <unfilledColor>808080</unfilledColor>
-	  <zIndex>41</zIndex>	  
-    </rating>	
-	
-	<text name="md_description">
-      <origin>0.5 0.5</origin>
-	  <pos>0.244 0.835185185</pos>
-	  <size>0.48 0.2</size>
-	  <alignment>right</alignment>
-   </text>
-   	
-  </view>
-   
+  
   <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
     
 	<image name="background">
@@ -1951,79 +1998,7 @@ originally based on: "carbon"
     </image>
 			
   </customView>
-  
-  <!-- <view name="detailed">
    
-    <image name="background">
-	    <path>./art/bgdetailed.jpg</path>
-    </image>
-	
-	<image name="background2" extra="true">
-	    <path>./art/bgdetailed2.png</path>
-		<zIndex>43</zIndex>
-    </image>
-	
-	<image name="Controller+logo 1" extra="true">
-	  <pos>0.874 0.668</pos>
-     </image>
-	
-	<image name="Controller+logo 2" extra="true">
-	  <pos>0.126 0.668</pos>
-    </image>
-	
-	<image name="Chevron Bas">
-      <pos>0.7640625 0.88</pos>
-	</image>
-	
-	<image name="Chevron Haut">
-      <pos>0.7640625 0.475</pos>
-	</image>
-	
-	<image name="Controller">
-	    <visible>false</visible>
-	</image>
-		
-	<image name="md_thumbnail">
-	  <pos>0.14 0.214</pos>
-      <maxSize>0.246 0.424</maxSize>
-	  	  <reflexion>0 0</reflexion>
-	  	  	<storyboard event="activate">
-                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-			</storyboard>
-	</image>
-	
-	<image name="md_marquee">
-	  <linearSmooth>true</linearSmooth>
-	  <reflexion>0.25 0</reflexion>
-	  <pos>0.88 0.26</pos>
-      <origin>0.5 0.5</origin>
-      <maxSize>0.19 0.16</maxSize>
-	  <zIndex>42</zIndex>
-	  	  	 <storyboard event="activate">
-                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-			</storyboard>
-	</image>
-			
-    <textlist name="gamelist">
-      <pos>0.25 0.431</pos>
-      <size>0.5 0.489</size>
-	  <lines>9</lines>
-	</textlist>
-	
-	<text name="md_name">
-      <visible>false</visible>
-    </text>
-	
-  </view> -->
- 
   <customView name="RetroTiles,BoxCarousel,MiniLogos,MiniLogosRight">
   
     <text name="gridtile, gridtile:selected">
@@ -2032,7 +2007,7 @@ originally based on: "carbon"
 			
   </customView>
   
-   <customView name="basic,video,gamecarousel,MiniLogos,MiniLogosRight,RetroTiles">
+   <customView name="basic,detailed,video,gamecarousel,MiniLogos,MiniLogosRight,RetroTiles">
   
     <image name="Chevron gauche, Chevron droite">
 	  <visible>false</visible>
