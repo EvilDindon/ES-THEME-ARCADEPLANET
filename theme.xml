@@ -37,9 +37,6 @@ originally based on: "carbon"
 	<SystemLogoCountV>System View Vertical Logo Count</SystemLogoCountV>
 	<SystemLogoCountV lang="fr">Nombre de Logos Dans Vue Système Verticale</SystemLogoCountV>	
 	
-	<TVFrameColor>TV Frame Color</TVFrameColor>
-    <TVFrameColor lang="fr">Couleur du Cadre TV</TVFrameColor>
-	
 	<LogoColor>Active Logo Color</LogoColor>
     <LogoColor lang="fr">Couleur du Logo Actif</LogoColor>
 	
@@ -168,7 +165,7 @@ originally based on: "carbon"
   </subset>
   		
 	<!-- Subset options for Selector Bar Color -->
-	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="menu,basic,video">
+	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="menu,basic,detailed,video">
 		<include name="transparentblue" displayName="${transparentblue}"/>
 		<include name="transparentgrey" displayName="${transparentgrey}"/>
 		<include name="transparentred" displayName="${transparentred}"/>
@@ -284,7 +281,7 @@ originally based on: "carbon"
 	<text name="clock">
       <color>686068</color>
       <fontSize>0.034</fontSize>
-      <pos>0.008 0.97</pos>
+      <pos>0.008 0.98</pos>
 	  <origin>0 0.5</origin>
       <size>0.09 0.058</size>
       <alignment>left</alignment>
@@ -292,7 +289,7 @@ originally based on: "carbon"
     </text>
     
 	<controllerActivity name="controllerActivity">
-      <pos>0.05 0.96</pos>
+      <pos>0.05 0.97</pos>
 	  <origin>0 0.5</origin>
       <size>0.085 0.025</size>
       <itemSpacing>0.003</itemSpacing>
@@ -304,11 +301,15 @@ originally based on: "carbon"
 	
   </view>
   
-  <!-- HELP SYSTEM -->
+  <!-- SYSTEM VIEW Common Elements -->
   
-  <view name="system,basic,grid">
-  
-    <helpsystem name="help">
+  <view name="system">
+ 
+    <sound name="bgsound">
+		<path>./art/music/ArcadePlanetBGMusic.mp3</path>
+	</sound>
+	
+	<helpsystem name="help">
 	  <pos>0.01 0.935</pos>
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
@@ -318,16 +319,6 @@ originally based on: "carbon"
       <iconColor>68608A</iconColor>
     </helpsystem>
 	
-	<sound name="bgsound">
-		<path>./art/music/ArcadePlanetBGMusic.mp3</path>
-	</sound>
-		   			
-  </view>
-  
-  <!-- SYSTEM VIEW Common Elements -->
-  
-  <view name="system">
-  	
     <text name="logoText">
 		<fontPath>./art/Bank Gothic Medium.otf</fontPath>
 		<color>FFFFFFFA</color>
@@ -378,7 +369,7 @@ originally based on: "carbon"
   
 <!-- COMMON ELEMENTS in Gamelist Views -->
   
-  <view name="basic,detailed,video,grid,gamecarousel">
+  <view name="basic,detailed,video,gamecarousel,grid">
   
     <image name="background, background2, black screen">
 	  <pos>0 0</pos>
@@ -391,7 +382,7 @@ originally based on: "carbon"
 	  <zIndex>0</zIndex>
 	</image>
 	
-	<image name="black screen" extra="true">
+	<image name="black screen" extra="true" ifSubset="animatedgamelistopenings:yes">
 	  <path>./art/black screen.jpg</path>
 	  <opacity>1</opacity>
 	  <storyboard>
@@ -412,7 +403,7 @@ originally based on: "carbon"
       <origin>0.5 0.5</origin>
 	  <scale>0</scale>
 	  <zIndex>201</zIndex>
-	  <storyboard>
+	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="5" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="5" to="1" begin="620" duration="175" mode="Linear"/>
 		<animation property="x" from="0.5" to="0.94" begin="620" duration="175" mode="Linear"/>
@@ -971,6 +962,8 @@ originally based on: "carbon"
 	
   </view>
 
+<!-- GAMECAROUSEL -->
+
 <view name="gamecarousel">
     
 	<image name="background">
@@ -1084,6 +1077,8 @@ originally based on: "carbon"
    </text>
    	
   </view>
+ 
+ <!-- GRID VIEWS -->
  
    <view name="grid">
   
@@ -1371,6 +1366,8 @@ originally based on: "carbon"
     </text>
 	
   </customView>
+
+<!-- BOX CAROUSEL -->
   
    <customView name="BoxCarousel">
     		
@@ -1547,6 +1544,8 @@ originally based on: "carbon"
 		
   </customView>
 
+<!-- MINI LOGOS -->
+
 <customView name="MiniLogos" inherits="BoxCarousel" displayName="Mini Logos">
     		
 	<image name="background">
@@ -1706,6 +1705,8 @@ originally based on: "carbon"
 		
   </customView>
 
+<!-- MINI LOGOS ON RIGHT -->
+
  <customView name="MiniLogosRight" inherits="MiniLogos" displayName="${minilogosright}">
     		
 	<image name="background">
@@ -1863,7 +1864,9 @@ originally based on: "carbon"
     </text>
 		
   </customView>
-  
+ 
+ <!-- RETROTILES -->
+ 
   <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
     
 	<image name="background">
