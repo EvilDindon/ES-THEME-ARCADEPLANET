@@ -293,7 +293,7 @@ originally based on: "carbon"
 	<text name="clock">
       <color>686068</color>
       <fontSize>0.034</fontSize>
-      <pos>0.008 0.98</pos>
+      <pos>0.008 0.978</pos>
 	  <origin>0 0.5</origin>
       <size>0.09 0.058</size>
       <alignment>left</alignment>
@@ -301,7 +301,7 @@ originally based on: "carbon"
     </text>
     
 	<controllerActivity name="controllerActivity">
-      <pos>0.05 0.97</pos>
+      <pos>0.05 0.968</pos>
 	  <origin>0 0.5</origin>
       <size>0.085 0.025</size>
       <itemSpacing>0.003</itemSpacing>
@@ -322,7 +322,7 @@ originally based on: "carbon"
 	</sound>
 	
 	<helpsystem name="help">
-	  <pos>0.01 0.935</pos>
+	  <pos>0.01 0.938</pos>
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/Bank Gothic Light BT.ttf</fontPath>
@@ -384,7 +384,7 @@ originally based on: "carbon"
   <view name="basic,detailed,video,gamecarousel,grid">
     
   	<helpsystem name="help">
-	  <pos>0.01 0.954</pos>
+	  <pos>0.01 0.952</pos>
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/Bank Gothic Light BT.ttf</fontPath>
@@ -1396,7 +1396,7 @@ originally based on: "carbon"
    <customView name="BoxCarousel">
         
 		<helpsystem name="help">
-			<pos>0.01 0.954</pos>
+			<pos>0.01 0.952</pos>
 		</helpsystem>
 	
 	<image name="background">
