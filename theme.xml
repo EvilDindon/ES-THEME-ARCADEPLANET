@@ -186,14 +186,14 @@ originally based on: "carbon"
 	</subset>
 
 <!-- Subset options for Cursor Color -->
-	<subset name="cursorcolor" displayName="${cursorcolor}" appliesTo="detailed,video" ifSubset="selectorstyle:cursor">
+	<subset name="cursorcolor" displayName="${cursorcolor}" appliesTo="detailed,video">
 		<include name="red" displayName="${red}"/>
 		<include name="blue" displayName="${blue}"/>
 		<include name="white" displayName="${white}"/>
 	</subset>
 	
 	<!-- Subset options for Selector Bar Color -->
-	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="menu,basic,detailed,video" ifSubset="selectorstyle:bar">
+	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="menu,basic,detailed,video">
 		<include name="none" displayName="${none}"/>
 		<include name="transparentblue" displayName="${transparentblue}"/>
 		<include name="transparentgrey" displayName="${transparentgrey}"/>
@@ -212,8 +212,8 @@ originally based on: "carbon"
 	
 	<!-- Subset options for Selected Text -->
 		<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="menu,basic,detailed,video">
-		<include name="blue" displayName="${blue}"/>
 		<include name="white" displayName="${white}"/>
+		<include name="blue" displayName="${blue}"/>
 		<include name="black" displayName="${black}"/>
 		<include name="yellow" displayName="${yellow}"/>
 		<include name="red" displayName="${red}"/>
@@ -659,8 +659,8 @@ originally based on: "carbon"
 
  <view name="basic,detailed,video">
  
- 	<textlist name="gamelist">
-     <selectorColor>0080D0E0</selectorColor>
+ 	<textlist name="gamelist" ifSubset="selectorstyle:bar">
+     <selectorColor ifSubset="selectorcolor:blue">0080D0E0</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:none">00000000</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
      <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
@@ -674,9 +674,6 @@ originally based on: "carbon"
 	 <selectorColor ifSubset="selectorcolor:plainorange">EE8800ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:plainpurple">6e55a7</selectorColor>
-	 <selectorColor ifSubset="cursorcolor:white">FFFFFF</selectorColor>
-	 <selectorColor ifSubset="cursorcolor:red">FF0000</selectorColor>
-	 <selectorColor ifSubset="cursorcolor:blue">88D8F0</selectorColor>
 	 <selectorColorEnd>00000000</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
@@ -688,11 +685,25 @@ originally based on: "carbon"
 	 <selectorColorEnd ifSubset="selectorcolor:plainorange">EE8800ff</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:plainpurple">6e55a7</selectorColorEnd>
-	 <selectorColorEnd ifSubset="cursorcolor:white">FFFFFF</selectorColorEnd>
-	 <selectorColorEnd ifSubset="cursorcolor:red">FF0000</selectorColorEnd>
-	 <selectorColorEnd ifSubset="cursorcolor:blue">88D8F0</selectorColorEnd>
 	  <selectorOffsetY>0.01</selectorOffsetY>
 	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey|plainorange|plainyellow|plainpurple">-0.0011</selectorOffsetY>
+	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">FF0000</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
+	  <primaryColor>999999</primaryColor>
+      <secondaryColor>7a6161</secondaryColor>
+	  <scrollSound>./art/scroll.wav</scrollSound>
+	  <forceUppercase>1</forceUppercase>
+	  <zIndex>15</zIndex>	  
+	</textlist>
+ 
+  	<textlist name="gamelist" ifSubset="selectorstyle:cursor">
+	 <selectorColor ifSubset="cursorcolor:white">FFFFFF</selectorColor>
+	 <selectorColor ifSubset="cursorcolor:red">FF0000</selectorColor>
+	 <selectorColor ifSubset="cursorcolor:blue">88D8F0</selectorColor>
 	  <selectedColor>88D8F0</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:red">FF0000</selectedColor>
