@@ -49,6 +49,9 @@ originally based on: "carbon"
 	<TextListColor>Text Color in Gamelists</TextListColor>
     <TextListColor lang="fr">Couleur du Texte dans la Liste de Jeux</TextListColor>
 	
+	<animatedgamelistopenings>Animated Gamelist Openings</animatedgamelistopenings>
+	<animatedgamelistopenings lang="fr">Animations à l'ouverture des listes de jeux</animatedgamelistopenings>
+	
 	<RandomArt>Random Artwork in System View</RandomArt>
 	<RandomArt lang="fr">Images Aléatoires dans Vue Système</RandomArt>
 	
@@ -191,6 +194,15 @@ originally based on: "carbon"
 		<include name="red" displayName="${red}"/>
 		<include name="purple" displayName="${purple}"/>
 	</subset>
+
+	<!-- Subset options for Animation at gamelist opening -->
+	<subset name="animatedgamelistopenings" displayName="${animatedgamelistopenings}" appliesTo="basic,detailed,video,gamecarousel,grid,boxcarousel,minilogos,minilogosright">
+		<include name="yes" displayName="${yes}"/>
+		<include name="no" displayName="${no}"/>
+	</subset>
+
+
+
 
 <!-- MENU -->
 	
@@ -370,8 +382,18 @@ originally based on: "carbon"
 <!-- COMMON ELEMENTS in Gamelist Views -->
   
   <view name="basic,detailed,video,gamecarousel,grid">
-  
-    <image name="background, background2, black screen">
+    
+  	<helpsystem name="help">
+	  <pos>0.01 0.954</pos>
+	  <size>1 0.01</size>
+	  <origin>0 0.5</origin>
+	  <fontPath>./art/Bank Gothic Light BT.ttf</fontPath>
+	  <fontSize>0.0276</fontSize>
+	  <textColor>686068</textColor>
+      <iconColor>68608A</iconColor>
+    </helpsystem>
+    
+	<image name="background, background2, black screen">
 	  <pos>0 0</pos>
      	  <origin>0 0</origin>
           <size>1 1</size>
@@ -401,7 +423,6 @@ originally based on: "carbon"
 	  <pos>0.5 0.5</pos>
       <maxSize>0.12 0.076</maxSize>
       <origin>0.5 0.5</origin>
-	  <scale>0</scale>
 	  <zIndex>201</zIndex>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="5" begin="" duration="300" mode="Linear"/>
@@ -601,7 +622,15 @@ originally based on: "carbon"
 			
     </view>
 	
-<!-- GAMELIST Common Elements (basic, detailed, video) -->
+	<view name="basic,grid">
+    
+		<helpsystem name="help">
+			<pos>0.01 0.935</pos>
+		</helpsystem>
+	
+	</view>
+	
+<!-- TEXTLIST Common Elements (basic, detailed, video) -->
 
  <view name="basic,detailed,video">
  
@@ -660,7 +689,8 @@ originally based on: "carbon"
 	
     <image name="logo">
       <maxSize>0.25 0.18</maxSize>
-	  <storyboard>
+	  <y ifSubset="animatedgamelistopenings:no">0.1</y>
+	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.1" begin="620" duration="175" mode="Linear"/>
@@ -765,7 +795,8 @@ originally based on: "carbon"
       <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>	  
 	 <size>0.164 0</size>
-	  <storyboard>
+	 <pos ifSubset="animatedgamelistopenings:no">0.7203125 0.06574074074</pos>
+	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
 		<animation property="x" from="0.5" to="0.7203125" begin="620" duration="175" mode="Linear"/>
@@ -993,7 +1024,8 @@ originally based on: "carbon"
       <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
       <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
 	  <size>0.1375 0</size>
-	  <storyboard>
+	  <pos ifSubset="animatedgamelistopenings:no>">0.84 0.467592592</pos>
+	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
 		<animation property="x" from="0.5" to="0.84" begin="620" duration="175" mode="Linear"/>
@@ -1218,14 +1250,6 @@ originally based on: "carbon"
   </customView>
   
   <customView name="video,gamecarousel,BoxCarousel">
-  
-    <helpsystem name="help">
-	  <pos>0.1 0.97</pos>
-	  <origin>0 0.5</origin>
-	  <fontSize>0.033</fontSize>
-      <textColor>686068</textColor>
-      <iconColor>68608A</iconColor>
-    </helpsystem>
 	  
 	<image name="bigtv" extra="true">
       <size>0.5 0</size>
@@ -1370,7 +1394,11 @@ originally based on: "carbon"
 <!-- BOX CAROUSEL -->
   
    <customView name="BoxCarousel">
-    		
+        
+		<helpsystem name="help">
+			<pos>0.01 0.954</pos>
+		</helpsystem>
+	
 	<image name="background">
 	  <path>./art/bgboxcarousel.jpg</path>
 	</image>
@@ -1414,7 +1442,8 @@ originally based on: "carbon"
 	  <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>
       <size>0.1375 0</size>
 	  <color>FFFFFFbb</color>
-	  <storyboard>
+	  <pos ifSubset="animatedgamelistopenings:no">0.249479 0.602</pos>
+	  <storyboard ifSubset="animatedgamelistopenings:yes">
 	 	<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="0.68" begin="620" duration="175" mode="Linear"/>
 		<animation property="x" from="0.5" to="0.249479" begin="620" duration="175" mode="Linear"/>
@@ -1598,7 +1627,8 @@ originally based on: "carbon"
       <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
       <size>0.1375 0</size>
-	  <storyboard>
+	  <pos ifSubset="animatedgamelistopenings:no">0.8536 0.484</pos>
+	  <storyboard ifSubset="animatedgamelistopenings:yes">
 	 	<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
 		<animation property="x" from="0.5" to="0.8536" begin="620" duration="175" mode="Linear"/>
@@ -1758,7 +1788,8 @@ originally based on: "carbon"
       <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>   
 	  <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>	  
 	 <size>0.164 0</size>
-	  <storyboard>
+	 <pos ifSubset="animatedgamelistopenings:no">"0.7203125 0.06574074074</pos>
+	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
 		<animation property="x" from="0.5" to="0.7203125" begin="620" duration="175" mode="Linear"/>
