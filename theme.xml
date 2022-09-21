@@ -811,13 +811,13 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="Chevron Bas">
-	  <opacity>0.7</opacity>
-      <pos>0.91145 0.91</pos>
+	  <scale>0.8</scale>
+      <pos>0.51 0.92</pos>
 	</image>	
 	
 	<image name="Chevron Haut">
-		<opacity>0.7</opacity>
-		<pos>0.91145 0.148</pos>
+	  <scale>0.8</scale>
+	  <pos>0.51 0.148</pos>
 	</image>
 	
 	<image name="md_thumbnail">
@@ -838,9 +838,9 @@ originally based on: "carbon"
 	<textlist name="gamelist">
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <size>0.42291666 0.78703703</size>
-      <pos>0.718 0.5333333</pos>
+      <pos>0.72 0.5333333</pos>
 	  <alignment>left</alignment>
-      <horizontalMargin>0.05</horizontalMargin>
+      <horizontalMargin>0.01</horizontalMargin>
       <fontSize>0.034</fontSize>
 	  <lines>11</lines>
 	</textlist>
