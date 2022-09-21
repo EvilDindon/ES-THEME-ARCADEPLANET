@@ -46,6 +46,18 @@ originally based on: "carbon"
 	<SelectorBarColor>Selector Bar Color</SelectorBarColor>
     <SelectorBarColor lang="fr">Couleur de la Barre de Selection</SelectorBarColor>
 	
+	<selectorstyle>Selector Style</selectorstyle>
+	<selectorstyle lang="fr">Type de selecteur</selectorstyle>
+	
+	<bar>Bar</bar>
+	<bar lang="fr">Barre</bar>
+	
+	<cursor>Cursor</cursor>
+	<cursor lang="fr">Curseur</cursor>
+	
+	<cursorcolor>Cursor Color</cursorcolor>
+	<cursorcolor lang="fr">Couleur du Curseur</cursorcolor>
+		
 	<TextListColor>Text Color in Gamelists</TextListColor>
     <TextListColor lang="fr">Couleur du Texte dans la Liste de Jeux</TextListColor>
 	
@@ -166,9 +178,22 @@ originally based on: "carbon"
 	<include name="vertical">./art/systemview/vertical.xml</include>
   <!-- 	<include name="verticalalt" displayName="Vertical Alt">./art/systemview/verticalalt.xml"</include> -->
   </subset>
-  		
+  	
+	<!-- Subset options for Selector Style -->
+	<subset name="selectorstyle" displayName="${selectorstyle}" appliesTo="detailed,video">
+		<include name="cursor" displayName="${cursor}"/>
+		<include name="bar" displayName="${bar}"/>
+	</subset>
+
+<!-- Subset options for Cursor Color -->
+	<subset name="cursorcolor" displayName="${cursorcolor}" appliesTo="detailed,video" ifSubset="selectorstyle:cursor">
+		<include name="red" displayName="${red}"/>
+		<include name="blue" displayName="${blue}"/>
+		<include name="white" displayName="${white}"/>
+	</subset>
+	
 	<!-- Subset options for Selector Bar Color -->
-	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="menu,basic,detailed,video">
+	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="menu,basic,detailed,video" ifSubset="selectorstyle:bar">
 		<include name="none" displayName="${none}"/>
 		<include name="transparentblue" displayName="${transparentblue}"/>
 		<include name="transparentgrey" displayName="${transparentgrey}"/>
@@ -649,6 +674,9 @@ originally based on: "carbon"
 	 <selectorColor ifSubset="selectorcolor:plainorange">EE8800ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:plainpurple">6e55a7</selectorColor>
+	 <selectorColor ifSubset="cursorcolor:white">FFFFFF</selectorColor>
+	 <selectorColor ifSubset="cursorcolor:red">FF0000</selectorColor>
+	 <selectorColor ifSubset="cursorcolor:blue">88D8F0</selectorColor>
 	 <selectorColorEnd>00000000</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
@@ -660,6 +688,9 @@ originally based on: "carbon"
 	 <selectorColorEnd ifSubset="selectorcolor:plainorange">EE8800ff</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColorEnd>
 	 <selectorColorEnd ifSubset="selectorcolor:plainpurple">6e55a7</selectorColorEnd>
+	 <selectorColorEnd ifSubset="cursorcolor:white">FFFFFF</selectorColorEnd>
+	 <selectorColorEnd ifSubset="cursorcolor:red">FF0000</selectorColorEnd>
+	 <selectorColorEnd ifSubset="cursorcolor:blue">88D8F0</selectorColorEnd>
 	  <selectorOffsetY>0.01</selectorOffsetY>
 	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey|plainorange|plainyellow|plainpurple">-0.0011</selectorOffsetY>
 	  <selectedColor>88D8F0</selectedColor>
@@ -795,10 +826,24 @@ originally based on: "carbon"
 	</image>
 		
 	<textlist name="gamelist">
-	  <origin>0.5 0.5</origin>
-      <size>0.42291666 0.78703703</size>
-      <horizontalMargin>0.005</horizontalMargin>
+	  <origin>0 0.5</origin>
+	  <pos>0.5 0.5333333</pos>
+      <size>0.42291666 0.77</size>
+	  <alignment>left</alignment>
+	  <horizontalMargin>0.015</horizontalMargin>
+	  <lines>11</lines>
+	  <selectorImagePath ifSubset="selectorstyle:cursor">./art/selector.png</selectorImagePath>
 	</textlist>
+	
+	<image name="Chevron Bas">
+	  <scale>0.76</scale>
+      <pos>0.7203 0.92</pos>
+	</image>	
+	
+	<image name="Chevron Haut">
+	  <scale>0.76</scale>
+	  <pos>0.7203 0.148</pos>
+	</image>
 	
   </view>
   
@@ -809,17 +854,7 @@ originally based on: "carbon"
 	<image name="background">
 	  <path>./art/bgdetailed.jpg</path>
 	</image>
-	
-	<image name="Chevron Bas">
-	  <scale>0.8</scale>
-      <pos>0.51 0.92</pos>
-	</image>	
-	
-	<image name="Chevron Haut">
-	  <scale>0.8</scale>
-	  <pos>0.51 0.148</pos>
-	</image>
-	
+		
 	<image name="md_thumbnail">
 	  <pos>0.249479 0.4</pos>
 	  <origin>0.5 0.5</origin>
@@ -837,12 +872,7 @@ originally based on: "carbon"
 		
 	<textlist name="gamelist">
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <size>0.42291666 0.78703703</size>
-      <pos>0.72 0.5333333</pos>
-	  <alignment>left</alignment>
-      <horizontalMargin>0.01</horizontalMargin>
-      <fontSize>0.034</fontSize>
-	  <lines>11</lines>
+      <fontSize>0.0335</fontSize>
 	</textlist>
 	
 	<text name="md_developer">
@@ -919,17 +949,7 @@ originally based on: "carbon"
 	  </storyboard>
 	<zIndex>101</zIndex>
 	</image>
-	
-		<image name="Chevron Bas">
-	  <opacity>0.7</opacity>
-      <pos>0.91145 0.91</pos>
-	</image>	
-	
-	<image name="Chevron Haut">
-		<opacity>0.7</opacity>
-		<pos>0.91145 0.148</pos>
-	</image>
-	
+			
 	<image name="md_thumbnail">
       <visible>false</visible>
 	</image>
@@ -959,11 +979,6 @@ originally based on: "carbon"
 	<textlist name="gamelist">
       <fontPath>./art/BebasNeue.otf</fontPath>
       <forceUppercase>1</forceUppercase>
-      <pos>0.713 0.5333333</pos>
-	  <origin>0.5 0.5</origin>
-      <size>0.42291666 0.78703703</size>
-      <alignment>left</alignment>
-      <horizontalMargin>0.008</horizontalMargin>
       <fontSize>0.042</fontSize>
 	  <lines>11</lines>
 	</textlist>
