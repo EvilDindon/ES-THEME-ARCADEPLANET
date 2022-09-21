@@ -955,7 +955,7 @@ originally based on: "carbon"
       <alignment>left</alignment>
       <horizontalMargin>0.005</horizontalMargin>
       <fontSize>0.042</fontSize>
-	  <lines>13</lines>
+	  <lines>11</lines>
 	</textlist>
 	
 	<text name="md_developer">
