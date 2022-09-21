@@ -1455,9 +1455,10 @@ originally based on: "carbon"
       <size>0.1375 0</size>
 	  <color>FFFFFFbb</color>
 	  <pos ifSubset="animatedgamelistopenings:no">0.249479 0.602</pos>
+	  <scale ifSubset="animatedgamelistopenings:no">0.676</scale>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 	 	<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
-		<animation property="scale" from="2" to="0.68" begin="620" duration="175" mode="Linear"/>
+		<animation property="scale" from="2" to="0.676" begin="620" duration="175" mode="Linear"/>
 		<animation property="x" from="0.5" to="0.249479" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.602" begin="620" duration="175" mode="Linear"/>
 	   </storyboard>
@@ -1476,8 +1477,8 @@ originally based on: "carbon"
 		<pos>0.794 0.46759</pos>
 		<reflexion>0.38 0.08</reflexion>
 		<storyboard event="open">
-                <animation property="offsetX" from="0.2" to="0.2" duration="1000" mode="Linear"/>
-				<animation property="offsetX" from="0.2" to="0" begin="1000" duration="250" mode="EaseOut"/>
+                <animation property="offsetX" from="0.33" to="0.33" duration="1000" mode="Linear"/>
+				<animation property="offsetX" from="0.33" to="0" begin="1000" duration="250" mode="EaseOut"/>
 			</storyboard>
 			
 			<storyboard event="activate">
