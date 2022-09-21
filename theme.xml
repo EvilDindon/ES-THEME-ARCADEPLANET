@@ -169,6 +169,7 @@ originally based on: "carbon"
   		
 	<!-- Subset options for Selector Bar Color -->
 	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="menu,basic,detailed,video">
+		<include name="none" displayName="${none}"/>
 		<include name="transparentblue" displayName="${transparentblue}"/>
 		<include name="transparentgrey" displayName="${transparentgrey}"/>
 		<include name="transparentred" displayName="${transparentred}"/>
@@ -182,15 +183,14 @@ originally based on: "carbon"
 		<include name="red" displayName="${red}"/>
 		<include name="blue" displayName="${blue}"/>
 		<include name="purple" displayName="${purple}"/>
-		<include name="none" displayName="${none}"/>
 	</subset>
 	
 	<!-- Subset options for Selected Text -->
 		<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="menu,basic,detailed,video">
+		<include name="blue" displayName="${blue}"/>
 		<include name="white" displayName="${white}"/>
 		<include name="black" displayName="${black}"/>
 		<include name="yellow" displayName="${yellow}"/>
-		<include name="blue" displayName="${blue}"/>
 		<include name="red" displayName="${red}"/>
 		<include name="purple" displayName="${purple}"/>
 	</subset>
@@ -779,16 +779,6 @@ originally based on: "carbon"
 <!-- DETAILED, VIDEO Common Elements -->
 
  <view name="detailed,video">
-		
-	<image name="Chevron Bas">
-	  <opacity>0.7</opacity>
-      <pos>0.91145 0.91</pos>
-	</image>	
-	
-	<image name="Chevron Haut">
-		<opacity>0.7</opacity>
-		<pos>0.91145 0.148</pos>
-	</image>
 	
 	<image name="logo">
     <path>./art/wheelv/${system.theme}.png</path>
@@ -805,7 +795,6 @@ originally based on: "carbon"
 	</image>
 		
 	<textlist name="gamelist">
-      <pos>0.713 0.5333333</pos>
 	  <origin>0.5 0.5</origin>
       <size>0.42291666 0.78703703</size>
       <horizontalMargin>0.005</horizontalMargin>
@@ -820,7 +809,17 @@ originally based on: "carbon"
 	<image name="background">
 	  <path>./art/bgdetailed.jpg</path>
 	</image>
-		
+	
+	<image name="Chevron Bas">
+	  <opacity>0.7</opacity>
+      <pos>0.91145 0.91</pos>
+	</image>	
+	
+	<image name="Chevron Haut">
+		<opacity>0.7</opacity>
+		<pos>0.91145 0.148</pos>
+	</image>
+	
 	<image name="md_thumbnail">
 	  <pos>0.249479 0.4</pos>
 	  <origin>0.5 0.5</origin>
@@ -839,8 +838,9 @@ originally based on: "carbon"
 	<textlist name="gamelist">
       <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <size>0.42291666 0.78703703</size>
-      <alignment>left</alignment>
-      <horizontalMargin>0.01</horizontalMargin>
+      <pos>0.718 0.5333333</pos>
+	  <alignment>left</alignment>
+      <horizontalMargin>0.05</horizontalMargin>
       <fontSize>0.034</fontSize>
 	  <lines>11</lines>
 	</textlist>
@@ -920,6 +920,16 @@ originally based on: "carbon"
 	<zIndex>101</zIndex>
 	</image>
 	
+		<image name="Chevron Bas">
+	  <opacity>0.7</opacity>
+      <pos>0.91145 0.91</pos>
+	</image>	
+	
+	<image name="Chevron Haut">
+		<opacity>0.7</opacity>
+		<pos>0.91145 0.148</pos>
+	</image>
+	
 	<image name="md_thumbnail">
       <visible>false</visible>
 	</image>
@@ -953,7 +963,7 @@ originally based on: "carbon"
 	  <origin>0.5 0.5</origin>
       <size>0.42291666 0.78703703</size>
       <alignment>left</alignment>
-      <horizontalMargin>0.005</horizontalMargin>
+      <horizontalMargin>0.008</horizontalMargin>
       <fontSize>0.042</fontSize>
 	  <lines>11</lines>
 	</textlist>
