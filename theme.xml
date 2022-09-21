@@ -388,7 +388,7 @@ originally based on: "carbon"
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/Bank Gothic Light BT.ttf</fontPath>
-	  <fontSize>0.0276</fontSize>
+	  <fontSize>0.0284</fontSize>
 	  <textColor>686068</textColor>
       <iconColor>68608A</iconColor>
     </helpsystem>
@@ -828,7 +828,7 @@ originally based on: "carbon"
 	  <reflexion>0.05 0</reflexion>
 	</image>
 	
-    <image name="md_marquee">
+    <image name="md_marquee,bigtv">
 	  <visible>false</visible>
 	</image>
 	
@@ -1246,10 +1246,12 @@ originally based on: "carbon"
 	
   </view>
  
+  <!-- COMMON ELEMENTS TO DETAILED, VIDEO GAMECAROUSEL and BOX CAROUSEL - MD -->
+  
   <customView name="BoxCarousel" inherits="grid" displayName="${boxcarousel}">
   </customView>
   
-  <customView name="video,gamecarousel,BoxCarousel">
+  <customView name="video,detailed,gamecarousel,BoxCarousel">
 	  
 	<image name="bigtv" extra="true">
       <size>0.5 0</size>
@@ -1342,10 +1344,10 @@ originally based on: "carbon"
 	
 	<text name="md_playcount">
 		<visible>true</visible>
-		<origin>0.5 0.5</origin>
-		<alignment>right></alignment>
+		<origin>1 0.5</origin>
+		<alignment>right</alignment>
 		<size>0.04 0.037037</size>
-		<pos>0.99 0.159</pos>
+		<pos>0.984 0.159</pos>
 		<glowColor>00000016</glowColor>
         <fontSize>0.034</fontSize>
         <glowSize>2</glowSize>
