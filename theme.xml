@@ -875,8 +875,10 @@ originally based on: "carbon"
 	  <origin>0 0.5</origin>
 	  <pos>0.5 0.5333333</pos>
       <size>0.42291666 0.77</size>
+	  <size ifSubset="selectorstyle:cursor">0.44 0.77</size>
 	  <alignment>left</alignment>
-	  <horizontalMargin>0.015</horizontalMargin>
+	  <horizontalMargin>0.005</horizontalMargin>
+	  <horizontalMargin ifSubset="selectorstyle:cursor">0.022</horizontalMargin>
 	  <lines>11</lines>
 	  <selectorImagePath ifSubset="selectorstyle:cursor">./art/selector.png</selectorImagePath>
 	</textlist>
