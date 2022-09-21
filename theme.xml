@@ -693,7 +693,7 @@ originally based on: "carbon"
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-	  <primaryColor>999999</primaryColor>
+	  <primaryColor>848484</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <scrollSound>./art/scroll.wav</scrollSound>
 	  <forceUppercase>1</forceUppercase>
@@ -710,7 +710,7 @@ originally based on: "carbon"
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-	  <primaryColor>999999</primaryColor>
+	  <primaryColor>848484</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <scrollSound>./art/scroll.wav</scrollSound>
 	  <forceUppercase>1</forceUppercase>
@@ -841,7 +841,7 @@ originally based on: "carbon"
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
 	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
       <forceUppercase>1</forceUppercase>
-       <primaryColor>999999</primaryColor>
+       <primaryColor>848484</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <pos>0.25 0.263</pos>
       <size>0.5 0.62</size>
