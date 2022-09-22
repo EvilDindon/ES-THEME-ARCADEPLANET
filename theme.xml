@@ -425,10 +425,6 @@ originally based on: "carbon"
 	  <linearSmooth>false</linearSmooth>	  
 	</image>
 	
-	<image name="background">
-	  <zIndex>0</zIndex>
-	</image>
-	
 	<image name="black screen" extra="true" ifSubset="animatedgamelistopenings:yes">
 	  <path>./art/black screen.jpg</path>
 	  <opacity>1</opacity>
@@ -635,7 +631,7 @@ originally based on: "carbon"
       <glowSize>2</glowSize>
 	</datetime>
 		  
-        <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_lbl_lastplayed, md_publisher, md_lbl_gametime, md_gametime">
+    <text name="md_lbl_rating, md_lbl_releasedate, md_lbl_developer, md_lbl_publisher, md_lbl_genre, md_lbl_playcount, md_lbl_players, md_lbl_lastplayed, md_publisher, md_lbl_gametime, md_gametime, gridtile, gridtile:selected">
 		  <pos>1.5 1.5</pos>
 	      <visible>false</visible>
 	</text>
@@ -749,7 +745,7 @@ originally based on: "carbon"
 	<image name="Sprites L" extra="true">
 		<pos>0.3 0.14</pos>
 	    <path>./art/sprites2/${system.theme}.png</path>
-			<storyboard>
+			<storyboard ifSubset="animatedgamelistopenings:yes">
 				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="2800" mode="EaseOutQuint"/>
 			</storyboard>	
      </image>
@@ -757,7 +753,7 @@ originally based on: "carbon"
 	<image name="Sprites R" extra="true">
 			<pos>0.7 0.14</pos>
 		    <path>./art/sprites3/${system.theme}.png</path>
-			<storyboard>
+			<storyboard ifSubset="animatedgamelistopenings:yes">
 				<animation property="offsetX" from="0.326" to="0" begin="0" duration="2800" mode="EaseOutQuint"/>
 			</storyboard>	
     </image>
@@ -779,7 +775,7 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="Controller+logo 1, Controller+logo 2">
-	  	  <linearSmooth>true</linearSmooth>
+	  <linearSmooth>true</linearSmooth>
       <origin>0.5 0.5</origin>
       <size>0.1375 0</size>
       <path>./art/controller.png</path>
@@ -793,14 +789,14 @@ originally based on: "carbon"
 
 	<image name="Controller+logo 1" extra="true">
 			<pos>0.874 0.55</pos>
-			<storyboard>
+			<storyboard ifSubset="animatedgamelistopenings:yes">
 				<animation property="offsetX" from="0.326" to="0" begin="" duration="1400" mode="EaseOutQuint"/>
 			</storyboard>	
      </image>
 	
 	<image name="Controller+logo 2" extra="true">
 			<pos>0.126 0.55</pos>
-			<storyboard>
+			<storyboard ifSubset="animatedgamelistopenings:yes">
 				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
 			</storyboard>	
     </image>
@@ -1097,7 +1093,7 @@ originally based on: "carbon"
       <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
       <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
 	  <size>0.1375 0</size>
-	  <pos ifSubset="animatedgamelistopenings:no>">0.84 0.467592592</pos>
+	  <pos ifSubset="animatedgamelistopenings:no">0.84 0.467592592</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
@@ -1200,7 +1196,11 @@ originally based on: "carbon"
       <size>0.017 0</size>
 	  <pos>0.986 0.1</pos>
     </image>
-		
+	
+	<image name="logo">
+	 <pos ifSubset="animatedgamelistopenings:no">0.94 0.96</pos>
+	</image>
+	 
 	<text name="md_name">
       <color>EFEFEF</color>
 	  <pos>0.5 0.04</pos>
@@ -1516,7 +1516,7 @@ originally based on: "carbon"
       <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>
       <size>0.1375 0</size>
-	  <color>FFFFFFbb</color>
+	  <color>BBBBBBff</color>
 	  <pos ifSubset="animatedgamelistopenings:no">0.249479 0.602</pos>
 	  <scale ifSubset="animatedgamelistopenings:no">0.676</scale>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
@@ -1703,6 +1703,7 @@ originally based on: "carbon"
       <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
       <size>0.1375 0</size>
+	  <scale ifSubset="animatedgamelistopenings:no">1</scale>
 	  <pos ifSubset="animatedgamelistopenings:no">0.8536 0.484</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 	 	<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
@@ -2108,14 +2109,9 @@ originally based on: "carbon"
     </image>
 			
   </customView>
-   
-  <customView name="RetroTiles,BoxCarousel,MiniLogos,MiniLogosRight">
   
-    <text name="gridtile, gridtile:selected">
-      <visible>false</visible>
-    </text>
-			
-  </customView>
+  	  
+  <!-- HIDING HORIZONTAL ARROWS --> 
   
    <customView name="basic,detailed,video,gamecarousel,MiniLogos,MiniLogosRight,RetroTiles">
   
