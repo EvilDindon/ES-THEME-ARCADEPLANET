@@ -1865,7 +1865,7 @@ originally based on: "carbon"
       <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>   
 	  <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>	  
 	 <size>0.164 0</size>
-	 <pos ifSubset="animatedgamelistopenings:no">"0.7203125 0.06574074074</pos>
+	 <pos ifSubset="animatedgamelistopenings:no">0.7203125 0.06574074074</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
