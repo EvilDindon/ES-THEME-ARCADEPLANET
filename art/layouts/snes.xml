@@ -2,6 +2,14 @@
 <theme>
   <formatVersion>7</formatVersion>
      
+   <view name="grid">
+  
+   <imagegrid name="gamegrid">
+    <autoLayout>4 3</autoLayout>
+   </imagegrid>
+   
+  </view>
+   
    <customView name="BoxCarousel">
   
 	<imagegrid name="gamegrid">
