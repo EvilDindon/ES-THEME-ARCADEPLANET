@@ -18,7 +18,7 @@
 		
 		<text name="label, Version, Platforms, Loading, Warning, author" extra="true">
 			<origin>0.5 0.5</origin>
-			<fontPath>./art/ARCADE.TTF</fontPath>
+			<fontPath>./art/fonts/ARCADE.TTF</fontPath>
 			<fontSize>0.02</fontSize>
 			<color>d2bfa8FF</color>
 			<forceUppercase>true</forceUppercase>

@@ -234,20 +234,20 @@ originally based on: "carbon"
   <view name="menu">
   
     <menuText name="menutitle">
-      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <fontSize>0.04</fontSize>
+      <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>
+      <fontSize>0.056</fontSize>
       <color>${groupColor}</color>
     </menuText>
 	
     <menuText name="menufooter">
-      <fontPath>./art/Bank Gothic Light BT.ttf</fontPath>
-      <fontSize>0.02</fontSize>
+      <fontPath>./art/fonts/SairaCondensed-Light.ttf</fontPath>
+      <fontSize>0.036</fontSize>
       <color>777777FF</color>
     </menuText>
 	
     <menuText name="menutext">
-      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <fontSize>0.026</fontSize>
+      <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+      <fontSize>0.042</fontSize>
       <color>969696</color>
       <separatorColor>323232FF</separatorColor>
       <selectorColor>600000</selectorColor>
@@ -261,17 +261,17 @@ originally based on: "carbon"
     </menuText>
 	
     <menuTextSmall name="menutextsmall">
-      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <fontSize>0.02</fontSize>
+      <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+      <fontSize>0.036</fontSize>
       <color>${groupColor}</color>
     </menuTextSmall>
 	
     <menuGroup name="menugroup">
-      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <fontSize>0.03</fontSize>
+      <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
+      <fontSize>0.046</fontSize>
       <color>${groupColor}</color>
       <separatorColor>${groupSeparatorColor}</separatorColor>    
-      <backgroundColor>80808040</backgroundColor>
+      <backgroundColor>70707035</backgroundColor>
       <lineSpacing>2.5</lineSpacing>
     </menuGroup>
 	
@@ -350,17 +350,17 @@ originally based on: "carbon"
 	  <pos>0.01 0.938</pos>
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
-	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
 	  <fontSize>0.042</fontSize>
 	  <textColor>868286</textColor>
       <iconColor>68608A</iconColor>
     </helpsystem>
 	
     <text name="logoText">
-		<fontPath>./art/Bank Gothic Medium.otf</fontPath>
+		<fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
 		<color>FFFFFFFA</color>
 		<fontSize>0.034</fontSize>
-	    <forceUppercase>false</forceUppercase>
+	    <forceUppercase>1</forceUppercase>
 		<glowSize>3</glowSize>
 		<glowColor>000000ee</glowColor>
 		<glowOffset>1</glowOffset>
@@ -412,7 +412,7 @@ originally based on: "carbon"
 	  <pos>0.01 0.954</pos>
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
-	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
 	  <fontSize>0.0354</fontSize>
 	  <textColor>868286</textColor>
       <iconColor>68608A</iconColor>
@@ -604,7 +604,7 @@ originally based on: "carbon"
       <origin>0.5 0.5</origin>
       <color>E0E0E0ff</color>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <fontPath>./art/fonts/Bank Gothic Medium.otf</fontPath>
       <fontSize>0.023</fontSize>
 	  <glowColor>00000080</glowColor>
 	  <glowSize>1</glowSize>
@@ -618,7 +618,7 @@ originally based on: "carbon"
 	
 	<text name="md_developer">
       <color>4480AA</color>
-	  <forceUppercase>1</forceUppercase>
+	  <forceUppercase>0</forceUppercase>
 	  <glowColor>00000016</glowColor>
       <glowSize>2</glowSize>
 	  <zIndex>41</zIndex>
@@ -774,7 +774,7 @@ originally based on: "carbon"
       <primaryColor>848484</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <fontSize>0.042</fontSize>
-	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
 	  <pos>0.25 0.263</pos>
       <size>0.5 0.62</size>
@@ -846,7 +846,7 @@ originally based on: "carbon"
 	  <alignment>left</alignment>
 	  <horizontalMargin>0.005</horizontalMargin>
 	  <fontSize>0.042</fontSize>
-	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
 	  <forceUppercase>1</forceUppercase>
 	  <zIndex>15</zIndex>	  
 	</textlist>
@@ -872,7 +872,7 @@ originally based on: "carbon"
 	  <horizontalMargin>0.022</horizontalMargin>
 	  <selectorImagePath>./art/selector.png</selectorImagePath>
 	  <fontSize>0.042</fontSize>
-	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
 	  <zIndex>15</zIndex>	  
 	</textlist>
@@ -1109,7 +1109,7 @@ originally based on: "carbon"
     </gamecarousel>    
     
 	<text name="gamecarouselLogoText">
-      <fontPath>./art/BebasNeue.otf</fontPath>
+      <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
 	  <color>AABBBBFF</color>
 	  <fontSize>0.042</fontSize>
       <glowColor>000000FF</glowColor>
@@ -1120,7 +1120,7 @@ originally based on: "carbon"
 	<text name="md_name">
       <color>DDD000</color>
 	  <pos>0.252 0.0563</pos>
-      <fontPath>./art/BebasNeue.otf</fontPath>  
+      <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>  
 	  <size>0.4791666 0.11</size>
 	  <lineSpacing>1.1</lineSpacing>
       <alignment>center</alignment>
@@ -1128,6 +1128,7 @@ originally based on: "carbon"
 	  <origin>0.5 0.5</origin>
 	  <glowColor>000000ff</glowColor>
       <glowSize>3</glowSize>
+	  <forceUppercase>1</forceUppercase>
 	  <zIndex>41</zIndex>
 	  <storyboard repeat="forever">
             <animation property="color" from="DDD000" to="908A40" begin="" duration="1150" mode="Linear" autoReverse="true"/>
@@ -1195,6 +1196,7 @@ originally based on: "carbon"
 	  <fontSize>0.056</fontSize>
 	  <origin>0.5 0.5</origin>
       <glowSize>2</glowSize>
+	  <forceUppercase>1</forceUppercase>
 	  <zIndex>41</zIndex>	  
 	</text>
 	
@@ -1420,7 +1422,6 @@ originally based on: "carbon"
 	  <size>0.03 0.037037</size>
 	  <alignment>left</alignment>
 	  <pos>0.98 0.397</pos>
-	  <forceUppercase>1</forceUppercase>
 	  <glowColor>00000016</glowColor>
       <fontSize>0.034</fontSize>
       <glowSize>2</glowSize>
@@ -1429,20 +1430,20 @@ originally based on: "carbon"
 
 	<text name="md_developer">
       <color>928e94</color>
-	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
 	  <fontSize>0.032</fontSize>
 	</text>
 		
 	<datetime name="md_releasedate">
       <color>846e74</color>
-	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
 	  <fontSize>0.032</fontSize>
 	</datetime>
     
 	<text name="md_description">
       <color>E0E0E0ff</color>
       <forceUppercase>0</forceUppercase>
-      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+      <fontPath>./art/fonts/Bank Gothic Medium.otf</fontPath>
       <fontSize>0.023</fontSize>
 	  <glowColor>00000080</glowColor>
 	  <glowSize>3</glowSize>
@@ -1582,7 +1583,7 @@ originally based on: "carbon"
       <color>DDD000</color>
 	  <pos>0.664 0.04</pos>
 	  <origin>0 1</origin>
-      <fontPath>./art/BebasNeue.otf</fontPath>  
+      <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>  
 	  <size>0.31978 0.1</size>
 	  <lineSpacing>1.1</lineSpacing>
       <alignment>left</alignment>
@@ -1615,7 +1616,7 @@ originally based on: "carbon"
 	  <origin>1 0.5</origin>
 	  <alignment>right</alignment>
 	  <size>0.401041666 0.03</size>
-	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
 	  <fontSize>0.028</fontSize>
 	  <glowColor>00000016</glowColor>
       <glowSize>2</glowSize>
@@ -1743,7 +1744,7 @@ originally based on: "carbon"
       <color>DDD000</color>
 	  <pos>0.664 0.04</pos>
 	  <origin>0 1</origin>
-      <fontPath>./art/BebasNeue.otf</fontPath>  
+      <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>  
 	  <size>0.31978 0.1</size>
 	  <lineSpacing>1.1</lineSpacing>
       <alignment>left</alignment>
@@ -1777,7 +1778,7 @@ originally based on: "carbon"
 	  <origin>1 0.5</origin>
 	  <alignment>right</alignment>
 	  <size>0.401041666 0.03</size>
-	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
 	  <fontSize>0.028</fontSize>
 	  <glowColor>00000016</glowColor>
       <glowSize>2</glowSize>
@@ -1904,7 +1905,7 @@ originally based on: "carbon"
       <color>DDD000</color>
 	  <pos>0.317 0.04</pos>
 	  <origin>0 0.5</origin>
-      <fontPath>./art/BebasNeue.otf</fontPath>  
+      <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>  
 	  <size>0.3411 0.1</size>
 	  <lineSpacing>1.1</lineSpacing>
       <alignment>left</alignment>
@@ -1938,7 +1939,7 @@ originally based on: "carbon"
 	  <origin>0 0.5</origin>
 	  <alignment>left</alignment>
 	  <size>0.401041666 0.03</size>
-	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
 	  <fontSize>0.028</fontSize>
 	  <glowColor>00000016</glowColor>
       <glowSize>2</glowSize>

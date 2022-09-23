@@ -241,7 +241,7 @@
 	</image>
 		
 	<text name="systemInfo">
-	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+	  <fontPath>./art/fonts/Bank Gothic Medium.otf</fontPath>
 	  <fontSize>0.028</fontSize>
 	  <forceUppercase>0</forceUppercase>
 	  <origin>0 0.5</origin>
@@ -257,7 +257,7 @@
     </text>
 	
 	<text name="hardwaretype" extra="static">
-	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
+	  <fontPath>./art/fonts/Bank Gothic Medium.otf</fontPath>
 	  <fontSize>0.028</fontSize>
 	  <text>${system.hardwareType} ${system.releaseYearOrNull} |</text>
 	  <forceUppercase>0</forceUppercase>
