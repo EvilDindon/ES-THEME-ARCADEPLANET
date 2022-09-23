@@ -899,6 +899,15 @@ originally based on: "carbon"
 	  <origin>0.5 0.5</origin>
       <maxSize>0.36 0.61</maxSize>
 	  <reflexion>0.05 0</reflexion>
+	  <storyboard event="activate">
+                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="1" to="0" duration="250" mode="Linear"/>
+				<animation property="scale" from="1" to="0" duration="250" mode="EaseIn"/>
+				<animation property="offsetX" from="0.0" to="0.1" duration="250" mode="EaseOut"/>
+			</storyboard>
 	</image>
 	
     <image name="md_marquee,bigtv">
@@ -945,7 +954,14 @@ originally based on: "carbon"
 	  <origin>0.5 0.5</origin>
       <color>E0A020</color>
       <unfilledColor>808080</unfilledColor>
-	  <zIndex>41</zIndex>	  
+	  <zIndex>41</zIndex>
+	  <storyboard event="activate">
+                <animation property="opacity" from="0" to="0" begin="" duration="600" mode="EaseOutQuint"/>
+				<animation property="opacity" from="0" to="1" begin="600" duration="1500" mode="EaseOutQuint"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
+			</storyboard>
     </rating>
 	
   </view>
