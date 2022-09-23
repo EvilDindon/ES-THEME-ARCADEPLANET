@@ -318,7 +318,7 @@ originally based on: "carbon"
 	<text name="clock">
       <color>686068</color>
       <fontSize>0.034</fontSize>
-      <pos>0.008 0.978</pos>
+      <pos>0.008 0.98</pos>
 	  <origin>0 0.5</origin>
       <size>0.09 0.058</size>
       <alignment>left</alignment>
@@ -350,9 +350,9 @@ originally based on: "carbon"
 	  <pos>0.01 0.938</pos>
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
-	  <fontPath>./art/Bank Gothic Light BT.ttf</fontPath>
-	  <fontSize>0.032</fontSize>
-	  <textColor>686068</textColor>
+	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontSize>0.042</fontSize>
+	  <textColor>868286</textColor>
       <iconColor>68608A</iconColor>
     </helpsystem>
 	
@@ -409,12 +409,12 @@ originally based on: "carbon"
   <view name="basic,detailed,video,gamecarousel,grid">
     
   	<helpsystem name="help">
-	  <pos>0.01 0.952</pos>
+	  <pos>0.01 0.954</pos>
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
-	  <fontPath>./art/Bank Gothic Light BT.ttf</fontPath>
-	  <fontSize>0.0284</fontSize>
-	  <textColor>686068</textColor>
+	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <fontSize>0.0354</fontSize>
+	  <textColor>868286</textColor>
       <iconColor>68608A</iconColor>
     </helpsystem>
     
@@ -650,70 +650,6 @@ originally based on: "carbon"
 		</helpsystem>
 	
 	</view>
-	
-<!-- TEXTLIST Common Elements (basic, detailed, video) -->
-
- <view name="detailed,video">
- 
- 	<textlist name="gamelist" ifSubset="selectorstyle:bar">
-     <selectorColor ifSubset="selectorcolor:blue">0080D0E0</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:none">00000000</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
-     <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:transparentred">E8000060</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainblue">3070FFff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainred">B21302ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainblack">000000ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plaingrey">404040ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainorange">EE8800ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:plainpurple">6e55a7</selectorColor>
-	 <selectorColorEnd>00000000</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:transparentblue">48A8E810</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainblue">3070FFff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainred">c21302ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainblack">000000ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plaingrey">404040ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainorange">EE8800ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColorEnd>
-	 <selectorColorEnd ifSubset="selectorcolor:plainpurple">6e55a7</selectorColorEnd>
-	  <selectorOffsetY>0.01</selectorOffsetY>
-	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey|plainorange|plainyellow|plainpurple">-0.0011</selectorOffsetY>
-	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:red">FF0000</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-	  <primaryColor>848484</primaryColor>
-      <secondaryColor>7a6161</secondaryColor>
-	  <scrollSound>./art/scroll.wav</scrollSound>
-	  <forceUppercase>1</forceUppercase>
-	  <zIndex>15</zIndex>	  
-	</textlist>
- 
-  	<textlist name="gamelist" ifSubset="selectorstyle:cursor">
-	 <selectorColor ifSubset="cursorcolor:white">FFFFFF</selectorColor>
-	 <selectorColor ifSubset="cursorcolor:red">FF0000</selectorColor>
-	 <selectorColor ifSubset="cursorcolor:blue">88D8F0</selectorColor>
-	  <selectedColor>88D8F0</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:red">FF0000</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-	  <primaryColor>848484</primaryColor>
-      <secondaryColor>7a6161</secondaryColor>
-	  <scrollSound>./art/scroll.wav</scrollSound>
-	  <forceUppercase>1</forceUppercase>
-	  <zIndex>15</zIndex>	  
-	</textlist>
- 
- </view> 
  
 <!-- BASIC -->
    	
@@ -835,16 +771,14 @@ originally based on: "carbon"
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-	  <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <forceUppercase>1</forceUppercase>
-       <primaryColor>848484</primaryColor>
+      <primaryColor>848484</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
+	  <fontSize>0.0324</fontSize>
+	  <fontPath>./art/BebasNeue.otf</fontPath>
+      <forceUppercase>1</forceUppercase>
 	  <pos>0.25 0.263</pos>
       <size>0.5 0.62</size>
       <alignment>center</alignment>
-      <horizontalMargin>0.005</horizontalMargin>
-      <fontSize>0.0324</fontSize>
-	  <lines>11</lines>
 	</textlist>
 	
    </view>
@@ -866,17 +800,80 @@ originally based on: "carbon"
 		<animation property="y" from="0.5" to="0.06574074074" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
-		
-	<textlist name="gamelist">
+
+ <textlist name="gamelist" ifSubset="selectorstyle:bar">
+     <selectorColor ifSubset="selectorcolor:blue">0080D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:none">00000000</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:red">D00000E0</selectorColor>
+     <selectorColor ifSubset="selectorcolor:purple">C820D0E0</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentred">E8000060</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentgrey">C8C8C860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:transparentblue">48A8E860</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblue">3070FFff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainred">B21302ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainblack">000000ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plaingrey">404040ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainorange">EE8800ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:plainpurple">6e55a7</selectorColor>
+	 <selectorColorEnd>00000000</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentred">E8000010</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentgrey">C8C8C810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:transparentblue">48A8E810</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblue">3070FFff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainred">c21302ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainblack">000000ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plaingrey">404040ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainorange">EE8800ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainyellow">CCBB00ff</selectorColorEnd>
+	 <selectorColorEnd ifSubset="selectorcolor:plainpurple">6e55a7</selectorColorEnd>
+	  <selectorOffsetY>0.01</selectorOffsetY>
+	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey|plainorange|plainyellow|plainpurple">-0.0011</selectorOffsetY>
+	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">FF0000</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
+	  <primaryColor>848484</primaryColor>
+      <secondaryColor>7a6161</secondaryColor>
+	  <scrollSound>./art/scroll.wav</scrollSound>
 	  <origin>0 0.5</origin>
+	  <lines>11</lines>
 	  <pos>0.5 0.5333333</pos>
       <size>0.42291666 0.77</size>
-	  <size ifSubset="selectorstyle:cursor">0.44 0.77</size>
 	  <alignment>left</alignment>
 	  <horizontalMargin>0.005</horizontalMargin>
-	  <horizontalMargin ifSubset="selectorstyle:cursor">0.022</horizontalMargin>
+	  <fontSize>0.042</fontSize>
+	  <fontPath>./art/BebasNeue.otf</fontPath>
+	  <forceUppercase>1</forceUppercase>
+	  <zIndex>15</zIndex>	  
+	</textlist>
+ 
+  	<textlist name="gamelist" ifSubset="selectorstyle:cursor">
+	 <selectorColor ifSubset="cursorcolor:white">FFFFFF</selectorColor>
+	 <selectorColor ifSubset="cursorcolor:red">FF0000</selectorColor>
+	 <selectorColor ifSubset="cursorcolor:blue">88D8F0</selectorColor>
+	  <selectedColor>88D8F0</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">FF0000</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
+	  <primaryColor>848484</primaryColor>
+      <secondaryColor>7a6161</secondaryColor>
+	  <scrollSound>./art/scroll.wav</scrollSound>
+	  <origin>0 0.5</origin>
 	  <lines>11</lines>
-	  <selectorImagePath ifSubset="selectorstyle:cursor">./art/selector.png</selectorImagePath>
+	  <pos>0.5 0.5333333</pos>
+	  <size>0.44 0.77</size>
+	  <alignment>left</alignment>
+	  <horizontalMargin>0.022</horizontalMargin>
+	  <selectorImagePath>./art/selector.png</selectorImagePath>
+	  <fontSize>0.042</fontSize>
+	  <fontPath>./art/BebasNeue.otf</fontPath>
+      <forceUppercase>1</forceUppercase>
+	  <zIndex>15</zIndex>	  
 	</textlist>
 	
 	<image name="Chevron Bas">
@@ -913,11 +910,6 @@ originally based on: "carbon"
 	<video name="md_video">
 		  <visible>false</visible>
 	</video>
-		
-	<textlist name="gamelist">
-      <fontPath>./art/Bank Gothic Medium.otf</fontPath>
-      <fontSize>0.0335</fontSize>
-	</textlist>
 	
 	<text name="md_developer">
 	  <origin>0 0.5</origin>
@@ -1019,13 +1011,6 @@ originally based on: "carbon"
 			    <animation property="scale" from="1" to="0" duration="500" mode="Linear"/>
 			</storyboard>
 	</image>	  
-	
-	<textlist name="gamelist">
-      <fontPath>./art/BebasNeue.otf</fontPath>
-      <forceUppercase>1</forceUppercase>
-      <fontSize>0.042</fontSize>
-	  <lines>11</lines>
-	</textlist>
 	
 	<text name="md_developer">
 	  <origin>0 0.5</origin>
