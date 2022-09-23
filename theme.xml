@@ -410,7 +410,7 @@ originally based on: "carbon"
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
-	  <fontSize>0.0342</fontSize>
+	  <fontSize>0.031</fontSize>
 	  <textColor>767296</textColor>
       <iconColor>565296</iconColor>
     </helpsystem>
