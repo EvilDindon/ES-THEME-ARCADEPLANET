@@ -5,7 +5,7 @@
    <view name="grid">
   
    <imagegrid name="gamegrid">
-    <autoLayout>4 3</autoLayout>
+    <autoLayout>5 3</autoLayout>
    </imagegrid>
    
   </view>

@@ -32,7 +32,7 @@
   	
 	<imagegrid name="gamegrid">
       <pos>0 0.636</pos>
-	  <autoLayout>7 3</autoLayout>
+	  <autoLayout>6 2</autoLayout>
 	</imagegrid>
 
     <image name="md_thumbnail">

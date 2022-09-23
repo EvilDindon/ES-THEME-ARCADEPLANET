@@ -24,7 +24,7 @@
 	<imagegrid name="gamegrid">
       <pos>0 0.636</pos>
 	  <size>0.925 0.3</size>
-	  <autoLayout>7 3</autoLayout>
+	  <autoLayout>6 2</autoLayout>
 	</imagegrid>
    	
   </customView> 
