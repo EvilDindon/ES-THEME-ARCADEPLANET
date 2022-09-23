@@ -768,7 +768,17 @@ originally based on: "carbon"
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-      <primaryColor>888688</primaryColor>
+      <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">EE0000</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
+	  <primaryColor ifSubset="textlistcolor:white">888688</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:yellow">888800</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:red">880000</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:purple">842484</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:blue">446490</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <fontSize>0.044</fontSize>
 	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
@@ -829,11 +839,15 @@ originally based on: "carbon"
 	  <selectorOffsetY ifSubset="selectorcolor:transparentblue|transparentgrey|transparentred|plainblue|plainred|plainblack|plaingrey|plainorange|plainyellow|plainpurple">-0.0011</selectorOffsetY>
 	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:red">FF0000</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">EE0000</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-	  <primaryColor>888688</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:white">888688</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:yellow">888800</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:red">880000</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:purple">842484</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:blue">446490</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <scrollSound>./art/scroll.wav</scrollSound>
 	  <origin>0 0.5</origin>
@@ -858,7 +872,17 @@ originally based on: "carbon"
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-	  <primaryColor>888688</primaryColor>
+	 <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:purple">A672E6</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">F84040</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
+	  <primaryColor ifSubset="textlistcolor:white">888688</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:yellow">888800</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:red">903030</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:purple">604286</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:blue">446490</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <scrollSound>./art/scroll.wav</scrollSound>
 	  <origin>0 0.5</origin>
@@ -1212,6 +1236,7 @@ originally based on: "carbon"
 	  <pos>0.5 0.04</pos>
       <size>0.8 0.05</size>
       <alignment>center</alignment>
+	  <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>
 	  <fontSize>0.056</fontSize>
 	  <origin>0.5 0.5</origin>
       <glowSize>2</glowSize>
@@ -1224,6 +1249,7 @@ originally based on: "carbon"
 	  <pos>0.15 0.04</pos>
       <size>0.25 0.05</size>
       <alignment>left</alignment>
+	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
 	  <fontSize>0.036</fontSize>
 	  <origin>0.5 0.5</origin>
 	</text>
