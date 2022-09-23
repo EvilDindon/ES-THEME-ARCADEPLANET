@@ -193,7 +193,7 @@ originally based on: "carbon"
 	</subset>
 	
 	<!-- Subset options for Selector Bar Color -->
-	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="menu,basic,detailed,video">
+	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="basic,detailed,video">
 		<include name="none" displayName="${none}"/>
 		<include name="transparentblue" displayName="${transparentblue}"/>
 		<include name="transparentgrey" displayName="${transparentgrey}"/>
@@ -211,7 +211,7 @@ originally based on: "carbon"
 	</subset>
 	
 	<!-- Subset options for Selected Text -->
-		<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="menu,basic,detailed,video">
+		<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="basic,detailed,video">
 		<include name="white" displayName="${white}"/>
 		<include name="blue" displayName="${blue}"/>
 		<include name="black" displayName="${black}"/>
@@ -1707,7 +1707,7 @@ originally based on: "carbon"
 	  <margin>0.01 0.01</margin>
       <size>0.925 0.3</size>
 	  <scrollDirection >vertical</scrollDirection>
-      <autoLayout>7 3</autoLayout>
+      <autoLayout>6 2</autoLayout>
 	  <imageSource>marquee</imageSource>
       <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
       <centerSelection>false</centerSelection>
