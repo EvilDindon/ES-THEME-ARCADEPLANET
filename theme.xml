@@ -1455,10 +1455,6 @@ originally based on: "carbon"
 <!-- BOX CAROUSEL -->
   
    <customView name="BoxCarousel">
-        
-		<helpsystem name="help">
-			<pos>0.01 0.952</pos>
-		</helpsystem>
 	
 	<image name="background">
 	  <path>./art/bgboxcarousel.jpg</path>
