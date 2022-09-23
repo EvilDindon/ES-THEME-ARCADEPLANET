@@ -18,7 +18,7 @@ originally based on: "carbon"
     <baseColor>8b0000</baseColor>
     <gradientEndColor>000000</gradientEndColor>
     <backgroundColor>252525</backgroundColor>
-    <groupColor>BD4747</groupColor>
+    <groupColor>991222</groupColor>
     <groupSeparatorColor>BD4747</groupSeparatorColor> 
 	
 	<!--LANGS-->
@@ -352,8 +352,8 @@ originally based on: "carbon"
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
 	  <fontSize>0.042</fontSize>
-	  <textColor>868286</textColor>
-      <iconColor>68608A</iconColor>
+	  <textColor>767296</textColor>
+      <iconColor>565296</iconColor>
     </helpsystem>
 	
     <text name="logoText">
@@ -413,9 +413,9 @@ originally based on: "carbon"
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
-	  <fontSize>0.0354</fontSize>
-	  <textColor>868286</textColor>
-      <iconColor>68608A</iconColor>
+	  <fontSize>0.0342</fontSize>
+	  <textColor>767296</textColor>
+      <iconColor>565296</iconColor>
     </helpsystem>
     
 	<image name="background, background2, black screen">
@@ -773,7 +773,7 @@ originally based on: "carbon"
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
       <primaryColor>848484</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
-	  <fontSize>0.042</fontSize>
+	  <fontSize>0.043</fontSize>
 	  <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
 	  <pos>0.25 0.263</pos>
@@ -845,7 +845,7 @@ originally based on: "carbon"
       <size>0.42291666 0.77</size>
 	  <alignment>left</alignment>
 	  <horizontalMargin>0.005</horizontalMargin>
-	  <fontSize>0.042</fontSize>
+	  <fontSize>0.043</fontSize>
 	  <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
 	  <forceUppercase>1</forceUppercase>
 	  <zIndex>15</zIndex>	  
@@ -871,7 +871,7 @@ originally based on: "carbon"
 	  <alignment>left</alignment>
 	  <horizontalMargin>0.022</horizontalMargin>
 	  <selectorImagePath>./art/selector.png</selectorImagePath>
-	  <fontSize>0.042</fontSize>
+	  <fontSize>0.043</fontSize>
 	  <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
 	  <zIndex>15</zIndex>	  
