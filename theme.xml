@@ -768,10 +768,10 @@ originally based on: "carbon"
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-      <primaryColor>848484</primaryColor>
+      <primaryColor>888688</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <fontSize>0.044</fontSize>
-	  <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
 	  <pos>0.25 0.263</pos>
       <size>0.5 0.62</size>
@@ -833,7 +833,7 @@ originally based on: "carbon"
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-	  <primaryColor>848484</primaryColor>
+	  <primaryColor>888688</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <scrollSound>./art/scroll.wav</scrollSound>
 	  <origin>0 0.5</origin>
@@ -843,7 +843,7 @@ originally based on: "carbon"
 	  <alignment>left</alignment>
 	  <horizontalMargin>0.005</horizontalMargin>
 	  <fontSize>0.044</fontSize>
-	  <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
 	  <forceUppercase>1</forceUppercase>
 	  <zIndex>15</zIndex>	  
 	</textlist>
@@ -858,7 +858,7 @@ originally based on: "carbon"
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-	  <primaryColor>848484</primaryColor>
+	  <primaryColor>888688</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <scrollSound>./art/scroll.wav</scrollSound>
 	  <origin>0 0.5</origin>
@@ -869,7 +869,7 @@ originally based on: "carbon"
 	  <horizontalMargin>0.022</horizontalMargin>
 	  <selectorImagePath>./art/selector.png</selectorImagePath>
 	  <fontSize>0.044</fontSize>
-	  <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
 	  <zIndex>15</zIndex>	  
 	</textlist>
@@ -895,9 +895,9 @@ originally based on: "carbon"
 	</image>
 		
 	<image name="md_thumbnail">
-	  <pos>0.249479 0.4</pos>
+	  <pos>0.244 0.36</pos>
 	  <origin>0.5 0.5</origin>
-      <maxSize>0.37 0.65777777</maxSize>
+      <maxSize>0.36 0.61</maxSize>
 	  <reflexion>0.05 0</reflexion>
 	</image>
 	
@@ -910,37 +910,43 @@ originally based on: "carbon"
 	</video>
 	
 	<text name="md_developer">
-	  <origin>0 0.5</origin>
-	  <size>0.401041666 0.03</size>
-	  <pos>0.082 0.809</pos>
+	  <origin>0 0</origin>
+	  <size>0.2 0.03</size>
+	  <pos>0.05 0.734</pos>
+	</text>
+	
+	<text name="md_genre">
+	  <origin>1 0</origin>
+	  <color>928e94D0</color>
+	  <fontSize>0.028</fontSize>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+	  <size>0.22 0.03</size>
+	  <alignment>right</alignment>
+	  <pos>0.48 0.734</pos>
 	</text>
 		
 	<datetime name="md_releasedate">
-	  <alignment>right</alignment>
-	  <pos>0.018 0.809</pos>
-	  <origin>0 0.5</origin>
-	  <size>0.055 0.037</size>
+	  <alignment>left</alignment>
+	  <pos>0.01 0.73</pos>
+	  <origin>0 0</origin>
+	  <size>0.04 0.037</size>
 	</datetime>
 	
 	<text name="md_description">
-      <origin>0.5 0.5</origin>
-	  <pos>0.244 0.885</pos>
-	  <size>0.48 0.10185185</size>
+      <origin>0.5 0</origin>
+	  <pos>0.244 0.776</pos>
+	  <size>0.48 0.161</size>
 	  <alignment>left</alignment>
     </text>
 	
 	<rating name="md_rating">
-      <pos>0.444 0.809</pos>
+      <pos>0.244 0.69</pos>
       <size>0.08 0.025</size>
 	  <origin>0.5 0.5</origin>
       <color>E0A020</color>
       <unfilledColor>808080</unfilledColor>
 	  <zIndex>41</zIndex>	  
     </rating>
-	
-	<text name="md_genre">
-		<visible>false</visible>
-	</text>
 	
   </view>
  
