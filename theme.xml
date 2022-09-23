@@ -608,8 +608,8 @@ originally based on: "carbon"
 	  <glowOffset>1</glowOffset>
       <zIndex>15</zIndex>
 		<storyboard>
-                <animation property="opacity" from="0" to="0" duration="1000" mode="Linear"/>
-				<animation property="opacity" from="0" to="1" begin="1000" duration="1500" mode="Linear"/>
+                <animation property="opacity" from="0" to="0" duration="600" mode="Linear"/>
+				<animation property="opacity" from="0" to="1" begin="600" duration="1500" mode="Linear"/>
 		</storyboard>
     </text>
 	
@@ -956,8 +956,8 @@ originally based on: "carbon"
       <unfilledColor>808080</unfilledColor>
 	  <zIndex>41</zIndex>
 	  <storyboard event="activate">
-                <animation property="opacity" from="0" to="0" begin="" duration="600" mode="EaseOutQuint"/>
-				<animation property="opacity" from="0" to="1" begin="600" duration="1500" mode="EaseOutQuint"/>
+                <animation property="opacity" from="0" to="0" begin="" duration="1500" mode="EaseOutQuint"/>
+				<animation property="opacity" from="0" to="1" begin="1500" duration="1000" mode="EaseOutQuint"/>
 			</storyboard>
 			<storyboard event="deactivate">
                 <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
