@@ -18,7 +18,7 @@ originally based on: "carbon"
     <baseColor>8b0000</baseColor>
     <gradientEndColor>000000</gradientEndColor>
     <backgroundColor>252525</backgroundColor>
-    <groupColor>991222</groupColor>
+    <groupColor>767296</groupColor>
     <groupSeparatorColor>BD4747</groupSeparatorColor> 
 	
 	<!--LANGS-->
@@ -246,32 +246,29 @@ originally based on: "carbon"
     </menuText>
 	
     <menuText name="menutext">
-      <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+      <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
       <fontSize>0.042</fontSize>
       <color>969696</color>
       <separatorColor>323232FF</separatorColor>
-      <selectorColor>600000</selectorColor>
-	  <selectorColor ifSubset="selectorcolor:blue|transparentblue">004060</selectorColor>
-      <selectorColor ifSubset="selectorcolor:purple">601068</selectorColor>
-	  <selectorColor ifSubset="selectorcolor:transparentgrey">606060</selectorColor>
-      <selectorColorEnd>000000</selectorColorEnd>
-      <selectedColor>FFFFFF</selectedColor>
+      <selectorColor>401010</selectorColor>
+	  <selectorColorEnd>401010</selectorColorEnd>
+      <selectedColor>FFEEFF</selectedColor>
 	  <selectorOffsetY>0.01</selectorOffsetY>
       <selectorGradientType>vertical</selectorGradientType>
     </menuText>
 	
     <menuTextSmall name="menutextsmall">
-      <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+      <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
       <fontSize>0.036</fontSize>
       <color>${groupColor}</color>
     </menuTextSmall>
 	
     <menuGroup name="menugroup">
-      <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
+      <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
       <fontSize>0.046</fontSize>
       <color>${groupColor}</color>
       <separatorColor>${groupSeparatorColor}</separatorColor>    
-      <backgroundColor>70707035</backgroundColor>
+      <backgroundColor>70202020</backgroundColor>
       <lineSpacing>2.5</lineSpacing>
     </menuGroup>
 	
@@ -773,12 +770,12 @@ originally based on: "carbon"
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
       <primaryColor>848484</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
-	  <fontSize>0.043</fontSize>
+	  <fontSize>0.044</fontSize>
 	  <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
 	  <pos>0.25 0.263</pos>
       <size>0.5 0.62</size>
-	  <lines>11</lines>
+	  <lines>9</lines>
       <alignment>center</alignment>
 	</textlist>
 	
@@ -845,7 +842,7 @@ originally based on: "carbon"
       <size>0.42291666 0.77</size>
 	  <alignment>left</alignment>
 	  <horizontalMargin>0.005</horizontalMargin>
-	  <fontSize>0.043</fontSize>
+	  <fontSize>0.044</fontSize>
 	  <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
 	  <forceUppercase>1</forceUppercase>
 	  <zIndex>15</zIndex>	  
@@ -871,7 +868,7 @@ originally based on: "carbon"
 	  <alignment>left</alignment>
 	  <horizontalMargin>0.022</horizontalMargin>
 	  <selectorImagePath>./art/selector.png</selectorImagePath>
-	  <fontSize>0.043</fontSize>
+	  <fontSize>0.044</fontSize>
 	  <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
 	  <zIndex>15</zIndex>	  
