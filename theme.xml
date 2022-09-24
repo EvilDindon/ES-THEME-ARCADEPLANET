@@ -1729,18 +1729,19 @@ originally based on: "carbon"
 	  <pos>0.961 0.92</pos>
     </image>
 	
-	<image name="logo">
-      <path>./art/wheel/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
-	  <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
+	<image name="ControllerMiniLogo" extra="true">
+      <path>./art/Controllers/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/Controllers/US/${system.theme}.png</path>
+	  <path ifSubset="neogeostyle:mvs">./art/Controllers/special/${system.theme}.png</path>
       <size>0.1375 0</size>
+	  <origin>1 1</origin>
 	  <scale ifSubset="animatedgamelistopenings:no">1</scale>
-	  <pos ifSubset="animatedgamelistopenings:no">0.8536 0.484</pos>
+	  <pos ifSubset="animatedgamelistopenings:no">0.92 0.61</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 	 	<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.8536" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.484" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.92" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.61" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
 	
