@@ -769,13 +769,7 @@ originally based on: "carbon"
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-      <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:red">EE0000</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
-	  <primaryColor ifSubset="textlistcolor:white">888688</primaryColor>
+      <primaryColor ifSubset="textlistcolor:white">888688</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:yellow">767600</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:red">880000</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:purple">504276</primaryColor>
@@ -842,6 +836,7 @@ originally based on: "carbon"
 	  <selectedColor ifSubset="textlistcolor:red">F84040</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
 	  <primaryColor ifSubset="textlistcolor:white">888688</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:yellow">767600</primaryColor>
