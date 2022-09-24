@@ -1736,12 +1736,12 @@ originally based on: "carbon"
       <size>0.1375 0</size>
 	  <origin>1 1</origin>
 	  <scale ifSubset="animatedgamelistopenings:no">1</scale>
-	  <pos ifSubset="animatedgamelistopenings:no">0.92 0.61</pos>
+	  <pos ifSubset="animatedgamelistopenings:no">0.92 0.618</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 	 	<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
 		<animation property="x" from="0.5" to="0.92" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.61" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.618" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
 	
@@ -1906,7 +1906,7 @@ originally based on: "carbon"
 	  </storyboard>
 	</image>
 	
-	<image name="md_marquee,backgroundminilogos2">
+	<image name="md_marquee,backgroundminilogos2,ControllerMiniLogo">
 		<visible>false</visible>
 	</image>
 	
