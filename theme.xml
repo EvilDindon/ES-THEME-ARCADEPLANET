@@ -43,8 +43,8 @@ originally based on: "carbon"
 	<logostyle>Logo Style</logostyle>
     <logostyle lang="fr">Style de logo</logostyle>
 	
-	<SelectorBarColor>Selector Bar Color</SelectorBarColor>
-    <SelectorBarColor lang="fr">Couleur de la Barre de Selection</SelectorBarColor>
+	<SelectorColor>Selector Color</SelectorColor>
+    <SelectorColor lang="fr">Couleur du selecteur</SelectorColor>
 	
 	<selectorstyle>Selector Style</selectorstyle>
 	<selectorstyle lang="fr">Type de selecteur</selectorstyle>
@@ -184,7 +184,7 @@ originally based on: "carbon"
 	</subset>
 
 	<!-- Subset options for Selector Bar Color -->
-	<subset name="selectorcolor" displayName="${SelectorBarColor}" appliesTo="basic,detailed,video">
+	<subset name="selectorcolor" displayName="${SelectorColor}" appliesTo="basic,detailed,video">
 		<include name="plainblue" displayName="${plainblue}"/>
 		<include name="plainred" displayName="${plainred}"/>
 		<include name="plainorange" displayName="${plainorange}"/>
