@@ -1258,9 +1258,9 @@ H	</subset>
 	<image name="md_marquee">
 	  <visible>true</visible>
 	  <linearSmooth>true</linearSmooth>
-	  <maxSize>0.18 0.145</maxSize>
-	  <pos>0.186 0.532</pos>
-	  <origin>0.5 0.5</origin>
+	  <maxSize>0.165 0.145</maxSize>
+	  <pos>0.186 0.596</pos>
+	  <origin>0.5 1</origin>
 	  <zIndex>42</zIndex>
 			
 			<storyboard event="open">
