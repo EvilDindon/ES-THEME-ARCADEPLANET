@@ -267,6 +267,7 @@ H	</subset>
     
 	<text name="clock">
       <color>686068</color>
+	  <fontPath>./art/fonts/SairaCondensed-Light.ttf</fontPath>
       <fontSize>0.034</fontSize>
       <pos>0.008 0.98</pos>
 	  <origin>0 0.5</origin>
@@ -696,6 +697,7 @@ H	</subset>
 		<size>0.04 0.037037</size>
 		<pos>0.984 0.159</pos>
 		<glowColor>00000016</glowColor>
+		<fontPath>./art/fonts/SairaCondensed-Light.ttf</fontPath>
         <fontSize>0.034</fontSize>
         <glowSize>2</glowSize>
 		<color>928e94</color>
@@ -709,6 +711,7 @@ H	</subset>
 	  <alignment>left</alignment>
 	  <pos>0.98 0.397</pos>
 	  <glowColor>00000016</glowColor>
+	  <fontPath>./art/fonts/SairaCondensed-Light.ttf</fontPath>
       <fontSize>0.034</fontSize>
       <glowSize>2</glowSize>
 	  <zIndex>41</zIndex>
