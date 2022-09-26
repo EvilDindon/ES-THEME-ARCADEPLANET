@@ -844,7 +844,7 @@ H	</subset>
 	 <selectorColor ifSubset="selectorcolor:purple">6e55a7</selectorColor>
 	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:purple">A672E6</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:red">C80505</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">AA0000</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
       <primaryColor ifSubset="textlistcolor:white">777277</primaryColor>
@@ -865,7 +865,7 @@ H	</subset>
 	<textlist name="gamelist" ifSubset="selectorstyle:none">
 	 <selectorColor>00000000</selectorColor>
 	 <selectedColor ifSubset="textlistcolor:purple">A672E6</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:red">C80505</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">A00000</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
@@ -915,7 +915,7 @@ H	</subset>
 	 <selectorColor ifSubset="selectorcolor:yellow">CCBB00ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:purple">6e55a7</selectorColor>
 	  <selectedColor ifSubset="textlistcolor:purple">A672E6</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:red">C80505</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">A00000</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
