@@ -1192,15 +1192,15 @@ H	</subset>
 			
 			<storyboard event="open">
                 <animation property="offsetX" from="-0.3" to="0" duration="500" mode="EaseOutQuint"/>
-				<animation property="opacity" from="0" to="0" begin="" duration="" mode="Linear"/>				
-				<animation property="opacity" from="0" to="1" begin="0" duration="500" mode="EaseOutQuint"/>
+				<animation property="opacity" from="0" to="0" begin="" duration="200" mode="Linear"/>				
+				<animation property="opacity" from="0" to="1" begin="200" duration="300" mode="EaseOutQuint"/>
 				<animation property="offsetY" from="" to="" duration="" mode="Linear"/>
 			</storyboard>
 			
 			<storyboard event="activate">
                 <animation property="offsetX" from="-0.3" to="0" duration="500" mode="EaseOutQuint"/>
-				<animation property="opacity" from="0" to="0" begin="" duration="250" mode="Linear"/>				
-				<animation property="opacity" from="0" to="1" begin="250" duration="500" mode="EaseOutQuint"/>
+				<animation property="opacity" from="0" to="0" begin="" duration="200" mode="Linear"/>				
+				<animation property="opacity" from="0" to="1" begin="200" duration="300" mode="EaseOutQuint"/>
 			</storyboard>
 			
 			<storyboard event="deactivate">
@@ -1254,7 +1254,7 @@ H	</subset>
 	
 	<text name="md_developer">
 	  <origin>0 0</origin>
-	  <size>0.2 0.03</size>
+	  <size>0.3 0.03</size>
 	  <pos>0.05 0.65</pos>
 	</text>
 	
@@ -1264,7 +1264,7 @@ H	</subset>
 	  <color>928e94D0</color>
 	  <fontSize>0.028</fontSize>
 	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
-	  <size>0.22 0.03</size>
+	  <size>0.37 0.03</size>
 	  <alignment>left</alignment>
 	  <pos>0.01 0.68</pos>
 	</text>
