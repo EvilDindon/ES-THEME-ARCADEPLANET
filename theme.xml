@@ -154,7 +154,7 @@ originally based on: "carbon"
 	</subset>
 
 	<!-- Subset options for Selector Bar Color -->
-	<subset name="selectorcolor" displayName="${SelectorColor}" appliesTo="basic,detailed,video">
+	<subset name="selectorcolor" displayName="${SelectorColor}" appliesTo="basic,detailed,video,NeoDetailed">
 		<include name="blue" displayName="${blue}"/>
 		<include name="red" displayName="${red}"/>
 		<include name="orange" displayName="${orange}"/>
@@ -165,10 +165,9 @@ originally based on: "carbon"
 H	</subset>
 	
 	<!-- Subset options for Selected Text -->
-		<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="basic,detailed,video">
+		<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="basic,detailed,video,NeoDetailed">
 		<include name="white" displayName="${white}"/>
 		<include name="blue" displayName="${blue}"/>
-		<include name="black" displayName="${black}"/>
 		<include name="yellow" displayName="${yellow}"/>
 		<include name="red" displayName="${red}"/>
 		<include name="purple" displayName="${purple}"/>
@@ -836,22 +835,20 @@ H	</subset>
 	 <selectorColor ifSubset="selectorcolor:blue">3070FFff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:red">B21302ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:black">000000ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:grey">505050ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:grey">707070ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:orange">EE8800ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:yellow">CCBB00ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:purple">6e55a7</selectorColor>
 	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:purple">F848F8</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:red">FF0000</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:purple">A672E6</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">C80505</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
       <primaryColor ifSubset="textlistcolor:white">777277</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:yellow">767600</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:red">880000</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:purple">504276</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:blue">446490</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:black">888688</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:red">777070</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:purple">766976</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:blue">727277</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <fontSize>0.044</fontSize>
 	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
@@ -865,17 +862,15 @@ H	</subset>
 	<textlist name="gamelist" ifSubset="selectorstyle:none">
 	 <selectorColor>00000000</selectorColor>
 	 <selectedColor ifSubset="textlistcolor:purple">A672E6</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:red">F84040</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">C80505</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
 	  <primaryColor ifSubset="textlistcolor:white">888688</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:yellow">767600</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:red">903030</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:purple">504276</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:blue">446490</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:black">888688</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:red">777070</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:purple">766976</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:blue">727077</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <scrollSound>./art/scroll.wav</scrollSound>
 	  <secondaryColor>7a6161</secondaryColor>
@@ -912,22 +907,20 @@ H	</subset>
 	 <selectorColor ifSubset="selectorcolor:blue">3070FFff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:red">B21302ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:black">000000ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:grey">505050ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:grey">707070ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:orange">EE8800ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:yellow">CCBB00ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:purple">6e55a7</selectorColor>
 	  <selectedColor ifSubset="textlistcolor:purple">A672E6</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:red">F84040</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">C80505</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:black">000000</selectedColor>
 	  <primaryColor ifSubset="textlistcolor:white">777277</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:yellow">767600</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:red">903030</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:purple">504276</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:blue">446490</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:black">888688</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:red">777070</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:purple">766976</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:blue">727277</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
 	  <scrollSound>./art/scroll.wav</scrollSound>
 	  <origin>0 0.5</origin>
@@ -1218,7 +1211,7 @@ H	</subset>
 	<textlist name="gamelist">
 	  <pos>0.389 0.5333333</pos>
 	  <size>0.534 0.76</size>
-	  <fontSize>0.054</fontSize>
+	  <fontSize>0.053</fontSize>
 	  <lines>9</lines>
 	  <alignment>center</alignment>
 	  <horizontalMargin>0.01</horizontalMargin>
