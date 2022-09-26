@@ -845,7 +845,7 @@ H	</subset>
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
       <primaryColor ifSubset="textlistcolor:white">777277</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:yellow">767600</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:yellow">767670</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:red">777070</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:purple">766976</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:blue">727277</primaryColor>
@@ -867,7 +867,7 @@ H	</subset>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
 	  <primaryColor ifSubset="textlistcolor:white">888688</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:yellow">767600</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:yellow">767670</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:red">777070</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:purple">766976</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:blue">727077</primaryColor>
@@ -917,7 +917,7 @@ H	</subset>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
 	  <primaryColor ifSubset="textlistcolor:white">777277</primaryColor>
-	  <primaryColor ifSubset="textlistcolor:yellow">767600</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:yellow">767670</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:red">777070</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:purple">766976</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:blue">727277</primaryColor>
