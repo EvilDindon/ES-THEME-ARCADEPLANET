@@ -7,8 +7,8 @@
   <view name="system">
   	 		
 		<image name="randomArt01" extra="true">
-		   	<pos>1.10417 0.37</pos>
-			<reflexion>0.25 0</reflexion>
+		   	<pos>1.10417 0.389</pos>
+			<reflexion>0.1 0</reflexion>
 			<origin>0.5 1</origin>
 			<storyboard autoreverse="true" repeat="forever">
 				<animation property="offsetX" from="0" to="0" begin="" duration="1000" mode="linear"/>
@@ -19,8 +19,8 @@
 		</image>
 				  	
 		<image name="randomArt02" extra="true">
-	       	<pos>-0.10417 0.37</pos>
-			<reflexion>0.25 0</reflexion>
+	       	<pos>-0.10417 0.389</pos>
+			<reflexion>0.1 0</reflexion>
 			<origin>0.5 1</origin>
 			<storyboard autoreverse="true" repeat="forever">
                 <animation property="offsetX" from="0" to="0" begin="" duration="1000" mode="linear"/>

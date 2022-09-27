@@ -44,7 +44,7 @@
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../bghlandscapeWIP.png</path>
+      <path>./../bghlandscape.png</path>
       <zIndex>1</zIndex>	  
     </image>
 	
@@ -73,14 +73,14 @@
       </storyboard>	  
     </image>
 	
-	<image isSubset="randomart:marquee|thumbnail" name="bg4" extra="static">
+<!-- 	<image isSubset="randomart:marquee|thumbnail" name="bg4" extra="static">
 	  <tile>false</tile>
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-<!--       <path>./../bgh4.png</path> -->
+      <path>./../bgh4.png</path>
       <zIndex>8</zIndex>
-    </image>
+    </image> -->
 	
     <image name="Sprites" extra="static">
       <pos>0.5 0.34</pos>
