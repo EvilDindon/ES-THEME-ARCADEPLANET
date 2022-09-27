@@ -174,7 +174,7 @@ H	</subset>
 	</subset>
 
 	<!-- Subset options for Animation at gamelist opening -->
-	<subset name="animatedgamelistopenings" displayName="${animatedgamelistopenings}" appliesTo="basic,detailed,video,gamecarousel,grid,boxcarousel,minilogos,minilogosright">
+	<subset name="animatedgamelistopenings" displayName="${animatedgamelistopenings}" appliesTo="basic,detailed,video,gamecarousel,verticarousel,grid,boxcarousel,minilogos,minilogosright,retrotiles">
 		<include name="yes" displayName="${yes}"/>
 		<include name="no" displayName="${no}"/>
 	</subset>
