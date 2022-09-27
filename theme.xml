@@ -298,7 +298,7 @@ H	</subset>
 	</sound>
 	
 	<helpsystem name="help">
-	  <pos>0.01 0.938</pos>
+	  <pos>0.01 0.942</pos>
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
@@ -310,11 +310,12 @@ H	</subset>
     <text name="logoText">
 		<fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
 		<color>FFFFFFFA</color>
-		<fontSize>0.034</fontSize>
+		<fontSize>0.044</fontSize>
 	    <forceUppercase>1</forceUppercase>
 		<glowSize>3</glowSize>
 		<glowColor>000000ee</glowColor>
 		<glowOffset>1</glowOffset>
+		<zIndex>60</zIndex>
     </text>
 	
 	<image name="bgsky" extra="static">
