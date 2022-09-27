@@ -303,7 +303,7 @@ H	</subset>
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
 	  <fontSize>0.042</fontSize>
-	  <textColor>767296</textColor>
+	  <textColor>686068</textColor>
       <iconColor>565296</iconColor>
     </helpsystem>
 	
@@ -365,7 +365,7 @@ H	</subset>
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
 	  <fontSize>0.031</fontSize>
-	  <textColor>767296</textColor>
+	  <textColor>686068</textColor>
       <iconColor>565296</iconColor>
     </helpsystem>
     
@@ -844,7 +844,7 @@ H	</subset>
 	 <selectorColor ifSubset="selectorcolor:purple">6e55a7</selectorColor>
 	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:purple">A672E6</selectedColor>
-	  <selectedColor ifSubset="textlistcolor:red">AA0000</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">A00000</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
 	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
       <primaryColor ifSubset="textlistcolor:white">777277</primaryColor>

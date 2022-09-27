@@ -34,8 +34,8 @@
 	  <maxLogoCount>5</maxLogoCount>
       <maxLogoCount ifSubset="systemviewlogocountH:7">7</maxLogoCount>
 <!-- 	  <logoPos>-1 0</logoPos> -->
-	  <logoScale>1</logoScale>
-      <logoSize>0.1375 0.2963</logoSize>
+	  <logoScale>1.4</logoScale>
+      <logoSize>0.0982142857142857 0.2116428571428571</logoSize>
 	  <scrollSound>./../scroll3.wav</scrollSound>
 	  <zIndex>37</zIndex>
     </carousel>
@@ -44,7 +44,7 @@
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../bghlandscape.png</path>
+      <path>./../bghlandscapeWIP.png</path>
       <zIndex>1</zIndex>	  
     </image>
 	
@@ -78,7 +78,7 @@
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../bgh4.png</path>
+<!--       <path>./../bgh4.png</path> -->
       <zIndex>8</zIndex>
     </image>
 	
@@ -184,7 +184,7 @@
 	</image>
 	
 	<image name="Chevron droite">
-		<pos>0.675521 0.5676</pos>
+		<pos>0.58902625 0.8685185</pos>
 		<size>0.015 0</size>
 		<rotation>90</rotation>
 		<storyboard repeat="forever">
@@ -194,7 +194,7 @@
 	</image>
 	
 	<image name="Chevron gauche">
-      <pos>0.324479 0.5676</pos>
+      <pos>0.4109375 0.8685185</pos>
 	  <size>0.015 0</size>
 	  <rotation>-90</rotation>
       <storyboard repeatAt="1">
