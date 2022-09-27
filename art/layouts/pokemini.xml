@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+     
+   <view name="grid">
+  
+   <imagegrid name="gamegrid">
+    <autoLayout>5 3</autoLayout>
+   </imagegrid>
+   
+  </view>
+   
+   <customView name="BoxCarousel">
+  
+	<imagegrid name="gamegrid">
+      <pos>0 0.625</pos>
+	  <autoLayout>4 1</autoLayout>
+	</imagegrid>  
+   	
+  </customView> 
+  
+   <customView name="MiniLogos">
+
+	<imagegrid name="gamegrid">
+      <pos>0 0.636</pos>
+	  <autoLayout>6 2</autoLayout>
+	</imagegrid>
+   	
+  </customView> 
+ 
+  <customView name="MiniLogosRight">
+    	
+	<imagegrid name="gamegrid">
+      <pos>0.5 0.132</pos>
+      <autoLayout>3 7</autoLayout>
+	</imagegrid>
+      
+  </customView>
+ 
+</theme>

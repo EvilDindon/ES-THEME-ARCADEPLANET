@@ -1740,8 +1740,8 @@ H	</subset>
 	  <scrollLoop>true</scrollLoop>
 	  <scrollSound>./art/scroll2.wav</scrollSound>
 	  <scrollDirection>vertical</scrollDirection>
-	  <scale>0</scale>
-	  <storyboard>
+	  <storyboard ifSubset="animatedgamelistopenings:yes">
+				<animation property="scale" from="0" to="0" begin="" duration="620" mode="Linear"/>
 				<animation property="scale" from="0" to="1" begin="620" duration="175" mode="EaseOut"/>
       </storyboard>
 	</imagegrid>
@@ -1813,6 +1813,10 @@ H	</subset>
     <text name="md_genre, md_players, md_playcount, md_description">
       <pos>2 2</pos>
     </text>
+	
+	<datetime name="md_releasedate">
+      <pos>2 2</pos>
+	</datetime>
 	
   </view>
 
