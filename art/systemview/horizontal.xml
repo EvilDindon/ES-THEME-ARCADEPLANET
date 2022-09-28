@@ -57,6 +57,7 @@
       <zIndex>1</zIndex>
 	  <storyboard>
   			<animation property="color" from="FFFFFF" to="0088BBff" begin="" duration="4500" mode="Linear" autoReverse="true" repeat="forever"/>
+			<animation property="opacity" from="1" to="0" begin="" duration="6000" mode="Linear" autoReverse="true" repeat="forever"/>
 	  </storyboard>	  
     </image>
 	
@@ -72,15 +73,6 @@
 			<animation property="opacity" from="1" to="1" begin="335" duration="" mode="Linear"/>
       </storyboard>	  
     </image>
-	
-<!-- 	<image isSubset="randomart:marquee|thumbnail" name="bg4" extra="static">
-	  <tile>false</tile>
-      <pos>0 0</pos>
-      <size>1 1</size>
-      <origin>0 0</origin>
-      <path>./../bgh4.png</path>
-      <zIndex>8</zIndex>
-    </image> -->
 	
     <image name="Sprites" extra="static">
       <pos>0.5 0.34</pos>

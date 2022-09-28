@@ -118,9 +118,6 @@ originally based on: "carbon"
 	<black>black</black>
     <black lang="fr">noir</black>
 	
-	<orange>orange</orange>
-    <orange lang="fr">orange</orange>
-			
 	<minilogosright>Mini Logos on right</minilogosright>
 	<minilogosright lang="fr">Mini Logos à Droite</minilogosright>
 	
@@ -157,7 +154,6 @@ originally based on: "carbon"
 	<subset name="selectorcolor" displayName="${SelectorColor}" appliesTo="basic,detailed,video,NeoDetailed,NeoDetailedAlt">
 		<include name="blue" displayName="${blue}"/>
 		<include name="red" displayName="${red}"/>
-		<include name="orange" displayName="${orange}"/>
 		<include name="yellow" displayName="${yellow}"/>
 		<include name="purple" displayName="${purple}"/>
 	    <include name="black" displayName="${black}"/>
@@ -840,7 +836,6 @@ H	</subset>
 	 <selectorColor ifSubset="selectorcolor:red">B21302ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:black">000000ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:grey">707070ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:orange">EE8800ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:yellow">CCBB00ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:purple">6e55a7</selectorColor>
 	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
@@ -912,7 +907,6 @@ H	</subset>
 	 <selectorColor ifSubset="selectorcolor:red">B21302ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:black">000000ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:grey">707070ff</selectorColor>
-	 <selectorColor ifSubset="selectorcolor:orange">EE8800ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:yellow">CCBB00ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:purple">6e55a7</selectorColor>
 	  <selectedColor ifSubset="textlistcolor:purple">A672E6</selectedColor>
@@ -1554,7 +1548,7 @@ H	</subset>
 	
 	<image name="Controller" extra="true">
 			<visible>true</visible>
-			<color>DDDDDD</color>
+			<color>E8E8E8</color>
 			<pos>0.10286458 0.92</pos>
 			<origin>0.5 1</origin>
 			<size>0.164 0</size>	       	
@@ -1628,14 +1622,14 @@ H	</subset>
 	  <alignment>center</alignment>
 	  <size>0.2 0.03</size>
  	  <pos>0.10286458 0.605</pos>
-	  <color>AAAAAA</color>
+	  <color>D8D8D8</color>
 	</text>
 	
 	<datetime name="md_releasedate">
 	  <alignment>center</alignment>
  	  <pos>0.10286458 0.638</pos>
 	  <origin>0.5 0.5</origin>
-	  <color>777777</color>
+	  <color>A8A8A8</color>
 	  <size>0.1 0.037</size>
 	</datetime>
 	
@@ -1656,15 +1650,15 @@ H	</subset>
    </text>
 	
 	<image name="Chevron Bas">
-	  <opacity>0.77</opacity>
+	  <opacity>0.9</opacity>
       <pos>0.715625 0.6</pos>
-	  <scale>0.7</scale>
+	  <scale>0.75</scale>
 	</image>	
 	
 	<image name="Chevron Haut">
-		<opacity>0.77</opacity>
+		<opacity>0.9</opacity>
 		<pos>0.715625 0.334</pos>
-		<scale>0.7</scale>
+		<scale>0.75</scale>
 	</image>
 	
    </customView>
