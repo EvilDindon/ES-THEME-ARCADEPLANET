@@ -1532,10 +1532,10 @@ H	</subset>
 	  <size>0.172916666667 0.937037037037</size>
 	  <origin>0.5 0</origin>
 	  <pos>0.815625 0</pos>
-	  <color>777789b0</color>
+	  <color>777789a0</color>
 	  <zIndex>9</zIndex>
 	  <storyboard>
-	    <animation property="color" from="777789b0" to="77778950" begin="" duration="2500" mode="Linear" autoReverse="true" repeat="forever"/>
+	    <animation property="color" from="777789a0" to="77778940" begin="" duration="2500" mode="Linear" autoReverse="true" repeat="forever"/>
 	  </storyboard>
     </image>
 		
