@@ -1526,6 +1526,18 @@ H	</subset>
     <image name="background">
 	  <path>./art/bgverticarousel.jpg</path>
     </image>
+	
+	<image name="whitebox" extra="true">
+	  <path>./art/whitebox.png</path>
+	  <size>0.172916666667 0.937037037037</size>
+	  <origin>0.5 0</origin>
+	  <pos>0.815625 0</pos>
+	  <color>777789b0</color>
+	  <zIndex>9</zIndex>
+	  <storyboard>
+	    <animation property="color" from="777789b0" to="77778950" begin="" duration="2500" mode="Linear" autoReverse="true" repeat="forever"/>
+	  </storyboard>
+    </image>
 		
 	<image name="bigtv">
 	  <pos>0.45625 0.415740740</pos>
