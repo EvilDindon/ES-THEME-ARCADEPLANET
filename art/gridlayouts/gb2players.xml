@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+       
+  <view name="grid">
+  
+   <imagegrid name="gamegrid">
+    <autoLayout>6 3</autoLayout>
+   </imagegrid>
+   
+  </view>
+ 
+  <customView name="BoxCarousel">
+  
+	<imagegrid name="gamegrid">
+	  <autoLayout>5 1</autoLayout>
+	</imagegrid> 
+	    
+  </customView>
+  
+    <customView name="DoubleBoxCarousel">
+	
+	<imagegrid name="gamegrid">
+	  <autoLayout>7 2</autoLayout>
+	  <margin>0.015 0.015</margin>
+	</imagegrid>
+  	
+  </customView>
+    
+</theme>

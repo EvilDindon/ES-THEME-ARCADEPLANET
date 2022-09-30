@@ -18,29 +18,13 @@
    	
   </customView> 
   
-   <customView name="MiniLogos">
-
+   <customView name="DoubleBoxCarousel">
+  	
 	<imagegrid name="gamegrid">
 	  <autoLayout>6 2</autoLayout>
+	  <margin>0.015 0</margin>
 	</imagegrid>
-   	
+  	
   </customView> 
-
-  <customView name="MiniLogosRight">
-    	
-	<imagegrid name="gamegrid">
-      <autoLayout>3 7</autoLayout>
-	</imagegrid>
-	     
-  </customView>
-  
-  <customView name="RetroTiles">
-	
-   	<imagegrid name="gamegrid">
-      <pos>0 0.018</pos>
-      <autoLayout>4 3</autoLayout>
-    </imagegrid>
-	    	
-  </customView>
   
 </theme>

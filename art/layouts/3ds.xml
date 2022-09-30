@@ -2,38 +2,12 @@
 <theme>
   <formatVersion>7</formatVersion>
     
-  
-   <customView name="BoxCarousel">
-  
-	<imagegrid name="gamegrid">
-	  <autoLayout>5 1</autoLayout>
-	</imagegrid>  
-   	
-  </customView>
-  
-  <customView name="MiniLogos">
-  
-    <image name="md_thumbnail">
-      <maxSize>0.16210935 0.28819425</maxSize>
-	</image>
-  
-  </customView>
+     <customView name="MiniLogos,RetroTiles,Detailed,NeoDetailedAlt,VertiCarousel">
  
-   <customView name="MiniLogosRight">
-  
     <image name="md_thumbnail">
-      <maxSize>0.130208 0.23148148</maxSize>
-	</image>
-  
-  </customView>
-  
- <customView name="RetroTiles">
-	
-   	<imagegrid name="gamegrid">
-      <pos>0 0.018</pos>
-      <autoLayout>4 3</autoLayout>
-    </imagegrid>
-	    	
-  </customView>
+     <scale>0.75</scale>
+	</image>	
+   	
+  </customView> 
  
 </theme>

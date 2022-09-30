@@ -123,7 +123,10 @@ originally based on: "carbon"
 	
 	<boxcarousel>Box Carousel</boxcarousel>
 	<boxcarousel lang="fr">Carousel de Boîtes</boxcarousel>
-		
+			
+	<doubleboxcarousel>Double Box Carousel</doubleboxcarousel>
+	<doubleboxcarousel lang="fr">Double Carousel de Boîtes</doubleboxcarousel>
+	
 	<retrotiles>Retro Tiles</retrotiles>
 	<retrotiles lang="fr">Tuiles Rétro</retrotiles>
 	
@@ -158,7 +161,7 @@ originally based on: "carbon"
 		<include name="purple" displayName="${purple}"/>
 	    <include name="black" displayName="${black}"/>
 		<include name="grey" displayName="${grey}"/>
-H	</subset>
+	</subset>
 	
 	<!-- Subset options for Selected Text -->
 		<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="basic,detailed,video,NeoDetailed,NeoDetailedAlt">
@@ -485,69 +488,34 @@ H	</subset>
 	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate">
 	  <linearSmooth>true</linearSmooth>
 	  <origin>0.5 0.5</origin>
-	  <size>0.02 0</size>
       <color>969696</color>
 	  <zIndex>150</zIndex>	  
 	</image>
 	
 	<image name="md_hidden">
-	  <pos>0.81 0.9685</pos>
       <path>./art/hidden.svg</path>
     </image>
 	
     <image name="md_kidgame, md_notkidgame">
-	  <pos>0.6015625 0.9685</pos>
-	  <color>994444</color>
-	  <size>0.018 0</size>
       <path>./art/kid.svg</path>
     </image>
-	
-	<image name="md_notkidgame">
-			<color>808080F0</color>
-	</image>
-	
-    <image name="md_favorite">
-	  <pos>0.88 0.42</pos>
-      <path>./art/favorite.svg</path>
-      <color>960000</color>
-	</image>
-	
-	<image name="md_flag">
-		<pos>0.788 0.47</pos>
-		<color>EEEEEE</color>
-	</image>
-	
-	<image name="md_manual, md_nomanual">
-			<path>./art/manual.png</path>
-			<color>009600</color>
-			<pos>0.2729166666666667 0.9685</pos>
-	</image>
-	
-	<image name="md_nomanual">
-			<color>808080F0</color>
-	</image>
-	
-	<image name="md_cheevos, md_notcheevos">
-			<path>./art/cheevos.png</path>
-			<color>969600</color>
-			<pos>0.4765625 0.9685</pos>
-	</image>
-	
-	<image name="md_notcheevos">
-			<color>808080F0</color>
+		
+    <image name="md_favorite,ghostfavorite">
+	      <path>./art/favorite.svg</path>
 	</image>
 		
+	<image name="md_manual, md_nomanual,ghostmanual">
+			<path>./art/manual.png</path>
+	</image>
+		
+	<image name="md_cheevos, md_notcheevos,ghostcheevos">
+			<path>./art/cheevos.png</path>
+	</image>
+			
 	<image name="md_savestate, md_nosavestate">
 			<path>./art/SaveState.png</path>
-			<pos>0.733333 0.9685</pos>
-			<size>0.018 0</size>
-			<color>0022FF</color>
 	</image>
-	
-	<image name="md_nosavestate">
-			<color>808080F0</color>
-	</image>
-		
+			
 	<text name="md_description">
       <origin>0.5 0.5</origin>
       <color>E0E0E0ff</color>
@@ -590,12 +558,197 @@ H	</subset>
 	</datetime>
 			
     </view>
+
+<!-- GRID -->	
+
+	<view name="grid">
+    
+		<helpsystem name="help">
+			<pos>0.01 0.942</pos>
+			<fontSize>0.033</fontSize>
+		</helpsystem>
+		
+    <image name="background">
+	  <path>./art/bggrid.jpg</path>
+	</image>
+			
+	<image name="Chevron Bas">
+      <size>0.017 0</size>
+	  <pos>0.986 0.9</pos>
+    </image>
 	
-	 <!-- COMMON ELEMENTS TO DETAILED, VIDEO, GAMECAROUSEL, NEO DETAILED 1 & 2, and BOX CAROUSEL - MD -->
+	<image name="Chevron Haut">
+      <size>0.017 0</size>
+	  <pos>0.986 0.1</pos>
+    </image>
+	
+	<image name="logo">
+	 <pos ifSubset="animatedgamelistopenings:no">0.94 0.96</pos>
+	</image>
+	 
+	<text name="md_name">
+      <color>EFEFEF</color>
+	  <pos>0.5 0.04</pos>
+      <size>0.8 0.05</size>
+      <alignment>center</alignment>
+	  <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>
+	  <fontSize>0.056</fontSize>
+	  <origin>0.5 0.5</origin>
+      <glowSize>2</glowSize>
+	  <forceUppercase>1</forceUppercase>
+	  <zIndex>41</zIndex>	  
+	</text>
+	
+	<text name="md_developer">
+      <color>5480A0</color>
+	  <pos>0.15 0.04</pos>
+      <size>0.25 0.05</size>
+      <alignment>left</alignment>
+	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
+	  <fontSize>0.036</fontSize>
+	  <origin>0.5 0.5</origin>
+	</text>
+	
+	<rating name="md_rating">
+      <pos>0.904 0.04</pos>
+      <size>0.03 0.03</size>
+	  <origin>0.5 0.5</origin>
+      <color>E0A020</color>
+      <unfilledColor>808080</unfilledColor>
+	  <zIndex>41</zIndex>	  
+    </rating>
+	
+    <imagegrid name="gamegrid">
+      <pos>0 0.086111</pos>
+      <size>1 0.8287037</size>
+	  <margin>0.024 0.024</margin>
+      <padding>0.024 0.024 0.024 0.024</padding>
+      <zIndex>10</zIndex>
+      <autoLayout>6 2</autoLayout>
+      <autoLayoutSelectedZoom>1.1</autoLayoutSelectedZoom>
+      <animateSelection>false</animateSelection>
+      <centerSelection>false</centerSelection>
+	  <scrollLoop>true</scrollLoop>
+	  <scrollSound>./art/scroll2.wav</scrollSound>
+	  <scrollDirection>vertical</scrollDirection>
+	  <storyboard ifSubset="animatedgamelistopenings:yes">
+				<animation property="scale" from="0" to="0" begin="" duration="620" mode="Linear"/>
+				<animation property="scale" from="0" to="1" begin="620" duration="175" mode="EaseOut"/>
+      </storyboard>
+	</imagegrid>
+	
+    <gridtile name="default">
+      <backgroundColor>FFFFFF00</backgroundColor>
+      <backgroundCornerSize>9 9</backgroundCornerSize>
+      <selectionMode>image</selectionMode>
+      <padding>6 6</padding>
+      <imageColor>999999FF</imageColor>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>00000000</backgroundCenterColor>
+      <backgroundEdgeColor>BB0000FF</backgroundEdgeColor>
+	  <padding>6 6</padding>
+      <imageColor>FFFFFFFF</imageColor>
+    </gridtile>
+	    	
+	<image name="gridtile.favorite">
+	 <linearSmooth>true</linearSmooth>
+      <path>:/star_filled.svg</path>
+      <pos>0.93 0.07</pos>
+      <maxSize>0.15 0.15</maxSize>
+      <origin>0.5 0.5</origin>
+      <horizontalAlignment>right</horizontalAlignment>
+      <color>FFFF0080</color>
+    </image>
+	
+    <image name="gridtile.favorite:selected">
+	  <linearSmooth>true</linearSmooth>
+      <color>FFFF00D0</color>
+    </image>
+	
+    <ninepatch name="gridtile.background:selected">
+      <animateColor>BBBB00B0</animateColor>
+      <animateColorTime>350</animateColorTime>
+    </ninepatch>
+	
+	<image name="md_hidden">
+	  <pos>0.81 0.97</pos>
+    </image>
+		
+    <image name="md_favorite">
+	  <pos>0.88 0.42</pos>
+      <color>960000</color>
+	</image>
+	
+	<image name="md_flag">
+		<pos>0.788 0.47</pos>
+		<color>EEEEEE</color>
+	</image>
+	
+	<image name="md_manual, md_nomanual">
+			<color>009600</color>
+			<pos>0.44 0.976</pos>
+			<size>0.018 0</size>
+	</image>
+	
+	<image name="md_nomanual">
+			<color>808080F0</color>
+	</image>
+	
+	<image name="md_cheevos, md_notcheevos">
+			<color>969600</color>
+			<pos>0.48 0.976</pos>
+			<size>0.018 0</size>
+	</image>
+	
+	<image name="md_notcheevos">
+			<color>808080F0</color>
+	</image>
+		
+	<image name="md_savestate, md_nosavestate">
+			<pos>0.52 0.976</pos>
+			<size>0.018 0</size>
+			<color>0022FF</color>
+	</image>
+	
+	<image name="md_nosavestate">
+			<color>808080F0</color>
+	</image>
+
+	<image name="md_kidgame, md_notkidgame">
+	  <pos>0.56 0.976</pos>
+	  <color>994444</color>
+	  <size>0.018 0</size>
+    </image>
+	
+	<image name="md_notkidgame">
+			<color>808080F0</color>
+	</image>
+	
+	<image name="md_flag,md_thumbnail,md_marquee,md_favorite">
+	  <visible>false</visible>
+	</image>
+
+	<video name="md_video">
+	  <visible>false</visible>
+	</video>
+	
+    <text name="md_genre, md_players, md_playcount, md_description">
+      <pos>2 2</pos>
+    </text>
+	
+	<datetime name="md_releasedate">
+      <pos>2 2</pos>
+	</datetime>
+	
+  </view>
   
-  <customView name="BoxCarousel" inherits="grid" displayName="${boxcarousel}">
+  	 <!-- COMMON ELEMENTS TO DETAILED, VIDEO, GAMECAROUSEL, NEO DETAILED 1 & 2, and BOX CAROUSEL - MD -->
+  
+  <customView name="BoxCarousel" displayName="${boxcarousel}" inherits="grid">
   </customView>
-  
+	
   <customView name="video,detailed,gamecarousel,BoxCarousel">
 	  
 	<image name="bigtv" extra="true">
@@ -610,21 +763,17 @@ H	</subset>
 	</video>
 	  
 	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
+	  <visible>true</visible>
 	  <x>0.961979166</x>
 	  <size>0.031 0</size>
       <color>767676</color>
 	  <origin>0.5 0.5</origin>
 	</image>
 	
-	<image name="md_hidden">
-      <path>./art/hidden.svg</path>
-    </image>
-	
     <image name="md_kidgame, md_notkidgame">
 	  <y>0.9</y>
 	  <size>0.02 0</size>
 	  <color>50201080</color>
-      <path>./art/kid.svg</path>
     </image>
 	
 	<image name="md_notkidgame">
@@ -633,7 +782,6 @@ H	</subset>
 	
     <image name="md_favorite, ghostfavorite">
 	  <y>0.067</y>
-      <path>./art/favorite.svg</path>
       <color>960000</color>
 	</image>
 	
@@ -648,7 +796,6 @@ H	</subset>
 	
 	<image name="md_manual, md_nomanual, ghostmanual">
 			<size>0.035 0</size>
-			<path>./art/manual.png</path>
 			<y>0.806</y>
 	</image>
 	
@@ -662,7 +809,6 @@ H	</subset>
 	
 	<image name="md_cheevos, md_notcheevos, ghostcheevos">
 			<size>0.032 0</size>
-			<path>./art/cheevos.png</path>
 			<y>0.533333</y>
 	</image>
 	
@@ -675,7 +821,6 @@ H	</subset>
 	</image>
 		
 	<image name="md_savestate, md_nosavestate, ghostsavestate">
-			<path>./art/SaveState.png</path>
 			<y>0.670370370</y>
 	</image>
 	
@@ -1674,158 +1819,12 @@ H	</subset>
 	</image>
 	
    </customView>
-   
- <!-- GRID VIEWS -->
  
-   <view name="grid">
+
+ 
+ <!-- CUSTOM GRID VIEWS -->
     
-		<helpsystem name="help">
-			<pos>0.01 0.935</pos>
-		</helpsystem>
-		
-    <image name="background">
-	  <path>./art/bggrid.jpg</path>
-	</image>
-			
-	<image name="Chevron Bas">
-      <size>0.017 0</size>
-	  <pos>0.986 0.9</pos>
-    </image>
-	
-	<image name="Chevron Haut">
-      <size>0.017 0</size>
-	  <pos>0.986 0.1</pos>
-    </image>
-	
-	<image name="logo">
-	 <pos ifSubset="animatedgamelistopenings:no">0.94 0.96</pos>
-	</image>
-	 
-	<text name="md_name">
-      <color>EFEFEF</color>
-	  <pos>0.5 0.04</pos>
-      <size>0.8 0.05</size>
-      <alignment>center</alignment>
-	  <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>
-	  <fontSize>0.056</fontSize>
-	  <origin>0.5 0.5</origin>
-      <glowSize>2</glowSize>
-	  <forceUppercase>1</forceUppercase>
-	  <zIndex>41</zIndex>	  
-	</text>
-	
-	<text name="md_developer">
-      <color>5480A0</color>
-	  <pos>0.15 0.04</pos>
-      <size>0.25 0.05</size>
-      <alignment>left</alignment>
-	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
-	  <fontSize>0.036</fontSize>
-	  <origin>0.5 0.5</origin>
-	</text>
-	
-	<rating name="md_rating">
-      <pos>0.904 0.04</pos>
-      <size>0.03 0.03</size>
-	  <origin>0.5 0.5</origin>
-      <color>E0A020</color>
-      <unfilledColor>808080</unfilledColor>
-	  <zIndex>41</zIndex>	  
-    </rating>
-	
-    <imagegrid name="gamegrid">
-	  <margin>0.024 0.024</margin>
-      <pos>0 0.084</pos>
-      <size>1 0.828</size>
-      <padding>0.024 0.024 0.024 0.024</padding>
-      <zIndex>10</zIndex>
-      <autoLayout>6 2</autoLayout>
-      <autoLayoutSelectedZoom>1.1</autoLayoutSelectedZoom>
-      <animateSelection>false</animateSelection>
-      <centerSelection>false</centerSelection>
-	  <scrollLoop>true</scrollLoop>
-	  <scrollSound>./art/scroll2.wav</scrollSound>
-	  <scrollDirection>vertical</scrollDirection>
-	  <storyboard ifSubset="animatedgamelistopenings:yes">
-				<animation property="scale" from="0" to="0" begin="" duration="620" mode="Linear"/>
-				<animation property="scale" from="0" to="1" begin="620" duration="175" mode="EaseOut"/>
-      </storyboard>
-	</imagegrid>
-	
-    <gridtile name="default">
-      <backgroundColor>FFFFFF00</backgroundColor>
-      <backgroundCornerSize>9 9</backgroundCornerSize>
-      <selectionMode>image</selectionMode>
-      <padding>6 6</padding>
-      <imageColor>999999FF</imageColor>
-    </gridtile>
-	
-    <gridtile name="selected">
-      <backgroundCenterColor>00000000</backgroundCenterColor>
-      <backgroundEdgeColor>BB0000FF</backgroundEdgeColor>
-	  <padding>6 6</padding>
-      <imageColor>FFFFFFFF</imageColor>
-    </gridtile>
-	
-    <text name="gridtile">
-      <color>D0D0D0</color>
-      <backgroundColor>00000000</backgroundColor>
-      <fontSize>0.02</fontSize>
-	  <glowSize>0</glowSize>
-      <alignment>center</alignment>
-      <size>1 0.1</size>
-    </text>
-	
-    <text name="gridtile:selected">
-      <color>EFEF00ff</color>
-	  <fontSize>0.02</fontSize>
-      <glowColor>BB0000FF</glowColor>
-      <glowSize>0</glowSize>
-	  <size>1 0.1</size>
-    </text>
-	
-	<image name="gridtile.favorite">
-	 <linearSmooth>true</linearSmooth>
-      <path>:/star_filled.svg</path>
-      <pos>0.93 0.07</pos>
-      <maxSize>0.15 0.15</maxSize>
-      <origin>0.5 0.5</origin>
-      <horizontalAlignment>right</horizontalAlignment>
-      <color>FFFF0080</color>
-    </image>
-	
-    <image name="gridtile.favorite:selected">
-	  <linearSmooth>true</linearSmooth>
-      <color>FFFF00D0</color>
-    </image>
-	
-    <ninepatch name="gridtile.background:selected">
-      <animateColor>BBBB00B0</animateColor>
-      <animateColorTime>350</animateColorTime>
-    </ninepatch>
-	
-	<image name="md_image, md_flag, md_thumbnail, md_marquee, Chevron gauche, Chevron droite">
-	  <visible>false</visible>
-	</image>
-
-	<image name="md_favorite">
-	  <color>00000000</color>
-	</image>
-	
-	<video name="md_video">
-	  <visible>false</visible>
-	</video>
-	
-    <text name="md_genre, md_players, md_playcount, md_description">
-      <pos>2 2</pos>
-    </text>
-	
-	<datetime name="md_releasedate">
-      <pos>2 2</pos>
-	</datetime>
-	
-  </view>
-
+  
 <!-- BOX CAROUSEL -->
   
    <customView name="BoxCarousel">
@@ -1839,8 +1838,6 @@ H	</subset>
 	</image>
 
 	<image name="background2" extra="true">
-	  <pos>0 0</pos>
-	  <size>1 1</size>
 	  <path>./art/bgboxcarousel2.png</path>
 	  <zIndex>3</zIndex>
 	</image>
@@ -1885,10 +1882,6 @@ H	</subset>
 		<animation property="x" from="0.5" to="0.249479" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.602" begin="620" duration="175" mode="Linear"/>
 	   </storyboard>
-	</image>
-	
-	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate,md_players">
-	  <visible>true</visible>
 	</image>
 	
 	<image name="md_marquee">
@@ -2006,9 +1999,178 @@ H	</subset>
 	  <size>0.422 0.196</size>
 	  <alignment>left</alignment>
     </text>
-		
+	
   </customView>
-  
+ 
+<!--  DOUBLE BOX CAROUSEL -->
+ 
+  <customView name="DoubleBoxCarousel" inherits="grid" displayName="${doubleboxcarousel}">
+ 	
+	<image name="background">
+	    <path>./art/BGDOUBLEBOXCAROUSEL.png</path>
+		<zIndex>3</zIndex>
+    </image>
+	
+	<image name="Controller" extra="true">
+			<visible>true</visible>
+			<color>E8E8E8</color>
+			<pos>0.9296875 0.268518518</pos>
+			<origin>0.5 0.5</origin>
+			<size>0.1375 0</size>	       	
+			<path>./art/controller.png</path>
+     		<path>./art/controllers/${system.theme}.png</path>
+      		<path ifSubset="artworkregion:US">./art/controller.png</path>
+     		<path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
+	 	    <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
+			<path ifSubset="neogeostyle:mvs">./art/controllers/special/${system.theme}.png</path>
+	  <zIndex>101</zIndex>
+	</image>
+		
+	<video name="md_video">
+	  <visible>true</visible>
+	  <origin>0 0.5</origin>
+	  <maxSize>0.55 1</maxSize>
+	  <color>DDDDDD</color>
+	  <pos>0 0.16</pos>
+	  <zIndex>2</zIndex>
+    </video>
+	
+	<image name="md_marquee">
+	  <visible>true</visible>
+	  <pos>0.72083333365 0.059259259259</pos>
+      <maxSize>0.208333333 0.118518518518</maxSize>
+	  <origin>0.5 0.5</origin>
+	  <reflexion>0 0</reflexion>
+	  <zIndex>10</zIndex>
+	</image>
+			
+    <imagegrid name="gamegrid">
+	  <margin>0 0</margin>
+      <padding>0.012 0 0.012 0</padding>
+      <pos>0 0.43</pos>
+      <size>1 0.49</size>
+	  <scrollDirection >vertical</scrollDirection>
+      <autoLayout>8 2</autoLayout>
+	  <imageSource>thumbnail</imageSource>
+      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+      <centerSelection>false</centerSelection>
+	  <zIndex>11</zIndex>
+    </imagegrid>
+		
+	<gridtile name="default">
+      <padding>6 6</padding>
+      <backgroundCenterColor>00000000</backgroundCenterColor>
+	  <backgroundEdgeColor>00000000</backgroundEdgeColor>
+	  <selectionMode>image</selectionMode>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>A0A0A0FF</imageColor>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>880000FF</backgroundCenterColor>
+      <backgroundEdgeColor>FF0000FF</backgroundEdgeColor>
+	  <backgroundCornerSize>6 6</backgroundCornerSize>
+	  <imageColor>FFFFFFFF</imageColor>
+      <padding>6 6</padding>
+    </gridtile>
+	
+	<ninepatch name="gridtile.background:selected">
+  	  <animateColor>00507080</animateColor>
+	  <animateColor ifSubset="selector:red">600000</animateColor>
+	  <animateColorTime>1000</animateColorTime>
+    </ninepatch>
+			
+	<text name="md_name">
+      <color>FAFA00ff</color>
+      <pos>0.441666667 0.1214</pos>
+	  <alignment>left</alignment>
+	  <origin>0 0</origin>
+      <size>0.4 0.03</size>
+	  <fontSize>0.035</fontSize>
+      <glowColor>00000016</glowColor>
+      <glowSize>3</glowSize>
+    </text>
+	
+	<datetime name="md_releasedate">
+	  <pos>0.4716667 0.406</pos>
+	  <size>0.042 0.037</size>
+	  <alignment>left</alignment>
+      <origin>0 0.5</origin>
+	  <color>BBBBBB</color>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+	</datetime>
+	
+	<text name="md_developer">
+ 	  <pos>0.5166667 0.406</pos>
+	  <size>0.27604 0.03</size>
+	  <origin>0 0.5</origin>
+	  <color>BBBBBB</color>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+	</text>
+			
+	<text name="md_genre">
+   	  <pos>0.982 0.406</pos>
+	  <color>928e94D0</color>
+	  <origin>1 0.5</origin>
+	  <alignment>right</alignment>
+	  <size>0.401041666 0.03</size>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+	  <fontSize>0.028</fontSize>
+	  <glowColor>00000016</glowColor>
+      <glowSize>2</glowSize>
+	</text>
+	
+	<rating name="md_rating">
+      <size>0.029</size>
+	  <pos>0.924 0.1364</pos>
+     </rating>	
+	
+	<text name="md_description">
+      <origin>0 0</origin>
+	  <pos>0.44166667 0.155</pos>
+	  <size>0.422 0.226</size>
+	  <alignment>left</alignment>
+    </text>
+	
+	<text name="md_players">
+	  <origin>0.5 0.5</origin>
+	  <pos>0.95 0.064</pos>
+	  <size>0.037 0.03</size>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+	  <fontSize>0.033</fontSize>
+	  <color>BBBBBB</color>
+	  <glowColor>00000016</glowColor>
+	  <alignment>right</alignment>
+    </text>
+	
+	<image name="Chevron Bas">
+      <size>0.017 0</size>
+	  <pos>0.988 0.9</pos>
+    </image>
+	
+	<image name="Chevron Haut">
+      <size>0.017 0</size>
+	  <pos>0.988 0.444</pos>
+    </image>
+	
+	<image name="md_favorite">
+	  <visible>true</visible>
+	  <size>0.032 0</size>
+	  <pos>0.02 0.4</pos>
+	</image>
+	
+	<image name="md_flag">
+	  <visible>true</visible>
+	  <size>0.024 0</size>
+	  <pos>0.4516667 0.406</pos>
+	</image>
+	
+   </customView>	
+ 
+ 
+   <include>./art/gridlayouts/${system.theme}.xml</include>
+   
+   
 <!-- MINI LOGOS -->
 
 <customView name="MiniLogos" inherits="BoxCarousel" displayName="Mini Logos">
@@ -2084,7 +2246,7 @@ H	</subset>
 	  <margin>0.01 0.01</margin>
       <size>0.925 0.3</size>
 	  <scrollDirection >vertical</scrollDirection>
-      <autoLayout>6 2</autoLayout>
+      <autoLayout>5 1</autoLayout>
 	  <imageSource>marquee</imageSource>
       <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
       <centerSelection>false</centerSelection>
@@ -2474,7 +2636,7 @@ H	</subset>
   	  
   <!-- HIDING HORIZONTAL ARROWS --> 
   
-   <customView name="basic,detailed,video,gamecarousel,Verticarousel,NeoDetailed,NeoDetailedAlt,MiniLogos,MiniLogosRight,RetroTiles">
+   <customView name="basic,detailed,video,gamecarousel,grid,Verticarousel,DoubleBoxCarousel,NeoDetailed,NeoDetailedAlt,MiniLogos,MiniLogosRight,RetroTiles">
   
     <image name="Chevron gauche, Chevron droite">
 	  <visible>false</visible>

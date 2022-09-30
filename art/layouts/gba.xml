@@ -2,61 +2,12 @@
 <theme>
   <formatVersion>7</formatVersion>
     
-  <view name="grid">
-  
-   <imagegrid name="gamegrid">
-    <pos>0 0.088</pos>
-    <autoLayout>6 3</autoLayout>
-   </imagegrid>
-   
-  </view>
-   
-  <customView name="BoxCarousel">
-  
-	<imagegrid name="gamegrid">
-      <pos>0 0.625</pos>
-	  <autoLayout>5 1</autoLayout>
-	</imagegrid> 
-	    	
-  </customView> 
-  
-  <customView name="MiniLogos">
-  	
-	<imagegrid name="gamegrid">
-      <pos>0 0.636</pos>
-	  <autoLayout>6 2</autoLayout>
-	</imagegrid>
-
+   <customView name="MiniLogos,RetroTiles,Detailed,NeoDetailedAlt,VertiCarousel">
+ 
     <image name="md_thumbnail">
-      <maxSize>0.162 0.28819</maxSize>
+     <scale>0.75</scale>
 	</image>	
    	
   </customView> 
- 
-<customView name="MiniLogosRight">
-    	
-	<imagegrid name="gamegrid">
-      <pos>0.5 0.132</pos>
-      <autoLayout>3 7</autoLayout>
-	</imagegrid>
-	
-    <image name="md_thumbnail">
-      <maxSize>0.130208 0.23148148</maxSize>
-	</image>
-  
-  </customView>
-   
- <customView name="RetroTiles">
-	
-   	<imagegrid name="gamegrid">
-      <pos>0 0.018</pos>
-      <autoLayout>4 3</autoLayout>
-    </imagegrid>
-	
-	<image name="md_thumbnail">
-      <size>0.195 0</size>
-	</image>
-	    	
-  </customView>
   
 </theme>

@@ -36,6 +36,18 @@
     </image>
 	
 	</customView>
+	
+  <customView name="DoubleBoxCarousel">
+   		
+	<image name="Chevron droite">
+      <pos>0.985 0.674074074</pos>
+    </image>
+	
+	<image name="Chevron gauche">
+      <pos>0.015 0.674074074</pos>
+    </image>
+	
+	</customView>
        
    <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
     		
