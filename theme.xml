@@ -1854,12 +1854,12 @@ originally based on: "carbon"
       <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.svg</path>
 	  <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>	 
 	  <size>0.1375 0</size>
-	  <pos ifSubset="animatedgamelistopenings:no">0.9296875 0.274</pos>
+	  <pos ifSubset="animatedgamelistopenings:no">0.9296875 0.284</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
 		<animation property="x" from="0.5" to="0.9296875" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.274" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.284" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
 	
