@@ -868,6 +868,16 @@ originally based on: "carbon"
       <zIndex>15</zIndex>
     </text>
 	
+	<image name="md_kidgame,md_notkidgame,ghostkidgame">
+	  <pos>0.94 0.974</pos>
+	  <size>0.0176 0</size>
+    </image>
+	
+	<image name="md_hidden,ghosthidden">
+	  <size>0.018 0</size>
+	  <pos>0.98 0.974</pos>
+    </image>
+	
   </customView>
  
 <!-- BASIC -->
@@ -2040,7 +2050,7 @@ originally based on: "carbon"
 	
 	<image name="md_marquee">
 	  <visible>true</visible>
-	  <pos>0.642 0.059259259259</pos>
+	  <pos>0.644 0.059259259259</pos>
       <maxSize>0.208333333 0.118518518518</maxSize>
 	  <origin>0.5 0.5</origin>
 	  <reflexion>0 0</reflexion>
