@@ -2092,7 +2092,7 @@ originally based on: "carbon"
 	</imagegrid>
 	
     <gridtile name="default">
-      <padding>20 20</padding>
+      <padding>24 24</padding>
       <backgroundCenterColor>44444400</backgroundCenterColor>
 	  <backgroundEdgeColor>66666600</backgroundEdgeColor>
 	  <selectionMode>image</selectionMode>
