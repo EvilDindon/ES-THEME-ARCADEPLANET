@@ -2081,7 +2081,7 @@ originally based on: "carbon"
     <imagegrid name="gamegrid">
 	  <margin>0 0</margin>
       <padding>0 0 0 0</padding>
-      <pos>0.776 0</pos>
+      <pos>0.79166667 0</pos>
       <size>0.20833333 0.918518518</size>
       <scrollDirection>vertical</scrollDirection>
       <autoLayout>1 5</autoLayout>
@@ -2092,7 +2092,7 @@ originally based on: "carbon"
 	</imagegrid>
 	
     <gridtile name="default">
-      <padding>18 18</padding>
+      <padding>20 20</padding>
       <backgroundCenterColor>44444400</backgroundCenterColor>
 	  <backgroundEdgeColor>66666600</backgroundEdgeColor>
 	  <selectionMode>image</selectionMode>
@@ -2166,13 +2166,13 @@ originally based on: "carbon"
 	
 	<image name="Chevron Bas">
 	  <opacity>0.9</opacity>
-      <pos>0.758 0.592</pos>
+      <pos>0.789 0.59</pos>
 	  <scale>0.75</scale>
 	</image>	
 	
 	<image name="Chevron Haut">
 		<opacity>0.9</opacity>
-		<pos>0.758 0.334</pos>
+		<pos>0.789 0.334</pos>
 		<scale>0.75</scale>
 	</image>
 	
