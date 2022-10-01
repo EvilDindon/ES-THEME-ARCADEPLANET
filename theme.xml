@@ -360,7 +360,7 @@ originally based on: "carbon"
   <view name="basic,detailed,video,gamecarousel,grid">
     
   	<helpsystem name="help">
-	  <pos>0.01 0.954</pos>
+	  <pos>0.01 0.952</pos>
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
 	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
@@ -392,17 +392,10 @@ originally based on: "carbon"
       <path ifSubset="artworkregion:US">./art/Colorlogos/US/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/Colorlogos/US/${system.theme}.svg</path>
 	  <path ifSubset="neogeostyle:mvs">./art/Colorlogos/special/${system.theme}.png</path>	 
-	  <pos>0.5 0.5</pos>
-      <maxSize>0.12 0.076</maxSize>
+	  <pos ifSubset="animatedgamelistopenings:yes">0.5 0.5</pos>
       <origin>0.5 0.5</origin>
 	  <zIndex>201</zIndex>
-	  <storyboard ifSubset="animatedgamelistopenings:yes">
-		<animation property="scale" from="0" to="5" begin="" duration="300" mode="Linear"/>
-		<animation property="scale" from="5" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.94" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.96" begin="620" duration="175" mode="Linear"/>
-	  </storyboard>
-	</image>
+	 </image>
 	
 	<image name="Controller, Controller1, Controller2">
 	  	<linearSmooth>true</linearSmooth>
@@ -484,36 +477,73 @@ originally based on: "carbon"
       <roundCorners>0</roundCorners>
 	  <zIndex>3</zIndex>	  
 	</video>
-	  
-	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate">
+	
+	<image name="md_flag">
+		<color>D8D8D8</color>
+	</image>
+	
+	<image name="md_hidden,md_kidgame,md_favorite,md_flag,md_manual,md_cheevos,md_savestate">
 	  <linearSmooth>true</linearSmooth>
 	  <origin>0.5 0.5</origin>
-      <color>969696</color>
 	  <zIndex>150</zIndex>	  
 	</image>
 	
-	<image name="md_hidden">
+	<image name="md_notkidgame,md_nomanual,md_notcheevos,md_nosavestate">
+	  <linearSmooth>true</linearSmooth>
+	  <origin>0.5 0.5</origin>
+      <color>808080F0</color>
+	  <zIndex>149</zIndex>	  
+	</image>
+	
+	<image name="ghostcheevos,ghostfavorite,ghostkidgame,ghostmanual,ghostsavestate,ghosthidden" extra="true">
+	  <linearSmooth>true</linearSmooth>
+	  <origin>0.5 0.5</origin>
+	  <color>76767640</color>
+	  <zIndex>148</zIndex>	  
+	</image>
+	
+	<image name="md_hidden,ghosthidden">
       <path>./art/hidden.svg</path>
     </image>
 	
-    <image name="md_kidgame, md_notkidgame">
+    <image name="md_kidgame,md_notkidgame,ghostkidgame">
       <path>./art/kid.svg</path>
+    </image>
+	
+	<image name="md_kidgame">
+	  <color>994444</color>
     </image>
 		
     <image name="md_favorite,ghostfavorite">
 	      <path>./art/favorite.svg</path>
 	</image>
+	
+	<image name="md_favorite">
+      <color>960000</color>
+	</image>
 		
-	<image name="md_manual, md_nomanual,ghostmanual">
+	<image name="md_manual,md_nomanual,ghostmanual">
 			<path>./art/manual.png</path>
 	</image>
+	
+	<image name="md_manual">
+			<color>009600</color>
+	</image>
 		
-	<image name="md_cheevos, md_notcheevos,ghostcheevos">
+	<image name="md_cheevos,md_notcheevos,ghostcheevos">
 			<path>./art/cheevos.png</path>
 	</image>
+	
+	<image name="md_cheevos">
+			<color>969600</color>
+	</image>
 			
-	<image name="md_savestate, md_nosavestate">
+	<image name="md_savestate,md_nosavestate,ghostsavestate">
 			<path>./art/SaveState.png</path>
+	</image>
+	
+	<image name="md_savestate">
+			<color>0022FF</color>
 	</image>
 			
 	<text name="md_description">
@@ -564,14 +594,18 @@ originally based on: "carbon"
 	<view name="grid">
     
 		<helpsystem name="help">
-			<pos>0.01 0.942</pos>
+			<pos>0.01 0.934</pos>
 			<fontSize>0.033</fontSize>
 		</helpsystem>
 		
     <image name="background">
 	  <path>./art/bggrid.jpg</path>
 	</image>
-			
+
+	<video name="md_video">
+	  <visible>false</visible>
+	</video>
+	
 	<image name="Chevron Bas">
       <size>0.017 0</size>
 	  <pos>0.986 0.9</pos>
@@ -583,41 +617,20 @@ originally based on: "carbon"
     </image>
 	
 	<image name="logo">
-	 <pos ifSubset="animatedgamelistopenings:no">0.94 0.96</pos>
+	 <pos ifSubset="animatedgamelistopenings:no">0.08 0.042</pos>
+	 <maxSize>0.12 0.076</maxSize>
+	 <storyboard ifSubset="animatedgamelistopenings:yes">
+		<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
+		<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.08" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.042" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
 	</image>
-	 
-	<text name="md_name">
-      <color>EFEFEF</color>
-	  <pos>0.5 0.04</pos>
-      <size>0.8 0.05</size>
-      <alignment>center</alignment>
-	  <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>
-	  <fontSize>0.056</fontSize>
-	  <origin>0.5 0.5</origin>
-      <glowSize>2</glowSize>
-	  <forceUppercase>1</forceUppercase>
-	  <zIndex>41</zIndex>	  
-	</text>
 	
-	<text name="md_developer">
-      <color>5480A0</color>
-	  <pos>0.15 0.04</pos>
-      <size>0.25 0.05</size>
-      <alignment>left</alignment>
-	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
-	  <fontSize>0.036</fontSize>
-	  <origin>0.5 0.5</origin>
-	</text>
-	
-	<rating name="md_rating">
-      <pos>0.904 0.04</pos>
-      <size>0.03 0.03</size>
-	  <origin>0.5 0.5</origin>
-      <color>E0A020</color>
-      <unfilledColor>808080</unfilledColor>
-	  <zIndex>41</zIndex>	  
-    </rating>
-	
+	<image name="md_thumbnail,md_marquee">
+	 <visible>false</visible>
+	</image>
+	 		
     <imagegrid name="gamegrid">
       <pos>0 0.086111</pos>
       <size>1 0.8287037</size>
@@ -672,69 +685,84 @@ originally based on: "carbon"
       <animateColorTime>350</animateColorTime>
     </ninepatch>
 	
-	<image name="md_hidden">
-	  <pos>0.81 0.97</pos>
-    </image>
-		
-    <image name="md_favorite">
-	  <pos>0.88 0.42</pos>
-      <color>960000</color>
-	</image>
+	<text name="md_name">
+      <color>EFEFEF</color>
+	  <pos>0.5 0.042</pos>
+      <size>0.69 0.05</size>
+      <alignment>center</alignment>
+	  <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>
+	  <fontSize>0.056</fontSize>
+	  <origin>0.5 0.5</origin>
+      <glowSize>2</glowSize>
+	  <forceUppercase>1</forceUppercase>
+	  <zIndex>41</zIndex>	  
+	</text>
 	
+	<rating name="md_rating">
+      <pos>0.904 0.042</pos>
+      <size>0.03 0.03</size>
+	  <origin>0.5 0.5</origin>
+      <color>E0A020</color>
+      <unfilledColor>808080</unfilledColor>
+	  <zIndex>41</zIndex>	  
+    </rating>
+	 
 	<image name="md_flag">
-		<pos>0.788 0.47</pos>
-		<color>EEEEEE</color>
+	  <pos>0.36 0.974</pos>
+	  <size>0.018 0</size>
 	</image>
 	
-	<image name="md_manual, md_nomanual">
-			<color>009600</color>
-			<pos>0.44 0.976</pos>
+	<image name="md_favorite,ghostfavorite">
+	  <pos>0.40 0.974</pos>
+	  <size>0.018 0</size>
+	</image>
+	
+	<image name="md_manual,md_nomanual,ghostmanual">
+			<pos>0.44 0.974</pos>
+			<size>0.02 0</size>
+	</image>
+	
+	<image name="md_cheevos,md_notcheevos,ghostcheevos">
+			<pos>0.48 0.974</pos>
 			<size>0.018 0</size>
-	</image>
-	
-	<image name="md_nomanual">
-			<color>808080F0</color>
-	</image>
-	
-	<image name="md_cheevos, md_notcheevos">
-			<color>969600</color>
-			<pos>0.48 0.976</pos>
-			<size>0.018 0</size>
-	</image>
-	
-	<image name="md_notcheevos">
-			<color>808080F0</color>
 	</image>
 		
-	<image name="md_savestate, md_nosavestate">
-			<pos>0.52 0.976</pos>
+	<image name="md_savestate,md_nosavestate,ghostsavestate">
+			<pos>0.52 0.974</pos>
 			<size>0.018 0</size>
-			<color>0022FF</color>
 	</image>
 	
-	<image name="md_nosavestate">
-			<color>808080F0</color>
-	</image>
-
-	<image name="md_kidgame, md_notkidgame">
-	  <pos>0.56 0.976</pos>
-	  <color>994444</color>
-	  <size>0.018 0</size>
+	<image name="md_kidgame,md_notkidgame,ghostkidgame">
+	  <pos>0.94 0.974</pos>
+	  <size>0.0176 0</size>
     </image>
 	
-	<image name="md_notkidgame">
-			<color>808080F0</color>
-	</image>
+	<image name="md_hidden,ghosthidden">
+	  <size>0.018 0</size>
+	  <pos>0.98 0.974</pos>
+    </image>
 	
-	<image name="md_flag,md_thumbnail,md_marquee,md_favorite">
-	  <visible>false</visible>
-	</image>
+	<text name="md_players">
+		<pos>0.57 0.976</pos>
+		<alignment>left</alignment>
+		<color>C8C8C8</color>
+		<origin>0 0.5</origin>
+		<size>0.037 0.03</size>
+		<fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+		<fontSize>0.028</fontSize>
+	</text>
 
-	<video name="md_video">
-	  <visible>false</visible>
-	</video>
+    <text name="md_playcount">
+		<pos>0.87 0.976</pos>
+		<alignment>right</alignment>
+		<color>C8C8C8</color>
+		<origin>1 0.5</origin>
+		<size>0.037 0.03</size>
+		<fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+		<fontSize>0.028</fontSize>
+    </text>
 	
-    <text name="md_genre, md_players, md_playcount, md_description">
+    <text name="md_developer,md_genre,md_description">
       <pos>2 2</pos>
     </text>
 	
@@ -762,36 +790,18 @@ originally based on: "carbon"
 	  <maxSize>0.43125 0.509</maxSize>
 	</video>
 	  
-	<image name="md_hidden, md_kidgame, md_notkidgame, md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
+	<image name="md_hidden,md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
 	  <visible>true</visible>
 	  <x>0.961979166</x>
 	  <size>0.031 0</size>
-      <color>767676</color>
-	  <origin>0.5 0.5</origin>
-	</image>
-	
-    <image name="md_kidgame, md_notkidgame">
-	  <y>0.9</y>
-	  <size>0.02 0</size>
-	  <color>50201080</color>
-    </image>
-	
-	<image name="md_notkidgame">
-			<color>33333340</color>
 	</image>
 	
     <image name="md_favorite, ghostfavorite">
 	  <y>0.067</y>
-      <color>960000</color>
-	</image>
-	
-	<image name="ghostfavorite" extra="true">
-      <color>76767640</color>
 	</image>
 	
 	<image name="md_flag">
 		<y>0.258</y>
-		<color>EEEEEE</color>
 	</image>
 	
 	<image name="md_manual, md_nomanual, ghostmanual">
@@ -799,37 +809,13 @@ originally based on: "carbon"
 			<y>0.806</y>
 	</image>
 	
-	<image name="md_manual">
-		<color>009600</color>
-	</image>
-	
-	<image name="ghostmanual" extra="true">
-			<color>76767640</color>
-	</image>
-	
 	<image name="md_cheevos, md_notcheevos, ghostcheevos">
 			<size>0.032 0</size>
 			<y>0.533333</y>
 	</image>
 	
-	<image name="md_cheevos">
-			<color>969600</color>
-	</image>
-	
-	<image name="ghostcheevos" extra="true">
-			<color>76767640</color>
-	</image>
-		
 	<image name="md_savestate, md_nosavestate, ghostsavestate">
 			<y>0.670370370</y>
-	</image>
-	
-	<image name="md_savestate">
-			<color>0022FF</color>
-	</image>
-	
-	<image name="ghostsavestate" extra="true">
-			<color>76767640</color>
 	</image>
 	
 	<text name="md_playcount">
@@ -2011,10 +1997,27 @@ originally based on: "carbon"
 		<zIndex>3</zIndex>
     </image>
 	
+	<image name="logo">
+	  <color>E8E8E8</color>
+      <path>./art/wheelv/${system.theme}.png</path>
+      <path>./art/wheelv/${system.theme}.svg</path>
+      <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.svg</path>
+	  <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>	 
+	  <size>0.1375 0</size>
+	  <pos ifSubset="animatedgamelistopenings:no">0.9296875 0.274</pos>
+	  <storyboard ifSubset="animatedgamelistopenings:yes">
+		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
+		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.9296875" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.274" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
 	<image name="Controller" extra="true">
 			<visible>true</visible>
 			<color>E8E8E8</color>
-			<pos>0.9296875 0.268518518</pos>
+			<pos>0.9296875 0.136</pos>
 			<origin>0.5 0.5</origin>
 			<size>0.1375 0</size>	       	
 			<path>./art/controller.png</path>
@@ -2037,7 +2040,7 @@ originally based on: "carbon"
 	
 	<image name="md_marquee">
 	  <visible>true</visible>
-	  <pos>0.72083333365 0.059259259259</pos>
+	  <pos>0.642 0.059259259259</pos>
       <maxSize>0.208333333 0.118518518518</maxSize>
 	  <origin>0.5 0.5</origin>
 	  <reflexion>0 0</reflexion>
@@ -2109,40 +2112,21 @@ originally based on: "carbon"
 	</text>
 			
 	<text name="md_genre">
-   	  <pos>0.982 0.406</pos>
-	  <color>928e94D0</color>
-	  <origin>1 0.5</origin>
-	  <alignment>right</alignment>
-	  <size>0.401041666 0.03</size>
-	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
-	  <fontSize>0.028</fontSize>
-	  <glowColor>00000016</glowColor>
-      <glowSize>2</glowSize>
+   	  <visible>false</visible>
 	</text>
 	
 	<rating name="md_rating">
       <size>0.029</size>
-	  <pos>0.924 0.1364</pos>
+	  <pos>0.924 0.404</pos>
      </rating>	
 	
 	<text name="md_description">
       <origin>0 0</origin>
 	  <pos>0.44166667 0.155</pos>
-	  <size>0.422 0.226</size>
+	  <size>0.41 0.226</size>
 	  <alignment>left</alignment>
     </text>
-	
-	<text name="md_players">
-	  <origin>0.5 0.5</origin>
-	  <pos>0.95 0.064</pos>
-	  <size>0.037 0.03</size>
-	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
-	  <fontSize>0.033</fontSize>
-	  <color>BBBBBB</color>
-	  <glowColor>00000016</glowColor>
-	  <alignment>right</alignment>
-    </text>
-	
+		
 	<image name="Chevron Bas">
       <size>0.017 0</size>
 	  <pos>0.988 0.9</pos>
