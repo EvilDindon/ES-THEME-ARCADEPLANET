@@ -2,7 +2,7 @@
 <theme>
   <formatVersion>7</formatVersion>
       
-  <customView name="video,gamecarousel,BoxCarousel,MiniLogos,VertiCarousel,MiniLogosRight">
+  <customView name="detailed,video,gamecarousel,BoxCarousel,MiniLogos,Verticarousel,MiniLogosRight">
   	
 	<image name="bigtv" extra="true">
   	  <path>./art/bigtvsupervision.png</path>

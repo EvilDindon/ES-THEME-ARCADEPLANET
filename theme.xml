@@ -154,7 +154,7 @@ originally based on: "carbon"
 	</subset>
 
 	<!-- Subset options for Selector Bar Color -->
-	<subset name="selectorcolor" displayName="${SelectorColor}" appliesTo="basic,detailed,video,NeoDetailed,NeoDetailedAlt">
+	<subset name="selectorcolor" displayName="${SelectorColor}" appliesTo="basic,detailed,video,NeoNeoDetailedAlt">
 		<include name="blue" displayName="${blue}"/>
 		<include name="red" displayName="${red}"/>
 		<include name="yellow" displayName="${yellow}"/>
@@ -164,7 +164,7 @@ originally based on: "carbon"
 	</subset>
 	
 	<!-- Subset options for Selected Text -->
-		<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="basic,detailed,video,NeoDetailed,NeoDetailedAlt">
+		<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="basic,detailed,video,NeoNeoDetailedAlt">
 		<include name="white" displayName="${white}"/>
 		<include name="blue" displayName="${blue}"/>
 		<include name="yellow" displayName="${yellow}"/>
@@ -465,8 +465,8 @@ originally based on: "carbon"
 	</image>
 	
 	<video name="md_video">
-	  <maxSize>0.36296296296 0.36296296296</maxSize>
       <origin>0.5 0.5</origin>
+	  <maxSize>0.43125 0.509</maxSize>
 	  <delay>0.1</delay>
 	  <effect>none</effect>
       <showSnapshotNoVideo>true</showSnapshotNoVideo>
@@ -785,10 +785,6 @@ originally based on: "carbon"
 	  <path>./art/bigtv.png</path>
 	  <zIndex>9</zIndex>
 	</image>
-
-	<video name="md_video">
-	  <maxSize>0.43125 0.509</maxSize>
-	</video>
 	  
 	<image name="md_hidden,md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
 	  <visible>true</visible>
@@ -1659,163 +1655,6 @@ originally based on: "carbon"
    </text>
    	
   </view>
- 
-<!--  VERTICAROUSEL -->
- 
- <customView name="Verticarousel" inherits="gamecarousel">
- 
-    <image name="background">
-	  <path>./art/bgverticarousel.jpg</path>
-    </image>
-	
-	<image name="whitebox" extra="true">
-	  <path>./art/whitebox.png</path>
-	  <size>0.172916666667 0.937037037037</size>
-	  <origin>0.5 0</origin>
-	  <pos>0.815625 0</pos>
-	  <color>77778990</color>
-	  <zIndex>9</zIndex>
-	  <storyboard>
-	    <animation property="color" from="77778990" to="77778935" begin="" duration="2500" mode="Linear" autoReverse="true" repeat="forever"/>
-	  </storyboard>
-    </image>
-		
-	<image name="bigtv">
-	  <pos>0.45625 0.415740740</pos>
-	</image>
-		
-	<image name="logo">
-      <path>./art/wheelv/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
-      <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>
-	  <size>0.164 0</size>
-	  <color>C8C8C8</color>
-	  <origin>0.5 0</origin>
-	  <pos ifSubset="animatedgamelistopenings:no">0.10286458 0.015</pos>
-	  <storyboard ifSubset="animatedgamelistopenings:yes">
-		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.10286458" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.015" begin="620" duration="175" mode="Linear"/>
-	  </storyboard>
-	</image>
-	
-	<image name="Controller" extra="true">
-			<visible>true</visible>
-			<color>E8E8E8</color>
-			<pos>0.10286458 0.92</pos>
-			<origin>0.5 1</origin>
-			<size>0.164 0</size>	       	
-			<path>./art/controller.png</path>
-     		<path>./art/controllers/${system.theme}.png</path>
-      		<path ifSubset="artworkregion:US">./art/controller.png</path>
-     		<path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
-	 	    <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
-			<path ifSubset="neogeostyle:mvs">./art/controllers/special/${system.theme}.png</path>
-	  <storyboard>
-	    <animation property="offsetX" from="-0.2" to="-0.2" begin="" duration="1000" mode="Linear"/>
-		<animation property="offsetX" from="-0.2" to="0" begin="1000" duration="250" mode="Linear"/>
-	  </storyboard>
-	<zIndex>101</zIndex>
-	</image>
-	
-	<video name="md_video">
-	  <pos>0.45625 0.415740740</pos>
-	</video>
-	
-	<image name="md_thumbnail">
-	  <visible>true</visible>
-	  <pos>0.10286458 0.5805555</pos>
-	  <origin>0.5 1</origin>
-      <maxSize>0.2 0.379</maxSize>
-	  <reflexion>0.1 0</reflexion>
-		  	<storyboard event="activate">
-                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="1" to="0" duration="" mode="Linear"/>
-			</storyboard>
-		<zIndex>10</zIndex>
-	</image>
-		
-	<gamecarousel name="gamecarousel">
-      <type>vertical</type>
-	  <logoAlignment>center</logoAlignment>
-	  <origin>0.5 0.5</origin>
-      <pos>0.815625 0.468518</pos>
-      <size>1 0.93796296</size>
-      <logoScale>1.25</logoScale>
-      <logoSize>0.16666666 0.17777777</logoSize>
-      <maxLogoCount>5</maxLogoCount>
-      <imageSource>marquee</imageSource>
-      <zIndex>10</zIndex>
-	  <scrollSound>./art/scroll2.wav</scrollSound>
-    </gamecarousel> 
-
-	<text name="md_name">
-      <color>DDD000</color>
-	  <pos>0.45625 0.0561</pos>
-      <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>  
-	  <size>0.4791666 0.11</size>
-	  <lineSpacing>1.1</lineSpacing>
-      <alignment>center</alignment>
-	  <fontSize>0.047</fontSize>
-	  <origin>0.5 0.5</origin>
-	  <glowColor>000000ff</glowColor>
-      <glowSize>3</glowSize>
-	  <forceUppercase>1</forceUppercase>
-	  <zIndex>41</zIndex>
-	  <storyboard repeat="forever">
-            <animation property="color" from="DDD000" to="908A40" begin="" duration="1150" mode="Linear" autoReverse="true"/>
-	  </storyboard>	  	  
-	</text>
-	
-	<text name="md_developer">
-	  <origin>0.5 0.5</origin>
-	  <alignment>center</alignment>
-	  <size>0.2 0.03</size>
- 	  <pos>0.10286458 0.605</pos>
-	  <color>D8D8D8</color>
-	</text>
-	
-	<datetime name="md_releasedate">
-	  <alignment>center</alignment>
- 	  <pos>0.10286458 0.638</pos>
-	  <origin>0.5 0.5</origin>
-	  <color>A8A8A8</color>
-	  <size>0.1 0.037</size>
-	</datetime>
-	
-	<rating name="md_rating">
-      <pos>0.45625 0.703703</pos>
-      <size>0.08 0.025</size>
-	  <origin>0.5 0.5</origin>
-      <color>BBBB99</color>
-      <unfilledColor>808080</unfilledColor>
-	  <zIndex>41</zIndex>	  
-    </rating>	
-	
-	<text name="md_description">
-      <origin>0.5 0.5</origin>
-	  <pos>0.45625 0.835185185</pos>
-	  <size>0.48 0.2</size>
-	  <alignment>center</alignment>
-   </text>
-	
-	<image name="Chevron Bas">
-	  <opacity>0.9</opacity>
-      <pos>0.715625 0.6</pos>
-	  <scale>0.75</scale>
-	</image>	
-	
-	<image name="Chevron Haut">
-		<opacity>0.9</opacity>
-		<pos>0.715625 0.334</pos>
-		<scale>0.75</scale>
-	</image>
-	
-   </customView>
- 
 
  
  <!-- CUSTOM GRID VIEWS -->
@@ -2036,6 +1875,10 @@ originally based on: "carbon"
      		<path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
 	 	    <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 			<path ifSubset="neogeostyle:mvs">./art/controllers/special/${system.theme}.png</path>
+	  <storyboard>
+	    <animation property="offsetX" from="0.2" to="0.2" begin="" duration="1000" mode="Linear"/>
+		<animation property="offsetX" from="0.2" to="0" begin="1000" duration="250" mode="Linear"/>
+	  </storyboard>
 	  <zIndex>101</zIndex>
 	</image>
 		
@@ -2164,6 +2007,176 @@ originally based on: "carbon"
  
    <include>./art/gridlayouts/${system.theme}.xml</include>
    
+ <!--  VERTICAROUSEL -->
+ 
+ <customView name="Verticarousel" inherits="grid">
+ 
+    <image name="background">
+	  <path>./art/bgverticarousel.jpg</path>
+    </image>
+	
+	<image name="bigtv" extra="true">
+      <size>0.5 0</size>
+	  <pos>0.5 0.415740740</pos>
+	  <origin>0.5 0.5</origin>
+	  <path>./art/bigtv.png</path>
+	  <zIndex>9</zIndex>
+	</image>
+		
+	<image name="logo">
+      <path>./art/wheelv/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
+      <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>
+	  <size>0.164 0</size>
+	  <color>C8C8C8</color>
+	  <origin>0.5 0</origin>
+	  <pos ifSubset="animatedgamelistopenings:no">0.125 0.015</pos>
+	  <storyboard ifSubset="animatedgamelistopenings:yes">
+		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.125" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.015" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Controller" extra="true">
+			<visible>true</visible>
+			<color>E8E8E8</color>
+			<pos>0.125 0.92</pos>
+			<origin>0.5 1</origin>
+			<size>0.164 0</size>	       	
+			<path>./art/controller.png</path>
+     		<path>./art/controllers/${system.theme}.png</path>
+      		<path ifSubset="artworkregion:US">./art/controller.png</path>
+     		<path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
+	 	    <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
+			<path ifSubset="neogeostyle:mvs">./art/controllers/special/${system.theme}.png</path>
+	  <storyboard>
+	    <animation property="offsetX" from="-0.2" to="-0.2" begin="" duration="1000" mode="Linear"/>
+		<animation property="offsetX" from="-0.2" to="0" begin="1000" duration="250" mode="Linear"/>
+	  </storyboard>
+	<zIndex>101</zIndex>
+	</image>
+	
+	<video name="md_video">
+	  <visible>true</visible>
+	  <pos>0.5 0.415740740</pos>
+	</video>
+	
+	<image name="md_thumbnail">
+	  <visible>true</visible>
+	  <pos>0.125 0.5805555</pos>
+	  <origin>0.5 1</origin>
+      <maxSize>0.2 0.379</maxSize>
+	  <reflexion>0.1 0</reflexion>
+		  	<storyboard event="activate">
+                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
+			</storyboard>
+			<storyboard event="deactivate">
+                <animation property="opacity" from="1" to="0" duration="" mode="Linear"/>
+			</storyboard>
+		<zIndex>10</zIndex>
+	</image>
+	
+    <imagegrid name="gamegrid">
+	  <margin>0 0</margin>
+      <padding>0 0 0 0</padding>
+      <pos>0.776 0</pos>
+      <size>0.20833333 0.918518518</size>
+      <scrollDirection>vertical</scrollDirection>
+      <autoLayout>1 5</autoLayout>
+	  <imageSource>marquee</imageSource>
+      <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
+      <centerSelection>true</centerSelection>
+      <scrollLoop>true</scrollLoop>
+	</imagegrid>
+	
+    <gridtile name="default">
+      <padding>18 18</padding>
+      <backgroundCenterColor>44444400</backgroundCenterColor>
+	  <backgroundEdgeColor>66666600</backgroundEdgeColor>
+	  <selectionMode>image</selectionMode>
+      <imageSizeMode>maxSize</imageSizeMode>
+      <imageColor>909090FF</imageColor>
+    </gridtile>
+	
+    <gridtile name="selected">
+      <backgroundCenterColor>88000000</backgroundCenterColor>
+      <backgroundEdgeColor>DD000000</backgroundEdgeColor>
+	  <backgroundCornerSize>0 0</backgroundCornerSize>
+	  <imageColor>FFFFFFFF</imageColor>
+      <padding>0 0</padding>
+    </gridtile>
+		
+	<ninepatch name="gridtile.background:selected">
+  	  <animateColor>AA660000</animateColor>
+    </ninepatch>
+	
+	<text name="md_name">
+      <color>DDD000</color>
+	  <pos>0.5 0.0561</pos>
+      <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>  
+	  <size>0.4791666 0.11</size>
+	  <lineSpacing>1.1</lineSpacing>
+      <alignment>center</alignment>
+	  <fontSize>0.047</fontSize>
+	  <origin>0.5 0.5</origin>
+	  <glowColor>000000ff</glowColor>
+      <glowSize>3</glowSize>
+	  <forceUppercase>1</forceUppercase>
+	  <zIndex>41</zIndex>
+	  <storyboard repeat="forever">
+            <animation property="color" from="DDD000" to="908A40" begin="" duration="1150" mode="Linear" autoReverse="true"/>
+	  </storyboard>	  	  
+	</text>
+	
+	<text name="md_developer">
+	  <origin>0.5 0.5</origin>
+	  <alignment>center</alignment>
+	  <size>0.2 0.03</size>
+ 	  <pos>0.125 0.605</pos>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+	  <color>D8D8D8</color>
+	</text>
+	
+	<datetime name="md_releasedate">
+	  <alignment>center</alignment>
+ 	  <pos>0.125 0.638</pos>
+	  <origin>0.5 0.5</origin>
+	  <color>A8A8A8</color>
+	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+	  <size>0.1 0.037</size>
+	</datetime>
+	
+	<rating name="md_rating">
+      <pos>0.5 0.703703</pos>
+      <size>0.08 0.025</size>
+	  <origin>0.5 0.5</origin>
+      <color>BBBB99</color>
+      <unfilledColor>808080</unfilledColor>
+	  <zIndex>41</zIndex>	  
+    </rating>	
+	
+	<text name="md_description">
+      <origin>0.5 0.5</origin>
+	  <pos>0.5 0.83</pos>
+	  <size>0.48 0.174</size>
+	  <alignment>center</alignment>
+   </text>
+	
+	<image name="Chevron Bas">
+	  <opacity>0.9</opacity>
+      <pos>0.758 0.592</pos>
+	  <scale>0.75</scale>
+	</image>	
+	
+	<image name="Chevron Haut">
+		<opacity>0.9</opacity>
+		<pos>0.758 0.334</pos>
+		<scale>0.75</scale>
+	</image>
+	
+   </customView>
    
 <!-- MINI LOGOS -->
 
@@ -2230,7 +2243,7 @@ originally based on: "carbon"
 	  </storyboard>
 	</image>
 	
-	<image name="md_marquee,Controller">
+	<image name="md_marquee,Controller,background2">
 		<visible>false</visible>
 	</image>
 	
@@ -2630,7 +2643,7 @@ originally based on: "carbon"
   	  
   <!-- HIDING HORIZONTAL ARROWS --> 
   
-   <customView name="basic,detailed,video,gamecarousel,grid,Verticarousel,DoubleBoxCarousel,NeoDetailed,NeoDetailedAlt,MiniLogos,MiniLogosRight,RetroTiles">
+   <customView name="basic,detailed,video,gamecarousel,grid,Verticarousel,DoubleBoxCarousel,NeoNeoDetailedAlt,MiniLogos,MiniLogosRight,RetroTiles">
   
     <image name="Chevron gauche, Chevron droite">
 	  <visible>false</visible>

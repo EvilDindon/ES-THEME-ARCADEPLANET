@@ -2,10 +2,10 @@
 <theme>
   <formatVersion>7</formatVersion>
     
-     <customView name="MiniLogos,RetroTiles,Detailed,NeoDetailedAlt,VertiCarousel">
+     <customView name="detailed,MiniLogos,RetroTiles,NeoDetailedAlt,Verticarousel">
  
     <image name="md_thumbnail">
-     <scale>0.75</scale>
+     <scale>0.79</scale>
 	</image>	
    	
   </customView> 
