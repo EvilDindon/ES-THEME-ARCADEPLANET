@@ -20,7 +20,7 @@
   
     <image name="logo">
 		 <color>FFFFFFff</color>
-	     <linearSmooth>false</linearSmooth>
+	     <linearSmooth>true</linearSmooth>
 	     <path>./art/wheel/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
 		 <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
@@ -33,7 +33,6 @@
       <origin>0.5 0.5</origin>
 	  <maxLogoCount>5</maxLogoCount>
       <maxLogoCount ifSubset="systemviewlogocountH:7">7</maxLogoCount>
-<!-- 	  <logoPos>-1 0</logoPos> -->
 	  <logoScale>1.4</logoScale>
       <logoSize>0.0982142857142857 0.2116428571428571</logoSize>
 	  <scrollSound>./../scroll3.wav</scrollSound>

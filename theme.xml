@@ -154,7 +154,7 @@ originally based on: "carbon"
 	</subset>
 
 	<!-- Subset options for Selector Bar Color -->
-	<subset name="selectorcolor" displayName="${SelectorColor}" appliesTo="basic,detailed,video,NeoNeoDetailedAlt">
+	<subset name="selectorcolor" displayName="${SelectorColor}" appliesTo="basic,detailed,video,NeoDetailed">
 		<include name="blue" displayName="${blue}"/>
 		<include name="red" displayName="${red}"/>
 		<include name="yellow" displayName="${yellow}"/>
@@ -173,7 +173,7 @@ originally based on: "carbon"
 	</subset>
 
 	<!-- Subset options for Animation at gamelist opening -->
-	<subset name="animatedgamelistopenings" displayName="${animatedgamelistopenings}" appliesTo="basic,detailed,video,gamecarousel,verticarousel,grid,boxcarousel,minilogos,minilogosright,retrotiles">
+	<subset name="animatedgamelistopenings" displayName="${animatedgamelistopenings}" appliesTo="basic,detailed,video,gamecarousel,verticarousel,grid,boxcarousel,doubleboxcarousel,minilogos,minilogosright,retrotiles">
 		<include name="yes" displayName="${yes}"/>
 		<include name="no" displayName="${no}"/>
 	</subset>
@@ -2092,12 +2092,12 @@ originally based on: "carbon"
 	</imagegrid>
 	
     <gridtile name="default">
-      <padding>24 24</padding>
+      <padding>32 32</padding>
       <backgroundCenterColor>44444400</backgroundCenterColor>
 	  <backgroundEdgeColor>66666600</backgroundEdgeColor>
 	  <selectionMode>image</selectionMode>
       <imageSizeMode>maxSize</imageSizeMode>
-      <imageColor>909090FF</imageColor>
+      <imageColor>989898FF</imageColor>
     </gridtile>
 	
     <gridtile name="selected">
@@ -2106,7 +2106,7 @@ originally based on: "carbon"
 	  <backgroundCornerSize>0 0</backgroundCornerSize>
 	  <imageColor>FFFFFFFF</imageColor>
       <padding>0 0</padding>
-    </gridtile>
+	</gridtile>
 		
 	<ninepatch name="gridtile.background:selected">
   	  <animateColor>AA660000</animateColor>
@@ -2166,14 +2166,28 @@ originally based on: "carbon"
 	
 	<image name="Chevron Bas">
 	  <opacity>0.9</opacity>
-      <pos>0.789 0.59</pos>
+      <pos>0.794 0.59</pos>
 	  <scale>0.75</scale>
 	</image>	
 	
 	<image name="Chevron Haut">
 		<opacity>0.9</opacity>
-		<pos>0.789 0.334</pos>
+		<pos>0.794 0.334</pos>
 		<scale>0.75</scale>
+	</image>
+	
+	<image name="Red Arrow" extra="true">
+      <pos>0.772 0.459259259</pos>
+	  <origin>0.5 0.5</origin>
+      <size>0.025 0</size>
+	  <path>./art/RedArrowD.png</path>
+      <linearSmooth>true</linearSmooth>
+	  <rotation>-90</rotation>
+	  <opacity>0.5</opacity>
+	  <zIndex>41</zIndex>
+	  <storyboard>
+            <animation property="offsetX" from="-0.01" to="0" begin="" duration="550" mode="Linear" autoReverse="true" repeat="forever"/>
+	  </storyboard>
 	</image>
 	
    </customView>
