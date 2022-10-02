@@ -1989,13 +1989,7 @@ originally based on: "carbon"
       <size>0.017 0</size>
 	  <pos>0.988 0.444</pos>
     </image>
-	
-	<image name="md_favorite">
-	  <visible>true</visible>
-	  <size>0.032 0</size>
-	  <pos>0.02 0.4</pos>
-	</image>
-	
+
 	<image name="md_flag">
 	  <visible>true</visible>
 	  <size>0.024 0</size>
