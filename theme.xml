@@ -1941,7 +1941,7 @@ originally based on: "carbon"
       <pos>0.441666667 0.1214</pos>
 	  <alignment>left</alignment>
 	  <origin>0 0</origin>
-      <size>0.4 0.03</size>
+      <size>0.414 0.03</size>
 	  <fontSize>0.035</fontSize>
       <glowColor>00000016</glowColor>
       <glowSize>3</glowSize>
