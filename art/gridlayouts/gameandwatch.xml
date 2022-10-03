@@ -31,7 +31,7 @@
     <customView name="NeoBoxes">
   	
 	<imagegrid name="gamegrid">
-	  <autoLayout>3 5</autoLayout>
+	  <autoLayout>4 5</autoLayout>
 	</imagegrid>
  	
   </customView>

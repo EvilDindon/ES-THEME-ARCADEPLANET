@@ -2009,8 +2009,8 @@ originally based on: "carbon"
 	
 	<video name="md_video">
 	  <visible>true</visible>
-	  <maxSize>0.5 0.7</maxSize>
-	  <pos>0.186 0.25</pos>
+	  <maxSize>0.45 0.65</maxSize>
+	  <pos>0.1666667 0.25</pos>
 	  <opacity>0.78</opacity>
 	  <zIndex>2</zIndex>
 	</video>
@@ -2040,8 +2040,8 @@ originally based on: "carbon"
 	</image>
 
     <imagegrid name="gamegrid">
-      <pos>0.372 0</pos>
-      <size>0.628 0.914814814</size>
+      <pos>0.333333 0</pos>
+      <size>0.6666667 0.914814814</size>
 	  <margin>0 0</margin>
       <padding>0.004 0 0.004 0</padding>
       <zIndex>10</zIndex>
@@ -2094,7 +2094,7 @@ originally based on: "carbon"
     </ninepatch>
 	
 	<rating name="md_rating">
-      <pos>0.186 0.56474</pos>
+      <pos>0.16666667 0.56474</pos>
       <size>0.08 0.03</size>
 	  <origin>0.5 0.5</origin>
       <color>DDC800</color>
@@ -2111,7 +2111,7 @@ originally based on: "carbon"
     </rating>
 	
 	<text name="md_name">
-      <pos>0.186 0.516</pos>
+      <pos>0.16666667 0.516</pos>
 	  <alignment>center</alignment>
 	  <origin>0.5 0</origin>
       <size>0.371 0.03</size>
@@ -2149,7 +2149,7 @@ originally based on: "carbon"
 	<text name="md_description">
       <origin>0 0</origin>
 	  <pos>0.005 0.646</pos>
-	  <size>0.375 0.27</size>
+	  <size>0.333333 0.27</size>
 	  <alignment>left</alignment>
    </text>
    
