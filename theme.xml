@@ -268,7 +268,7 @@ originally based on: "carbon"
       <color>686068</color>
 	  <fontPath>./art/fonts/SairaCondensed-Light.ttf</fontPath>
       <fontSize>0.034</fontSize>
-      <pos>0.008 0.98</pos>
+      <pos>0.0064 0.98</pos>
 	  <origin>0 0.5</origin>
       <size>0.09 0.058</size>
       <alignment>left</alignment>
@@ -2045,7 +2045,7 @@ originally based on: "carbon"
 	  <margin>0 0</margin>
       <padding>0.004 0 0.004 0</padding>
       <zIndex>10</zIndex>
-      <autoLayout>4 3</autoLayout>
+      <autoLayout>5 3</autoLayout>
       <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
       <centerSelection>false</centerSelection>
