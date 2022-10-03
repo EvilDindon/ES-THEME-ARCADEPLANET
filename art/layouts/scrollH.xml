@@ -25,7 +25,7 @@
 	
    </view>
   
-   <customView name="detailed,BoxCarousel,MiniLogos,MiniLogosRight">
+   <customView name="BoxCarousel,MiniLogos,MiniLogosRight">
    		
 	<image name="Chevron droite">
       <pos>0.985 0.9</pos>
@@ -37,19 +37,33 @@
 	
 	</customView>
 	
-  <customView name="detailed,DoubleBoxCarousel">
+  <customView name="DoubleBoxCarousel">
    		
 	<image name="Chevron droite">
+	<size>0.013 0</size>
       <pos>0.985 0.674074074</pos>
     </image>
 	
 	<image name="Chevron gauche">
-      <pos>0.015 0.674074074</pos>
+		<size>0.013 0</size>
+      <pos>0.372 0.674074074</pos>
+    </image>
+	
+	</customView>
+	
+  <customView name="NeoBoxes">
+   		
+	<image name="Chevron droite">
+      <pos>0.985 0.9</pos>
+    </image>
+	
+	<image name="Chevron gauche">
+      <pos>0.37 0.9</pos>
     </image>
 	
 	</customView>
        
-   <customView name="detailed,RetroTiles" inherits="grid" displayName="${retrotiles}">
+   <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
     		
     <image name="Chevron droite">
       <pos>0.676 0.02</pos>

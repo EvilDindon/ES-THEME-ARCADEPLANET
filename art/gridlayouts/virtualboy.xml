@@ -26,5 +26,14 @@
 	</imagegrid>
   	
   </customView>
+  
+    <customView name="NeoBoxes">
+  	
+	<imagegrid name="gamegrid">
+	  <autoLayout>4 4</autoLayout>
+	  <margin>0.015 0</margin>
+	</imagegrid>
+  	
+  </customView>
  
 </theme>
