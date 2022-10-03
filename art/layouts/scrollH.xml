@@ -51,14 +51,14 @@
 	
 	</customView>
 	
-  <customView name="NeoBoxes">
+  <customView name="NeoBoxes,NeoLogos">
    		
 	<image name="Chevron droite">
       <pos>0.985 0.9</pos>
     </image>
 	
 	<image name="Chevron gauche">
-      <pos>0.37 0.9</pos>
+      <pos>0.334 0.9</pos>
     </image>
 	
 	</customView>
