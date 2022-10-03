@@ -2374,7 +2374,7 @@ originally based on: "carbon"
 	  <visible>true</visible>
 	  <pos>0.125 0.5805555</pos>
 	  <origin>0.5 1</origin>
-      <maxSize>0.2 0.379</maxSize>
+      <maxSize>0.2131875 0.379</maxSize>
 	  <reflexion>0.1 0</reflexion>
 		  	<storyboard event="activate">
                 <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
