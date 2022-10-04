@@ -281,9 +281,9 @@
   
 	<!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}">
+		<include name="blue" displayName="${blue}">./colors/blue.xml</include>
 		<include name="yellow" displayName="${yellow}">./colors/yellow.xml</include>
 		<include name="white" displayName="${white}">./colors/white.xml</include>
-		<include name="blue" displayName="${blue}">./colors/blue.xml</include>
 		<include name="red" displayName="${red}">./colors/red.xml</include>
 		<include name="purple" displayName="${purple}">./colors/purple.xml</include>
 		<include name="green" displayName="${green}">./colors/green.xml</include>		
