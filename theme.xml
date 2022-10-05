@@ -13,14 +13,7 @@ originally based on: "carbon"
 <!-- VARIABLES -->
   
 	<variables>
-	
-    <!--menu colors-->
-    <baseColor>8b0000</baseColor>
-    <gradientEndColor>000000</gradientEndColor>
-    <backgroundColor>252525</backgroundColor>
-    <groupColor>767296</groupColor>
-    <groupSeparatorColor>BD4747</groupSeparatorColor> 
-	
+		
 	<!--LANGS-->
 	<artworkregion>Logos and Artwork Region</artworkregion>
 	<artworkregion lang="fr">Région des Logos et Artworks</artworkregion>
@@ -154,7 +147,7 @@ originally based on: "carbon"
 	</subset>
 
 	<!-- Subset options for Selector Bar Color -->
-	<subset name="selectorcolor" displayName="${SelectorColor}" appliesTo="basic,detailed,video,NeoDetailed">
+	<subset name="selectorcolor" displayName="${SelectorColor}" appliesTo="basic,detailed,video,NeoDetailed,NeoNeoDetailedAlt">
 		<include name="blue" displayName="${blue}"/>
 		<include name="red" displayName="${red}"/>
 		<include name="yellow" displayName="${yellow}"/>
@@ -164,7 +157,7 @@ originally based on: "carbon"
 	</subset>
 	
 	<!-- Subset options for Selected Text -->
-		<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="basic,detailed,video,NeoNeoDetailedAlt">
+		<subset name="textlistcolor" displayName="${TextListColor}" appliesTo="basic,detailed,video,NeoNeoDetailedAlt,NeoDetailed">
 		<include name="white" displayName="${white}"/>
 		<include name="blue" displayName="${blue}"/>
 		<include name="yellow" displayName="${yellow}"/>
@@ -188,7 +181,7 @@ originally based on: "carbon"
     <menuText name="menutitle">
       <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>
       <fontSize>0.056</fontSize>
-      <color>${groupColor}</color>
+      <color>767296</color>
     </menuText>
 	
     <menuText name="menufooter">
@@ -212,14 +205,14 @@ originally based on: "carbon"
     <menuTextSmall name="menutextsmall">
       <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
       <fontSize>0.036</fontSize>
-      <color>${groupColor}</color>
+      <color>767296</color>
     </menuTextSmall>
 	
     <menuGroup name="menugroup">
       <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
       <fontSize>0.046</fontSize>
-      <color>${groupColor}</color>
-      <separatorColor>${groupSeparatorColor}</separatorColor>    
+      <color>767296</color>
+      <separatorColor>BD4747</separatorColor>    
       <backgroundColor>70202020</backgroundColor>
       <lineSpacing>2.5</lineSpacing>
     </menuGroup>
@@ -276,7 +269,7 @@ originally based on: "carbon"
     </text>
     
 	<controllerActivity name="controllerActivity">
-      <pos>0.1 0.968</pos>
+      <pos>0.075 0.968</pos>
 	  <origin>0 0.5</origin>
       <size>0.085 0.025</size>
       <itemSpacing>0.003</itemSpacing>
@@ -314,7 +307,7 @@ originally based on: "carbon"
 		<glowSize>3</glowSize>
 		<glowColor>000000ee</glowColor>
 		<glowOffset>1</glowOffset>
-		<zIndex>60</zIndex>
+		<zIndex>80</zIndex>
     </text>
 	
 	<image name="bgsky" extra="static">
@@ -881,11 +874,14 @@ originally based on: "carbon"
     <view name="basic">
    
 		<helpsystem name="help">
-			<pos>0.01 0.935</pos>
+			<pos>0.15 0.959</pos>
+			<fontSize>0.048</fontSize>
 		</helpsystem>
 		
     <text name="logoText">
       <size>0.98 0.126</size>
+	  <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>
+	  <forceUppercase>1</forceUppercase>
       <fontSize>0.1</fontSize>
       <color>FFFFFF</color>
 	</text>
@@ -1018,8 +1014,8 @@ originally based on: "carbon"
 	  <lines>9</lines>
       <alignment>center</alignment>
 	</textlist>
-	
-   </view>
+		
+</view>
 
 <!-- DETAILED, VIDEO Common Elements -->
 
@@ -1264,6 +1260,7 @@ originally based on: "carbon"
       <origin>0.5 0.5</origin>
 	  <pos>0.244 0.885</pos>
 	  <size>0.48 0.10185185</size>
+	  <lineSpacing>0.5</lineSpacing>
 	  <alignment>right</alignment>
     </text>
 	
@@ -2500,9 +2497,8 @@ originally based on: "carbon"
 	
    </customView>
    
-<!-- MINI LOGOS -->
 
-<customView name="MiniLogos" inherits="BoxCarousel" displayName="Mini Logos">
+<!-- <customView name="MiniLogos" inherits="BoxCarousel" displayName="Mini Logos">
     		
 	<image name="background">
 	  <path>./art/bgminilogos.jpg</path>
@@ -2662,11 +2658,9 @@ originally based on: "carbon"
 	  <lineSpacing>1.58</lineSpacing>
     </text>
 		
-  </customView>
+  </<customView>
 
-<!-- MINI LOGOS ON RIGHT -->
-
- <customView name="MiniLogosRight" inherits="MiniLogos" displayName="${minilogosright}">
+<customView name="MiniLogosRight" inherits="MiniLogos" displayName="${minilogosright}">
     		
 	<image name="background">
 	  <path>./art/bgminilogosright.jpg</path>
@@ -2823,7 +2817,9 @@ originally based on: "carbon"
 	  <lineSpacing>1.4</lineSpacing>
     </text>
 		
-  </customView>
+  </customView> -->
+  
+  
  
  <!-- RETROTILES -->
  
@@ -2965,7 +2961,7 @@ originally based on: "carbon"
   	  
   <!-- HIDING HORIZONTAL ARROWS --> 
   
-   <customView name="basic,detailed,video,gamecarousel,grid,Verticarousel,DoubleBoxCarousel,NeoBoxes,NeoLogos,NeoNeoDetailedAlt,MiniLogos,MiniLogosRight,RetroTiles">
+   <customView name="basic,detailed,video,gamecarousel,grid,Verticarousel,DoubleBoxCarousel,NeoBoxes,NeoLogos,NeoNeoDetailedAlt,RetroTiles">
   
     <image name="Chevron gauche, Chevron droite">
 	  <visible>false</visible>
@@ -2975,7 +2971,7 @@ originally based on: "carbon"
   
 	  
   <!-- Subset For Scrolling Direction in Grids-->
-  <subset name="scrolldirection" displayName="${ScrollDirection}" appliesTo="grid,MiniLogosRight,NeoBoxes,NeoLogos,DoubleBoxCarousel,RetroTiles">
+  <subset name="scrolldirection" displayName="${ScrollDirection}" appliesTo="grid,NeoBoxes,NeoLogos,DoubleBoxCarousel,RetroTiles">
     <include name="vertical"></include>
 	<include name="horizontal">./art/layouts/scrollH.xml</include>
   </subset>
