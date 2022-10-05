@@ -1260,7 +1260,7 @@ originally based on: "carbon"
       <origin>0.5 0.5</origin>
 	  <pos>0.244 0.885</pos>
 	  <size>0.48 0.10185185</size>
-	  <lineSpacing>0.5</lineSpacing>
+	  <lineSpacing>1.1</lineSpacing>
 	  <alignment>right</alignment>
     </text>
 	
