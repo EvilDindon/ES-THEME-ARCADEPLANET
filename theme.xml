@@ -2639,7 +2639,7 @@ originally based on: "carbon"
   	  
   <!-- HIDING HORIZONTAL ARROWS --> 
   
-   <customView name="basic,detailed,video,gamecarousel,grid,Verticarousel,DoubleBoxCarousel,NeoBoxes,NeoLogos,NeoNeoDetailedAlt,RetroTiles">
+   <customView name="basic,detailed,video,gamecarousel,grid,Verticarousel,DoubleBoxCarousel,NeoBoxes,NeoLogos,NeoDetailedAlt,NeoDetailed,RetroTiles">
   
     <image name="Chevron gauche, Chevron droite">
 	  <visible>false</visible>
