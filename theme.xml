@@ -2248,7 +2248,7 @@ originally based on: "carbon"
     </image>
 	
     <ninepatch name="gridtile.background:selected">
-      <animateColor>88888844</animateColor>
+      <animateColor>88888855</animateColor>
       <animateColorTime>500</animateColorTime>
     </ninepatch>
 	
