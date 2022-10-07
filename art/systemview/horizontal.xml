@@ -29,7 +29,7 @@
 	<carousel name="systemcarousel">
 	  <defaultTransition>instant</defaultTransition>
       <size>1 0.592592592</size>
-      <pos>0.5 0.74</pos>
+      <pos>0.5 0.7659259259</pos>
       <origin>0.5 0.5</origin>
 	  <maxLogoCount>5</maxLogoCount>
       <maxLogoCount ifSubset="systemviewlogocountH:7">7</maxLogoCount>
@@ -49,7 +49,7 @@
 	
 	<image name="bg2" extra="static">
       <tile>false</tile>
-      <pos>0 0</pos>
+      <pos>0 0.0259259259</pos>
       <size>1 1</size>
       <origin>0 0</origin>
       <path>./../bgh2.png</path>
@@ -63,7 +63,7 @@
 	<image name="bg3" extra="static">
       <opacity>0</opacity>
 	  <tile>false</tile>
-      <pos>0 0</pos>
+      <pos>0 0.0259259259</pos>
       <size>1 1</size>
       <origin>0 0</origin>
       <path>./../bgh3.png</path>
@@ -74,7 +74,7 @@
     </image>
 	
     <image name="Sprites" extra="static">
-      <pos>0.5 0.34</pos>
+      <pos>0.5 0.3659259259</pos>
       <origin>0.5 0.5</origin>
       <size>0.5 0</size>
 	  <path>./../sprites/${system.theme}.png</path>
@@ -87,7 +87,7 @@
     </image>
 	
 	<image name="Sprites2" extra="static">
-      <pos>0.5 0.34</pos>
+      <pos>0.5 0.3659259259</pos>
       <origin>0.5 0.5</origin>
       <size>0.5 0</size>
       <path>./../sprites2/${system.theme}.png</path>
@@ -100,7 +100,7 @@
     </image>
 	
 	<image name="Sprites3" extra="static">
-      <pos>0.5 0.34</pos>
+      <pos>0.5 0.3659259259</pos>
       <origin>0.5 0.5</origin>
       <size>0.5 0</size>
       <path>./../sprites3/${system.theme}.png</path>
@@ -155,7 +155,7 @@
 	
 	<image name="Controller" extra="static">
       <opacity>0</opacity>
-	  <pos>0.5 0.691666</pos>
+	  <pos>0.5 0.7175925259</pos>
       <origin>0.5 0.5</origin>
       <size>0.1375 0</size>
 	  <path>./../controllers/${system.theme}.png</path>
@@ -175,7 +175,7 @@
 	</image>
 	
 	<image name="Chevron droite">
-		<pos>0.58902625 0.8685185</pos>
+		<pos>0.58902625 0.8944444259</pos>
 		<size>0.015 0</size>
 		<rotation>90</rotation>
 		<storyboard repeat="forever">
@@ -185,7 +185,7 @@
 	</image>
 	
 	<image name="Chevron gauche">
-      <pos>0.4109375 0.8685185</pos>
+      <pos>0.4109375 0.8944444259</pos>
 	  <size>0.015 0</size>
 	  <rotation>-90</rotation>
       <storyboard repeatAt="1">
@@ -194,7 +194,7 @@
 	</image>
 	
 	<image name="Red Arrow" extra="static">
-      <pos>0.5 0.56</pos>
+      <pos>0.5 0.5859259259</pos>
       <origin>0.5 0.5</origin>
       <size>0.025 0</size>
 	  <path>./../RedArrowD.png</path>
@@ -212,7 +212,7 @@
 	  <forceUppercase>0</forceUppercase>
 	  <origin>0 0.5</origin>
 	  <alignment>left</alignment>
-      <pos>0.505 0.904</pos>
+      <pos>0.505 0.976</pos>
       <size>0.2 0.026</size>
       <backgroundColor>5522FF00</backgroundColor>
       <color>bbbbbbdd</color>
@@ -228,7 +228,7 @@
 	  <forceUppercase>0</forceUppercase>
 	  <origin>1 0.5</origin>
 	  <alignment>right</alignment>
-      <pos>0.5 0.904</pos>
+      <pos>0.5 0.976</pos>
       <size>1 0.27</size>
       <color>bbbbbbdd</color>
       <glowColor>00000000</glowColor>
