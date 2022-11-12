@@ -84,7 +84,7 @@
 	  <maxLogoCount>5</maxLogoCount>
 	  <logoScale>1.46</logoScale>
       <logoSize>0.1375 0.128741755</logoSize>
-	  <scrollSound>./../scroll3.wav</scrollSound>
+	  <scrollSound>./../sounds/scroll3.wav</scrollSound>
 	  <zIndex>37</zIndex>
 	</carousel>
 		
@@ -92,7 +92,7 @@
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../bghlandscapeSimple.png</path>
+      <path>./../backgrounds/bghlandscapeSimple.png</path>
       <zIndex>1</zIndex>	  
     </image>
 	
@@ -101,7 +101,7 @@
       <pos>0 -0.1</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../bgh2.png</path>
+      <path>./../backgrounds/bgh2.png</path>
       <zIndex>1</zIndex>
 	  <storyboard>
   			<animation property="color" from="FFFFFF" to="0088BBff" begin="" duration="4500" mode="Linear" autoReverse="true" repeat="forever"/>
@@ -191,7 +191,7 @@
       <pos>0.5 0.689</pos>
       <origin>0.5 0.5</origin>
       <size>0.025 0</size>
-	  <path>./../RedArrowD.png</path>
+	  <path>./../assets/RedArrowD.png</path>
       <linearSmooth>true</linearSmooth>                                                       
 	  <opacity>0.67</opacity>
 	  <zIndex>41</zIndex>
@@ -239,8 +239,8 @@
  
 	<!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}" ifSubset="logostyle:white">
-		<include name="white" displayName="${white}">./colors/white.xml</include>
 		<include name="blue" displayName="${blue}">./colors/blue.xml</include>
+		<include name="white" displayName="${white}">./colors/white.xml</include>
 		<include name="yellow" displayName="${yellow}">./colors/yellow.xml</include>
 		<include name="red" displayName="${red}">./colors/red.xml</include>
 		<include name="purple" displayName="${purple}">./colors/purple.xml</include>

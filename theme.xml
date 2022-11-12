@@ -220,35 +220,35 @@ originally based on: "carbon"
     <menuBackground name="menubg">
       <color>242424ee</color>
       <cornerSize>32 32</cornerSize>
-      <path>./art/frame.png</path>
+      <path>./art/menuicons/frame.png</path>
     </menuBackground>
 	
     <menuIcons name="menuicons">
-      <iconKodi>./art/icons/Kodi.png</iconKodi>
-      <iconSystem>./art/icons/System.png</iconSystem>
-      <iconUpdates>./art/icons/Updates.png</iconUpdates>
-      <iconGames>./art/icons/Games.png</iconGames>
-      <iconControllers>./art/icons/Controllers.png</iconControllers>
-      <iconUI>./art/icons/UI.png</iconUI>
-      <iconSound>./art/icons/Sound.png</iconSound>
-      <iconNetwork>./art/icons/Network.png</iconNetwork>
-      <iconScraper>./art/icons/Scraper.png</iconScraper>
-      <iconAdvanced>./art/icons/Advanced.png</iconAdvanced>
-      <iconQuit>./art/icons/Quit.png</iconQuit>
-      <iconRestart>./art/icons/Restart.png</iconRestart>
-      <iconShutdown>./art/icons/Shutdown.png</iconShutdown>
-      <iconFastShutdown>./art/icons/Fastshutdown.png</iconFastShutdown>
-      <iconRetroachievements>./art/icons/Contest.png</iconRetroachievements>
+      <iconKodi>./art/menuicons/Kodi.png</iconKodi>
+      <iconSystem>./art/menuicons/System.png</iconSystem>
+      <iconUpdates>./art/menuicons/Updates.png</iconUpdates>
+      <iconGames>./art/menuicons/Games.png</iconGames>
+      <iconControllers>./art/menuicons/Controllers.png</iconControllers>
+      <iconUI>./art/menuicons/UI.png</iconUI>
+      <iconSound>./art/menuicons/Sound.png</iconSound>
+      <iconNetwork>./art/menuicons/Network.png</iconNetwork>
+      <iconScraper>./art/menuicons/Scraper.png</iconScraper>
+      <iconAdvanced>./art/menuicons/Advanced.png</iconAdvanced>
+      <iconQuit>./art/menuicons/Quit.png</iconQuit>
+      <iconRestart>./art/menuicons/Restart.png</iconRestart>
+      <iconShutdown>./art/menuicons/Shutdown.png</iconShutdown>
+      <iconFastShutdown>./art/menuicons/Fastshutdown.png</iconFastShutdown>
+      <iconRetroachievements>./art/menuicons/Contest.png</iconRetroachievements>
     </menuIcons>
 	
     <menuTextEdit name="menutextedit">
-      <inactive>./art/textinput_ninepatch.png</inactive>
-      <active>./art/textinput_ninepatch_active.png</active>
+      <inactive>./art/menuicons/textinput_ninepatch.png</inactive>
+      <active>./art/menuicons/textinput_ninepatch_active.png</active>
     </menuTextEdit>
 	
     <menuButton name="menubutton">
-      <path>./art/button.png</path>
-      <filledPath>./art/button_filled.png</filledPath>
+      <path>./art/menuicons/button.png</path>
+      <filledPath>./art/menuicons/button_filled.png</filledPath>
     </menuButton>
 	
   </view>
@@ -273,7 +273,7 @@ originally based on: "carbon"
 	  <origin>0 0.5</origin>
       <size>0.085 0.025</size>
       <itemSpacing>0.003</itemSpacing>
-      <imagePath>./art/gamepad.svg</imagePath>
+      <imagePath>./art/icons/gamepad.svg</imagePath>
       <color>686068</color>
       <activityColor>A0A0FFC0</activityColor>
       <hotkeyColor>FFA0A0C0</hotkeyColor>
@@ -314,7 +314,7 @@ originally based on: "carbon"
       <pos>1 0.324</pos>
       <size>2 0</size>
       <origin>0.5 0.5</origin>
-      <path>./art/bgsky.jpg</path>
+      <path>./art/backgrounds/bgsky.jpg</path>
 	  <color>AAAAAA</color>
       <zIndex>0</zIndex>
       <storyboard repeat="forever">
@@ -332,7 +332,7 @@ originally based on: "carbon"
 	<image name="Chevron droite, Chevron gauche, Chevron Haut, Chevron Bas" extra="static">
       <origin>0.5 0.5</origin>
 	  <color>D0D0D0</color>
-	  <path>./art/chevron-arrows-svgrepo-com.svg</path>
+	  <path>./art/assets/chevron-arrows-svgrepo-com.svg</path>
       <linearSmooth>true</linearSmooth>
 	  <zIndex>41</zIndex>
 	</image>
@@ -395,9 +395,9 @@ originally based on: "carbon"
 	<image name="Controller, Controller1, Controller2">
 	  	<linearSmooth>true</linearSmooth>
       		<origin>0.5 0.5</origin>
-	       	<path>./art/controller.png</path>
+	       	<path>./art/controllers/default.png</path>
      		<path>./art/controllers/${system.theme}.png</path>
-      		<path ifSubset="artworkregion:US">./art/controller.png</path>
+      		<path ifSubset="artworkregion:US">./art/controllers/default.png</path>
      		<path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
 			<path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 			<path ifSubset="neogeostyle:mvs">./art/controllers/special/${system.theme}.png</path>
@@ -408,7 +408,7 @@ originally based on: "carbon"
       <origin>0.5 0.5</origin>
       <size>0.01875 0</size>
 	  <color>DDDDDD</color>
-	  <path>./art/chevron-arrows-svgrepo-com.svg</path>
+	  <path>./art/assets/chevron-arrows-svgrepo-com.svg</path>
       <linearSmooth>true</linearSmooth>
       <zIndex>41</zIndex>
 	</image>
@@ -448,7 +448,7 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="md_thumbnail">
-	  <default>./art/noboxart.png</default>
+	  <default>./art/assets/noboxart.png</default>
 	  <linearSmooth>true</linearSmooth>
 	  <origin>0.5 0.5</origin>
       <reflexion>0.3 0.0</reflexion>
@@ -456,7 +456,7 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="md_marquee">
-	  <default>./art/nologo.png</default>	  
+	  <default>./art/assets/nologo.png</default>	  
 	</image>
 	
 	<video name="md_video">
@@ -498,11 +498,11 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="md_hidden,ghosthidden">
-      <path>./art/hidden.svg</path>
+      <path>./art/icons/hidden.svg</path>
     </image>
 	
     <image name="md_kidgame,md_notkidgame,ghostkidgame">
-      <path>./art/kid.svg</path>
+      <path>./art/icons/kid.svg</path>
     </image>
 	
 	<image name="md_kidgame">
@@ -510,7 +510,7 @@ originally based on: "carbon"
     </image>
 		
     <image name="md_favorite,ghostfavorite">
-	      <path>./art/favorite.svg</path>
+	      <path>./art/icons/favorite.svg</path>
 	</image>
 	
 	<image name="md_favorite">
@@ -518,7 +518,7 @@ originally based on: "carbon"
 	</image>
 		
 	<image name="md_manual,md_nomanual,ghostmanual">
-			<path>./art/manual.png</path>
+			<path>./art/icons/manual.svg</path>
 	</image>
 	
 	<image name="md_manual">
@@ -526,7 +526,7 @@ originally based on: "carbon"
 	</image>
 		
 	<image name="md_cheevos,md_notcheevos,ghostcheevos">
-			<path>./art/cheevos.png</path>
+			<path>./art/icons/cheevos.png</path>
 	</image>
 	
 	<image name="md_cheevos">
@@ -534,7 +534,7 @@ originally based on: "carbon"
 	</image>
 			
 	<image name="md_savestate,md_nosavestate,ghostsavestate">
-			<path>./art/SaveState.png</path>
+			<path>./art/icons/SaveState.png</path>
 	</image>
 	
 	<image name="md_savestate">
@@ -595,7 +595,7 @@ originally based on: "carbon"
 		</helpsystem>
 		
     <image name="background">
-	  <path>./art/bggrid.jpg</path>
+	  <path>./art/backgrounds/bggrid.jpg</path>
 	</image>
 
 	<video name="md_video">
@@ -638,7 +638,7 @@ originally based on: "carbon"
       <animateSelection>false</animateSelection>
       <centerSelection>false</centerSelection>
 	  <scrollLoop>true</scrollLoop>
-	  <scrollSound>./art/scroll2.wav</scrollSound>
+	  <scrollSound>./art/sounds/scroll2.wav</scrollSound>
 	  <scrollDirection>vertical</scrollDirection>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 				<animation property="scale" from="0" to="0" begin="" duration="620" mode="Linear"/>
@@ -663,7 +663,7 @@ originally based on: "carbon"
 	    	
 	<image name="gridtile.favorite">
 	 <linearSmooth>true</linearSmooth>
-      <path>:/star_filled.svg</path>
+      <path>./art/icons/star_filled.svg</path>
       <pos>0.93 0.07</pos>
       <maxSize>0.15 0.15</maxSize>
       <origin>0.5 0.5</origin>
@@ -778,7 +778,7 @@ originally based on: "carbon"
 	<image name="bigtv" extra="true">
       <size>0.5 0</size>
 	  <origin>0.5 0.5</origin>
-	  <path>./art/bigtv.png</path>
+	  <path>./art/assets/bigtv.png</path>
 	  <zIndex>9</zIndex>
 	</image>
 	  
@@ -923,7 +923,7 @@ originally based on: "carbon"
     </image>
 	
     <image name="background">
-	  <path>./art/bgbasic.jpg</path>
+	  <path>./art/backgrounds/bgbasic.jpg</path>
 	</image>
 	
 	<image name="Chevron Bas">
@@ -942,9 +942,9 @@ originally based on: "carbon"
 	  <linearSmooth>true</linearSmooth>
       <origin>0.5 0.5</origin>
       <size>0.1375 0</size>
-      <path>./art/controller.png</path>
+      <path>./art/controllers/default.png</path>
       <path>./art/wheel/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./art/controller.png</path>
+      <path ifSubset="artworkregion:US">./art/controllers/default.png</path>
 	  <path ifSubset="artworkregion:US">./art/wheel/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
@@ -966,8 +966,8 @@ originally based on: "carbon"
     </image>
 	 	  
 	<textlist name="gamelist" ifSubset="selectorstyle:bar|cursor">
-     <scrollSound>./art/scroll.wav</scrollSound>
-	 <selectorImagePath>./art/bar.png</selectorImagePath>
+     <scrollSound>./art/sounds/scroll.wav</scrollSound>
+	 <selectorImagePath>./art/assets/bar.png</selectorImagePath>
 	 <selectorColor ifSubset="selectorcolor:blue">3070FFff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:red">B21302ff</selectorColor>
 	 <selectorColor ifSubset="selectorcolor:black">000000ff</selectorColor>
@@ -1007,7 +1007,7 @@ originally based on: "carbon"
 	  <primaryColor ifSubset="textlistcolor:purple">766976</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:blue">727077</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
-	  <scrollSound>./art/scroll.wav</scrollSound>
+	  <scrollSound>./art/sounds/scroll.wav</scrollSound>
 	  <secondaryColor>7a6161</secondaryColor>
 	  <fontSize>0.034</fontSize>
 	  <fontPath>./art/fonts/Saira_SemiCondensed-Medium.ttf</fontPath>
@@ -1056,7 +1056,7 @@ originally based on: "carbon"
 	  <primaryColor ifSubset="textlistcolor:purple">766976</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:blue">727277</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
-	  <scrollSound>./art/scroll.wav</scrollSound>
+	  <scrollSound>./art/sounds/scroll.wav</scrollSound>
 	  <origin>0 0.5</origin>
 	  <lines>13</lines>
 	  <selectorOffsetY>-0.0018</selectorOffsetY>
@@ -1071,14 +1071,14 @@ originally based on: "carbon"
 	 <pos>0.5 0.5333333</pos>
      <size>0.42291666 0.77</size>
 	 <horizontalMargin>0.005</horizontalMargin>
-	 <selectorImagePath>./art/bar.png</selectorImagePath>
+	 <selectorImagePath>./art/assets/bar.png</selectorImagePath>
 	</textlist>
  
   	<textlist name="gamelist" ifSubset="selectorstyle:cursor">
 	<pos>0.5 0.5333333</pos>
 	<size>0.44 0.77</size>
 	<horizontalMargin>0.022</horizontalMargin>
-	<selectorImagePath>./art/cursor.png</selectorImagePath>
+	<selectorImagePath>./art/assets/cursor.png</selectorImagePath>
 	</textlist>
 	
 	<textlist name="gamelist" ifSubset="selectorstyle:none">
@@ -1106,7 +1106,7 @@ originally based on: "carbon"
   <view name="detailed">
 
 	<image name="background">
-	  <path>./art/bgdetailed.jpg</path>
+	  <path>./art/backgrounds/bgdetailed.jpg</path>
 	</image>
 		
 	<image name="md_thumbnail">
@@ -1186,7 +1186,7 @@ originally based on: "carbon"
   <view name="video">
 
 	<image name="background">
-	  <path>./art/bgvideo.jpg</path>
+	  <path>./art/backgrounds/bgvideo.jpg</path>
 	</image>
 	
 	<image name="bgvideo2" extra="true">
@@ -1208,9 +1208,9 @@ originally based on: "carbon"
 	<image name="Controller" extra="true">
 			<pos>0.0916666 0.116</pos>
 			<size>0.164 0</size>	       	
-			<path>./art/controller.png</path>
+			<path>./art/controllers/default.png</path>
      		<path>./art/controllers/${system.theme}.png</path>
-      		<path ifSubset="artworkregion:US">./art/controller.png</path>
+      		<path ifSubset="artworkregion:US">./art/controllers/default.png</path>
      		<path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
 	 	    <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 			<path ifSubset="neogeostyle:mvs">./art/controllers/special/${system.theme}.png</path>
@@ -1287,7 +1287,7 @@ originally based on: "carbon"
   <customView name="NeoDetailed" displayName="Neo Detailed" inherits="video">
   	
 	<image name="background2" extra="true">
-	  <path>./art/bgneodetailed.png</path>
+	  <path>./art/backgrounds/bgneodetailed.png</path>
 	  <zIndex>3</zIndex>
 	</image>
 	
@@ -1349,7 +1349,7 @@ originally based on: "carbon"
 	  <fontSize>0.038</fontSize>
 	  <alignment>center</alignment>
 	  <horizontalMargin>0.005</horizontalMargin>
-	  <selectorImagePath>./art/bar.png</selectorImagePath>
+	  <selectorImagePath>./art/assets/bar.png</selectorImagePath>
 	</textlist>
    
 	<image name="Chevron Bas">
@@ -1416,7 +1416,7 @@ originally based on: "carbon"
   <customView name="NeoDetailedAlt" displayName="Neo Detailed Alt" inherits="NeoDetailed">
 
 	<image name="background2" extra="true">
-	  <path>./art/bgneodetailedalt.png</path>
+	  <path>./art/backgrounds/bgneodetailedalt.png</path>
 	  <zIndex>3</zIndex>
 	</image>
 	
@@ -1472,7 +1472,7 @@ originally based on: "carbon"
 	  <pos>0.546875 0.5333333</pos>
 	  <size>0.378125 0.77</size>
 	  <lines>15</lines>
-	  <fontSize>0.033</fontSize>
+	  <fontSize>0.03</fontSize>
 	</textlist>
    
 	<image name="Chevron Bas">
@@ -1536,7 +1536,7 @@ originally based on: "carbon"
 <view name="gamecarousel">
     
 	<image name="background">
-	  <path>./art/bggamecarousel.jpg</path>
+	  <path>./art/backgrounds/bggamecarousel.jpg</path>
 	</image>
 
 	<video name="md_video">
@@ -1588,7 +1588,7 @@ originally based on: "carbon"
       <maxLogoCount>11</maxLogoCount>
       <imageSource>marquee</imageSource>
       <zIndex>10</zIndex>
-	  <scrollSound>./art/scroll2.wav</scrollSound>
+	  <scrollSound>./art/sounds/scroll2.wav</scrollSound>
     </gamecarousel>    
     
 	<text name="gamecarouselLogoText">
@@ -1662,11 +1662,11 @@ originally based on: "carbon"
 		</helpsystem>
 	
 	<image name="background">
-	  <path>./art/bgboxcarousel.jpg</path>
+	  <path>./art/backgrounds/bgboxcarousel.jpg</path>
 	</image>
 
 	<image name="background2" extra="true">
-	  <path>./art/bgboxcarousel2.png</path>
+	  <path>./art/backgrounds/bgboxcarousel2.png</path>
 	  <zIndex>3</zIndex>
 	</image>
 	
@@ -1835,7 +1835,7 @@ originally based on: "carbon"
   <customView name="DoubleBoxCarousel" inherits="grid" displayName="${doubleboxcarousel}">
  	
 	<image name="background">
-	    <path>./art/BGDOUBLEBOXCAROUSEL.png</path>
+	    <path>./art/backgrounds/BGDOUBLEBOXCAROUSEL.png</path>
 		<zIndex>3</zIndex>
     </image>
 	
@@ -1862,9 +1862,9 @@ originally based on: "carbon"
 			<pos>0.9296875 0.136</pos>
 			<origin>0.5 0.5</origin>
 			<size>0.1375 0</size>	       	
-			<path>./art/controller.png</path>
+			<path>./art/controllers/default.png</path>
      		<path>./art/controllers/${system.theme}.png</path>
-      		<path ifSubset="artworkregion:US">./art/controller.png</path>
+      		<path ifSubset="artworkregion:US">./art/controllers/default.png</path>
      		<path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
 	 	    <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 			<path ifSubset="neogeostyle:mvs">./art/controllers/special/${system.theme}.png</path>
@@ -1996,7 +1996,7 @@ originally based on: "carbon"
   <customView name="NeoBoxes" displayName="Neo Boxes" inherits="grid">
 	
 	<image name="background2" extra="true">
-	  <path>./art/bgneoboxes.png</path>
+	  <path>./art/backgrounds/bgneoboxes.png</path>
 	  <zIndex>3</zIndex>
 	</image>
 	
@@ -2043,7 +2043,7 @@ originally based on: "carbon"
       <animateSelection>false</animateSelection>
       <centerSelection>false</centerSelection>
 	  <scrollLoop>true</scrollLoop>
-	  <scrollSound>./art/scroll2.wav</scrollSound>
+	  <scrollSound>./art/sounds/scroll2.wav</scrollSound>
 	  <scrollDirection>vertical</scrollDirection>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 				<animation property="scale" from="0" to="0" begin="" duration="620" mode="Linear"/>
@@ -2068,7 +2068,7 @@ originally based on: "carbon"
 	    	
 	<image name="gridtile.favorite">
 	 <linearSmooth>true</linearSmooth>
-      <path>:/star_filled.svg</path>
+      <path>./art/icons/star_filled.svg</path>
       <pos>0.93 0.07</pos>
       <maxSize>0.15 0.15</maxSize>
       <origin>0.5 0.5</origin>
@@ -2155,7 +2155,7 @@ originally based on: "carbon"
   <customView name="NeoLogos" displayName="Neo Logos" inherits="NeoBoxes">
 	
 	<image name="background2" extra="true">
-	  <path>./art/bgneologos.png</path>
+	  <path>./art/backgrounds/bgneologos.png</path>
 	  <zIndex>3</zIndex>
 	</image>
 	
@@ -2203,7 +2203,7 @@ originally based on: "carbon"
       <centerSelection>false</centerSelection>
 	  <imageSource>marquee</imageSource>
 	  <scrollLoop>true</scrollLoop>
-	  <scrollSound>./art/scroll2.wav</scrollSound>
+	  <scrollSound>./art/sounds/scroll2.wav</scrollSound>
 	  <scrollDirection>vertical</scrollDirection>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 				<animation property="scale" from="0" to="0" begin="" duration="620" mode="Linear"/>
@@ -2228,7 +2228,7 @@ originally based on: "carbon"
 	    	
 	<image name="gridtile.favorite">
 	 <linearSmooth>true</linearSmooth>
-      <path>:/star_filled.svg</path>
+      <path>./art/icons/star_filled.svg</path>
       <pos>0.93 0.07</pos>
       <maxSize>0.15 0.15</maxSize>
       <origin>0.5 0.5</origin>
@@ -2313,14 +2313,14 @@ originally based on: "carbon"
  <customView name="Verticarousel" inherits="grid">
  
     <image name="background">
-	  <path>./art/bgverticarousel.jpg</path>
+	  <path>./art/backgrounds/bgverticarousel.jpg</path>
     </image>
 	
 	<image name="bigtv" extra="true">
       <size>0.5 0</size>
 	  <pos>0.5 0.415740740</pos>
 	  <origin>0.5 0.5</origin>
-	  <path>./art/bigtv.png</path>
+	  <path>./art/assets/bigtv.png</path>
 	  <zIndex>9</zIndex>
 	</image>
 		
@@ -2345,9 +2345,9 @@ originally based on: "carbon"
 			<pos>0.125 0.92</pos>
 			<origin>0.5 1</origin>
 			<size>0.164 0</size>	       	
-			<path>./art/controller.png</path>
+			<path>./art/controllers/default.png</path>
      		<path>./art/controllers/${system.theme}.png</path>
-      		<path ifSubset="artworkregion:US">./art/controller.png</path>
+      		<path ifSubset="artworkregion:US">./art/controllers/default.png</path>
      		<path ifSubset="artworkregion:US">./art/controllers/${system.theme}.png</path>
 	 	    <path ifSubset="artworkregion:US">./art/controllers/US/${system.theme}.png</path>
 			<path ifSubset="neogeostyle:mvs">./art/controllers/special/${system.theme}.png</path>
@@ -2498,11 +2498,11 @@ originally based on: "carbon"
   <customView name="RetroTiles" inherits="grid" displayName="${retrotiles}">
     
 	<image name="background">
-	    <path>./art/bgretrotiles.jpg</path>
+	    <path>./art/backgrounds/bgretrotiles.jpg</path>
     </image>
 	
 	<image name="background2" extra="true">
-      <path>./art/bgretrotiles2.png</path>
+      <path>./art/backgrounds/bgretrotiles2.png</path>
 	  <zIndex>16</zIndex>
 	</image>
 	

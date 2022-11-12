@@ -9,7 +9,7 @@
 		</splash>
 		
 		<image name="background">
-			<path>./art/splash.jpg</path>
+			<path>./art/backgrounds/splash.jpg</path>
 			<opacity>0</opacity>
 			<storyboard>
 				<animation property="opacity" from="0" to="1" begin="0" duration="6000" mode="Linear"/>

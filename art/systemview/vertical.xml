@@ -50,7 +50,7 @@
 	  <logoScale>1.16</logoScale>
       <logoSize>0.1375</logoSize>
 	  <logoAlignment>center</logoAlignment>
-      <scrollSound>./../scroll3.wav</scrollSound>
+      <scrollSound>./../sounds/scroll3.wav</scrollSound>
 	  <zIndex>38</zIndex>
     </carousel>
 		
@@ -58,7 +58,7 @@
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../bgvlandscape.png</path>
+      <path>./../backgrounds/bgvlandscape.png</path>
       <zIndex>1</zIndex>	  
     </image>
 	
@@ -67,7 +67,7 @@
       <pos ifSubset="randomart:marquee|thumbnail">-0.11 0</pos>
 	  <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../bgv2.png</path>
+      <path>./../backgrounds/bgv2.png</path>
       <zIndex>5</zIndex>
 	  <storyboard>
  			<animation property="color" from="ffffffff" to="88AADDff" begin="" duration="4000" mode="Linear" autoReverse="true" repeat="forever"/>
@@ -79,7 +79,7 @@
 	  <pos ifSubset="randomart:marquee|thumbnail">0.1385416 -0.005</pos>
       <size>0.170833333 0.91388888</size>
       <origin>0.5 0</origin>
-      <path>./../BGV3.png</path>
+      <path>./../backgrounds/BGV3.png</path>
       <zIndex>6</zIndex>
     </image>
 	
@@ -88,7 +88,7 @@
 	  <pos ifSubset="randomart:marquee|thumbnail">0.51 0.6935185</pos>
       <size>1.5625 0.43611111</size>
       <origin>0.5 0.5</origin>
-      <path>./../BGV4.png</path>
+      <path>./../backgrounds/BGV4.png</path>
       <zIndex>4</zIndex>
     </image>
 	
@@ -230,7 +230,7 @@
 	  <pos ifSubset="randomart:marquee|thumbnail">0.032 0.462037</pos>
 	  <origin>0.5 0.5</origin>
       <size>0.025 0</size>
-	  <path>./../RedArrowD.png</path>
+	  <path>./../assets/RedArrowD.png</path>
       <linearSmooth>false</linearSmooth>
 	  <rotation>-90</rotation>
 	  <opacity>0.4</opacity>
@@ -281,8 +281,8 @@
   
 	<!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}">
-		<include name="white" displayName="${white}">./colors/white.xml</include>
 		<include name="blue" displayName="${blue}">./colors/blue.xml</include>
+		<include name="white" displayName="${white}">./colors/white.xml</include>
 		<include name="yellow" displayName="${yellow}">./colors/yellow.xml</include>
 		<include name="red" displayName="${red}">./colors/red.xml</include>
 		<include name="purple" displayName="${purple}">./colors/purple.xml</include>

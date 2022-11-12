@@ -35,7 +35,7 @@
       <maxLogoCount ifSubset="systemviewlogocountH:7">7</maxLogoCount>
 	  <logoScale>1.4</logoScale>
       <logoSize>0.0982142857142857 0.2116428571428571</logoSize>
-	  <scrollSound>./../scroll3.wav</scrollSound>
+	  <scrollSound>./../soundS/scroll3.wav</scrollSound>
 	  <zIndex>37</zIndex>
     </carousel>
 		
@@ -43,7 +43,7 @@
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../bghlandscape.png</path>
+      <path>./../backgrounds/bghlandscape.png</path>
       <zIndex>1</zIndex>	  
     </image>
 	
@@ -52,7 +52,7 @@
       <pos>0 0.0259259259</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../bgh2.png</path>
+      <path>./../backgrounds/bgh2.png</path>
       <zIndex>1</zIndex>
 	  <storyboard>
   			<animation property="color" from="FFFFFF" to="0088BBff" begin="" duration="4500" mode="Linear" autoReverse="true" repeat="forever"/>
@@ -66,7 +66,7 @@
       <pos>0 0.0259259259</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../bgh3.png</path>
+      <path>./../backgrounds/bgh3.png</path>
       <zIndex>38</zIndex>
 	  <storyboard>
 			<animation property="opacity" from="1" to="1" begin="335" duration="" mode="Linear"/>
@@ -197,7 +197,7 @@
       <pos>0.5 0.5859259259</pos>
       <origin>0.5 0.5</origin>
       <size>0.025 0</size>
-	  <path>./../RedArrowD.png</path>
+	  <path>./../assets/RedArrowD.png</path>
       <linearSmooth>false</linearSmooth>                                                       
 	  <opacity>0.67</opacity>
 	  <zIndex>36</zIndex>
@@ -259,8 +259,8 @@
 
 	<!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}">
-		<include name="white" displayName="${white}">./colors/whiteH.xml</include>		
 		<include name="blue" displayName="${blue}">./colors/blueH.xml</include>
+		<include name="white" displayName="${white}">./colors/whiteH.xml</include>		
 		<include name="yellow" displayName="${yellow}">./colors/yellowH.xml</include>
 		<include name="red" displayName="${red}">./colors/redH.xml</include>
 		<include name="purple" displayName="${purple}">./colors/purpleH.xml</include>
