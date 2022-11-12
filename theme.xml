@@ -293,7 +293,7 @@ originally based on: "carbon"
 	  <pos>0.01 0.942</pos>
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
-	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
+	  <fontPath>./art/fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
 	  <fontSize>0.042</fontSize>
 	  <textColor>686068</textColor>
       <iconColor>565296</iconColor>
@@ -356,7 +356,7 @@ originally based on: "carbon"
 	  <pos>0.01 0.952</pos>
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
-	  <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
+	  <fontPath>./art/fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
 	  <fontSize>0.031</fontSize>
 	  <textColor>686068</textColor>
       <iconColor>565296</iconColor>
@@ -549,6 +549,7 @@ originally based on: "carbon"
       <fontSize>0.023</fontSize>
 	  <glowColor>00000080</glowColor>
 	  <glowSize>1</glowSize>
+	  <lineSpacing>1.1</lineSpacing>
 	  <glowOffset>1</glowOffset>
       <zIndex>15</zIndex>
 		<storyboard>
@@ -685,7 +686,7 @@ originally based on: "carbon"
 	  <pos>0.5 0.042</pos>
       <size>0.69 0.05</size>
       <alignment>center</alignment>
-	  <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>
+	  <fontPath>./art/fonts/Saira_SemiCondensed-Bold.ttf</fontPath>
 	  <fontSize>0.056</fontSize>
 	  <origin>0.5 0.5</origin>
       <glowSize>2</glowSize>
@@ -876,8 +877,8 @@ originally based on: "carbon"
     <view name="basic">
    
 		<helpsystem name="help">
-			<pos>0.15 0.959</pos>
-			<fontSize>0.048</fontSize>
+			<pos>0.01 0.94</pos>
+			<fontSize>0.038</fontSize>
 		</helpsystem>
 		
     <text name="logoText">
@@ -984,12 +985,12 @@ originally based on: "carbon"
 	  <primaryColor ifSubset="textlistcolor:purple">766976</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:blue">727277</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
-	  <fontSize>0.044</fontSize>
-	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+	  <fontSize>0.034</fontSize>
+	  <fontPath>./art/fonts/Saira_SemiCondensed-Medium.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
 	  <pos>0.25 0.263</pos>
       <size>0.5 0.62</size>
-	  <lines>9</lines>
+	  <lines>11</lines>
       <alignment>center</alignment>
 	</textlist>
 	
@@ -1008,12 +1009,12 @@ originally based on: "carbon"
       <secondaryColor>7a6161</secondaryColor>
 	  <scrollSound>./art/scroll.wav</scrollSound>
 	  <secondaryColor>7a6161</secondaryColor>
-	  <fontSize>0.044</fontSize>
-	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+	  <fontSize>0.034</fontSize>
+	  <fontPath>./art/fonts/Saira_SemiCondensed-Medium.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
 	  <pos>0.25 0.263</pos>
       <size>0.5 0.62</size>
-	  <lines>9</lines>
+	  <lines>11</lines>
       <alignment>center</alignment>
 	</textlist>
 		
@@ -1057,10 +1058,11 @@ originally based on: "carbon"
       <secondaryColor>7a6161</secondaryColor>
 	  <scrollSound>./art/scroll.wav</scrollSound>
 	  <origin>0 0.5</origin>
-	  <lines>11</lines>
+	  <lines>13</lines>
+	  <selectorOffsetY>-0.0018</selectorOffsetY>
 	  <alignment>left</alignment>
-	  <fontSize>0.044</fontSize>
-	  <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
+	  <fontSize>0.034</fontSize>
+	  <fontPath>./art/fonts/Saira_SemiCondensed-Medium.ttf</fontPath>
 	  <forceUppercase>1</forceUppercase>
 	  <zIndex>15</zIndex>
 	</textlist>
@@ -1262,7 +1264,6 @@ originally based on: "carbon"
       <origin>0.5 0.5</origin>
 	  <pos>0.244 0.885</pos>
 	  <size>0.48 0.10185185</size>
-	  <lineSpacing>1.1</lineSpacing>
 	  <alignment>right</alignment>
     </text>
 	
@@ -1344,13 +1345,11 @@ originally based on: "carbon"
 	
 	<textlist name="gamelist">
 	  <pos>0.389 0.5333333</pos>
-	  <size>0.534 0.76</size>
-	  <fontSize>0.053</fontSize>
-	  <lines>9</lines>
+	  <size>0.534 0.77</size>
+	  <fontSize>0.038</fontSize>
 	  <alignment>center</alignment>
-	  <horizontalMargin>0.01</horizontalMargin>
+	  <horizontalMargin>0.005</horizontalMargin>
 	  <selectorImagePath>./art/bar.png</selectorImagePath>
-	  <selectorImageTile>true</selectorImageTile>
 	</textlist>
    
 	<image name="Chevron Bas">
@@ -1471,14 +1470,9 @@ originally based on: "carbon"
 	
 	<textlist name="gamelist">
 	  <pos>0.546875 0.5333333</pos>
-	  <size>0.378125 0.76</size>
-	  <fontSize>0.041</fontSize>
-	  <lines>11</lines>
-	  <alignment>center</alignment>
-	  <horizontalMargin>0.01</horizontalMargin>
-	  <selectorImagePath>./art/bar11.png</selectorImagePath>
-	  <selectorOffsetY>-0.0018</selectorOffsetY>
-	  <selectorImageTile>true</selectorImageTile>
+	  <size>0.378125 0.77</size>
+	  <lines>15</lines>
+	  <fontSize>0.033</fontSize>
 	</textlist>
    
 	<image name="Chevron Bas">
@@ -1609,7 +1603,7 @@ originally based on: "carbon"
 	<text name="md_name">
       <color>DDD000</color>
 	  <pos>0.252 0.0563</pos>
-      <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>  
+      <fontPath>./art/fonts/Saira_SemiCondensed-Bold.ttf</fontPath>  
 	  <size>0.4791666 0.11</size>
 	  <lineSpacing>1.1</lineSpacing>
       <alignment>center</alignment>
@@ -1783,7 +1777,7 @@ originally based on: "carbon"
       <color>DDD000</color>
 	  <pos>0.664 0.04</pos>
 	  <origin>0 1</origin>
-      <fontPath>./art/fonts/SairaCondensed-SemiBold.ttf</fontPath>  
+      <fontPath>./art/fonts/Saira_SemiCondensed-SemiBold.ttf</fontPath>  
 	  <size>0.31978 0.1</size>
 	  <lineSpacing>1.1</lineSpacing>
       <alignment>left</alignment>
@@ -2422,7 +2416,7 @@ originally based on: "carbon"
 	<text name="md_name">
       <color>DDD000</color>
 	  <pos>0.5 0.0561</pos>
-      <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>  
+      <fontPath>./art/fonts/Saira_SemiCondensed-Bold.ttf</fontPath>  
 	  <size>0.4791666 0.11</size>
 	  <lineSpacing>1.1</lineSpacing>
       <alignment>center</alignment>
