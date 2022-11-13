@@ -668,7 +668,7 @@ originally based on: "carbon"
       <maxSize>0.15 0.15</maxSize>
       <origin>0.5 0.5</origin>
       <horizontalAlignment>right</horizontalAlignment>
-      <color>FFFF0080</color>
+      <color>FFFF00ff</color>
     </image>
 	
     <image name="gridtile.favorite:selected">
