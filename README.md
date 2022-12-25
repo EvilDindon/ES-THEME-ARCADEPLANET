@@ -5,7 +5,7 @@
  V0.99
  
  Features :
- - 2 System Views (Vertical and Horizontal)
+ - 3 System Views (Vertical, Horizontal and Horizontal Simplified)
  - 11 Gamelist Views (using a lot logo art and box art)
  - 31 custom collections themed
  - Regional Logos and Artwork (only EU and US for now)
