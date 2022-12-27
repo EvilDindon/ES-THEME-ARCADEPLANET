@@ -180,19 +180,19 @@ originally based on: "carbon"
   
     <menuText name="menutitle">
       <fontPath>./art/fonts/SairaCondensed-Bold.ttf</fontPath>
-      <fontSize>0.056</fontSize>
+      <fontSize>0.046</fontSize>
       <color>767296</color>
     </menuText>
 	
     <menuText name="menufooter">
       <fontPath>./art/fonts/SairaCondensed-Light.ttf</fontPath>
-      <fontSize>0.036</fontSize>
+      <fontSize>0.032</fontSize>
       <color>777777FF</color>
     </menuText>
 	
     <menuText name="menutext">
       <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
-      <fontSize>0.042</fontSize>
+      <fontSize>0.032</fontSize>
       <color>969696</color>
       <separatorColor>323232FF</separatorColor>
       <selectorColor>401010</selectorColor>
@@ -204,13 +204,13 @@ originally based on: "carbon"
 	
     <menuTextSmall name="menutextsmall">
       <fontPath>./art/fonts/SairaCondensed-Regular.ttf</fontPath>
-      <fontSize>0.036</fontSize>
+      <fontSize>0.026</fontSize>
       <color>767296</color>
     </menuTextSmall>
 	
     <menuGroup name="menugroup">
       <fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
-      <fontSize>0.046</fontSize>
+      <fontSize>0.036</fontSize>
       <color>767296</color>
       <separatorColor>BD4747</separatorColor>    
       <backgroundColor>70202020</backgroundColor>
