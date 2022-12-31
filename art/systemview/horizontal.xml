@@ -21,9 +21,9 @@
     <image name="logo">
 		 <color>FFFFFFff</color>
 	     <linearSmooth>true</linearSmooth>
-	     <path>./art/wheel/${system.theme}.png</path>
-		 <path ifSubset="artworkregion:US">./art/wheel/US/${system.theme}.png</path>
-		 <path ifSubset="neogeostyle:mvs">./art/wheel/special/${system.theme}.png</path>
+	     <path>./../wheel/${system.theme}.png</path>
+		 <path ifSubset="artworkregion:US">./../wheel/US/${system.theme}.png</path>
+		 <path ifSubset="neogeostyle:mvs">./../wheel/special/${system.theme}.png</path>
 	</image>
     
 	<carousel name="systemcarousel">

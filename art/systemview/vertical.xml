@@ -27,9 +27,9 @@
    <image name="logo">
 		 <color>DDDDFFff</color>
 	     <linearSmooth>true</linearSmooth>
-	     <path>./art/wheelv/${system.theme}.png</path>
-		 <path ifSubset="artworkregion:US">./art/wheelv/US/${system.theme}.png</path>
-		 <path ifSubset="neogeostyle:mvs">./art/wheelv/special/${system.theme}.png</path>
+	     <path>./../wheelv/${system.theme}.png</path>
+		 <path ifSubset="artworkregion:US">./../wheelv/US/${system.theme}.png</path>
+		 <path ifSubset="neogeostyle:mvs">./../wheelv/special/${system.theme}.png</path>
 		  <storyboard event="activate">
  			<animation property="color" from="FFFF00ff" to="AAAA00ff" begin="" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>
 		 </storyboard>
