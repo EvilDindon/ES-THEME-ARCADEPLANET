@@ -14,7 +14,7 @@
  - Scalable to 4K
  - Pi4 or more powerfull recommended (light option coming soon)
  
-  # ** IMPORTANT **
+  # ** IMPORTANT SCRAPING INSTRUCTIONS **
 
 This theme relies on clean artwork.
 I recommand SCRAPING all your games using screenscraper with the following parametrs :
