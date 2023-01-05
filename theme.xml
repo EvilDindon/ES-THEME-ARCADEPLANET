@@ -459,6 +459,10 @@ originally based on: "carbon"
 	  <default>./art/assets/nologo.png</default>	  
 	</image>
 	
+	<image name="md_image">
+		<visible>false</visible>
+	</image>
+	
 	<video name="md_video">
       <origin>0.5 0.5</origin>
 	  <maxSize>0.43125 0.509</maxSize>
