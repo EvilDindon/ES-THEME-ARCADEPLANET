@@ -17,7 +17,7 @@
   # ** IMPORTANT SCRAPING INSTRUCTIONS **
 
 This theme relies on clean artwork.
-I recommand SCRAPING all your games using screenscraper with the following parametrs :
+I recommand SCRAPING all your games using SCREENSCRAPER with the following parameters :
 
 # IMAGE SOURCE : SCREENSHOT
 
