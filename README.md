@@ -26,26 +26,39 @@ I recommand SCRAPING all your games using screenscraper with the following param
 # LOGO SOURCE : WHEEL
 
 These 3 parameters are mandatory. If you put other thing (mix images, etc.) the theme will not look as good as intended.
-https://youtu.be/zvwetGzfFKs
-
-System View Vertical
 
 System View Horizontal
+![nes](https://user-images.githubusercontent.com/30436625/210753034-6028bcd6-74fe-4368-a96d-d9854ba78afd.jpg)
+
+System View Vertical
+![vertical](https://user-images.githubusercontent.com/30436625/210752913-6e5a23f6-9581-4856-b1b2-7b3cdf42850b.jpg)
+
+Game![nes video](https://user-images.githubusercontent.com/30436625/210753287-30688400-dd34-4f46-bfc6-131c8365994e.jpg)
+list view : VideoGamelist view : Video
 
 Gamelist view : Video
+![Uploading nes video.jpg…]()
 
 Gamelist view : GameCarousel
+![nes gamecarousel](https://user-images.githubusercontent.com/30436625/210753336-25c14740-b58d-4ab8-8832-083e6596e133.jpg)
 
 Gamelist view : Box Carousel
+![nes box carousel](https://user-images.githubusercontent.com/30436625/210753430-78264aa1-3a15-4efa-ae05-c032cfea2fe5.jpg)
 
-Gamelist view : Mini Logos
+Gamelist view : Neo Logos
+![neologos](https://user-images.githubusercontent.com/30436625/210753504-b0b5bc3c-ab54-4512-9520-927985f11300.jpg)
 
-Gamelist view : Mini Logos Right
-
-Gamelist view : Vertical Logos
-
-Gamelist view : Retro Tiles
+Gamelist view : Verticarousel
+![nes verticartousel](https://user-images.githubusercontent.com/30436625/210753619-21711dbf-ed34-4641-8c61-bd06ae8221c5.jpg)
 
 Gamelist view : Grid
+![nes Grid](https://user-images.githubusercontent.com/30436625/210753668-0b2bfdf9-2c70-44ad-afa5-3a2b3a3f6ae0.jpg)
+
+Gamelist view : Neo Detailed
+![neodetailed](https://user-images.githubusercontent.com/30436625/210753794-eeadf77b-3547-407a-8770-c82c2f8922f2.jpg)
+
+Gamelist view : Neo Boxes
+![neoboxes](https://user-images.githubusercontent.com/30436625/210753887-1b197b8c-ca4f-48d9-9aea-e128820a1ab2.jpg)
 
 SOME CUSTOM COLLECTIONS SCREENSHOTS !
+
