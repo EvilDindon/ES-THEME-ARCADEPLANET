@@ -36,8 +36,8 @@ System View Vertical
 System View Horizontal Simplified
 ![horizontal simplified](https://user-images.githubusercontent.com/30436625/210766140-912240ac-271c-4d17-9e6d-5b2869152510.jpg)
 
-Game![nes video](https://user-images.githubusercontent.com/30436625/210753287-30688400-dd34-4f46-bfc6-131c8365994e.jpg)
-list view : VideoGamelist view : Video
+Gamelist view : VideoGamelist view : Video
+![nes video](https://user-images.githubusercontent.com/30436625/210753287-30688400-dd34-4f46-bfc6-131c8365994e.jpg)
 
 Gamelist view : Video
 ![Uploading nes video.jpg…]()
