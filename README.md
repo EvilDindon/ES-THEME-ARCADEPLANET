@@ -57,8 +57,14 @@ Gamelist view : Grid
 Gamelist view : Neo Detailed
 ![neodetailed](https://user-images.githubusercontent.com/30436625/210753794-eeadf77b-3547-407a-8770-c82c2f8922f2.jpg)
 
+Gamelis![nes neodetailed alt](https://user-images.githubusercontent.com/30436625/210765574-31ebce11-f61f-44de-b899-3d43638c3638.jpg)
+t view : Neo Detailed Alt
+
 Gamelist view : Neo Boxes
 ![neoboxes](https://user-images.githubusercontent.com/30436625/210753887-1b197b8c-ca4f-48d9-9aea-e128820a1ab2.jpg)
+
+Gamelist![nes doubleboxcarousel](https://user-images.githubusercontent.com/30436625/210765434-4bdf1c67-3a4d-423e-a19e-fbb995550876.jpg)
+ view : Double Box Carousel
 
 SOME CUSTOM COLLECTIONS SCREENSHOTS !
 
