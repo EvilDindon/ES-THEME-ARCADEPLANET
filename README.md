@@ -68,11 +68,45 @@ Gamelist view : Neo Boxes
 
 Gamelist view : Double Box Carousel
 ![nes doubleboxcarousel](https://user-images.githubusercontent.com/30436625/210765434-4bdf1c67-3a4d-423e-a19e-fbb995550876.jpg)
-
  
- Gamelist view : Detailed
- ![detailed](https://user-images.githubusercontent.com/30436625/210766518-afb740a0-a2cb-4dbf-8e94-9f87db1816f6.jpg)
+Gamelist view : Detailed
+![detailed](https://user-images.githubusercontent.com/30436625/210766518-afb740a0-a2cb-4dbf-8e94-9f87db1816f6.jpg)
 
-SOME CUSTOM COLLECTIONS SCREENSHOTS !
+Gamelist view : Basic :
+![basic](https://user-images.githubusercontent.com/30436625/210767433-5a5fd069-1d3c-4ed7-8de9-0b5b1769c100.jpg)
+
+# SOME CUSTOM COLLECTIONS SCREENSHOTS !
+
+Ghouls'n Ghosts'n Goblins (ghouls) :
+![ghouls](https://user-images.githubusercontent.com/30436625/210768675-bbfa76ba-08b9-4f09-9490-83244dcc18a1.jpg)
+
+mario :
+![mario](https://user-images.githubusercontent.com/30436625/210768768-a92f7edf-e4a5-44b3-ad40-370bf59d65c2.jpg)
+
+metalslug :
+![mslug](https://user-images.githubusercontent.com/30436625/210768924-34c74066-1117-430d-a2c6-12f6c963807c.jpg)
+
+shinobi :
+![shinobi](https://user-images.githubusercontent.com/30436625/210769205-2ffb827e-d50a-483f-a640-ad030d2ef063.jpg)
+
+streetfighter :
+![streetfighter](https://user-images.githubusercontent.com/30436625/210769228-89e6167a-3397-44b5-b21c-f12fc3c14dc5.jpg)
+
+mk :
+![mk](https://user-images.githubusercontent.com/30436625/210769261-b1659050-7ecd-42a9-ab51-3cde330078d1.jpg)
+
+kof :
+![kof](https://user-images.githubusercontent.com/30436625/210769284-e4679dcd-673c-480a-a000-8a3b4ec95bb6.jpg)
+
+goldenaxe :
+![golden axe](https://user-images.githubusercontent.com/30436625/210769298-70350f72-fc45-47a3-975e-a7d2d8f8c03f.jpg)
+
+dk :
+![dk](https://user-images.githubusercontent.com/30436625/210769338-eef0d927-6791-4f02-8728-d32f7a093079.jpg)
+
+
+
+
+
 
 
