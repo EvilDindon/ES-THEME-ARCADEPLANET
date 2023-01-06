@@ -6,7 +6,7 @@
  
  Features :
  - 3 System Views (Vertical, Horizontal and Horizontal Simplified)
- - 11 Gamelist Views (using a lot logo art and box art)
+ - 13 Gamelist Views (using a lot logo art and box art)
  - 31 custom collections themed
  - Regional Logos and Artwork (only EU and US for now)
  - Some custom background music, artwork and animations
