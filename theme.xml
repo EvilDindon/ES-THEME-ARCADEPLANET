@@ -994,6 +994,9 @@ originally based on: "carbon"
       <forceUppercase>1</forceUppercase>
 	  <pos>0.25 0.263</pos>
       <size>0.5 0.62</size>
+	  <glowColor>000000aa</glowColor>
+	  <glowSize>1.5</glowSize>
+	  <glowOffset>1.5 1.5</glowOffset>
 	  <lines>11</lines>
       <alignment>center</alignment>
 	</textlist>
@@ -1018,6 +1021,9 @@ originally based on: "carbon"
       <forceUppercase>1</forceUppercase>
 	  <pos>0.25 0.263</pos>
       <size>0.5 0.62</size>
+	  <glowColor>000000aa</glowColor>
+	  <glowSize>1.5</glowSize>
+	  <glowOffset>1.5 1.5</glowOffset>
 	  <lines>11</lines>
       <alignment>center</alignment>
 	</textlist>
@@ -1068,6 +1074,9 @@ originally based on: "carbon"
 	  <fontSize>0.034</fontSize>
 	  <fontPath>./art/fonts/Saira_SemiCondensed-Medium.ttf</fontPath>
 	  <forceUppercase>1</forceUppercase>
+	  <glowColor>000000aa</glowColor>
+	  <glowSize>1.5</glowSize>
+	  <glowOffset>1.5 1.5</glowOffset>
 	  <zIndex>15</zIndex>
 	</textlist>
 	  
