@@ -6,7 +6,7 @@
  
  Features :
  - 3 System Views (Vertical, Horizontal and Horizontal Simplified)
- - 11 Gamelist Views (using a lot logo art and box art)
+ - 13 Gamelist Views (using a lot logo art and box art)
  - 31 custom collections themed
  - Regional Logos and Artwork (only EU and US for now)
  - Some custom background music, artwork and animations
@@ -36,11 +36,8 @@ System View Vertical
 System View Horizontal Simplified
 ![horizontal simplified](https://user-images.githubusercontent.com/30436625/210766140-912240ac-271c-4d17-9e6d-5b2869152510.jpg)
 
-Gamelist view : VideoGamelist view : Video
-![nes video](https://user-images.githubusercontent.com/30436625/210753287-30688400-dd34-4f46-bfc6-131c8365994e.jpg)
-
 Gamelist view : Video
-![Uploading nes video.jpg…]()
+![nes video](https://user-images.githubusercontent.com/30436625/210753287-30688400-dd34-4f46-bfc6-131c8365994e.jpg)
 
 Gamelist view : GameCarousel
 ![nes gamecarousel](https://user-images.githubusercontent.com/30436625/210753336-25c14740-b58d-4ab8-8832-083e6596e133.jpg)
