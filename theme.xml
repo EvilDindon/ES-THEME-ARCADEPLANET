@@ -553,7 +553,7 @@ originally based on: "carbon"
       <fontSize>0.023</fontSize>
 	  <glowColor>00000080</glowColor>
 	  <glowSize>1</glowSize>
-	  <lineSpacing>1.1</lineSpacing>
+	  <lineSpacing>1.15</lineSpacing>
 	  <glowOffset>1</glowOffset>
       <zIndex>15</zIndex>
 		<storyboard>
@@ -1418,7 +1418,7 @@ originally based on: "carbon"
 	<text name="md_description">
       <origin>0 0</origin>
 	  <pos>0.005 0.726</pos>
-	  <size>0.375 0.21</size>
+	  <size>0.371 0.21</size>
 	  <alignment>left</alignment>
    </text>
    
@@ -1538,7 +1538,7 @@ originally based on: "carbon"
 	<text name="md_description">
       <origin>0 0</origin>
 	  <pos>0.228 0.726</pos>
-	  <size>0.3072916 0.21</size>
+	  <size>0.305 0.21</size>
 	  <alignment>left</alignment>
    </text>
    
@@ -1838,6 +1838,7 @@ originally based on: "carbon"
       <origin>0 0.5</origin>
 	  <pos>0.504 0.174</pos>
 	  <size>0.422 0.196</size>
+	  <lineSpacing>1.116</lineSpacing>
 	  <alignment>left</alignment>
     </text>
 	
@@ -2156,6 +2157,7 @@ originally based on: "carbon"
       <origin>0 0</origin>
 	  <pos>0.005 0.646</pos>
 	  <size>0.333333 0.27</size>
+	  <lineSpacing>1.18</lineSpacing>
 	  <alignment>left</alignment>
    </text>
    
@@ -2315,7 +2317,7 @@ originally based on: "carbon"
 	<text name="md_description">
       <origin>0 0</origin>
 	  <pos>0.005 0.646</pos>
-	  <size>0.333333 0.27</size>
+	  <size>0.33 0.27</size>
 	  <alignment>left</alignment>
    </text>
    
