@@ -25,16 +25,16 @@
    <view name="system">
    
    <image name="logo">
-		 <color>DDDDFFff</color>
+		 <color>8888A8ff</color>
 	     <linearSmooth>true</linearSmooth>
 	     <path>./../wheelv/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./../wheelv/US/${system.theme}.png</path>
 		 <path ifSubset="neogeostyle:mvs">./../wheelv/special/${system.theme}.png</path>
 		  <storyboard event="activate">
- 			<animation property="color" from="FFFF00ff" to="AAAA00ff" begin="" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>
+ 			<animation property="color" from="8888A0ff" to="AAAA00ff" begin="" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>
 		 </storyboard>
 		 <storyboard event="deactivate">
- 			<animation property="color" from="DDDDFFff" to="DDDDFFff" begin="" duration="" mode="Linear"/>
+ 			<animation property="color" from="8888A0ff" to="8888A0ff" begin="" duration="" mode="Linear"/>
 	     </storyboard>	
 	</image>
 
@@ -50,6 +50,8 @@
 	  <logoScale>1.16</logoScale>
       <logoSize>0.1375</logoSize>
 	  <logoAlignment>center</logoAlignment>
+	  <minLogoOpacity>1</minLogoOpacity>
+	  <transitionSpeed>335</transitionSpeed>
       <scrollSound>./../sounds/scroll3.wav</scrollSound>
 	  <zIndex>38</zIndex>
     </carousel>

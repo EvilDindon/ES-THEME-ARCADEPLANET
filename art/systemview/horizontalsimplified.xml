@@ -12,13 +12,13 @@
 
   <!-- Subset options for Logo style -->
 	<subset name="logostyle" displayName="${logostyle}">
-		<include name="white" displayName="white"/>
+		<include name="monochrome"/>
 		<include name="color" displayName="color"/>
 	</subset>
 	
   <view name="system">
   
-    <image name="logo" ifSubset="logostyle:white">
+    <image name="logo" ifSubset="logostyle:monochrome">
 	  <linearSmooth>true</linearSmooth>
 	  <path>./../wheelv/${system.theme}.png</path>
       <path>./../wheelv/${system.theme}.svg</path>
@@ -28,7 +28,7 @@
 	  <path ifSubset="neogeostyle:mvs">./../wheelv/special/${system.theme}.png</path>
 	</image>
 	
-	<image name="whitelogoshadow" extra="true" ifSubset="logostyle:white">
+	<image name="whitelogoshadow" extra="true" ifSubset="logostyle:monochrome">
 	  <linearSmooth>true</linearSmooth>
 	  <path>./../wheelv/${system.theme}.png</path>
       <path>./../wheelv/${system.theme}.svg</path>
@@ -49,7 +49,8 @@
 	
 	<image name="logo" ifSubset="logostyle:color">
 	  <linearSmooth>true</linearSmooth>
-	  <saturation>0</saturation>
+	  <saturation>0.25</saturation>
+	  <color>BBBBBBff</color>
 	  <path>./../Colorlogos/${system.theme}.png</path>
       <path>./../Colorlogos/${system.theme}.svg</path>
       <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
@@ -57,10 +58,12 @@
       <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
 	  <path ifSubset="neogeostyle:mvs">./../Colorlogos/special/${system.theme}.png</path>
 	  <storyboard event="activate">
- 			<animation property="saturation" from="0" to="1" begin="" duration="" mode="Linear"/>
+ 			<animation property="saturation" from="0.25" to="1" begin="" duration="" mode="Linear"/>
+			<animation property="color" from="FFFFFFff" to="FFFFFFff" begin="" duration="" mode="Linear"/>
 		 </storyboard>
 		 <storyboard event="deactivate">
- 			<animation property="saturation" from="1" to="0" begin="" duration="" mode="Linear"/>
+ 			<animation property="saturation" from="1" to="0.25" begin="" duration="" mode="Linear"/>
+			<animation property="color" from="FFFFFFff" to="BBBBBBff" begin="" duration="" mode="Linear"/>
 	     </storyboard>	
 	</image>
 	
@@ -92,6 +95,8 @@
 	  <logoScale>1.46</logoScale>
       <logoSize>0.1375 0.128741755</logoSize>
 	  <scrollSound>./../sounds/scroll3.wav</scrollSound>
+	  <minLogoOpacity>1</minLogoOpacity>
+	  <transitionSpeed>335</transitionSpeed>
 	  <zIndex>37</zIndex>
 	</carousel>
 		
@@ -245,7 +250,7 @@
 	</view>
  
 	<!-- Subset options for Selected logo Color -->
-	<subset name="logocolor" displayName="${LogoColor}" ifSubset="logostyle:white">
+	<subset name="logocolor" displayName="${LogoColor}" ifSubset="logostyle:monochrome">
 		<include name="blue" displayName="${blue}">./colors/blue.xml</include>
 		<include name="white" displayName="${white}">./colors/white.xml</include>
 		<include name="yellow" displayName="${yellow}">./colors/yellow.xml</include>

@@ -19,12 +19,15 @@
   <view name="system">
   
     <image name="logo">
-		 <color>FFFFFFff</color>
-		 <saturation>1</saturation>
+		 <color>BBBBBBff</color>
+		 <saturation>0.25</saturation>
 	     <linearSmooth>true</linearSmooth>
 	     <path>./../wheel/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./../wheel/US/${system.theme}.png</path>
 		 <path ifSubset="neogeostyle:mvs">./../wheel/special/${system.theme}.png</path>
+		 <storyboard event="deactivate">
+ 			<animation property="saturation" from="1" to="0.25" begin="335" duration="" mode="Linear"/>
+	     </storyboard>	
 	</image>
     
 	<carousel name="systemcarousel">
@@ -36,6 +39,8 @@
       <maxLogoCount ifSubset="systemviewlogocountH:7">7</maxLogoCount>
 	  <logoScale>1.4</logoScale>
       <logoSize>0.0982142857142857 0.2116428571428571</logoSize>
+	  <minLogoOpacity>1</minLogoOpacity>
+	  <transitionSpeed>335</transitionSpeed>
 	  <scrollSound>./../soundS/scroll3.wav</scrollSound>
 	  <zIndex>37</zIndex>
     </carousel>
