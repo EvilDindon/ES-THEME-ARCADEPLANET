@@ -2414,7 +2414,6 @@ originally based on: "carbon"
 	  <selectionMode>image</selectionMode>
       <imageSizeMode>maxSize</imageSizeMode>
       <imageColor>989898FF</imageColor>
-	  <saturation>0.05</saturation>
     </gridtile>
 	
     <gridtile name="selected">
@@ -2422,7 +2421,6 @@ originally based on: "carbon"
       <backgroundEdgeColor>DD000000</backgroundEdgeColor>
 	  <backgroundCornerSize>0 0</backgroundCornerSize>
 	  <imageColor>FFFFFFFF</imageColor>
-	  <saturation>0.5</saturation>
       <padding>0 0</padding>
 	</gridtile>
 		

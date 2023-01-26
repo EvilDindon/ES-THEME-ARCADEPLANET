@@ -49,12 +49,19 @@
 	
 	<image name="logo" ifSubset="logostyle:color">
 	  <linearSmooth>true</linearSmooth>
+	  <saturation>0</saturation>
 	  <path>./../Colorlogos/${system.theme}.png</path>
       <path>./../Colorlogos/${system.theme}.svg</path>
       <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
 	  <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
 	  <path ifSubset="neogeostyle:mvs">./../Colorlogos/special/${system.theme}.png</path>
+	  <storyboard event="activate">
+ 			<animation property="saturation" from="0" to="1" begin="" duration="" mode="Linear"/>
+		 </storyboard>
+		 <storyboard event="deactivate">
+ 			<animation property="saturation" from="1" to="0" begin="" duration="" mode="Linear"/>
+	     </storyboard>	
 	</image>
 	
 	<image name="colorlogoshadow" extra="true" ifSubset="logostyle:color">
