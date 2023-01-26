@@ -20,6 +20,7 @@
   
     <image name="logo">
 		 <color>FFFFFFff</color>
+		 <saturation>1</saturation>
 	     <linearSmooth>true</linearSmooth>
 	     <path>./../wheel/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./../wheel/US/${system.theme}.png</path>
