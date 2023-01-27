@@ -26,7 +26,7 @@
 		 <path ifSubset="artworkregion:US">./../wheel/US/${system.theme}.png</path>
 		 <path ifSubset="neogeostyle:mvs">./../wheel/special/${system.theme}.png</path>
 		 <storyboard event="deactivate">
- 			<animation property="saturation" from="1" to="0.25" begin="335" duration="" mode="Linear"/>
+ 			<animation property="saturation" from="1" to="0.25" begin="" duration="" mode="Linear"/>
 	     </storyboard>	
 	</image>
     
