@@ -25,7 +25,7 @@
    <view name="system">
    
    <image name="logo">
-		 <color>8888A8ff</color>
+		 <color>8888A0ff</color>
 	     <linearSmooth>true</linearSmooth>
 	     <path>./../wheelv/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./../wheelv/US/${system.theme}.png</path>
