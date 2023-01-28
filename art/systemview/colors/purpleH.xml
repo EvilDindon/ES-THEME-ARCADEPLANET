@@ -7,7 +7,7 @@
 	<image name="logo">
 	     <storyboard event="activate">
  			<animation property="color" from="A080FFff" to="6040DDff" begin="335" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>
-		  	<animation property="saturation" from="0.25" to="1" begin="335" duration="" mode="Linear"/>
+		  	<animation property="saturation" from="0.5" to="1" begin="335" duration="" mode="Linear"/>
 		 </storyboard>
 	</image>
 	
