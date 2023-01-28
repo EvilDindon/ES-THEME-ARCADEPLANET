@@ -49,7 +49,7 @@ Gamelist view : Neo Logos
 ![neologos](https://user-images.githubusercontent.com/30436625/210753504-b0b5bc3c-ab54-4512-9520-927985f11300.jpg)
 
 Gamelist view : Verticarousel
-![nes verticartousel](https://user-images.githubusercontent.com/30436625/210753619-21711dbf-ed34-4641-8c61-bd06ae8221c5.jpg)
+![verticarousel](https://user-images.githubusercontent.com/30436625/215286663-573be14a-06b4-4627-9d54-7a846baccf58.jpg)
 
 Gamelist view : Grid
 ![nes Grid](https://user-images.githubusercontent.com/30436625/210753668-0b2bfdf9-2c70-44ad-afa5-3a2b3a3f6ae0.jpg)
