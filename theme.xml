@@ -370,7 +370,7 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="black screen" extra="true" ifSubset="animatedgamelistopenings:yes">
-	  <path>./art/white.png</path>
+	  <path>./art/assets/white.png</path>
 	  <color>000000ff</color>
 	  <tile>true</tile>
 	  <opacity>1</opacity>
