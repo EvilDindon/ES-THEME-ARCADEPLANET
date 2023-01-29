@@ -257,7 +257,6 @@
 	<subset name="randomartanimationstyle" displayName="${RandomArtAnimationStyle}">
 		<include name="easeinandout" displayName="${easeinandout}">./animations/easeinandout.xml</include>
 		<include name="crossover" displayName="${crossover}">./animations/crossover.xml</include>
-		<include name="crossoverx2" displayName="${crossoverx2}">./animations/crossoverx2.xml</include>
 	</subset>
 
 	<!-- Subset options for Selected logo Color -->

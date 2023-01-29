@@ -68,9 +68,6 @@ originally based on: "carbon"
 	
 	<crossover>crossover</crossover>
 	<crossover lang="fr">chassé-croisé</crossover>
-	
-	<crossoverx2>crossover speed X 2</crossoverx2>
-	<crossoverx2 lang="fr">chassé-croisé vitesse X 2</crossoverx2>
 		            
     <boxarts>box arts</boxarts>
 	<boxarts lang="fr">jaquettes</boxarts>
@@ -1499,11 +1496,11 @@ originally based on: "carbon"
 	</image>
 
 	<video name="md_video">
-	  <pos>0.249479 0.415740740</pos>
+	  <pos>0.249479 0.4145740740</pos>
 	</video>
 	
 	<image name="bigtv">
-	  <pos>0.249479 0.415740740</pos>
+	  <pos>0.249479 0.4145740740</pos>
 	</image>
 	
 	<image name="Chevron Bas">
@@ -1623,7 +1620,7 @@ originally based on: "carbon"
 	
 	<image name="bigtv" extra="true">
       <size>0.5 0</size>
-	  <pos>0.5 0.415740740</pos>
+	  <pos>0.5 0.4145740740</pos>
 	  <origin>0.5 0.5</origin>
 	  <path>./art/assets/bigtv.png</path>
 	  <zIndex>9</zIndex>
@@ -1665,7 +1662,7 @@ originally based on: "carbon"
 	
 	<video name="md_video">
 	  <visible>true</visible>
-	  <pos>0.5 0.415740740</pos>
+	  <pos>0.5 0.4145740740</pos>
 	</video>
 	
 	<image name="md_thumbnail">
@@ -2112,7 +2109,7 @@ originally based on: "carbon"
       <pos>0.441666667 0.1214</pos>
 	  <alignment>left</alignment>
 	  <origin>0 0</origin>
-      <size>0.414 0.03</size>
+      <size>0.4144 0.03</size>
 	  <fontSize>0.035</fontSize>
       <glowColor>00000016</glowColor>
       <glowSize>3</glowSize>
@@ -2147,7 +2144,7 @@ originally based on: "carbon"
 	<text name="md_description">
       <origin>0 0</origin>
 	  <pos>0.44166667 0.155</pos>
-	  <size>0.41 0.226</size>
+	  <size>0.414 0.226</size>
 	  <alignment>left</alignment>
     </text>
 		

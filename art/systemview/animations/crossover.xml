@@ -7,27 +7,47 @@
   <view name="system">
   	 		
 		<image name="randomArt01" extra="true">
-		   	<pos>1.10417 0.389</pos>
-			<reflexion>0.1 0</reflexion>
+		   	<pos>1.10417 0.416</pos>
 			<origin>0.5 1</origin>
+			<reflexion>0.1 0</reflexion>
 			<storyboard autoreverse="true" repeat="forever">
 				<animation property="offsetX" from="0" to="0" begin="" duration="1000" mode="linear"/>
-				<animation property="offsetX" from="0" to="-1.208333" begin="1000" duration="8000" mode="linear"/>
-				<animation property="offsetX" from="-1.208333" to="-1.208333" begin="9000" duration="1000" mode="linear"/>
+				<animation property="offsetX" from="0" to="-1.208333" begin="1000" duration="4000" mode="linear"/>
             </storyboard>
 			<zIndex>5</zIndex>	
 		</image>
 				  	
 		<image name="randomArt02" extra="true">
-	       	<pos>-0.10417 0.389</pos>
-			<reflexion>0.1 0</reflexion>
+	       	<pos>-0.10417 0.416</pos>
 			<origin>0.5 1</origin>
+			<reflexion>0.1 0</reflexion>
 			<storyboard autoreverse="true" repeat="forever">
                 <animation property="offsetX" from="0" to="0" begin="" duration="1000" mode="linear"/>
-				<animation property="offsetX" from="0" to="1.208333" begin="1000" duration="8000" mode="linear"/>
-				<animation property="offsetX" from="1.208333" to="1.208333" begin="9000" duration="1000" mode="linear"/>
-            </storyboard>
+				<animation property="offsetX" from="0" to="1.208333" begin="1000" duration="4000" mode="linear"/>
+			</storyboard>
 			<zIndex>5</zIndex>	
+		</image>
+		
+		<image name="randomArt03" extra="true">
+		   	<pos>1.10417 0.416</pos>
+			<origin>0.5 1</origin>
+			<reflexion>0.1 0</reflexion>
+			<storyboard autoreverse="true" repeatAt="1">
+				<animation property="offsetX" from="0" to="0" duration="6000" mode="linear"/>
+				<animation property="offsetX" from="0" to="-1.208333" begin="6000" duration="4000" mode="linear"/>
+			</storyboard>
+			<zIndex>5</zIndex>	
+		</image>
+				  	
+		<image name="randomArt04" extra="true">
+	       	<pos>-0.10417 0.416</pos>
+			<origin>0.5 1</origin>
+			<reflexion>0.1 0</reflexion>
+			<storyboard autoreverse="true" repeatAt="1">
+                <animation property="offsetX" from="0" to="0" duration="6000" mode="linear"/>
+				<animation property="offsetX" from="0" to="1.208333" begin="6000" duration="4000" mode="linear"/>
+            </storyboard>
+			<zIndex>5</zIndex>				
 		</image>
 			    
   </view>
