@@ -366,7 +366,7 @@ originally based on: "carbon"
 	  <pos>0 0</pos>
      	  <origin>0 0</origin>
           <size>1 1</size>
-	  <linearSmooth>false</linearSmooth>	  
+	  <linearSmooth>true</linearSmooth>	  
 	</image>
 	
 	<image name="black screen" extra="true" ifSubset="animatedgamelistopenings:yes">
@@ -374,6 +374,7 @@ originally based on: "carbon"
 	  <color>000000ff</color>
 	  <tile>true</tile>
 	  <opacity>1</opacity>
+	  <linearSmooth>false</linearSmooth>	  
 	  <storyboard>
 			<animation property="opacity" from="1" to="0" begin="0" duration="1500" mode="Linear"/>
      	  </storyboard>
@@ -706,62 +707,7 @@ originally based on: "carbon"
       <unfilledColor>808080</unfilledColor>
 	  <zIndex>41</zIndex>	  
     </rating>
-	 
-	<image name="md_flag">
-	  <pos>0.36 0.974</pos>
-	  <size>0.018 0</size>
-	</image>
-	
-	<image name="md_favorite,ghostfavorite">
-	  <pos>0.40 0.974</pos>
-	  <size>0.018 0</size>
-	</image>
-	
-	<image name="md_manual,md_nomanual,ghostmanual">
-			<pos>0.44 0.974</pos>
-			<size>0.02 0</size>
-	</image>
-	
-	<image name="md_cheevos,md_notcheevos,ghostcheevos">
-			<pos>0.48 0.974</pos>
-			<size>0.018 0</size>
-	</image>
 		
-	<image name="md_savestate,md_nosavestate,ghostsavestate">
-			<pos>0.52 0.974</pos>
-			<size>0.018 0</size>
-	</image>
-	
-	<image name="md_kidgame,md_notkidgame,ghostkidgame">
-	  <pos>0.94 0.974</pos>
-	  <size>0.0176 0</size>
-    </image>
-	
-	<image name="md_hidden,ghosthidden">
-	  <size>0.018 0</size>
-	  <pos>0.98 0.974</pos>
-    </image>
-	
-	<text name="md_players">
-		<pos>0.57 0.976</pos>
-		<alignment>left</alignment>
-		<color>C8C8C8</color>
-		<origin>0 0.5</origin>
-		<size>0.037 0.045</size>
-		<fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-	</text>
-
-    <text name="md_playcount">
-		<pos>0.87 0.976</pos>
-		<alignment>right</alignment>
-		<color>C8C8C8</color>
-		<origin>1 0.5</origin>
-		<size>0.037 0.03</size>
-		<fontPath>./art/fonts/SairaCondensed-Medium.ttf</fontPath>
-		<fontSize>0.028</fontSize>
-    </text>
-	
     <text name="md_developer,md_genre,md_description">
       <pos>2 2</pos>
     </text>
@@ -1747,7 +1693,7 @@ originally based on: "carbon"
       <logoScale>1.2</logoScale>
       <logoSize>0.83333333 0.1527666</logoSize>
       <maxLogoCount>5</maxLogoCount>
-	  <minLogoOpacity>0.85</minLogoOpacity>
+	  <minLogoOpacity>0.8</minLogoOpacity>
       <imageSource>marquee</imageSource>
       <zIndex>10</zIndex>
 	  <scrollSound>./art/sounds/scroll2.wav</scrollSound>
@@ -1816,8 +1762,14 @@ originally based on: "carbon"
 		<pos>0.76 0.334</pos>
 		<scale>0.75</scale>
 	</image>
+		
+   </customView>
+      
+    <!-- COMMON ELEMENTS TO GRID VIEWS AND VERTICAROUSEL - MD -->
 	
-	<image name="md_hidden,md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
+   <customView name="grid,Verticarousel">
+   
+   <image name="md_hidden,md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
 	  <y>0.974</y>
 	  <size>0.018 0</size>
 	</image>
@@ -1872,7 +1824,8 @@ originally based on: "carbon"
 		<fontSize>0.028</fontSize>
     </text>
 	
-   </customView>
+	</customView>
+	
  
  <!-- CUSTOM GRID VIEWS -->
     
