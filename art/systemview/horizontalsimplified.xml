@@ -49,8 +49,8 @@
 	
 	<image name="logo" ifSubset="logostyle:color">
 	  <linearSmooth>true</linearSmooth>
-	  <saturation>0.25</saturation>
-	  <color>BBBBBBff</color>
+	  <saturation>0.5</saturation>
+	  <color>A0A0A0ff</color>
 	  <path>./../Colorlogos/${system.theme}.png</path>
       <path>./../Colorlogos/${system.theme}.svg</path>
       <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
@@ -58,13 +58,9 @@
       <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
 	  <path ifSubset="neogeostyle:mvs">./../Colorlogos/special/${system.theme}.png</path>
 	  <storyboard event="activate">
- 			<animation property="saturation" from="0.25" to="1" begin="" duration="" mode="Linear"/>
+ 			<animation property="saturation" from="1" to="1" begin="" duration="" mode="Linear"/>
 			<animation property="color" from="FFFFFFff" to="FFFFFFff" begin="" duration="" mode="Linear"/>
-		 </storyboard>
-		 <storyboard event="deactivate">
- 			<animation property="saturation" from="1" to="0.25" begin="" duration="" mode="Linear"/>
-			<animation property="color" from="FFFFFFff" to="BBBBBBff" begin="" duration="" mode="Linear"/>
-	     </storyboard>	
+	  </storyboard>
 	</image>
 	
 	<image name="colorlogoshadow" extra="true" ifSubset="logostyle:color">

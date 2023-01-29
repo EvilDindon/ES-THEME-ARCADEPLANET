@@ -33,9 +33,6 @@
 		  <storyboard event="activate">
  			<animation property="color" from="8888A0ff" to="AAAA00ff" begin="" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>
 		 </storyboard>
-		 <storyboard event="deactivate">
- 			<animation property="color" from="8888A0ff" to="8888A0ff" begin="" duration="" mode="Linear"/>
-	     </storyboard>	
 	</image>
 
     <carousel name="systemcarousel">

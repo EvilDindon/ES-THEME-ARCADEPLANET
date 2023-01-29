@@ -19,15 +19,12 @@
   <view name="system">
   
     <image name="logo">
-		 <color>BBBBBBff</color>
+		 <color>A0A0A0ff</color>
 		 <saturation>0.5</saturation>
 	     <linearSmooth>true</linearSmooth>
 	     <path>./../wheel/${system.theme}.png</path>
 		 <path ifSubset="artworkregion:US">./../wheel/US/${system.theme}.png</path>
 		 <path ifSubset="neogeostyle:mvs">./../wheel/special/${system.theme}.png</path>
-		 <storyboard event="deactivate">
- 			<animation property="saturation" from="1" to="0.5" begin="" duration="" mode="Linear"/>
-	     </storyboard>	
 	</image>
     
 	<carousel name="systemcarousel">
