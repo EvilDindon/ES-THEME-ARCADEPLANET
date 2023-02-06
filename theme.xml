@@ -1766,7 +1766,7 @@ originally based on: "carbon"
 	
    <customView name="grid,Verticarousel">
    
-   <image name="md_hidden,md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
+      <image name="md_hidden,ghosthidden,md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual, md_kidgame,md_notkidgame,ghostkidgame">
 	  <y>0.974</y>
 	  <size>0.018 0</size>
 	</image>
@@ -1793,7 +1793,7 @@ originally based on: "carbon"
 	</image>
 	
 	<image name="md_kidgame,md_notkidgame,ghostkidgame">
-	  <x>0.94 0.974</x>
+	  <x>0.94</x>
 	  <size>0.0176 0</size>
     </image>
 	
