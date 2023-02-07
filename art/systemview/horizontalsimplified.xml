@@ -49,7 +49,7 @@
 	
 	<image name="logo" ifSubset="logostyle:color">
 	  <linearSmooth>true</linearSmooth>
-	  <saturation>0.5</saturation>
+	  <saturation>0</saturation>
 	  <color>A0A0A0ff</color>
 	  <path>./../Colorlogos/${system.theme}.png</path>
       <path>./../Colorlogos/${system.theme}.svg</path>
