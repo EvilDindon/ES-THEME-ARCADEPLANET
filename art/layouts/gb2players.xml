@@ -6,7 +6,7 @@
   <customView name="detailed,video,gamecarousel,BoxCarousel,Verticarousel">
 
 	<image name="bigtv" extra="true">
-  	  <path>./art/assets/bigtvgb.png</path>
+  	  <path>./../assets/bigtvgb.png</path>
 	</image>
 	
   </customView>   
