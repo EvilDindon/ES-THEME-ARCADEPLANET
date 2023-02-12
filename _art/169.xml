@@ -1049,7 +1049,7 @@
 	  <path>./backgrounds/169/bgverticarousel.jpg</path>
     </image>
 	
-	<image name="bigtv" extra="true">
+	<image name="bigtv">
 	  <pos>0.5 0.4145740740</pos>
 	</image>
 		
