@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<theme>
+
+  <formatVersion>7</formatVersion>
+  		      
+  <view name="grid">
+      		
+	<image name="Chevron droite">
+      <visible>true</visible>
+	  <color>BBBBBB</color>
+	  <pos>0.986 0.5</pos>
+    </image>
+	
+	<image name="Chevron gauche">
+      <visible>true</visible>
+	  <color>BBBBBB</color>
+	  <pos>0.014 0.5</pos>
+    </image>
+	
+    <imagegrid name="gamegrid">
+	  <scrollDirection>horizontal</scrollDirection>
+	</imagegrid>
+	
+	<image name="Chevron Haut, Chevron Bas">
+	  <visible>false</visible>
+	</image>
+	
+   </view>
+  
+  <customView name="BoxCarousel">
+   		
+	<image name="Chevron droite">
+      <pos>0.985 0.584</pos>
+    </image>
+	
+	<image name="Chevron gauche">
+      <pos>0.015 0.584</pos>
+    </image>
+	
+	</customView>
+	
+   <customView name="DoubleBoxCarousel">
+   		
+	<image name="Chevron droite">
+	<size>0.013 0</size>
+      <pos>0.985 0.652</pos>
+    </image>
+	
+	<image name="Chevron gauche">
+		<size>0.013 0</size>
+      <pos>0.015 0.652</pos>
+    </image>
+	
+	</customView>
+	
+  <customView name="NeoBoxes,NeoLogos">
+   		
+	<image name="Chevron droite">
+      <size>0.013 0</size>
+      <pos>0.985 0.9</pos>
+    </image>
+	
+	<image name="Chevron gauche">
+	  <size>0.013 0</size>
+      <pos>0.334 0.9</pos>
+    </image>
+	
+	</customView>
+       
+   <customView name="RetroTiles">
+    		
+    <image name="Chevron droite">
+      <pos>0.676 0.02</pos>
+    </image>
+	
+    <image name="Chevron gauche">
+      <pos>0.016 0.026</pos>
+    </image>
+  		
+  </customView>
+       
+</theme>   

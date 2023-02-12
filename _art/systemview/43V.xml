@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <formatVersion>7</formatVersion>
+   
+  
+<!-- Subset options for Logo Count in System View Vertical -->
+  <subset name="systemviewlogocountV" displayName="${SystemLogoCountV}">
+ 	<include name="7"/>
+	<include name="5"/>
+  </subset>	
+	
+ <view name="system">
+   
+   <image name="logo">
+		 <color>8888A0ff</color>
+	     <linearSmooth>true</linearSmooth>
+	     <path>./../wheelv/${system.theme}.png</path>
+		 <path ifSubset="artworkregion:US">./../wheelv/US/${system.theme}.png</path>
+		 <path ifSubset="neogeostyle:mvs">./../wheelv/special/${system.theme}.png</path>
+		  <storyboard event="activate">
+ 			<animation property="color" from="8888A0ff" to="AAAA00ff" begin="" duration="600" mode="EaseIn" autoreverse="true" repeat="forever"/>
+		 </storyboard>
+	</image>
+
+    <carousel name="systemcarousel">
+      <defaultTransition>instant</defaultTransition>
+	  <type>vertical</type>
+      <pos>0.126 0</pos>
+	  <origin>0.5 0</origin>
+      <size>0.267 0.912</size>
+	  <maxLogoCount>7</maxLogoCount>
+      <maxLogoCount ifSubset="systemviewlogocountV:5">5</maxLogoCount>
+	  <logoScale>1.16</logoScale>
+      <logoSize>0.18333333</logoSize>
+	  <logoAlignment>center</logoAlignment>
+	  <minLogoOpacity>1</minLogoOpacity>
+	  <transitionSpeed>335</transitionSpeed>
+      <scrollSound>./../sounds/scroll3.wav</scrollSound>
+	  <zIndex>38</zIndex>
+    </carousel>
+		
+	<image name="bgvlandscape" extra="static">
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <origin>0 0</origin>
+      <path>./../backgrounds/43/bgvlandscape.png</path>
+      <zIndex>1</zIndex>	  
+    </image>
+	
+	<image name="bgv2" extra="static">
+      <pos>0 0</pos>
+	  <size>1 1</size>
+      <origin>0 0</origin>
+      <path>./../backgrounds/43/bgv2.png</path>
+      <zIndex>5</zIndex>
+	  <storyboard>
+ 			<animation property="color" from="ffffffff" to="88AADDff" begin="" duration="4000" mode="Linear" autoReverse="true" repeat="forever"/>
+	  </storyboard>	  
+    </image>
+		
+	<image name="Sprites" extra="static">
+      <pos>0.62 0.45</pos>
+	  <origin>0.5 0.5</origin>
+      <size>0.6666666 0</size>
+	  <scale>0</scale>
+	  <path>./../sprites/${system.theme}.png</path>
+      <linearSmooth>false</linearSmooth>
+      <color>FFFFFFFF</color>
+	  <zIndex>23</zIndex>
+	  <scale>0</scale>
+	  <storyboard>
+				<animation property="scale" from="0" to="1" begin="620" duration="375" mode="EaseOut"/>
+      </storyboard>
+    </image>
+	
+	<image name="Sprites2" extra="static">
+      <pos>0.62 0.45</pos>
+	  <origin>0.5 0.5</origin>
+      <size>0.6666666 0</size>
+      <path>./../sprites2/${system.theme}.png</path>
+      <linearSmooth>false</linearSmooth>
+	  <scale>0</scale>
+	  <zIndex>22</zIndex>
+	  <storyboard>
+				<animation property="scale" from="0" to="1" begin="1350" duration="335" mode="EaseOut"/>
+      </storyboard>
+    </image>
+	
+	<image name="Sprites3" extra="static">
+      <pos>0.62 0.45</pos>
+	  <origin>0.5 0.5</origin>
+      <size>0.6666666 0</size>
+      <path>./../sprites3/${system.theme}.png</path>
+      <linearSmooth>false</linearSmooth>
+	  <scale>0</scale>
+	  <zIndex>22</zIndex>
+	  <storyboard>
+				<animation property="scale" from="0" to="1" begin="1605" duration="335" mode="EaseOut"/>
+      </storyboard>
+    </image>
+	
+	<image name="Color Logos" extra="static">
+      <pos>0.62 0.48</pos>
+	  <origin>0.5 0.5</origin>
+      <maxSize>0.44533 0.2</maxSize>
+	  <path>./../Colorlogos/default.png</path>
+	  <path>./../Colorlogos/${system.theme}.png</path>
+      <path>./../Colorlogos/${system.theme}.svg</path>
+	  <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
+	  <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
+	  <path ifSubset="neogeostyle:mvs">./../Colorlogos/special/${system.theme}.png</path>
+	  <linearSmooth>true</linearSmooth>
+	  <zIndex>22</zIndex>
+	  <scale>0</scale>
+	  <storyboard>
+		  <animation property="scale" from="0" to="1.5" begin="" duration="300" mode="Linear"/>
+		  <animation property="scale" from="1.5" to="1" begin="620" duration="375" mode="EaseOut"/>
+		  <animation property="y" from="0.48" to="0.11" begin="620" duration="375" mode="EaseOut"/>
+	  </storyboard>
+    </image>
+		
+	<image name="VanishingColorLogos" extra="static">
+      <pos>0.62 0.11</pos>
+	  <origin>0.5 0.5</origin>
+      <maxSize>0.44533 0.2</maxSize>
+	  <path>./../Colorlogos/default.png</path>
+	  <path>./../Colorlogos/${system.theme}.png</path>
+      <path>./../Colorlogos/${system.theme}.svg</path>
+	  <path ifSubset="artworkregion:US">./../Colorlogos/US/default.png</path>
+	  <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
+      <path ifSubset="neogeostyle:mvs">./../Colorlogos/special/${system.theme}.png</path>
+	  <linearSmooth>true</linearSmooth>
+	  <opacity>0</opacity>
+	  <zIndex>21</zIndex>
+	  <storyboard>
+          <animation property="opacity" from="0.75" to="0" begin="995" duration="4000" mode="EaseOut"/>
+		  <animation property="scale" from="1.05" to="1.4" begin="995" duration="4000" mode="EaseOut"/>
+		  <animation property="color" from="FFAAAA" to="FF7777" begin="975" duration="4000" mode="EaseOut"/>
+	  </storyboard>
+    </image>
+	
+	<image name="Controller" extra="static">
+	  <linearSmooth>true</linearSmooth>
+      <pos>0.62 0.8</pos>
+	  <origin>0.5 0.5</origin>
+      <size>0.218666666 0</size>
+	  <path>./../controllers/default.png</path>
+	  <path>./../controllers/${system.theme}.png</path>
+	  <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.png</path>
+	  <path ifSubset="neogeostyle:mvs">./../controllers/special/${system.theme}.png</path>
+      <reflexion>0.0 0.0</reflexion>
+	  <zIndex>41</zIndex>
+	  <storyboard repeat="forever">
+			<animation property="offsetY" from="0" to="-0.06" begin="620" duration="350" mode="EaseOutCubic" autoReverse="true"/>
+            <animation property="offsetY" from="0" to="-0.038" begin="1320" duration="250" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetY" from="0" to="-0.024" begin="1820" duration="140" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetY" from="0" to="-0.009" begin="2100" duration="60" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetY" from="0" to="-0.0025" begin="2220" duration="20" mode="EaseOutCubic" autoReverse="true"/>
+			<animation property="offsetY" from="0" to="0" begin="2260" duration="2500" mode="Linear"/>
+	  </storyboard>	  
+	</image>
+	   		
+	<image name="Chevron Bas" extra="static">
+      <pos>0.127 0.526</pos>
+	  <size>0.015 0</size>
+	  <flipY>true</flipY>
+      <color>606090</color>
+	  <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+			<animation property="offsetY" from="0" to="0" begin="2460" duration="1000" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Chevron Haut" extra="static">
+      <pos>0.127 0.386</pos>
+	  <size>0.015 0</size>
+	  <flipY>false</flipY>
+	  <color>606090</color>
+	  <storyboard repeatAt="1">
+            <animation property="offsetY" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
+	  </storyboard>
+	</image>
+		
+	<text name="systemInfo">
+	  <fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
+	  <fontSize>0.025</fontSize>
+	  <forceUppercase>0</forceUppercase>
+	  <origin>0 0.5</origin>
+	  <alignment>left</alignment>
+      <pos>0.625 0.973</pos>
+	  <size>0.2 0.026</size>
+      <backgroundColor>5522FF00</backgroundColor>
+      <color>bbbbbbdd</color>
+      <glowColor>00000000</glowColor>
+      <glowSize>0.1</glowSize>
+      <reflexion>0.0 0.0</reflexion>
+    </text>
+	
+	<text name="hardwaretype" extra="static">
+	  <fontPath>./../fonts/Bank Gothic Medium.otf</fontPath>
+	  <fontSize>0.028</fontSize>
+	  <text>${system.hardwareType} ${system.releaseYearOrNull} |</text>
+	  <forceUppercase>0</forceUppercase>
+	  <origin>1 0.5</origin>
+	  <alignment>right</alignment>
+      <pos>0.62 0.973</pos>
+	  <size>1 0.27</size>
+      <color>bbbbbbdd</color>
+      <glowColor>00000000</glowColor>
+      <glowSize>0.1</glowSize>
+      <reflexion>0.0 0.0</reflexion>
+      <zIndex>40</zIndex>
+	</text>
+	
+	<image name="Chevron gauche, Chevron droite">
+	  <visible>false</visible>
+	</image>
+		
+  </view>
+  
+  
+<!-- Subsets options for Random Art -->
+  <subset name="randomart" displayName="${RandomArt}">
+		<include name="none" displayName="${none}"/>
+		<include name="marquee" displayName="logos">./animations/43Vlogos.xml</include>
+		<include name="thumbnail" displayName="${boxarts}">./animations/43Vboxarts.xml</include>
+	</subset>
+	
+	<!-- Subset options for Selected logo Color -->
+	<subset name="logocolor" displayName="${LogoColor}">
+		<include name="blue" displayName="${blue}">./colors/blue.xml</include>
+		<include name="white" displayName="${white}">./colors/white.xml</include>
+		<include name="yellow" displayName="${yellow}">./colors/yellow.xml</include>
+		<include name="red" displayName="${red}">./colors/red.xml</include>
+		<include name="purple" displayName="${purple}">./colors/purple.xml</include>
+		<include name="green" displayName="${green}">./colors/green.xml</include>		
+    </subset>
+	
+</theme>

@@ -9,16 +9,13 @@
 		</splash>
 		
 		<image name="background">
-			<path>./art/backgrounds/splash.jpg</path>
-			<opacity>0</opacity>
-			<storyboard>
-				<animation property="opacity" from="0" to="1" begin="0" duration="6000" mode="Linear"/>
-			</storyboard>
+			<path>./_art/backgrounds/169/splash.jpg</path>
+			<path if="{screen.ratio} == '4/3'">./_art/backgrounds/43/splash.jpg</path>
 		</image>
 		
 		<text name="label, Version, Platforms, Loading, Warning, author" extra="true">
 			<origin>0.5 0.5</origin>
-			<fontPath>./art/fonts/ARCADE.TTF</fontPath>
+			<fontPath>./_art/fonts/ARCADE.TTF</fontPath>
 			<fontSize>0.02</fontSize>
 			<color>d2bfa8FF</color>
 			<forceUppercase>true</forceUppercase>
@@ -39,7 +36,7 @@
 			<pos>0.5 0.2</pos>
 			<fontSize>0.016</fontSize>
 			<color>A0A0A0</color>
-			<text>Arcade Planet V0.99</text>			
+			<text>Arcade Planet V0.99.2</text>			
 		</text>
 		
 <!-- 		<text name="Platforms" extra="true">

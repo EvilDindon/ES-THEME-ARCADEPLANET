@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+
+<theme>
+  <formatVersion>7</formatVersion>
+	
+  <view name="system">
+  	 	
+	<image name="randomArt01,randomArt02,randomArt03,randomArt04" extra="true" ifSubset="randomart:marquee|thumbnail">
+			<linearSmooth>true</linearSmooth>
+            <maxSize ifSubset="randomart:thumbnail">0.195 0.3466666</maxSize>
+            <maxSize ifSubset="randomart:marquee">0.20833333 0.26</maxSize>
+			<path ifSubset="randomart:marquee">{random:marquee}</path>
+			<path ifSubset="randomart:thumbnail">{random:thumbnail}</path>
+			<color>E0E0E0</color>
+	</image>
+	
+		<image name="randomArt01">
+		   	<pos>1.10417 0.416</pos>
+			<origin>0.5 1</origin>
+			<reflexion>0.1 0</reflexion>
+			<storyboard autoreverse="true" repeat="forever">
+				<animation property="offsetX" from="0" to="0" begin="" duration="1000" mode="linear"/>
+				<animation property="offsetX" from="0" to="-1.208333" begin="1000" duration="4000" mode="linear"/>
+            </storyboard>
+			<zIndex>5</zIndex>	
+		</image>
+				  	
+		<image name="randomArt02">
+	       	<pos>-0.10417 0.416</pos>
+			<origin>0.5 1</origin>
+			<reflexion>0.1 0</reflexion>
+			<storyboard autoreverse="true" repeat="forever">
+                <animation property="offsetX" from="0" to="0" begin="" duration="1000" mode="linear"/>
+				<animation property="offsetX" from="0" to="1.208333" begin="1000" duration="4000" mode="linear"/>
+			</storyboard>
+			<zIndex>5</zIndex>	
+		</image>
+		
+		<image name="randomArt03">
+		   	<pos>1.10417 0.416</pos>
+			<origin>0.5 1</origin>
+			<reflexion>0.1 0</reflexion>
+			<storyboard autoreverse="true" repeatAt="1">
+				<animation property="offsetX" from="0" to="0" duration="6000" mode="linear"/>
+				<animation property="offsetX" from="0" to="-1.208333" begin="6000" duration="4000" mode="linear"/>
+			</storyboard>
+			<zIndex>5</zIndex>	
+		</image>
+				  	
+		<image name="randomArt04">
+	       	<pos>-0.10417 0.416</pos>
+			<origin>0.5 1</origin>
+			<reflexion>0.1 0</reflexion>
+			<storyboard autoreverse="true" repeatAt="1">
+                <animation property="offsetX" from="0" to="0" duration="6000" mode="linear"/>
+				<animation property="offsetX" from="0" to="1.208333" begin="6000" duration="4000" mode="linear"/>
+            </storyboard>
+			<zIndex>5</zIndex>				
+		</image>
+			    
+  </view>
+    
+</theme>

@@ -1,0 +1,53 @@
+# ES-THEME-ARCADEPLANET
+ Theme for Emulation Station compatible with Batocera >=V30, Emuelec >=4.0 and Retrobat >= 4.0
+ By EvilDindon (Mickaël ISMAN), 2021, based on "Carbon".
+ 
+ V0.99.2 / 02.12.2023
+ 
+ - Added support for 4:3 aspect ratio. Switch is automatic for Batocera V35, and manual for <35
+ - Added 6 custom collections
+ - Few optimizations.
+ 
+ V0.99 / 09.19.2022
+ 
+ - Major graphical update
+ - Added "Horizontal simplified" system view
+ - Added a subset for Random artwork in Vertical system view
+ - Deleted old gamelist views that were obsolete
+ - Simlified Box Carousel view
+ - Added 16 auto-collections
+ - Added 31 custom collections. Your collections must be named after the theme convention in order to display properly
+ - Added more systems - almost full V34 systems
+ - Corrected bugs
+ - Global PNG optimization
+ 
+ 
+	
+ 
+ 
+ 
+ 
+ Features :
+ - 2 System Views (Vertical and Horizontal)
+ - 11 Gamelist Views (using a lot logo art and box art)
+ - 31 custom collections themed
+ - Regional Logos and Artwork (only EU and US for now)
+ - Some custom background music, artwork and animations
+ - 16/9 Only, not compatible with 4/3 or 5/4 for now
+ - Scalable to 4K
+ - Pi4 or more powerfull recommended (light option coming soon)
+ 
+  # ** IMPORTANT **
+
+This theme relies on clean artwork.
+I recommand SCRAPING all your games using screenscraper with the following parametrs :
+
+# IMAGE SOURCE : SCREENSHOT
+
+# BOX SOURCE : BOX 2D
+
+# LOGO SOURCE : WHEEL
+
+These 3 parameters are mandatory. If you put other thing (mix images, etc.) the theme will not look as good as intended.
+https://youtu.be/zvwetGzfFKs
+
