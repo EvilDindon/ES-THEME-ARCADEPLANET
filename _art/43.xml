@@ -1753,7 +1753,7 @@
 	  <visible>true</visible>
 	  <pos>0.1573 0.21</pos>
 	  <origin>0.5 0.5</origin>
-      <maxSize>0.26 0.36</maxSize>
+      <maxSize>0.267 0.36</maxSize>
 	  <reflexion>0 0</reflexion>
 	  <zIndex>17</zIndex>
 	  	  	<storyboard event="activate">
