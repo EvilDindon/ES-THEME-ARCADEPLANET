@@ -234,7 +234,7 @@
 	<datetime name="md_releasedate">
       <color>846e74</color>
 	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
-	  <fontSize>0.032</fontSize>
+	  <fontSize>0.029</fontSize>
 	</datetime>
     
 	<text name="md_description">
@@ -761,7 +761,7 @@
 	</datetime>
 	
 	<text name="md_developer">
-	  <size>0.25 0.03</size>
+	  <size>0.32 0.03</size>
 	  <pos>0.276 0.574</pos>
 	</text>
 	
@@ -771,7 +771,7 @@
 	  <color>928e94D0</color>
 	  <fontSize>0.028</fontSize>
 	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
-	  <size>0.3072916 0.025</size>
+	  <size>0.26 0.025</size>
 	  <alignment>left</alignment>
 	  <pos>0.228 0.59</pos>
 	</text>
@@ -888,7 +888,7 @@
 	<text name="md_developer">
 	  <origin>0 0</origin>
 	  <size>0.4 0.03</size>
-	  <pos>0.058 0.638</pos>
+	  <pos>0.059 0.638</pos>
 	</text>
 	
 	<text name="md_genre">
@@ -980,7 +980,7 @@
 	  <color>AABBBBFF</color>
 	  <fontSize>0.042</fontSize>
       <glowColor>000000FF</glowColor>
-      <glowSize>4</glowSize>
+      <glowSize>2</glowSize>
       <lineSpacing>1.0</lineSpacing>
     </text>
 	
@@ -1113,20 +1113,19 @@
       <logoScale>1.2</logoScale>
       <logoSize>0.8333333333 0.164</logoSize>
       <maxLogoCount>5</maxLogoCount>
-	  <minLogoOpacity>0.8</minLogoOpacity>
-      <imageSource>marquee</imageSource>
+	  <imageSource>marquee</imageSource>
       <zIndex>10</zIndex>
 	  <scrollSound>./sounds/scroll2.wav</scrollSound>
     </gamecarousel>  
 	
 	<text name="md_name">
       <color>DDD000</color>
-	  <pos>0.5 0.063</pos>
+	  <pos>0.5 0.0633</pos>
       <fontPath>./fonts/Saira_SemiCondensed-Bold.ttf</fontPath>  
 	  <size>0.4791666 0.11</size>
-	  <lineSpacing>1.08</lineSpacing>
+	  <lineSpacing>1</lineSpacing>
       <alignment>center</alignment>
-	  <fontSize>0.034</fontSize>
+	  <fontSize>0.029</fontSize>
 	  <origin>0.5 0.5</origin>
 	  <glowColor>000000ff</glowColor>
       <glowSize>3</glowSize>
@@ -1142,7 +1141,6 @@
 	  <alignment>center</alignment>
 	  <size>0.2 0.03</size>
  	  <pos>0.125 0.605</pos>
-	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
 	  <color>D8D8D8</color>
 	</text>
 	
@@ -1151,7 +1149,6 @@
  	  <pos>0.125 0.638</pos>
 	  <origin>0.5 0.5</origin>
 	  <color>A8A8A8</color>
-	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
 	  <size>0.1 0.037</size>
 	</datetime>
 	
@@ -1331,7 +1328,7 @@
 	</datetime>
 	
 	<text name="md_developer">
- 	  <pos>0.052 0.452</pos>
+ 	  <pos>0.055 0.452</pos>
 	  <size>0.48 0.03</size>
 	  <origin>0 0.5</origin>
 	</text>
@@ -1415,8 +1412,8 @@
 	  <scrollDirection >vertical</scrollDirection>
       <autoLayout>7 2</autoLayout>
 	  <autoLayout if="{system.theme} == '3do' || {system.theme} == 'sfc' || {system.theme} == 'satellaview'">8 2</autoLayout>
-	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch'   || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">5 3</autoLayout>
-	  <autoLayout if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' || {system.theme} == 'gba' || {system.theme} == 'gba2players' || {system.theme} == '3ds' || {system.theme} == 'amigacd32' || {system.theme} == 'amigacdtv' || {system.theme} == 'cdi' || {system.theme} == 'dreamcast' || {system.theme} == 'fds' || {system.theme} == 'nds' || {system.theme} == 'neogeocd' || {system.theme} == 'gb2players' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pce-cd' || {system.theme} == 'pcfx' || {system.theme} == 'pokemini' || {system.theme} == 'psx' || {system.theme} == 'sgb'">7 3</autoLayout>
+	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch'   || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">4 2</autoLayout>
+	  <autoLayout if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' || {system.theme} == 'gba' || {system.theme} == 'gba2players' || {system.theme} == '3ds' || {system.theme} == 'amigacd32' || {system.theme} == 'amigacdtv' || {system.theme} == 'cdi' || {system.theme} == 'dreamcast' || {system.theme} == 'fds' || {system.theme} == 'nds' || {system.theme} == 'neogeocd' || {system.theme} == 'gb2players' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pce-cd' || {system.theme} == 'pcfx' || {system.theme} == 'pokemini' || {system.theme} == 'psx' || {system.theme} == 'sgb'">5 2</autoLayout>
 	  <autoLayout if="{system.theme} == 'virtualboy' || {system.theme} == 'gx4000' || {system.theme} == 'supergrafx'">5 2</autoLayout>	  
 	  <imageSource>thumbnail</imageSource>
       <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
@@ -1667,7 +1664,7 @@
 	  <margin>0 0</margin>
       <padding>0.004 0 0.004 0</padding>
       <zIndex>10</zIndex>
-      <autoLayout>4 6</autoLayout>
+      <autoLayout>3 6</autoLayout>
       <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
       <centerSelection>false</centerSelection>
@@ -1757,7 +1754,7 @@
 	  <pos>0.1573 0.21</pos>
 	  <origin>0.5 0.5</origin>
       <maxSize>0.26 0.36</maxSize>
-	  <reflexion>0.08 0</reflexion>
+	  <reflexion>0 0</reflexion>
 	  <zIndex>17</zIndex>
 	  	  	<storyboard event="activate">
                 <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>

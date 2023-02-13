@@ -970,7 +970,8 @@
       <logoSize>0.20833333 0.22222</logoSize>
       <maxLogoCount>11</maxLogoCount>
       <imageSource>marquee</imageSource>
-      <zIndex>10</zIndex>
+      <minLogoOpacity>0.8</minLogoOpacity>
+	  <zIndex>10</zIndex>
 	  <scrollSound>./sounds/scroll2.wav</scrollSound>
     </gamecarousel>    
     
@@ -979,7 +980,7 @@
 	  <color>AABBBBFF</color>
 	  <fontSize>0.042</fontSize>
       <glowColor>000000FF</glowColor>
-      <glowSize>4</glowSize>
+      <glowSize>2</glowSize>
       <lineSpacing>1.0</lineSpacing>
     </text>
 	
@@ -1117,8 +1118,7 @@
       <logoScale>1.2</logoScale>
       <logoSize>0.83333333 0.1527666</logoSize>
       <maxLogoCount>5</maxLogoCount>
-	  <minLogoOpacity>0.8</minLogoOpacity>
-      <imageSource>marquee</imageSource>
+	   <imageSource>marquee</imageSource>
       <zIndex>10</zIndex>
 	  <scrollSound>./sounds/scroll2.wav</scrollSound>
     </gamecarousel>  
@@ -1302,7 +1302,7 @@
       <path ifSubset="artworkregion:US">./Colorlogos/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./Colorlogos/special/${system.theme}.png</path>
       <size>0.1375 0</size>
-	  <color>E8E8E8ff</color>
+	  <color>FFFFFFff</color>
 	  <saturation>0</saturation>
 	  <pos ifSubset="animatedgamelistopenings:no">0.249479 0.602</pos>
 	  <scale ifSubset="animatedgamelistopenings:no">0.676</scale>

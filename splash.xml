@@ -2,6 +2,8 @@
 <theme>
   <formatVersion>7</formatVersion>
   
+  	<include>./theme.xml</include>
+	
 	<view name="splash">
 
 		<splash name="splash">
@@ -10,7 +12,6 @@
 		
 		<image name="background">
 			<path>./_art/backgrounds/169/splash.jpg</path>
-			<path if="{screen.ratio} == '4/3'">./_art/backgrounds/43/splash.jpg</path>
 		</image>
 		
 		<text name="label, Version, Platforms, Loading, Warning, author" extra="true">
