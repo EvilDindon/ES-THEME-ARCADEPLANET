@@ -311,7 +311,7 @@ originally based on: "carbon"
 	
     <text name="logoText">
 		<fontPath>./_art/fonts/SairaCondensed-SemiBold.ttf</fontPath>
-		<color>FFFFFFFA</color>
+		<color>FFFFFF</color>
 		<fontSize>0.044</fontSize>
 	    <forceUppercase>1</forceUppercase>
 		<glowSize>3</glowSize>
