@@ -51,7 +51,7 @@
 		</text> -->
 		
 		<text name="Loading" extra="true">
-			<fontSize>0.046</fontSize>
+			<fontSize>0.04</fontSize>
 			<color>A00000</color>
 			<pos>0.5 0.400</pos>
 			<text>LOADING</text>			

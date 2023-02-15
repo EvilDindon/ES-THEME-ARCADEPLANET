@@ -1710,11 +1710,12 @@
     </rating>
 	
 	<text name="md_name">
-      <pos>0.16666667 0.516</pos>
+      <pos>0.16666667 0.56</pos>
 	  <alignment>center</alignment>
-	  <origin>0.5 0</origin>
-      <size>0.371 0.03</size>
-	  <fontSize>0.03</fontSize>
+	  <origin>0.5 1</origin>
+      <size>0.31 0.08</size>
+	  <lineSpacing>1</lineSpacing>
+	  <fontSize>0.029</fontSize>
     </text>
 	
 	<datetime name="md_releasedate">
