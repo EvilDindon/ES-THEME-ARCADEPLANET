@@ -1710,10 +1710,10 @@
     </rating>
 	
 	<text name="md_name">
-      <pos>0.16666667 0.56</pos>
+      <pos>0.16666667 0.542</pos>
 	  <alignment>center</alignment>
 	  <origin>0.5 1</origin>
-      <size>0.31 0.08</size>
+      <size>0.31 0.052</size>
 	  <lineSpacing>1</lineSpacing>
 	  <fontSize>0.029</fontSize>
     </text>
