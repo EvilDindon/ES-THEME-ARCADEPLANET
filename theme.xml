@@ -601,6 +601,15 @@ originally based on: "carbon"
 		<include if="{screen.ratio} == '3/2'" name="3-2" displayName="3:2" >./_art/43.xml</include>
 		<include if="{screen.ratio} == '5/4'" name="5-4" displayName="5:4" >./_art/43.xml</include>
 	</subset>
+	
+		<subset name="aspect-ratio" if="{screen.ratio} == '0/0'" displayName="${theme.aspect-ratio}">
+		<include if="{screen.ratio} == '16/9'" name="16-9" displayName="16:9 widescreen" >./_art/169.xml</include>
+		<include if="{screen.ratio} == '4/3'" name="4-3" displayName="4:3 standard" >./_art/43.xml</include>
+		<include if="{screen.ratio} == '16/10'" name="16-10" displayName="16:10" >./_art/169.xml</include>
+		<include if="{screen.ratio} == '5/3'" name="5-3" displayName="5:3" />./_art/169.xml
+		<include if="{screen.ratio} == '3/2'" name="3-2" displayName="3:2" >./_art/43.xml</include>
+		<include if="{screen.ratio} == '5/4'" name="5-4" displayName="5:4" >./_art/43.xml</include>
+	</subset>
 
 <!-- Scaling Box Art --> 
    
