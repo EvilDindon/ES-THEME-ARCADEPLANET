@@ -111,12 +111,9 @@ originally based on: "carbon"
 	<black>black</black>
     <black lang="fr">noir</black>
 	
-	<theme.aspect-ratio>aspect ratio detected (auto)</theme.aspect-ratio>
-    <theme.aspect-ratio lang="fr">format d'écran détecté (auto)</theme.aspect-ratio>
-	
-	<theme.aspect-ratio if="{screen.ratio} == '0/0'">Select screen aspect ratio</theme.aspect-ratio>
-	<theme.aspect-ratio if="{screen.ratio} == '0/0'" lang="fr">Choisir le retio d'écran</theme.aspect-ratio>
-	
+	<theme.aspect-ratio>aspect ratio</theme.aspect-ratio>
+    <theme.aspect-ratio lang="fr">format d'écran</theme.aspect-ratio>
+		
 	<minilogosright>Mini Logos on right</minilogosright>
 	<minilogosright lang="fr">Mini Logos à Droite</minilogosright>
 	
