@@ -1818,7 +1818,7 @@
 	<text name="md_description">
       <origin>0 0</origin>
 	  <pos>0.005 0.646</pos>
-	  <size>0.333333 0.27</size>
+	  <size>0.324 0.27</size>
 	  <lineSpacing>1.18</lineSpacing>
 	  <alignment>left</alignment>
    </text>
