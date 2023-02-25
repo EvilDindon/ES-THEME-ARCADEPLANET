@@ -280,6 +280,7 @@ originally based on: "carbon"
       <size>0.085 0.025</size>
       <itemSpacing>0.003</itemSpacing>
       <imagePath>./_art/icons/gamepad.svg</imagePath>
+	  <gunPath>./art/gun.svg</gunPath>
       <color>686068</color>
       <activityColor>A0A0FFC0</activityColor>
       <hotkeyColor>FFA0A0C0</hotkeyColor>
