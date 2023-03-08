@@ -158,7 +158,7 @@
 	  <path>./../controllers/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./../controllers/special/${system.theme}.png</path>
-	  <linearSmooth>false</linearSmooth>
+	  <linearSmooth>true</linearSmooth>
       <zIndex>40</zIndex>
 		<storyboard repeatAt="2">
 			<animation property="opacity" from="1" to="1" begin="335" duration="" mode="Linear"/>
