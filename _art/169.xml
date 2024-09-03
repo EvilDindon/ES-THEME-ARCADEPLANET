@@ -1347,7 +1347,7 @@
 	  <scrollDirection >horizontal</scrollDirection>
       <autoLayout>6 1</autoLayout>
 	  <autoLayout if="{system.theme} == '3do' || {system.theme} == 'sfc' || {system.theme} == 'satellaview'">7 1</autoLayout>
-	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch' || {system.theme} == 'virtualboy' || {system.theme} == 'gx4000' || {system.theme} == 'supergrafx'  || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">5 1</autoLayout>
+	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch' || {system.theme} == 'virtualboy' || {system.theme} == 'gx4000' || {system.theme} == 'supergrafx'  || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">4 1</autoLayout>
 	  <imageSource>thumbnail</imageSource>
       <autoLayoutSelectedZoom>1.035</autoLayoutSelectedZoom>
       <centerSelection>false</centerSelection>
