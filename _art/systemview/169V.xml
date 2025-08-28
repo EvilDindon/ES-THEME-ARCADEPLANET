@@ -44,7 +44,8 @@
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../backgrounds/169/bgvlandscape.png</path>
+      <path>./../backgrounds/169/bgvlandscapeNormal.png</path>
+	  <path ifSubset="randomart:marquee|thumbnail">./../backgrounds/169/bgvlandscapeRandomArt.png</path>
       <zIndex>1</zIndex>	  
     </image>
 	
@@ -69,14 +70,6 @@
       <zIndex>6</zIndex>
     </image>
 	
-	<image name="bgv4" extra="static">
-      <pos>0.62 0.6935185</pos>
-	  <pos ifSubset="randomart:marquee|thumbnail">0.51 0.6935185</pos>
-      <size>1.5625 0.43611111</size>
-      <origin>0.5 0.5</origin>
-      <path>./../backgrounds/169/BGV4.png</path>
-      <zIndex>4</zIndex>
-    </image>
 	
 	<image name="Sprites" extra="static">
       <pos>0.62 0.45</pos>
