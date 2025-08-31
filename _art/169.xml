@@ -1928,8 +1928,8 @@
 	
 	<image name="gridtile.marquee">
       <color>A5A5A5ff</color>
-      <pos>0.5 0.075</pos>
-      <origin>0.5 1</origin>
+      <pos>0.5 -0.15</pos>
+      <origin>0.5 0.5</origin>
       <size>0.7 0.4</size>
     </image>
 	
