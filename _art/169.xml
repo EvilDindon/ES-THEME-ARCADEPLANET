@@ -1833,30 +1833,31 @@
 	    <path>./backgrounds/169/bgretrotiles.jpg</path>
     </image>
 	
-	<image name="background2" extra="true">
-      <path>./backgrounds/169/bgretrotiles2.png</path>
-	  <zIndex>16</zIndex>
-	</image>
-	
 	<image name="Chevron Haut">
-      <color>FFFFFF</color>
-	  <pos>0.7 0.4</pos>
+      <size>0.017 0</size>
+	  <pos>0.986 0.02</pos>
     </image>
 	
-	<image name="Chevron Bas">
-      <color>FFFFFF</color>
-	  <pos>0.7 0.6</pos>
-    </image>
+	<image name="logo">
+	 <pos ifSubset="animatedgamelistopenings:no">0.1546875 0.87</pos>
+	 <maxSize>0.12 0.076</maxSize>
+	 <storyboard ifSubset="animatedgamelistopenings:yes">
+		<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
+		<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.08" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.042" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</image>
 	
     <image name="md_thumbnail">
 	  <visible>true</visible>
-	  <pos>0.8427 0.321</pos>
+	  <pos>0.1546875 0.015</pos>
 	  <origin>0.5 0</origin>
-      <maxSize>0.26 0.44</maxSize>
-	  <reflexion>0.28 0</reflexion>
+      <maxSize>0.27 0.38</maxSize>
+	  <reflexion>0 0</reflexion>
 	  <zIndex>17</zIndex>
 	  	  	<storyboard event="activate">
-                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
+                <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
                 <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 			</storyboard>
 			<storyboard event="deactivate">
@@ -1865,56 +1866,32 @@
 	</image>
 		
    	<rating name="md_rating">
-      <pos>0.818 0.808</pos>
+      <pos>0.128 0.47037</pos>
       <size>0.03 0.03</size>
-	  	  	<storyboard event="activate">
-                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-			</storyboard>
     </rating>
 	
 	<text name="md_name">
-      <color>FFFFFFff</color>
-      <pos>0.8427 0.292</pos>
-      <size>0.296 0.10</size>
-	  <fontSize>0.042</fontSize>
-	  <glowSize>3</glowSize>
-	  <glowColor>000000ff</glowColor>
-	  <storyboard event="activate">
-                <animation property="opacity" from="0" to="1" duration="1200" mode="Linear"/>
-		</storyboard>
-		<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-		</storyboard>
+      <pos>0.1546875 0.455</pos>
+	  <alignment>center</alignment>
+	  <origin>0.5 1</origin>
+      <size>0.31 0.052</size>
+	  <lineSpacing>1</lineSpacing>
+	  <fontSize>0.029</fontSize>
     </text>
 	
 	<text name="md_developer">
-      <pos>0.8427 0.779</pos>
-      <size>0.3 0.12</size>
-	  <origin>0.5 0.5</origin>
-      <alignment>center</alignment>
-      <fontSize>0.029</fontSize>
-	  	  	<storyboard event="activate">
-                <animation property="offsetX" from="0.3" to="0" duration="850" mode="EaseOutQuint"/>
-                <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
-			</storyboard>
-			<storyboard event="deactivate">
-                <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
-			</storyboard>
-    </text>
+      <visible>false</visible>
+	</text>
 	
 	<text name="md_description">
-	  <pos>0.846 0.128</pos>
-	  <size>0.31 0.264</size>    
+	  <pos>0.1546875 0.657</pos>
+	  <size>0.305 0.335</size>    
 	  <alignment>left</alignment>
     </text>
 	
 	<imagegrid name="gamegrid">
 	  <padding>0 0.08 0 0</padding>
-      <pos>0 0.01</pos>
+      <pos>0.309375 0.00</pos>
       <size>0.69 0.91</size>
 	  <scrollDirection>vertical</scrollDirection>
       <autoLayout>4 3</autoLayout>
@@ -1951,7 +1928,7 @@
 	
 	<image name="gridtile.marquee">
       <color>A5A5A5ff</color>
-      <pos>0.5 0</pos>
+      <pos>0.5 0.075</pos>
       <origin>0.5 1</origin>
       <size>0.7 0.4</size>
     </image>
