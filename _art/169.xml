@@ -237,13 +237,13 @@
     </text>
 	
 	<image name="md_kidgame,md_notkidgame,ghostkidgame">
-	  <pos>0.94 0.974</pos>
+	  <pos>0.94 0.896</pos>
 	  <size>0.0176 0</size>
     </image>
 	
 	<image name="md_hidden,ghosthidden">
 	  <size>0.018 0</size>
-	  <pos>0.98 0.974</pos>
+	  <pos>0.98 0.896</pos>
     </image>
 	
   </customView>
@@ -453,16 +453,16 @@
 	  <zIndex>15</zIndex>
 	</textlist>
 	  
- <textlist name="gamelist" ifSubset="selectorstyle:bar">
+    <textlist name="gamelist" ifSubset="selectorstyle:bar">
 	 <pos>0.4921875 0.5333333</pos>
-     <size>0.43177 0.77</size>
+     <size>0.43177 0.711</size>
 	 <horizontalMargin>0.005</horizontalMargin>
 	 <selectorImagePath>./assets/bar.png</selectorImagePath>
 	</textlist>
  	
 	<textlist name="gamelist" ifSubset="selectorstyle:none">
 	  <pos>0.4921875 0.5333333</pos>
-      <size>0.43177 0.77</size>
+      <size>0.43177 0.711</size>
 	  <horizontalMargin>0.005</horizontalMargin>
 	 <selectorColor>00000000</selectorColor>
 	 <selectorColorEnd>00000000</selectorColorEnd>
@@ -629,7 +629,12 @@
 			<storyboard event="deactivate">
 			    <animation property="scale" from="1" to="0" duration="500" mode="Linear"/>
 			</storyboard>
-	</image>	  
+	</image>	
+
+	<textlist name="gamelist">
+	 <pos>0.498958 0.5333333</pos>
+     <size>0.4234 0.711</size>
+	</textlist>	
 	
 	<text name="md_developer">
 	  <origin>0 0.5</origin>
@@ -646,9 +651,9 @@
 	
 	<text name="md_description">
       <origin>0.5 0.5</origin>
-	  <pos>0.244 0.885</pos>
+	  <pos>0.24948 0.885</pos>
 	  <size>0.48 0.10185185</size>
-	  <alignment>right</alignment>
+	  <alignment>left</alignment>
     </text>
 	
 	<rating name="md_rating">

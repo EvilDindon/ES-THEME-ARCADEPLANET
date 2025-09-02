@@ -266,8 +266,8 @@ originally based on: "carbon"
 	<text name="clock">
       <color>786078</color>
 	  <fontPath>./_art/fonts/SairaCondensed-Light.ttf</fontPath>
-      <fontSize>0.034</fontSize>
-      <pos>0.0064 0.98</pos>
+      <fontSize>0.033</fontSize>
+      <pos>0.0064 0.983</pos>
 	  <origin>0 0.5</origin>
       <size>0.09 0.058</size>
       <alignment>left</alignment>
@@ -275,7 +275,7 @@ originally based on: "carbon"
     </text>
     
 	<controllerActivity name="controllerActivity">
-      <pos>0.075 0.968</pos>
+      <pos>0.075 0.97</pos>
 	  <origin>0 0.5</origin>
       <size>0.085 0.025</size>
       <itemSpacing>0.003</itemSpacing>
