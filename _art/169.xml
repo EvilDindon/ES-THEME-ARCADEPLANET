@@ -411,11 +411,11 @@
       <path ifSubset="artworkregion:US">./wheelv/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./wheelv/special/${system.theme}.png</path>	  
 	 <size>0.164 0</size>
-	 <pos ifSubset="animatedgamelistopenings:no">0.7203125 0.06574074074</pos>
+	 <pos ifSubset="animatedgamelistopenings:no">0.70833 0.06574074074</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.7203125" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.70833" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.06574074074" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
@@ -454,15 +454,15 @@
 	</textlist>
 	  
  <textlist name="gamelist" ifSubset="selectorstyle:bar">
-	 <pos>0.5 0.5333333</pos>
-     <size>0.42291666 0.77</size>
+	 <pos>0.4921875 0.5333333</pos>
+     <size>0.43177 0.77</size>
 	 <horizontalMargin>0.005</horizontalMargin>
 	 <selectorImagePath>./assets/bar.png</selectorImagePath>
 	</textlist>
  	
 	<textlist name="gamelist" ifSubset="selectorstyle:none">
-	  <pos>0.5 0.5333333</pos>
-      <size>0.42291666 0.77</size>
+	  <pos>0.4921875 0.5333333</pos>
+      <size>0.43177 0.77</size>
 	  <horizontalMargin>0.005</horizontalMargin>
 	 <selectorColor>00000000</selectorColor>
 	 <selectorColorEnd>00000000</selectorColorEnd>
@@ -492,7 +492,7 @@
 	  <pos>0.244 0.36</pos>
 	  <origin>0.5 0.5</origin>
       <maxSize>0.36 0.61</maxSize>
-	  <reflexion>0.05 0</reflexion>
+	  <reflexion>0 0</reflexion>
 	  <storyboard event="activate">
                 <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
                 <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
@@ -530,7 +530,7 @@
 	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
 	  <size>0.22 0.03</size>
 	  <alignment>right</alignment>
-	  <pos>0.48 0.734</pos>
+	  <pos>0.4865 0.734</pos>
 	</text>
 		
 	<datetime name="md_releasedate">
@@ -542,8 +542,8 @@
 	
 	<text name="md_description">
       <origin>0.5 0</origin>
-	  <pos>0.244 0.776</pos>
-	  <size>0.48 0.161</size>
+	  <pos>0.246 0.776</pos>
+	  <size>0.483 0.161</size>
 	  <alignment>left</alignment>
     </text>
 	
