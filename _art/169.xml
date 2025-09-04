@@ -697,11 +697,11 @@
       <path ifSubset="artworkregion:US">./wheelv/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./wheelv/special/${system.theme}.png</path>	  
 	 <size>0.164 0</size>
-	 <pos ifSubset="animatedgamelistopenings:no">0.6567 0.06574074074</pos>
+	 <pos ifSubset="animatedgamelistopenings:no">0.65 0.06574074074</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.6567" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.65" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.06574074074" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
@@ -733,8 +733,8 @@
 	</image>	  
 	
 	<textlist name="gamelist">
-	  <pos>0.389 0.5333333</pos>
-	  <size>0.534 0.77</size>
+	  <pos>0.375 0.5333333</pos>
+	  <size>0.55 0.77</size>
 	  <fontSize>0.038</fontSize>
 	  <horizontalMargin>0.005</horizontalMargin>
 	  <selectorImagePath>./assets/bar.png</selectorImagePath>
