@@ -297,7 +297,7 @@ originally based on: "carbon"
 	</sound>
 	
 	<helpsystem name="help">
-	  <pos>0.01 0.942</pos>
+	  <pos>0.01 0.939</pos>
 	  <size>1 0.01</size>
 	  <origin>0 0.5</origin>
 	  <fontPath>./_art/fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
