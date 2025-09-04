@@ -825,11 +825,11 @@
       <path ifSubset="artworkregion:US">./wheelv/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./wheelv/special/${system.theme}.png</path>	  
 	 <size>0.164 0</size>
-	 <pos ifSubset="animatedgamelistopenings:no">0.7359375 0.06574074074</pos>
+	 <pos ifSubset="animatedgamelistopenings:no">0.7286458 0.06574074074</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.7359375" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.7286458" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.06574074074" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
@@ -857,8 +857,8 @@
 	</image>	  
 	
 	<textlist name="gamelist">
-	  <pos>0.546875 0.5333333</pos>
-	  <size>0.378125 0.77</size>
+	  <pos>0.53229 0.5333333</pos>
+	  <size>0.392708 0.77</size>
 	  <lines>15</lines>
 	  <fontSize>0.03</fontSize>
 	</textlist>
@@ -890,13 +890,15 @@
     </rating>
 	
 	<datetime name="md_releasedate">
-	  <pos>0.228 0.646</pos>
+	  <pos>0.222 0.6365</pos>
+	  <origin>0 0</origin>
 	  <size>0.04 0.037</size>
 	</datetime>
 	
 	<text name="md_developer">
 	  <size>0.25 0.03</size>
-	  <pos>0.274 0.646</pos>
+	  <origin>0 0</origin>
+	  <pos>0.27 0.64</pos>
 	</text>
 	
 	<text name="md_genre">
