@@ -470,12 +470,12 @@
 	
 	<image name="Chevron Bas">
 	  <scale>0.76</scale>
-      <pos>0.7203 0.92</pos>
+      <pos>0.7203 0.908</pos>
 	</image>	
 	
 	<image name="Chevron Haut">
 	  <scale>0.76</scale>
-	  <pos>0.7203 0.148</pos>
+	  <pos>0.7203 0.163</pos>
 	</image>
 	
   </view>
