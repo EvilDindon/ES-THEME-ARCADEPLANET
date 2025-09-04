@@ -1289,13 +1289,13 @@
 	<image name="Chevron droite">
 		<visible>true</visible>
 		<color>BBBBBB</color>
-      <pos>0.985 0.9</pos>
+      <pos>0.9135 0.78888</pos>
     </image>
 	
 	<image name="Chevron gauche">
 		<visible>true</visible>
 		<color>BBBBBB</color>
-      <pos>0.938 0.9</pos>
+      <pos>0.01146 0.78888</pos>
     </image>
 			
 	<image name="Chevron Haut, Chevron Bas">
