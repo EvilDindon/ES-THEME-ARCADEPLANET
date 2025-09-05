@@ -1035,7 +1035,7 @@
       <origin>0.5 0.5</origin>
 	  <pos>0.244 0.835185185</pos>
 	  <size>0.48 0.2</size>
-	  <alignment>right</alignment>
+	  <alignment>left</alignment>
    </text>
    	
 	<text name="md_genre">
