@@ -369,8 +369,9 @@
 	  <glowColor>000000aa</glowColor>
 	  <glowSize>1.5</glowSize>
 	  <glowOffset>1.5 1.5</glowOffset>
-	  <lines>11</lines>
+	  <lines>13</lines>
       <alignment>center</alignment>
+	  <selectorOffsetY>-0.0018</selectorOffsetY>
 	</textlist>
 	
 	<textlist name="gamelist" ifSubset="selectorstyle:none">
@@ -734,10 +735,11 @@
 	
 	<textlist name="gamelist">
 	  <pos>0.375 0.5333333</pos>
-	  <size>0.55 0.77</size>
-	  <fontSize>0.038</fontSize>
+	  <size>0.55 0.74</size>
+	  <fontSize>0.031</fontSize>
 	  <horizontalMargin>0.005</horizontalMargin>
 	  <selectorImagePath>./assets/bar.png</selectorImagePath>
+	  <lines>15</lines>
 	</textlist>
    
 	<image name="Chevron Bas">
@@ -858,7 +860,7 @@
 	
 	<textlist name="gamelist">
 	  <pos>0.53229 0.5333333</pos>
-	  <size>0.392708 0.77</size>
+	  <size>0.392708 0.75</size>
 	  <lines>15</lines>
 	  <fontSize>0.03</fontSize>
 	</textlist>
@@ -1266,7 +1268,7 @@
    <customView name="BoxCarousel">
         
 		<helpsystem name="help">
-			<pos>0.01 0.954</pos>
+			<pos>0.01 0.952</pos>
 		</helpsystem>
 	
 	<image name="background">
