@@ -441,11 +441,11 @@
       <secondaryColor>7a6161</secondaryColor>
 	  <scrollSound>./sounds/scroll.wav</scrollSound>
 	  <origin>0 0.5</origin>
-	  <lines>13</lines>
+	  <lines>15</lines>
 	  <selectorOffsetY>-0.0018</selectorOffsetY>
 	  <alignment ifSubset="gamelistalignment:left">left</alignment>
 	  <alignment ifSubset="gamelistalignment:center">center</alignment>
-	  <fontSize>0.034</fontSize>
+	  <fontSize>0.03</fontSize>
 	  <fontPath>./fonts/Saira_SemiCondensed-Medium.ttf</fontPath>
 	  <forceUppercase>1</forceUppercase>
 	  <glowColor>000000aa</glowColor>
@@ -995,12 +995,12 @@
 	
 	<text name="md_name">
       <color>DDD000</color>
-	  <pos>0.25 0.0556</pos>
+	  <pos>0.25 0.053</pos>
       <fontPath>./fonts/Saira_SemiCondensed-Bold.ttf</fontPath>  
 	  <size>0.4791666 0.11</size>
 	  <lineSpacing>1</lineSpacing>
       <alignment>center</alignment>
-	  <fontSize>0.047</fontSize>
+	  <fontSize>0.042</fontSize>
 	  <origin>0.5 0.5</origin>
 	  <glowColor>000000ff</glowColor>
       <glowSize>3</glowSize>
@@ -1134,12 +1134,12 @@
 	
 	<text name="md_name">
       <color>DDD000</color>
-	  <pos>0.5 0.0561</pos>
+	  <pos>0.5 0.054</pos>
       <fontPath>./fonts/Saira_SemiCondensed-Bold.ttf</fontPath>  
 	  <size>0.4791666 0.11</size>
 	  <lineSpacing>1.1</lineSpacing>
       <alignment>center</alignment>
-	  <fontSize>0.047</fontSize>
+	  <fontSize>0.04</fontSize>
 	  <origin>0.5 0.5</origin>
 	  <glowColor>000000ff</glowColor>
       <glowSize>3</glowSize>
@@ -1388,13 +1388,13 @@
 	
 	<text name="md_name">
       <color>DDD000</color>
-	  <pos>0.664 0.04</pos>
-	  <origin>0 1</origin>
+	  <pos>0.708 0.04</pos>
+	  <origin>0 0</origin>
       <fontPath>./fonts/Saira_SemiCondensed-SemiBold.ttf</fontPath>  
-	  <size>0.31978 0.1</size>
+	  <size>0.41 0.06</size>
 	  <lineSpacing>1.1</lineSpacing>
       <alignment>left</alignment>
-	  <fontSize>0.033</fontSize>
+	  <fontSize>0.03</fontSize>
 	  <origin>0.5 0.5</origin>
 	  <glowColor>000000ff</glowColor>
       <glowSize>3</glowSize>
@@ -1860,9 +1860,9 @@
 	
     <image name="md_thumbnail">
 	  <visible>true</visible>
-	  <pos>0.1546875 0.015</pos>
-	  <origin>0.5 0</origin>
-      <maxSize>0.27 0.38</maxSize>
+	  <pos>0.1546875 0.206</pos>
+	  <origin>0.5 0.5</origin>
+      <maxSize>0.26 0.37</maxSize>
 	  <reflexion>0 0</reflexion>
 	  <zIndex>17</zIndex>
 	  	  	<storyboard event="activate">
@@ -1883,9 +1883,9 @@
       <pos>0.1546875 0.455</pos>
 	  <alignment>center</alignment>
 	  <origin>0.5 1</origin>
-      <size>0.31 0.052</size>
+      <size>0.3 0.052</size>
 	  <lineSpacing>1</lineSpacing>
-	  <fontSize>0.029</fontSize>
+	  <fontSize>0.0285</fontSize>
     </text>
 	
 	<text name="md_developer">
