@@ -214,7 +214,7 @@
 	  <forceUppercase>0</forceUppercase>
 	  <origin>0 0.5</origin>
 	  <alignment>left</alignment>
-      <pos>0.505 0.904</pos>
+      <pos>0.505 0.976</pos>
       <size>0.2 0.026</size>
       <backgroundColor>5522FF00</backgroundColor>
       <color>bbbbbbdd</color>
@@ -230,7 +230,7 @@
 	  <forceUppercase>0</forceUppercase>
 	  <origin>1 0.5</origin>
 	  <alignment>right</alignment>
-      <pos>0.5 0.904</pos>
+      <pos>0.5 0.976</pos>
       <size>1 0.27</size>
       <color>bbbbbbdd</color>
       <glowColor>00000000</glowColor>
