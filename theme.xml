@@ -187,7 +187,7 @@ originally based on: "carbon"
     <menuText name="menutitle">
       <fontPath>./_art/fonts/SairaCondensed-Bold.ttf</fontPath>
       <fontSize>0.046</fontSize>
-      <color>767296</color>
+      <color>FFFFFF</color>
     </menuText>
 	
     <menuText name="menufooter">
@@ -217,7 +217,7 @@ originally based on: "carbon"
     <menuGroup name="menugroup">
       <fontPath>./_art/fonts/SairaCondensed-Medium.ttf</fontPath>
       <fontSize>0.036</fontSize>
-      <color>767296</color>
+      <color>FFFFFF</color>
       <separatorColor>BD4747</separatorColor>    
       <backgroundColor>70202020</backgroundColor>
       <lineSpacing>2.5</lineSpacing>
