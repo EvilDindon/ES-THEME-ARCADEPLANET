@@ -15,14 +15,12 @@
       <zIndex>0</zIndex>
       <storyboard repeat="forever">
             <animation property="x" from="1" to="0" begin="" duration="80000" mode="Linear" autoReverse="true"/>
-			<animation property="y" from="0.2" to="-0.07" begin="" duration="80000" mode="Linear" autoReverse="true"/>
+			<animation property="y" from="0.2" to="0.1" begin="" duration="80000" mode="Linear" autoReverse="true"/>
 	  </storyboard>	  	  
     </image>
 	
   </view>
 
-
-	
   <!-- Subset options for System View -->
   <subset name="systemview" displayName="${SystemViewStyle}">
 	<include name="horizontal">./systemview/11H.xml</include>
@@ -577,7 +575,7 @@
 	
 	<video name="md_video">
 	  <pos>0.249479 0.4</pos>
-	  <maxSize>0.375 0.375</maxSize>
+	  <maxSize>0.45 0.29</maxSize>
 	</video>
 		
 	<image name="md_thumbnail">
@@ -586,8 +584,8 @@
 	
 	<image name="md_marquee">
 	  <linearSmooth>true</linearSmooth>
-	  <maxSize>0.385 0.254</maxSize>
-	  <pos>0.25 0.116</pos>
+	  <maxSize>0.42 0.212</maxSize>
+	  <pos>0.25 0.112</pos>
 	  <origin>0.5 0.5</origin>
 	  <zIndex>42</zIndex>
 	  	  	
@@ -1866,7 +1864,7 @@
   <!-- Subset For Scrolling Direction in Grids-->
   <subset name="scrolldirection" displayName="${ScrollDirection}" appliesTo="grid,NeoBoxes,NeoLogos,DoubleBoxCarousel,RetroTiles">
     <include name="vertical"></include>
-	<include name="horizontal">./43scrollH.xml</include>
+	<include name="horizontal">./11scrollH.xml</include>
   </subset>
   
 </theme>   
