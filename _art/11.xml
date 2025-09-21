@@ -1418,6 +1418,7 @@
 	<image name="logo">
 	 <pos ifSubset="animatedgamelistopenings:no">0.1573 0.87</pos>
 	 <origin>0.5 0.5</origin>
+	 <maxSize>0.1946666 0.084</maxSize>
 	 <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
