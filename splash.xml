@@ -12,6 +12,7 @@
 		
 		<image name="background">
 			<path>./_art/backgrounds/169/splash.jpg</path>
+			<path if="${screen.ratio} == '1/1'">./_art/11.xml</path>
 		</image>
 		
 		<text name="label, Version, Platforms, Loading, Warning, author" extra="true">
@@ -37,7 +38,7 @@
 			<pos>0.5 0.438</pos>
 			<fontSize>0.016</fontSize>
 			<color>A0A0A0</color>
-			<text>Arcade Planet V0.99.2</text>			
+			<text>Arcade Planet V0.99.5</text>			
 		</text>
 		
 <!-- 		<text name="Platforms" extra="true">
