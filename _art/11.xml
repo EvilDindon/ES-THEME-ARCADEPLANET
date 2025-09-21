@@ -1416,13 +1416,13 @@
 	</image>
 
 	<image name="logo">
-	 <pos ifSubset="animatedgamelistopenings:no">0.1573 0.9</pos>
-	 <origin>0.5 1</origin>
+	 <pos ifSubset="animatedgamelistopenings:no">0.1573 0.87</pos>
+	 <origin>0.5 0.5</origin>
 	 <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
 		<animation property="x" from="0.5" to="0.07" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.9" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.87" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
 	
@@ -1440,7 +1440,7 @@
 	  <visible>true</visible>
 	  <pos>0.1573 0.21</pos>
 	  <origin>0.5 0.5</origin>
-      <maxSize>0.267 0.36</maxSize>
+      <maxSize>0.284 0.34</maxSize>
 	  <reflexion>0 0</reflexion>
 	  <zIndex>17</zIndex>
 	  	  	<storyboard event="activate">
@@ -1453,7 +1453,7 @@
 	</image>
 		
    	<rating name="md_rating">
-      <pos>0.12 0.41</pos>
+      <pos>0.0961 0.411</pos>
       <size>0.03 0.03</size>
 	  	  	<storyboard event="activate">
                <animation property="opacity" from="0" to="1" duration="1200" mode="Linear"/>
@@ -1482,6 +1482,8 @@
 	
 	<text name="md_developer">
       <pos>0.1573 0.491</pos>
+	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
+	  <color>999999</color>
       <size>0.3 0.12</size>
 	  <origin>0.5 0.5</origin>
       <alignment>center</alignment>
@@ -1495,12 +1497,12 @@
     </text>
 	
 	<text name="md_description">
-	  <pos>0.154 0.51</pos>
+	  <pos>0.16 0.514</pos>
 	  <origin>0.5 0</origin>
 	  <size>0.31 0.3</size>
 	  <opacity>0.76</opacity>
       <lineSpacing>1.21</lineSpacing>	  
-	  <alignment>right</alignment>
+	  <alignment>center</alignment>
     </text>
 	
 	<imagegrid name="gamegrid">
@@ -1508,7 +1510,7 @@
       <pos>0.31 0</pos>
       <size>0.69 0.914</size>
 	  <scrollDirection>vertical</scrollDirection>
-      <autoLayout>3 3</autoLayout>
+      <autoLayout>2 3</autoLayout>
       <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
 	  <imageSource>image</imageSource>
 	  <margin>0 0.045</margin>
@@ -1542,7 +1544,7 @@
 	
 	<image name="gridtile.marquee">
       <color>FFFFFFff</color>
-	  <saturation>0.1</saturation>
+	  <saturation>1</saturation>
       <pos>0.5 0.08</pos>
       <origin>0.5 1</origin>
       <size>0.7 0.4</size>
