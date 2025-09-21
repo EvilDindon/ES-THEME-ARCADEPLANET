@@ -220,7 +220,7 @@
 	
   </view>
   
-  	 <!-- COMMON ELEMENTS TO DETAILED, VIDEO, GAMECAROUSEL, NEO DETAILED 1 & 2, and BOX CAROUSEL -->
+  	 <!-- COMMON ELEMENTS TO DETAILED, VIDEO, GAMECAROUSEL, NEO DETAILED, and BOX CAROUSEL -->
   
   <customView name="BoxCarousel" displayName="${boxcarousel}" inherits="grid">
   </customView>
@@ -1058,13 +1058,13 @@
 	
 	<video name="md_video">
 	  <visible>true</visible>
-	  <pos>0.25 0.232</pos>
-	  <maxSize>0.43125 0.38175</maxSize>
+	  <pos>0.25 0.256</pos>
+	  <maxSize>0.45 0.29</maxSize>
 	</video>
 	
 	<image name="bigtv" extra="true">
-	  <origin>0 0</origin>
-	  <pos>0 0</pos>
+	  <origin>0 0.5</origin>
+	  <pos>0 0.256</pos>
 	</image>
 	
 	<image name="Chevron droite">
@@ -1105,16 +1105,16 @@
 		<linearSmooth>true</linearSmooth>
 		<color>FFFFFF</color>
 		<origin>0.5 1</origin>
-		<maxSize>0.246666 0.2346666</maxSize>
+		<maxSize>0.3288 0.31288</maxSize>
 		<pos>0.75 0.46759</pos>
 		<reflexion>0.38 0.08</reflexion>
 		<storyboard event="open">
-                <animation property="offsetX" from="0.33" to="0.33" duration="1000" mode="Linear"/>
-				<animation property="offsetX" from="0.33" to="0" begin="1000" duration="250" mode="EaseOut"/>
+                <animation property="offsetX" from="0.45" to="0.4" duration="1000" mode="Linear"/>
+				<animation property="offsetX" from="0.45" to="0" begin="1000" duration="250" mode="EaseOut"/>
 			</storyboard>
 			
 			<storyboard event="activate">
-                <animation property="offsetX" from="0.33" to="0" duration="250" mode="EaseOut"/>
+                <animation property="offsetX" from="0.45" to="0" duration="250" mode="EaseOut"/>
 				<animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
 			</storyboard>
 			
@@ -1131,9 +1131,9 @@
 	  <margin>0.03 0</margin>
       <size>1 0.32</size>
 	  <scrollDirection >horizontal</scrollDirection>
-      <autoLayout>5 1</autoLayout>
+      <autoLayout>4 1</autoLayout>
 	  <autoLayout if="{system.theme} == '3do' || {system.theme} == 'sfc' || {system.theme} == 'satellaview'">6 1</autoLayout>
-	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch' || {system.theme} == 'virtualboy' || {system.theme} == 'gx4000' || {system.theme} == 'supergrafx'  || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">4 1</autoLayout>
+	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch' || {system.theme} == 'virtualboy' || {system.theme} == 'gx4000' || {system.theme} == 'supergrafx'  || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">3 1</autoLayout>
 	  <imageSource>thumbnail</imageSource>
       <autoLayoutSelectedZoom>1.035</autoLayoutSelectedZoom>
       <centerSelection>false</centerSelection>
@@ -1165,13 +1165,13 @@
 	
 	<text name="md_name">
       <color>DDD000</color>
-	  <pos>0.678 0.04</pos>
-	  <origin>0 1</origin>
+	  <pos>0.25 0.04</pos>
+	  <origin>0.5 0.5</origin>
       <fontPath>./fonts/Saira_SemiCondensed-SemiBold.ttf</fontPath>  
-	  <size>0.35 0.1</size>
+	  <size>0.48 0.06</size>
 	  <lineSpacing>1.1</lineSpacing>
-      <alignment>left</alignment>
-	  <fontSize>0.029</fontSize>
+      <alignment>center</alignment>
+	  <fontSize>0.028</fontSize>
 	  <origin>0.5 0.5</origin>
 	  <glowColor>000000ff</glowColor>
       <glowSize>3</glowSize>
@@ -1183,38 +1183,27 @@
 			
 	<datetime name="md_releasedate">
 	  <pos>0.005 0.452</pos>
-	  <size>0.044 0.037</size>
+	  <size>0.052 0.037</size>
 	  <alignment>left</alignment>
       <origin>0 0.5</origin>
 	</datetime>
 	
 	<text name="md_developer">
- 	  <pos>0.055 0.452</pos>
+ 	  <pos>0.064 0.452</pos>
 	  <size>0.48 0.03</size>
 	  <origin>0 0.5</origin>
 	</text>
-			
-	<text name="md_genre">
-   	  <pos>0.504 0.2955</pos>
-	  <color>928e94D0</color>
-	  <origin>0 0.5</origin>
-	  <alignment>left</alignment>
-	  <size>0.401041666 0.03</size>
-	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
-	  <fontSize>0.028</fontSize>
-	  <glowColor>00000016</glowColor>
-      <glowSize>2</glowSize>
-	</text>
 	
 	<rating name="md_rating">
-      <size>0.029</size>
-	  <pos>0.906 0.053</pos>
+      <size>0.026</size>
+	  <pos>0.198 0.417</pos>
+	  <opacity>0.8</opacity>
      </rating>	
 	
 	<text name="md_description">
-      <origin>0 0.5</origin>
-	  <pos>0.504 0.174</pos>
-	  <size>0.5 0.196</size>
+      <origin>0 0</origin>
+	  <pos>0.508 0.007</pos>
+	  <size>0.482 0.281</size>
 	  <lineSpacing>1.116</lineSpacing>
 	  <alignment>left</alignment>
     </text>
