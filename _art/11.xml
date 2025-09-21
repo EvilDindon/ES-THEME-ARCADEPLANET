@@ -886,17 +886,21 @@
     </image>
 	
 	<image name="bigtv" extra="true">
-	  <pos>0.5 0.338</pos>
+	  <pos>0.5 0.393</pos>
 	</image>
+	
+	<video name="md_video">
+	  <pos>0.5 0.393</pos>
+	</video>
 		
 	<image name="logo">
       <path>./wheelv/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./wheelv/US/${system.theme}.png</path>
       <path ifSubset="neogeostyle:mvs">./wheelv/special/${system.theme}.png</path>
-	  <size>0.1833333 0</size>
+	  <size>0.244444 0</size>
 	  <color>C8C8C8</color>
 	  <origin>0.5 0</origin>
-	  <pos ifSubset="animatedgamelistopenings:no">0.125 0.015</pos>
+	  <pos ifSubset="animatedgamelistopenings:no">0.125 0.826</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
 		<animation property="x" from="0.5" to="0.125" begin="620" duration="175" mode="Linear"/>
@@ -904,35 +908,12 @@
 	  </storyboard>
 	</image>
 	
-	<image name="Controller" extra="true">
-			<visible>true</visible>
-			<color>E8E8E8</color>
-			<pos>0.125 0.92</pos>
-			<origin>0.5 1</origin>
-			<size>0.183333 0</size>	       	
-			<path>./controllers/default.png</path>
-     		<path>./controllers/${system.theme}.png</path>
-      		<path ifSubset="artworkregion:US">./controllers/default.png</path>
-     		<path ifSubset="artworkregion:US">./controllers/${system.theme}.png</path>
-	 	    <path ifSubset="artworkregion:US">./controllers/US/${system.theme}.png</path>
-			<path ifSubset="neogeostyle:mvs">./controllers/special/${system.theme}.png</path>
-	  <storyboard>
-	    <animation property="offsetX" from="-0.3" to="-0.3" begin="" duration="1000" mode="Linear"/>
-		<animation property="offsetX" from="-0.3" to="0" begin="1000" duration="250" mode="Linear"/>
-	  </storyboard>
-	<zIndex>101</zIndex>
-	</image>
-	
-	<video name="md_video">
-	  <pos>0.5 0.333</pos>
-	</video>
-	
 	<image name="md_thumbnail">
 	  <visible>true</visible>
-	  <pos>0.125 0.572</pos>
-	  <origin>0.5 1</origin>
-      <maxSize>0.238 0.36</maxSize>
-	  <reflexion>0.1 0</reflexion>
+	  <pos>0.5 0.744</pos>
+	  <origin>0.5 0.5</origin>
+      <maxSize>0.35 0.326</maxSize>
+	  <reflexion>0 0</reflexion>
 		  	<storyboard event="activate">
                 <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
                 <animation property="opacity" from="1" to="1" duration="" mode="Linear"/>
@@ -959,12 +940,12 @@
 	
 	<text name="md_name">
       <color>DDD000</color>
-	  <pos>0.5 0.0633</pos>
+	  <pos>0.5 0.105</pos>
       <fontPath>./fonts/Saira_SemiCondensed-Bold.ttf</fontPath>  
-	  <size>0.4791666 0.11</size>
+	  <size>0.484 0.3</size>
 	  <lineSpacing>1</lineSpacing>
       <alignment>center</alignment>
-	  <fontSize>0.029</fontSize>
+	  <fontSize>0.035</fontSize>
 	  <origin>0.5 0.5</origin>
 	  <glowColor>000000ff</glowColor>
       <glowSize>3</glowSize>
@@ -976,36 +957,36 @@
 	</text>
 	
 	<text name="md_developer">
-	  <origin>0.5 0.5</origin>
-	  <alignment>center</alignment>
-	  <size>0.2 0.03</size>
- 	  <pos>0.125 0.605</pos>
+	  <origin>0 0.5</origin>
+	  <alignment>left</alignment>
+	  <size>0.3 0.03</size>
+ 	  <pos>0.34 0.202</pos>
 	  <color>D8D8D8</color>
 	</text>
 	
 	<datetime name="md_releasedate">
-	  <alignment>center</alignment>
- 	  <pos>0.125 0.638</pos>
-	  <origin>0.5 0.5</origin>
+	  <alignment>left</alignment>
+ 	  <pos>0.28 0.202</pos>
+	  <origin>0 0.5</origin>
 	  <color>A8A8A8</color>
 	  <size>0.1 0.037</size>
 	</datetime>
 	
 	<rating name="md_rating">
-      <pos>0.5 0.552</pos>
+      <pos>0.48 0.5545</pos>
       <size>0.08 0.025</size>
 	  <origin>0.5 0.5</origin>
       <color>BBBB99</color>
       <unfilledColor>808080</unfilledColor>
-	  <zIndex>41</zIndex>	  
+	  <zIndex>101</zIndex>	  
     </rating>	
 	
 	<text name="md_description">
-      <origin>0.5 0.5</origin>
-	  <pos>0.5 0.576</pos>
-	  <origin>0.5 0</origin>
-	  <size>0.48 0.338</size>
-	  <alignment>center</alignment>
+      <origin>0 0</origin>
+	  <pos>0.008 0.005</pos>
+	  <origin>0 0</origin>
+	  <size>0.232 0.816</size>
+	  <alignment>left</alignment>
    </text>
 	
 	<image name="Chevron Bas">

@@ -1044,6 +1044,10 @@
 	<image name="bigtv" extra="true">
 	  <pos>0.5 0.338</pos>
 	</image>
+	
+	<video name="md_video">
+	  <pos>0.5 0.333</pos>
+	</video>
 		
 	<image name="logo">
       <path>./wheelv/${system.theme}.png</path>
@@ -1078,10 +1082,6 @@
 	  </storyboard>
 	<zIndex>101</zIndex>
 	</image>
-	
-	<video name="md_video">
-	  <pos>0.5 0.333</pos>
-	</video>
 	
 	<image name="md_thumbnail">
 	  <visible>true</visible>
