@@ -1441,7 +1441,7 @@
 	  <visible>true</visible>
 	  <pos>0.1573 0.21</pos>
 	  <origin>0.5 0.5</origin>
-      <maxSize>0.284 0.34</maxSize>
+      <maxSize>0.31 0.34</maxSize>
 	  <reflexion>0 0</reflexion>
 	  <zIndex>17</zIndex>
 	  	  	<storyboard event="activate">
