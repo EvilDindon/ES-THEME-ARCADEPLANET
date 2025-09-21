@@ -165,8 +165,8 @@
 	</image>
 	
 	<image name="Chevron droite">
-		<pos>0.58902625 0.8944444259</pos>
-		<size>0.015 0</size>
+		<pos>0.59902625 0.8944444259</pos>
+		<size>0.017777777 0</size>
 		<rotation>90</rotation>
 		<storyboard repeat="forever">
             <animation property="offsetX" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
@@ -175,8 +175,8 @@
 	</image>
 	
 	<image name="Chevron gauche">
-      <pos>0.4109375 0.8944444259</pos>
-	  <size>0.015 0</size>
+      <pos>0.4009375 0.8944444259</pos>
+	  <size>0.0177777 0</size>
 	  <rotation>-90</rotation>
       <storyboard repeatAt="1">
             <animation property="offsetX" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
