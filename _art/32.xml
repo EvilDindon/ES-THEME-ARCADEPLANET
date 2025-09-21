@@ -160,7 +160,7 @@
 	  
 	<image name="md_hidden,md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
 	  <visible>true</visible>
-	  <x>0.961979166</x>
+	  <x>0.954320987</x>
 	  <size>0.031 0</size>
 	</image>
 	
@@ -411,12 +411,12 @@
     <path>./wheelv/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./wheelv/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./wheelv/special/${system.theme}.png</path>	  
-	 <size>0.164 0</size>
-	 <pos ifSubset="animatedgamelistopenings:no">0.70833 0.06574074074</pos>
+	 <size>0.19437 0</size>
+	 <pos ifSubset="animatedgamelistopenings:no">0.6993827 0.06574074074</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.70833" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.6993827" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.06574074074" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
@@ -455,15 +455,15 @@
 	</textlist>
 	  
     <textlist name="gamelist" ifSubset="selectorstyle:bar">
-	 <pos>0.4921875 0.5333333</pos>
-     <size>0.43177 0.711</size>
+	 <pos>0.490123 0.5333333</pos>
+     <size>0.4185185 0.711</size>
 	 <horizontalMargin>0.005</horizontalMargin>
 	 <selectorImagePath>./assets/bar.png</selectorImagePath>
 	</textlist>
  	
 	<textlist name="gamelist" ifSubset="selectorstyle:none">
-	  <pos>0.4921875 0.5333333</pos>
-      <size>0.43177 0.711</size>
+	  <pos>0.490123 0.5333333</pos>
+      <size>0.4185185 0.711</size>
 	  <horizontalMargin>0.005</horizontalMargin>
 	 <selectorColor>00000000</selectorColor>
 	 <selectorColorEnd>00000000</selectorColorEnd>
@@ -471,12 +471,12 @@
 	
 	<image name="Chevron Bas">
 	  <scale>0.76</scale>
-      <pos>0.7203 0.908</pos>
+      <pos>0.6993827 0.908</pos>
 	</image>	
 	
 	<image name="Chevron Haut">
 	  <scale>0.76</scale>
-	  <pos>0.7203 0.163</pos>
+	  <pos>0.6993827 0.163</pos>
 	</image>
 	
   </view>
@@ -580,14 +580,19 @@
 		  <storyboard>
 			<animation property="opacity" from="0" to="1" begin="" duration="4000" mode="Linear" autoReverse="true" repeat="forever"/>
 		</storyboard>
+	</image>
+
+	<image name="logo, Chevron Bas, Chevron Haut">
+		<x>0.704</x>
 	</image>	
 	
 	<image name="bigtv">
-	  <pos>0.249479 0.521296296</pos>
+	  <pos>0.25 0.476</pos>
 	</image>
 	
 	<video name="md_video">
-	  <pos>0.249479 0.521296296</pos>
+	  <pos>0.25 0.466</pos>
+	  <maxSize>0.371875 0.438888</maxSize>
 	</video>
 		
 	<image name="Controller" extra="true">
@@ -612,8 +617,8 @@
 	
 	<image name="md_marquee">
 	  <linearSmooth>true</linearSmooth>
-	  <maxSize>0.3 0.22685185</maxSize>
-	  <pos>0.329 0.116</pos>
+	  <maxSize>0.32 0.21</maxSize>
+	  <pos>0.336 0.112</pos>
 	  <origin>0.5 0.5</origin>
 	  <zIndex>42</zIndex>
 	  	  	
@@ -633,32 +638,32 @@
 	</image>	
 
 	<textlist name="gamelist">
-	 <pos>0.498958 0.5333333</pos>
-     <size>0.4234 0.711</size>
+	 <pos>0.5 0.5333333</pos>
+     <size>0.408024 0.711</size>
 	</textlist>	
 	
 	<text name="md_developer">
 	  <origin>0 0.5</origin>
 	  <size>0.401041666 0.03</size>
-	  <pos>0.082 0.809</pos>
+	  <pos>0.082 0.7166666</pos>
 	</text>
 		
 	<datetime name="md_releasedate">
 	  <alignment>right</alignment>
-	  <pos>0.018 0.809</pos>
+	  <pos>0.018 0.71666666</pos>
 	  <origin>0 0.5</origin>
 	  <size>0.055 0.037</size>
 	</datetime>
 	
 	<text name="md_description">
-      <origin>0.5 0.5</origin>
-	  <pos>0.24948 0.885</pos>
-	  <size>0.48 0.10185185</size>
+      <origin>0 0</origin>
+	  <pos>0.005 0.744</pos>
+	  <size>0.49 0.186</size>
 	  <alignment>left</alignment>
     </text>
 	
 	<rating name="md_rating">
-      <pos>0.444 0.809</pos>
+      <pos>0.25 0.2333333</pos>
       <size>0.08 0.025</size>
 	  <origin>0.5 0.5</origin>
       <color>E0A020</color>
