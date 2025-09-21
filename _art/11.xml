@@ -1184,12 +1184,10 @@
 	  <margin>0 0</margin>
       <padding>0.004 0 0.004 0</padding>
       <zIndex>10</zIndex>
-      <autoLayout>4 3</autoLayout>
-	  <autoLayout if="{system.theme} == '3do' || {system.theme} == 'sfc' || {system.theme} == 'satellaview'">5 3</autoLayout>
-	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch'   || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">3 4</autoLayout>
-	  <autoLayout if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' || {system.theme} == 'gba' || {system.theme} == 'gba2players' || {system.theme} == '3ds' || {system.theme} == 'amigacd32' || {system.theme} == 'amigacdtv' || {system.theme} == 'cdi' || {system.theme} == 'dreamcast' || {system.theme} == 'fds' || {system.theme} == 'nds' || {system.theme} == 'neogeocd' || {system.theme} == 'gb2players' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pce-cd' || {system.theme} == 'pcfx' || {system.theme} == 'pokemini' || {system.theme} == 'psx' || {system.theme} == 'sgb'">4 4</autoLayout>
-	  <autoLayout tinyscreen="true" if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' || {system.theme} == 'gba' || {system.theme} == 'gba2players' || {system.theme} == '3ds' || {system.theme} == 'amigacd32' || {system.theme} == 'amigacdtv' || {system.theme} == 'cdi' || {system.theme} == 'dreamcast' || {system.theme} == 'fds' || {system.theme} == 'nds' || {system.theme} == 'neogeocd' || {system.theme} == 'gb2players' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pce-cd' || {system.theme} == 'pcfx' || {system.theme} == 'pokemini' || {system.theme} == 'psx' || {system.theme} == 'sgb'">3 3</autoLayout>
-	  <autoLayout if="{system.theme} == 'virtualboy' || {system.theme} == 'gx4000' || {system.theme} == 'supergrafx'">3 4</autoLayout>	  
+      <autoLayout>3 3</autoLayout>
+	  <autoLayout if="{system.theme} == '3do' || {system.theme} == 'sfc' || {system.theme} == 'satellaview'">4 3</autoLayout>
+	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch'   || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">2 4</autoLayout>
+	  <autoLayout if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' || {system.theme} == 'gba' || {system.theme} == 'gba2players' || {system.theme} == '3ds' || {system.theme} == 'amigacd32' || {system.theme} == 'amigacdtv' || {system.theme} == 'cdi' || {system.theme} == 'dreamcast' || {system.theme} == 'fds' || {system.theme} == 'nds' || {system.theme} == 'neogeocd' || {system.theme} == 'gb2players' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pce-cd' || {system.theme} == 'pcfx' || {system.theme} == 'pokemini' || {system.theme} == 'psx' || {system.theme} == 'sgb'">3 4</autoLayout>
       <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
       <centerSelection>false</centerSelection>
@@ -1311,35 +1309,35 @@
 
 	<video name="md_video">
 	  <visible>true</visible>
-	  <maxSize>0.5 0.65</maxSize>
-	  <origin>0 0</origin>
-	  <pos>-0.02 -0.02</pos>
+	  <origin>0.5 0.5</origin>
+	  <maxSize>0.5 1</maxSize>
+	  <pos>0.18 0.19</pos>
 	  <opacity>0.78</opacity>
 	  <zIndex>2</zIndex>
 	</video>
 
 	<image name="Chevron Bas">
-      <size>0.015 0</size>
+      <size>0.02 0</size>
 	  <pos>0.992 0.9</pos>
     </image>
 	
 	<image name="Chevron Haut">
-      <size>0.015 0</size>
+      <size>0.02 0</size>
 	  <pos>0.992 0.015</pos>
     </image>
    	
 	<image name="logo">
-	 <pos ifSubset="animatedgamelistopenings:no">0.07 0.042</pos>
+	 <pos ifSubset="animatedgamelistopenings:no">0.16759 0.88</pos>
 	 <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.07" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.042" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.16759" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.88" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
 
   <rating name="md_rating">
-      <pos>0.151 0.5</pos>
+      <pos>0.137 0.47</pos>
       <size>0.08 0.03</size>
 	  <origin>0.5 0.5</origin>
       <color>DDC800</color>
@@ -1356,19 +1354,19 @@
     </rating>
 	
 	<text name="md_name">
-      <pos>0.16666667 0.5</pos>
+      <pos>0.16759 0.452</pos>
 	  <alignment>center</alignment>
 	  <origin>0.5 1</origin>
-      <size>0.333 0.08</size>
+      <size>0.33 0.08</size>
 	  <lineSpacing>1.1</lineSpacing>
-	  <fontSize>0.0258</fontSize>
+	  <fontSize>0.025</fontSize>
     </text>
 	
 	<datetime name="md_releasedate">
 	  <alignment>left</alignment>
-	  <pos>0.01 0.516</pos>
+	  <pos>0.01 0.479</pos>
 	  <origin>0 0</origin>
-	  <size>0.044 0.037</size>
+	  <size>0.051 0.037</size>
 	  <fontSize>0.0262</fontSize>
 	  <color>C8C8C8</color>
 	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
@@ -1377,7 +1375,7 @@
 	<text name="md_developer">
 	  <origin>0 0</origin>
 	  <size>0.33 0.03</size>
-	  <pos>0.054 0.52</pos>
+	  <pos>0.0579 0.483</pos>
 	  <color>A8A8A8</color>
 	  <fontSize>0.0258</fontSize>
 	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
@@ -1391,13 +1389,13 @@
 	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
 	  <size>0.37 0.03</size>
 	  <alignment>left</alignment>
-	  <pos>0.01 0.55</pos>
+	  <pos>0.01 0.51</pos>
 	</text>
 
 	<text name="md_description">
       <origin>0 0</origin>
-	  <pos>0.005 0.588</pos>
-	  <size>0.328 0.322</size>
+	  <pos>0.005 0.543</pos>
+	  <size>0.328 0.296</size>
 	  <lineSpacing>1.2</lineSpacing>
 	  <alignment>left</alignment>
    </text>
