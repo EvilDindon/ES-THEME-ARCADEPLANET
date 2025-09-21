@@ -823,20 +823,6 @@
 		<visible>false</visible>
 	</image>
 	
-	<image name="logo">
-    <path>./wheelv/${system.theme}.png</path>
-      <path ifSubset="artworkregion:US">./wheelv/US/${system.theme}.png</path>
-	  <path ifSubset="neogeostyle:mvs">./wheelv/special/${system.theme}.png</path>	  
-	 <size>0.1833333 0</size>
-	 <pos ifSubset="animatedgamelistopenings:no">0.75 0.06574074074</pos>
-	  <storyboard ifSubset="animatedgamelistopenings:yes">
-		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
-		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.75" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.06574074074" begin="620" duration="175" mode="Linear"/>
-	  </storyboard>
-	</image>
-
 	<image name="md_marquee">
 	  <maxSize>0.2 0.3</maxSize>
 	  <pos>0.25 0.596</pos>
@@ -860,15 +846,7 @@
 			    <animation property="opacity" from="0" to="0" duration="" mode="Linear"/>
 			</storyboard>
 	</image>	  
-	
-	<textlist name="gamelist">
-	  <pos>0.5 0.148</pos>
-	  <origin>0 0</origin>
-	  <size>0.5 0.75</size>
-	  <horizontalMargin>0.005</horizontalMargin>
-	  <selectorImagePath>./assets/bar.png</selectorImagePath>
-	</textlist>
-   
+
 	<image name="Chevron Bas">
       <pos>0.752 0.904</pos>
 	</image>	
