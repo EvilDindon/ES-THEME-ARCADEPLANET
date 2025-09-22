@@ -617,7 +617,7 @@
 	
 	<image name="md_marquee">
 	  <linearSmooth>true</linearSmooth>
-	  <maxSize>0.32 0.21</maxSize>
+	  <maxSize>0.3333 0.216</maxSize>
 	  <pos>0.336 0.112</pos>
 	  <origin>0.5 0.5</origin>
 	  <zIndex>42</zIndex>
