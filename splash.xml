@@ -12,7 +12,7 @@
 		
 		<image name="background">
 			<path>./_art/backgrounds/169/splash.jpg</path>
-			<path if="${screen.ratio} == '1/1'">./_art/11.xml</path>
+			<path if="${screen.ratio} == '1/1'">./_art/backgrounds/11/splash.jpg</path>
 		</image>
 		
 		<text name="label, Version, Platforms, Loading, Warning, author" extra="true">
