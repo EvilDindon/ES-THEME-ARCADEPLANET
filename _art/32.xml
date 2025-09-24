@@ -257,33 +257,19 @@
 			<fontSize>0.038</fontSize>
 		</helpsystem>
 		
-    <text name="logoText">
-      <size>0.98 0.126</size>
-	  <fontPath>./fonts/SairaCondensed-Bold.ttf</fontPath>
-	  <forceUppercase>1</forceUppercase>
-      <fontSize>0.1</fontSize>
-      <color>FFFFFF</color>
-	</text>
-	
-    <image name="logo">
-      <maxSize>0.25 0.18</maxSize>
-	  <y ifSubset="animatedgamelistopenings:no">0.1</y>
-	  <storyboard ifSubset="animatedgamelistopenings:yes">
-		<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
-		<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.1" begin="620" duration="175" mode="Linear"/>
-	  </storyboard>
-	</image>
-	
-	<image name="Sprites L,Sprites R">
+		<image name="logo">
+		<visible>false</visible>
+		</image>
+		
+    <image name="Sprites L,Sprites R">
 	  <linearSmooth>true</linearSmooth>
       <origin>0.5 0.5</origin>
-      <maxSize>0.28 0.28</maxSize>
+      <maxSize>0.3 0.3</maxSize>
       <zIndex>102</zIndex>
     </image>
 
 	<image name="Sprites L" extra="true">
-		<pos>0.3 0.14</pos>
+		<pos>0.18 0.65</pos>
 	    <path>./sprites2/${system.theme}.png</path>
 			<storyboard ifSubset="animatedgamelistopenings:yes">
 				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="2800" mode="EaseOutQuint"/>
@@ -291,7 +277,7 @@
      </image>
 	
 	<image name="Sprites R" extra="true">
-			<pos>0.7 0.14</pos>
+			<pos>0.82 0.65</pos>
 		    <path>./sprites3/${system.theme}.png</path>
 			<storyboard ifSubset="animatedgamelistopenings:yes">
 				<animation property="offsetX" from="0.326" to="0" begin="0" duration="2800" mode="EaseOutQuint"/>
@@ -307,7 +293,7 @@
 	</image>
 	
 	<image name="Chevron Haut">
-      <pos>0.5 0.245</pos>
+      <pos>0.5 0.02</pos>
 	</image>
 		
 	<image name="md_favorite">
@@ -328,14 +314,14 @@
     </image>
 
 	<image name="Controller+logo 1" extra="true">
-			<pos>0.874 0.55</pos>
+			<pos>0.89814 0.3</pos>
 			<storyboard ifSubset="animatedgamelistopenings:yes">
 				<animation property="offsetX" from="0.326" to="0" begin="" duration="1400" mode="EaseOutQuint"/>
 			</storyboard>	
      </image>
 	
 	<image name="Controller+logo 2" extra="true">
-			<pos>0.126 0.55</pos>
+			<pos>0.10185 0.3</pos>
 			<storyboard ifSubset="animatedgamelistopenings:yes">
 				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
 			</storyboard>	
@@ -361,15 +347,16 @@
 	  <primaryColor ifSubset="textlistcolor:purple">766976</primaryColor>
 	  <primaryColor ifSubset="textlistcolor:blue">727277</primaryColor>
       <secondaryColor>7a6161</secondaryColor>
-	  <fontSize>0.034</fontSize>
+	  <fontSize>0.032</fontSize>
 	  <fontPath>./fonts/Saira_SemiCondensed-Medium.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
-	  <pos>0.25 0.263</pos>
-      <size>0.5 0.62</size>
+	  <pos>0.5 0.033</pos>
+      <size>0.5864 0.85</size>
 	  <glowColor>000000aa</glowColor>
 	  <glowSize>1.5</glowSize>
 	  <glowOffset>1.5 1.5</glowOffset>
-	  <lines>13</lines>
+	  <lines>17</lines>
+	  <origin>0.5 0</origin>
       <alignment>center</alignment>
 	  <selectorOffsetY>-0.0018</selectorOffsetY>
 	</textlist>
@@ -389,16 +376,17 @@
       <secondaryColor>7a6161</secondaryColor>
 	  <scrollSound>./sounds/scroll.wav</scrollSound>
 	  <secondaryColor>7a6161</secondaryColor>
-	  <fontSize>0.034</fontSize>
+	  <fontSize>0.032</fontSize>
 	  <fontPath>./fonts/Saira_SemiCondensed-Medium.ttf</fontPath>
       <forceUppercase>1</forceUppercase>
-	  <pos>0.25 0.263</pos>
-      <size>0.5 0.62</size>
+	  <pos>0.5 0.033</pos>
+      <size>0.5864 0.85</size>
 	  <glowColor>000000aa</glowColor>
 	  <glowSize>1.5</glowSize>
 	  <glowOffset>1.5 1.5</glowOffset>
 	  <lines>11</lines>
       <alignment>center</alignment>
+	  <origin>0.5 0</origin>
 	</textlist>
 		
 </view>
