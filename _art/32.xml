@@ -492,7 +492,7 @@
 	<image name="md_thumbnail">
 	  <pos>0.244 0.36</pos>
 	  <origin>0.5 0.5</origin>
-      <maxSize>0.36 0.61</maxSize>
+      <maxSize>0.432 0.61</maxSize>
 	  <reflexion>0 0</reflexion>
 	  <storyboard event="activate">
                 <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
