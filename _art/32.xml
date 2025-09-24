@@ -243,7 +243,7 @@
 	
 	<image name="md_hidden,ghosthidden">
 	  <size>0.018 0</size>
-	  <pos>0.98 0.896</pos>
+	  <pos>0.973 0.896</pos>
     </image>
 	
   </customView>
@@ -937,7 +937,8 @@
 	</image>
 
 	<video name="md_video">
-	  <pos>0.249479 0.4145740740</pos>
+	  <pos>0.25 0.41</pos>
+	  <maxSize>0.38 0.45</maxSize>
 	</video>
 	
 	<image name="bigtv">
@@ -958,12 +959,12 @@
       <path>./wheel/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./wheel/US/${system.theme}.png</path>
       <path ifSubset="neogeostyle:mvs">./wheel/special/${system.theme}.png</path>
-	  <size>0.1375 0</size>
-	  <pos ifSubset="animatedgamelistopenings:no">0.84 0.467592592</pos>
+	  <size>0.15 0</size>
+	  <pos ifSubset="animatedgamelistopenings:no">0.822 0.467592592</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.84" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.822" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.467592592" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
@@ -975,18 +976,19 @@
 	<gamecarousel name="gamecarousel">
       <type>vertical_wheel</type>
 	  <logoAlignment>center</logoAlignment>
-	  <logoRotationOrigin>3.6 0.5</logoRotationOrigin>
+	  <logoRotationOrigin>4 0.75</logoRotationOrigin>
 	  <logoRotation>12</logoRotation>
 	  <origin>0.5 0.5</origin>
-      <pos>0.612 0.47</pos>
-      <size>0.5 0.93</size>
-      <logoScale>2</logoScale>
-      <logoSize>0.20833333 0.22222</logoSize>
-      <maxLogoCount>11</maxLogoCount>
+      <pos>0.612 0.46</pos>
+      <size>0.5 0.948</size>
+      <logoScale>1.84</logoScale>
+      <logoSize>0.24 0.256</logoSize>
+      <maxLogoCount>10</maxLogoCount>
       <imageSource>marquee</imageSource>
       <minLogoOpacity>0.8</minLogoOpacity>
 	  <zIndex>10</zIndex>
 	  <scrollSound>./sounds/scroll2.wav</scrollSound>
+	  <scaledLogoSpacing>0.5</scaledLogoSpacing>
     </gamecarousel>    
     
 	<text name="gamecarouselLogoText">
@@ -1000,12 +1002,12 @@
 	
 	<text name="md_name">
       <color>DDD000</color>
-	  <pos>0.25 0.053</pos>
+	  <pos>0.25 0.0576</pos>
       <fontPath>./fonts/Saira_SemiCondensed-Bold.ttf</fontPath>  
-	  <size>0.4791666 0.11</size>
+	  <size>0.48148 0.11</size>
 	  <lineSpacing>1</lineSpacing>
       <alignment>center</alignment>
-	  <fontSize>0.042</fontSize>
+	  <fontSize>0.04</fontSize>
 	  <origin>0.5 0.5</origin>
 	  <glowColor>000000ff</glowColor>
       <glowSize>3</glowSize>
@@ -1019,19 +1021,20 @@
 	<text name="md_developer">
 	  <origin>0 0.5</origin>
 	  <size>0.401041666 0.03</size>
- 	  <pos>0.082 0.703703</pos>
+ 	  <pos>0.082 0.12</pos>
 	</text>
 		
 	<datetime name="md_releasedate">
 	  <alignment>right</alignment>
- 	  <pos>0.018 0.703703</pos>
+ 	  <pos>0.018 0.12</pos>
 	  <origin>0 0.5</origin>
 	  <size>0.055 0.037</size>
+	  <color>AAAAAA</color>
 	</datetime>
 	
 	<rating name="md_rating">
-      <pos>0.444 0.703703</pos>
-      <size>0.08 0.025</size>
+      <pos>0.24 0.655</pos>
+      <size>0.084 0.029</size>
 	  <origin>0.5 0.5</origin>
       <color>E0A020</color>
       <unfilledColor>808080</unfilledColor>
@@ -1039,10 +1042,10 @@
     </rating>	
 	
 	<text name="md_description">
-      <origin>0.5 0.5</origin>
-	  <pos>0.244 0.835185185</pos>
-	  <size>0.48 0.2</size>
-	  <alignment>left</alignment>
+      <origin>0.5 0</origin>
+	  <pos>0.244 0.679629</pos>
+	  <size>0.48 0.2555</size>
+	  <alignment>center</alignment>
    </text>
    	
 	<text name="md_genre">
