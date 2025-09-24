@@ -580,7 +580,7 @@
 	
 	<video name="md_video">
 	  <pos>0.25 0.466</pos>
-	  <maxSize>0.371875 0.438888</maxSize>
+	  <maxSize>0.8 0.438888</maxSize>
 	</video>
 		
 	<image name="Controller" extra="true">
@@ -1096,6 +1096,7 @@
 	<video name="md_video">
 	  <visible>true</visible>
 	  <pos>0.5 0.4145740740</pos>
+	  <maxSize>0.38 0.438888</maxSize>
 	</video>
 	
 	<image name="md_thumbnail">
@@ -1278,18 +1279,19 @@
 	
 	<video name="md_video">
 	  <visible>true</visible>
-	  <pos>0.249479 0.31</pos>
+	  <pos>0.249479 0.26</pos>
+	  <maxSize>0.38 0.438888</maxSize>
 	</video>
 	
 	<image name="bigtv" extra="true">
 	  <origin>0.5 0.5</origin>
-	  <pos>.249479 0.312</pos>
+	  <pos>0.25 0.262</pos>
 	</image>
 	
 	<image name="Chevron droite">
 		<visible>true</visible>
 		<color>BBBBBB</color>
-      <pos>0.9135 0.78888</pos>
+      <pos>0.9 0.78888</pos>
     </image>
 	
 	<image name="Chevron gauche">
@@ -1306,16 +1308,16 @@
       <path>./Colorlogos/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./Colorlogos/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./Colorlogos/special/${system.theme}.png</path>
-      <size>0.1375 0</size>
+      <size>0.19 0</size>
 	  <color>FFFFFFff</color>
 	  <saturation>0</saturation>
-	  <pos ifSubset="animatedgamelistopenings:no">0.249479 0.602</pos>
+	  <pos ifSubset="animatedgamelistopenings:no">0.25 0.577</pos>
 	  <scale ifSubset="animatedgamelistopenings:no">0.676</scale>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 	 	<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="0.676" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.249479" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.602" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.25" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.577" begin="620" duration="175" mode="Linear"/>
 	   </storyboard>
 	</image>
 	
@@ -1348,10 +1350,10 @@
       <pos>0 0.625</pos>
 	  <padding>0.028 0.01 0.028 0.01</padding>
 	  <margin>0.03 0</margin>
-      <size>0.925 0.32</size>
+      <size>0.91 0.32</size>
 	  <scrollDirection >horizontal</scrollDirection>
-      <autoLayout>6 1</autoLayout>
-	  <autoLayout if="{system.theme} == '3do' || {system.theme} == 'sfc' || {system.theme} == 'satellaview'">7 1</autoLayout>
+      <autoLayout>5 1</autoLayout>
+	  <autoLayout if="{system.theme} == '3do' || {system.theme} == 'sfc' || {system.theme} == 'satellaview'">6 1</autoLayout>
 	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch' || {system.theme} == 'virtualboy' || {system.theme} == 'gx4000' || {system.theme} == 'supergrafx'  || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">4 1</autoLayout>
 	  <imageSource>thumbnail</imageSource>
       <autoLayoutSelectedZoom>1.035</autoLayoutSelectedZoom>
@@ -1401,39 +1403,27 @@
 	</text>
 			
 	<datetime name="md_releasedate">
-	  <pos>0.504 0.2955</pos>
+	  <pos>0.507 0.2955</pos>
 	  <size>0.042 0.037</size>
 	  <alignment>left</alignment>
       <origin>0 0.5</origin>
 	</datetime>
 	
 	<text name="md_developer">
- 	  <pos>0.540 0.2955</pos>
+ 	  <pos>0.546 0.2955</pos>
 	  <size>0.27604 0.03</size>
 	  <origin>0 0.5</origin>
 	</text>
 			
-	<text name="md_genre">
-   	  <pos>0.92 0.2955</pos>
-	  <color>928e94D0</color>
-	  <origin>1 0.5</origin>
-	  <alignment>right</alignment>
-	  <size>0.401041666 0.03</size>
-	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
-	  <fontSize>0.028</fontSize>
-	  <glowColor>00000016</glowColor>
-      <glowSize>2</glowSize>
-	</text>
-	
 	<rating name="md_rating">
       <size>0.029</size>
-	  <pos>0.854 0.053</pos>
+	  <pos>0.22 0.503</pos>
      </rating>	
 	
 	<text name="md_description">
       <origin>0 0.5</origin>
-	  <pos>0.504 0.174</pos>
-	  <size>0.422 0.196</size>
+	  <pos>0.509 0.176</pos>
+	  <size>0.395 0.196</size>
 	  <lineSpacing>1.116</lineSpacing>
 	  <alignment>left</alignment>
     </text>
