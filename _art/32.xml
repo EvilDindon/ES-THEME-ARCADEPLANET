@@ -59,10 +59,10 @@
 	  <margin>0.024 0.024</margin>
       <padding>0.024 0.024 0.024 0.024</padding>
       <zIndex>10</zIndex>
-      <autoLayout>6 2</autoLayout>
-      <autoLayout if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' || {system.theme} == 'gba' || {system.theme} == 'gba2players' || {system.theme} == '3ds' || {system.theme} == 'amigacd32' || {system.theme} == 'amigacdtv' || {system.theme} == 'cdi' || {system.theme} == 'dreamcast' || {system.theme} == 'fds' || {system.theme} == 'nds' || {system.theme} == 'neogeocd' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pce-cd' || {system.theme} == 'pcfx' || {system.theme} == 'pokemini' || {system.theme} == 'psx' || {system.theme} == 'sgb'">6 3</autoLayout>
-      <autoLayout if="{system.theme} == '3do' || {system.theme} == 'sfc' || {system.theme} == 'satellaview'">7 2</autoLayout>
-	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch' || {system.theme} == 'virtualboy' || {system.theme} == 'gx4000' || {system.theme} == 'supergrafx' || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">4 2</autoLayout>
+      <autoLayout>5 2</autoLayout>
+      <autoLayout if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' || {system.theme} == 'gba' || {system.theme} == 'gba2players' || {system.theme} == '3ds' || {system.theme} == 'amigacd32' || {system.theme} == 'amigacdtv' || {system.theme} == 'cdi' || {system.theme} == 'dreamcast' || {system.theme} == 'fds' || {system.theme} == 'nds' || {system.theme} == 'neogeocd' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pce-cd' || {system.theme} == 'pcfx' || {system.theme} == 'pokemini' || {system.theme} == 'psx' || {system.theme} == 'sgb'">5 3</autoLayout>
+      <autoLayout if="{system.theme} == '3do' || {system.theme} == 'sfc' || {system.theme} == 'satellaview'">6 2</autoLayout>
+	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch' || {system.theme} == 'virtualboy' || {system.theme} == 'gx4000' || {system.theme} == 'supergrafx' || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">3 2</autoLayout>
 	  <autoLayoutSelectedZoom>1.1</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
       <centerSelection>false</centerSelection>
@@ -116,7 +116,7 @@
       <size>0.69 0.05</size>
       <alignment>center</alignment>
 	  <fontPath>./fonts/Saira_SemiCondensed-Bold.ttf</fontPath>
-	  <fontSize>0.056</fontSize>
+	  <fontSize>0.05</fontSize>
 	  <origin>0.5 0.5</origin>
       <glowSize>2</glowSize>
 	  <forceUppercase>1</forceUppercase>
@@ -1234,7 +1234,7 @@
     </image>
 	
 	<text name="md_players">
-		<pos>0.57 0.976</pos>
+		<pos>0.58 0.976</pos>
 		<alignment>left</alignment>
 		<color>C8C8C8</color>
 		<origin>0 0.5</origin>
