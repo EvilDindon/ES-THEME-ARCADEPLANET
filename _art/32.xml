@@ -990,9 +990,9 @@
 	
 	<text name="md_name">
       <color>DDD000</color>
-	  <pos>0.25 0.0576</pos>
+	  <pos>0.2485 0.0576</pos>
       <fontPath>./fonts/Saira_SemiCondensed-Bold.ttf</fontPath>  
-	  <size>0.48148 0.11</size>
+	  <size>0.475 0.11</size>
 	  <lineSpacing>1</lineSpacing>
       <alignment>center</alignment>
 	  <fontSize>0.04</fontSize>
