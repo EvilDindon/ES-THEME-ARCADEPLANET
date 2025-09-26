@@ -1056,7 +1056,7 @@
     </image>
 	
 	<image name="bigtv">
-	  <pos>0.5 0.4145740740</pos>
+	  <pos>0.5 0.37</pos>
 	</image>
 		
 	<image name="logo">
@@ -1066,10 +1066,10 @@
 	  <size>0.164 0</size>
 	  <color>C8C8C8</color>
 	  <origin>0.5 0</origin>
-	  <pos ifSubset="animatedgamelistopenings:no">0.125 0.015</pos>
+	  <pos ifSubset="animatedgamelistopenings:no">0.1259 0.015</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.125" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.1259" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.015" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
@@ -1077,7 +1077,7 @@
 	<image name="Controller" extra="true">
 			<visible>true</visible>
 			<color>E8E8E8</color>
-			<pos>0.125 0.92</pos>
+			<pos>0.1259 0.92</pos>
 			<origin>0.5 1</origin>
 			<size>0.164 0</size>	       	
 			<path>./controllers/default.png</path>
@@ -1095,15 +1095,15 @@
 	
 	<video name="md_video">
 	  <visible>true</visible>
-	  <pos>0.5 0.4145740740</pos>
+	  <pos>0.5 0.37</pos>
 	  <maxSize>0.38 0.438888</maxSize>
 	</video>
 	
 	<image name="md_thumbnail">
 	  <visible>true</visible>
-	  <pos>0.125 0.5805555</pos>
+	  <pos>0.1259 0.5805555</pos>
 	  <origin>0.5 1</origin>
-      <maxSize>0.2131875 0.379</maxSize>
+      <maxSize>0.25 0.36</maxSize>
 	  <reflexion>0.1 0</reflexion>
 		  	<storyboard event="activate">
                 <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
@@ -1120,9 +1120,9 @@
 	  <logoAlignment>center</logoAlignment>
 	  <origin>0.5 0.5</origin>
       <pos>0.876 0.462</pos>
-      <size>0.208333333 0.9166</size>
+      <size>0.25185 0.9166</size>
       <logoScale>1.2</logoScale>
-      <logoSize>0.173611 0.152766</logoSize>
+      <logoSize>0.205761185 0.181056</logoSize>
       <maxLogoCount>5</maxLogoCount>
 	   <imageSource>marquee</imageSource>
       <zIndex>10</zIndex>
@@ -1136,7 +1136,7 @@
 	  <size>0.4791666 0.11</size>
 	  <lineSpacing>1.1</lineSpacing>
       <alignment>center</alignment>
-	  <fontSize>0.04</fontSize>
+	  <fontSize>0.038</fontSize>
 	  <origin>0.5 0.5</origin>
 	  <glowColor>000000ff</glowColor>
       <glowSize>3</glowSize>
@@ -1151,14 +1151,14 @@
 	  <origin>0.5 0.5</origin>
 	  <alignment>center</alignment>
 	  <size>0.2 0.03</size>
- 	  <pos>0.125 0.605</pos>
+ 	  <pos>0.1259 0.605</pos>
 	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
 	  <color>D8D8D8</color>
 	</text>
 	
 	<datetime name="md_releasedate">
 	  <alignment>center</alignment>
- 	  <pos>0.125 0.638</pos>
+ 	  <pos>0.1259 0.638</pos>
 	  <origin>0.5 0.5</origin>
 	  <color>A8A8A8</color>
 	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
@@ -1166,7 +1166,7 @@
 	</datetime>
 	
 	<rating name="md_rating">
-      <pos>0.5 0.703703</pos>
+      <pos>0.5 0.61</pos>
       <size>0.08 0.025</size>
 	  <origin>0.5 0.5</origin>
       <color>BBBB99</color>
@@ -1175,9 +1175,9 @@
     </rating>	
 	
 	<text name="md_description">
-      <origin>0.5 0.5</origin>
-	  <pos>0.5 0.824</pos>
-	  <size>0.48 0.182</size>
+      <origin>0.5 0</origin>
+	  <pos>0.5 0.636</pos>
+	  <size>0.48 0.27777</size>
 	  <alignment>center</alignment>
    </text>
 	
