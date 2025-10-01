@@ -25,13 +25,13 @@
     <carousel name="systemcarousel">
       <defaultTransition>instant</defaultTransition>
 	  <type>vertical</type>
-      <pos>0.126 0</pos>
+      <pos>0.10617 0</pos>
 	  <origin>0.5 0</origin>
-      <size>0.267 0.912</size>
+      <size>0.2373333 0.912</size>
 	  <maxLogoCount>7</maxLogoCount>
       <maxLogoCount ifSubset="systemviewlogocountV:5">5</maxLogoCount>
 	  <logoScale>1.16</logoScale>
-      <logoSize>0.18333333</logoSize>
+      <logoSize>0.162962</logoSize>
 	  <logoAlignment>center</logoAlignment>
 	  <minLogoOpacity>1</minLogoOpacity>
 	  <transitionSpeed>335</transitionSpeed>
@@ -43,7 +43,7 @@
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../backgrounds/43/bgvlandscape.png</path>
+      <path>./../backgrounds/32/bgvlandscape.png</path>
       <zIndex>1</zIndex>	  
     </image>
 	
@@ -51,7 +51,7 @@
       <pos>0 0</pos>
 	  <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../backgrounds/43/bgv2.png</path>
+      <path>./../backgrounds/32/bgv2.png</path>
       <zIndex>5</zIndex>
 	  <storyboard>
  			<animation property="color" from="ffffffff" to="88AADDff" begin="" duration="4000" mode="Linear" autoReverse="true" repeat="forever"/>
@@ -59,9 +59,9 @@
     </image>
 		
 	<image name="Sprites" extra="static">
-      <pos>0.62 0.45</pos>
+      <pos>0.60123 0.45</pos>
 	  <origin>0.5 0.5</origin>
-      <size>0.6666666 0</size>
+      <size>0.592592 0</size>
 	  <scale>0</scale>
 	  <path>./../sprites/${system.theme}.png</path>
       <linearSmooth>false</linearSmooth>
@@ -74,9 +74,9 @@
     </image>
 	
 	<image name="Sprites2" extra="static">
-      <pos>0.62 0.45</pos>
+      <pos>0.60123 0.45</pos>
 	  <origin>0.5 0.5</origin>
-      <size>0.6666666 0</size>
+      <size>0.592592 0</size>
       <path>./../sprites2/${system.theme}.png</path>
       <linearSmooth>false</linearSmooth>
 	  <scale>0</scale>
@@ -87,9 +87,9 @@
     </image>
 	
 	<image name="Sprites3" extra="static">
-      <pos>0.62 0.45</pos>
+      <pos>0.60123 0.45</pos>
 	  <origin>0.5 0.5</origin>
-      <size>0.6666666 0</size>
+      <size>0.592592 0</size>
       <path>./../sprites3/${system.theme}.png</path>
       <linearSmooth>false</linearSmooth>
 	  <scale>0</scale>
@@ -100,9 +100,9 @@
     </image>
 	
 	<image name="Color Logos" extra="static">
-      <pos>0.62 0.48</pos>
+      <pos>0.60123 0.48</pos>
 	  <origin>0.5 0.5</origin>
-      <maxSize>0.44533 0.2</maxSize>
+      <maxSize>0.3958 0.2</maxSize>
 	  <path>./../Colorlogos/default.png</path>
 	  <path>./../Colorlogos/${system.theme}.png</path>
       <path>./../Colorlogos/${system.theme}.svg</path>
@@ -121,9 +121,9 @@
     </image>
 		
 	<image name="VanishingColorLogos" extra="static">
-      <pos>0.62 0.11</pos>
+      <pos>0.60123 0.11</pos>
 	  <origin>0.5 0.5</origin>
-      <maxSize>0.44533 0.2</maxSize>
+      <maxSize>0.3958 0.2</maxSize>
 	  <path>./../Colorlogos/default.png</path>
 	  <path>./../Colorlogos/${system.theme}.png</path>
       <path>./../Colorlogos/${system.theme}.svg</path>
@@ -143,9 +143,9 @@
 	
 	<image name="Controller" extra="static">
 	  <linearSmooth>true</linearSmooth>
-      <pos>0.62 0.8</pos>
+      <pos>0.60123 0.8</pos>
 	  <origin>0.5 0.5</origin>
-      <size>0.218666666 0</size>
+      <size>0.194376 0</size>
 	  <path>./../controllers/default.png</path>
 	  <path>./../controllers/${system.theme}.png</path>
 	  <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.png</path>
@@ -163,7 +163,7 @@
 	</image>
 	   		
 	<image name="Chevron Bas" extra="static">
-      <pos>0.127 0.526</pos>
+      <pos>0.10617 0.526</pos>
 	  <size>0.015 0</size>
 	  <flipY>true</flipY>
       <color>606090</color>
@@ -174,7 +174,7 @@
 	</image>
 	
 	<image name="Chevron Haut" extra="static">
-      <pos>0.127 0.386</pos>
+      <pos>0.10617 0.386</pos>
 	  <size>0.015 0</size>
 	  <flipY>false</flipY>
 	  <color>606090</color>
@@ -189,7 +189,7 @@
 	  <forceUppercase>0</forceUppercase>
 	  <origin>0 0.5</origin>
 	  <alignment>left</alignment>
-      <pos>0.625 0.973</pos>
+      <pos>0.61 0.973</pos>
 	  <size>0.2 0.026</size>
       <backgroundColor>5522FF00</backgroundColor>
       <color>bbbbbbdd</color>
@@ -205,7 +205,7 @@
 	  <forceUppercase>0</forceUppercase>
 	  <origin>1 0.5</origin>
 	  <alignment>right</alignment>
-      <pos>0.62 0.973</pos>
+      <pos>0.605 0.973</pos>
 	  <size>1 0.27</size>
       <color>bbbbbbdd</color>
       <glowColor>00000000</glowColor>
