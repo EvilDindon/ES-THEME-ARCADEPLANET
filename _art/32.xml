@@ -1503,10 +1503,10 @@
       <pos>0 0.43</pos>
       <size>1 0.49</size>
 	  <scrollDirection >vertical</scrollDirection>
-      <autoLayout>9 2</autoLayout>
-	  <autoLayout if="{system.theme} == '3do' || {system.theme} == 'sfc' || {system.theme} == 'satellaview'">11 2</autoLayout>
-	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch' || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">6 2</autoLayout>
-	  <autoLayout if="{system.theme} == 'virtualboy' || {system.theme} == 'gx4000' || {system.theme} == 'supergrafx'">6 2</autoLayout>	  
+      <autoLayout>8 2</autoLayout>
+	  <autoLayout if="{system.theme} == '3do' || {system.theme} == 'sfc' || {system.theme} == 'satellaview'">10 2</autoLayout>
+	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch' || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">5 2</autoLayout>
+	  <autoLayout if="{system.theme} == 'virtualboy' || {system.theme} == 'gx4000' || {system.theme} == 'supergrafx'">5 2</autoLayout>	  
 	  <imageSource>thumbnail</imageSource>
       <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
       <centerSelection>false</centerSelection>
