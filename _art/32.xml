@@ -676,8 +676,8 @@
 	
 	<video name="md_video">
 	  <origin>0.5 0.5</origin>
-	  <maxSize>0.5 0.7</maxSize>
-	  <pos>0.186 0.25</pos>
+	  <maxSize>0.65 0.7</maxSize>
+	  <pos>0.2222 0.25</pos>
 	  <opacity>0.78</opacity>
 	  <zIndex>2</zIndex>
 	</video>
@@ -688,14 +688,15 @@
 	
 	<image name="logo">
     <path>./wheelv/${system.theme}.png</path>
+	<origin>0.5 0.5</origin>
       <path ifSubset="artworkregion:US">./wheelv/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./wheelv/special/${system.theme}.png</path>	  
-	 <size>0.164 0</size>
-	 <pos ifSubset="animatedgamelistopenings:no">0.65 0.06574074074</pos>
+	 <size>0.19437 0</size>
+	 <x ifSubset="animatedgamelistopenings:no">0.677 0.06574074074</x>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.65" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.677" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.06574074074" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
@@ -703,7 +704,7 @@
 	<image name="md_marquee">
 	  <visible>true</visible>
 	  <linearSmooth>true</linearSmooth>
-	  <maxSize>0.165 0.145</maxSize>
+	  <maxSize>0.1955 0.1718</maxSize>
 	  <pos>0.2222 0.596</pos>
 	  <origin>0.5 1</origin>
 	  <zIndex>42</zIndex>
@@ -727,8 +728,9 @@
 	</image>	  
 	
 	<textlist name="gamelist">
-	  <pos>0.375 0.5333333</pos>
-	  <size>0.55 0.74</size>
+	  <origin>0.5 0.5</origin>
+	  <pos>0.677 0.5333333</pos>
+	  <size>0.465432 0.74</size>
 	  <fontSize>0.031</fontSize>
 	  <horizontalMargin>0.005</horizontalMargin>
 	  <selectorImagePath>./assets/bar.png</selectorImagePath>
@@ -736,15 +738,15 @@
 	</textlist>
    
 	<image name="Chevron Bas">
-      <pos>0.6567708333333333 0.92</pos>
+      <pos>0.677 0.92</pos>
 	</image>	
 	
 	<image name="Chevron Haut">
-	  <pos>0.6567708333333333 0.148</pos>
+	  <pos>0.677 0.148</pos>
 	</image>
 
 	<rating name="md_rating">
-      <pos>0.186 0.624</pos>
+      <pos>0.2125 0.624</pos>
       <size>0.08 0.03</size>
 	  <origin>0.5 0.5</origin>
       <color>DDDDD8</color>
@@ -771,7 +773,7 @@
 	<text name="md_developer">
 	  <origin>0 0</origin>
 	  <size>0.3 0.03</size>
-	  <pos>0.05 0.65</pos>
+	  <pos>0.0525 0.65</pos>
 	</text>
 	
 	<text name="md_genre">
@@ -788,7 +790,7 @@
 	<text name="md_description">
       <origin>0 0</origin>
 	  <pos>0.005 0.726</pos>
-	  <size>0.371 0.21</size>
+	  <size>0.44 0.21</size>
 	  <alignment>left</alignment>
    </text>
    
@@ -820,7 +822,7 @@
       <path ifSubset="artworkregion:US">./wheelv/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./wheelv/special/${system.theme}.png</path>	  
 	 <size>0.164 0</size>
-	 <pos ifSubset="animatedgamelistopenings:no">0.7286458 0.06574074074</pos>
+	 <x ifSubset="animatedgamelistopenings:no">0.7286458 0.06574074074</x>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
@@ -859,11 +861,11 @@
 	</textlist>
    
 	<image name="Chevron Bas">
-      <pos>0.7359375 0.92</pos>
+      <x>0.7359375 0.92</x>
 	</image>	
 	
 	<image name="Chevron Haut">
-	  <pos>0.7359375 0.148</pos>
+	  <x>0.7359375 0.148</x>
 	</image>
 
 	<rating name="md_rating">
