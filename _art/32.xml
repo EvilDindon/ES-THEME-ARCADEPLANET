@@ -738,11 +738,13 @@
 	</textlist>
    
 	<image name="Chevron Bas">
-      <pos>0.677 0.92</pos>
+      <x>0.677</x>
+	  <y>0.92</y>
 	</image>	
 	
 	<image name="Chevron Haut">
-	  <pos>0.677 0.148</pos>
+	  <x>0.677</x>
+	  <y>0.148</y>
 	</image>
 
 	<rating name="md_rating">
