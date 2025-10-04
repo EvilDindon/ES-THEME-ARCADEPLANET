@@ -22,7 +22,7 @@
       <origin>0.5 0.5</origin>
 	  <maxLogoCount>5</maxLogoCount>
 	  <logoScale>1.4</logoScale>
-      <logoSize>0.116402 0.250835978</logoSize>
+      <logoSize>0.1091268 0.2351587</logoSize>
 	  <minLogoOpacity>1</minLogoOpacity>
 	  <transitionSpeed>335</transitionSpeed>
 	  <scrollSound>./../soundS/scroll3.wav</scrollSound>
@@ -33,7 +33,7 @@
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../backgrounds/32/bghlandscape.png</path>
+      <path>./../backgrounds/1610/bghlandscape.png</path>
       <zIndex>1</zIndex>	  
     </image>
 	
@@ -42,7 +42,7 @@
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../backgrounds/32/bgh2.png</path>
+      <path>./../backgrounds/1610/bgh2.png</path>
       <zIndex>1</zIndex>
 	  <storyboard>
   			<animation property="color" from="FFFFFF" to="0088BBff" begin="" duration="4500" mode="Linear" autoReverse="true" repeat="forever"/>
@@ -56,7 +56,7 @@
       <pos>0 0</pos>
       <size>1 1</size>
       <origin>0 0</origin>
-      <path>./../backgrounds/32/bgh3.png</path>
+      <path>./../backgrounds/1610/bgh3.png</path>
       <zIndex>38</zIndex>
 	  <storyboard>
 			<animation property="opacity" from="1" to="1" begin="335" duration="" mode="Linear"/>
@@ -66,7 +66,7 @@
     <image name="Sprites" extra="static">
       <pos>0.5 0.3659259259</pos>
       <origin>0.5 0.5</origin>
-      <size>0.592592 0</size>
+      <size>0.547655  0</size>
 	  <path>./../sprites/${system.theme}.png</path>
       <linearSmooth>false</linearSmooth>
 	  <scale>0</scale>
@@ -79,7 +79,7 @@
 	<image name="Sprites2" extra="static">
       <pos>0.5 0.3659259259</pos>
       <origin>0.5 0.5</origin>
-      <size>0.592592 0</size>
+      <size>0.547655 0</size>
       <path>./../sprites2/${system.theme}.png</path>
       <linearSmooth>false</linearSmooth>
 	  <scale>0</scale>
@@ -92,7 +92,7 @@
 	<image name="Sprites3" extra="static">
       <pos>0.5 0.3659259259</pos>
       <origin>0.5 0.5</origin>
-      <size>0.592592 0</size>
+      <size>0.547655  0</size>
       <path>./../sprites3/${system.theme}.png</path>
       <linearSmooth>false</linearSmooth>
 	  <scale>0</scale>
@@ -105,7 +105,7 @@
 	<image name="Color Logos" extra="static">
       <pos>0.5 0.345</pos>
       <origin>0.5 0.5</origin>
-      <maxSize>0.331851851 0.164</maxSize>
+      <maxSize>0.3111111 0.164</maxSize>
 	  <path>./../Colorlogos/default.png</path>
 	  <path>./../Colorlogos/${system.theme}.png</path>
       <path>./../Colorlogos/${system.theme}.svg</path>
@@ -127,7 +127,7 @@
 	  <linearSmooth>true</linearSmooth>
       <pos>0.5 0.085</pos>
       <origin>0.5 0.5</origin>
-      <maxSize>0.331851851 0.164</maxSize>
+      <maxSize>0.3111111 0.164</maxSize>
 	  <path>./../Colorlogos/default.png</path>
 	  <path>./../Colorlogos/${system.theme}.png</path>
       <path>./../Colorlogos/${system.theme}.svg</path>
@@ -147,7 +147,7 @@
       <opacity>0</opacity>
 	  <pos>0.5 0.7175925259</pos>
       <origin>0.5 0.5</origin>
-      <size>0.1629629 0</size>
+      <size>0.15277764 0</size>
 	  <path>./../controllers/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./../controllers/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./../controllers/special/${system.theme}.png</path>
@@ -166,7 +166,7 @@
 	
 	<image name="Chevron droite">
 		<pos>0.59902625 0.8944444259</pos>
-		<size>0.017777777 0</size>
+		<size>0.01896 0</size>
 		<rotation>90</rotation>
 		<storyboard repeat="forever">
             <animation property="offsetX" from="0" to="0.01" begin="" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
@@ -176,7 +176,7 @@
 	
 	<image name="Chevron gauche">
       <pos>0.4009375 0.8944444259</pos>
-	  <size>0.0177777 0</size>
+	  <size>0.01666 0</size>
 	  <rotation>-90</rotation>
       <storyboard repeatAt="1">
             <animation property="offsetX" from="0" to="-0.01" begin="3000" duration="115" mode="Linear" autoReverse="true" repeat="2"/>
@@ -186,7 +186,7 @@
 	<image name="Red Arrow" extra="static">
       <pos>0.5 0.5859259259</pos>
       <origin>0.5 0.5</origin>
-      <size>0.025 0</size>
+      <size>0.01666 0</size>
 	  <path>./../assets/RedArrowD.png</path>
       <linearSmooth>false</linearSmooth>                                                       
 	  <opacity>0.67</opacity>
@@ -232,7 +232,7 @@
 	</image>
 	
 	</view>
-	
+		
 	<!-- Subset options for Selected logo Color -->
 	<subset name="logocolor" displayName="${LogoColor}">
 		<include name="blue" displayName="${blue}">./colors/blueH.xml</include>
