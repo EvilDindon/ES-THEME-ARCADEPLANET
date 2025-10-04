@@ -1570,7 +1570,7 @@
 	
 	<rating name="md_rating">
       <size>0.029</size>
-	  <pos>0.924 0.404</pos>
+	  <pos>0.898 0.404</pos>
      </rating>	
 	
 	<text name="md_description">
@@ -1608,9 +1608,9 @@
       <padding>0.004 0 0.004 0</padding>
       <zIndex>10</zIndex>
       <autoLayout>5 3</autoLayout>
-      <autoLayout if="{system.theme} == '3do' || {system.theme} == 'sfc' || {system.theme} == 'satellaview'">7 3</autoLayout>
+      <autoLayout if="{system.theme} == '3do' || {system.theme} == 'sfc' || {system.theme} == 'satellaview'">6 3</autoLayout>
 	  <autoLayout if="{system.theme} == 'snes' || {system.theme} == 'snesh' || {system.theme} == 'n64' || {system.theme} == 'gameandwatch'   || {system.theme} == 'scv' || {system.theme} == 'lcdgames'">3 3</autoLayout>
-	  <autoLayout if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' || {system.theme} == 'gba' || {system.theme} == 'gba2players' || {system.theme} == '3ds' || {system.theme} == 'amigacd32' || {system.theme} == 'amigacdtv' || {system.theme} == 'cdi' || {system.theme} == 'dreamcast' || {system.theme} == 'fds' || {system.theme} == 'nds' || {system.theme} == 'neogeocd' || {system.theme} == 'gb2players' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pce-cd' || {system.theme} == 'pcfx' || {system.theme} == 'pokemini' || {system.theme} == 'psx' || {system.theme} == 'sgb'">5 5</autoLayout>
+	  <autoLayout if="{system.theme} == 'gb' || {system.theme} == 'gb2players' || {system.theme} == 'gbc' || {system.theme} == 'gbc2players' || {system.theme} == 'gba' || {system.theme} == 'gba2players' || {system.theme} == '3ds' || {system.theme} == 'amigacd32' || {system.theme} == 'amigacdtv' || {system.theme} == 'cdi' || {system.theme} == 'dreamcast' || {system.theme} == 'fds' || {system.theme} == 'nds' || {system.theme} == 'neogeocd' || {system.theme} == 'gb2players' || {system.theme} == 'ngp' || {system.theme} == 'ngpc' || {system.theme} == 'pce-cd' || {system.theme} == 'pcfx' || {system.theme} == 'pokemini' || {system.theme} == 'psx' || {system.theme} == 'sgb'">4 4</autoLayout>
 	  <autoLayout if="{system.theme} == 'virtualboy' || {system.theme} == 'gx4000' || {system.theme} == 'supergrafx'">4 4</autoLayout>	  
 	  <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
@@ -1676,7 +1676,7 @@
 	  <margin>0 0</margin>
       <padding>0.004 0 0.004 0</padding>
       <zIndex>10</zIndex>
-      <autoLayout>5 6</autoLayout>
+      <autoLayout>4 6</autoLayout>
       <autoLayoutSelectedZoom>1</autoLayoutSelectedZoom>
       <animateSelection>false</animateSelection>
       <centerSelection>false</centerSelection>
@@ -1751,17 +1751,18 @@
     </image>
    	
 	<image name="logo">
-	 <pos ifSubset="animatedgamelistopenings:no">0.07 0.042</pos>
+	 <pos ifSubset="animatedgamelistopenings:no">0.1679 0.87</pos>
+	 <origin>0.5 0.5</origin>
 	 <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.07" begin="620" duration="175" mode="Linear"/>
-		<animation property="y" from="0.5" to="0.042" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.1679" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.91" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
 	
   <rating name="md_rating">
-      <pos>0.16666667 0.56474</pos>
+      <pos>0.16 0.45833333</pos>
       <size>0.08 0.03</size>
 	  <origin>0.5 0.5</origin>
       <color>DDC800</color>
@@ -1778,17 +1779,17 @@
     </rating>
 	
 	<text name="md_name">
-      <pos>0.16666667 0.542</pos>
+      <pos>0.16666667 0.4398</pos>
 	  <alignment>center</alignment>
 	  <origin>0.5 1</origin>
-      <size>0.31 0.052</size>
+      <size>0.327 0.0495</size>
 	  <lineSpacing>1</lineSpacing>
-	  <fontSize>0.029</fontSize>
+	  <fontSize>0.028</fontSize>
     </text>
 	
 	<datetime name="md_releasedate">
 	  <alignment>left</alignment>
-	  <pos>0.01 0.576</pos>
+	  <pos>0.01 0.472</pos>
 	  <origin>0 0</origin>
 	  <size>0.04 0.037</size>
 	  <color>C8C8C8</color>
@@ -1798,7 +1799,7 @@
 	<text name="md_developer">
 	  <origin>0 0</origin>
 	  <size>0.3 0.03</size>
-	  <pos>0.05 0.58</pos>
+	  <pos>0.054 0.4755</pos>
 	  <color>A8A8A8</color>
 	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
 	</text>
@@ -1811,13 +1812,13 @@
 	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
 	  <size>0.37 0.03</size>
 	  <alignment>left</alignment>
-	  <pos>0.01 0.61</pos>
+	  <pos>0.01 0.506</pos>
 	</text>
 
 	<text name="md_description">
-      <origin>0 0</origin>
-	  <pos>0.005 0.646</pos>
-	  <size>0.324 0.27</size>
+      <origin>0.5 0</origin>
+	  <pos>0.166666 0.536111</pos>
+	  <size>0.328 0.2907</size>
 	  <lineSpacing>1.18</lineSpacing>
 	  <alignment>left</alignment>
    </text>
@@ -1865,7 +1866,7 @@
 	</image>
 		
    	<rating name="md_rating">
-      <pos>0.128 0.47037</pos>
+      <pos>0.121 0.47037</pos>
       <size>0.03 0.03</size>
     </rating>
 	
