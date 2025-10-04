@@ -10,7 +10,7 @@
  - 37 custom collections themed
  - Regional Logos and Artwork (only EU and US for now)
  - Some custom background music, artwork and animations
- - 16/9, 4/3 and 1/1 Support ! (5/4, 16/10, and 3/2 not supported for for now)
+ - 16/9, 4/3, 3/2 and 1/1 Support ! (5/4, 16/10, and 3/2 not supported for for now)
  - Scalable to 4K
  - Pi4 or more powerfull recommended (light option coming soon)
  
