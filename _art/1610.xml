@@ -160,7 +160,7 @@
 	  
 	<image name="md_hidden,md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual">
 	  <visible>true</visible>
-	  <x>0.954320987</x>
+	  <x>0.9565972</x>
 	  <size>0.031 0</size>
 	</image>
 	
@@ -399,12 +399,12 @@
     <path>./wheelv/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./wheelv/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./wheelv/special/${system.theme}.png</path>	  
-	 <size>0.19437 0</size>
-	 <pos ifSubset="animatedgamelistopenings:no">0.6993827 0.06574074074</pos>
+	 <size>0.2073287 0</size>
+	 <pos ifSubset="animatedgamelistopenings:no">0.695023148 0.06574074074</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.6993827" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.695023148" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.06574074074" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
@@ -443,15 +443,15 @@
 	</textlist>
 	  
     <textlist name="gamelist" ifSubset="selectorstyle:bar">
-	 <pos>0.490123 0.5333333</pos>
-     <size>0.4185185 0.711</size>
+	 <pos>0.476851 0.5333333</pos>
+     <size>0.436921 0.711</size>
 	 <horizontalMargin>0.005</horizontalMargin>
 	 <selectorImagePath>./assets/bar.png</selectorImagePath>
 	</textlist>
  	
 	<textlist name="gamelist" ifSubset="selectorstyle:none">
-	  <pos>0.490123 0.5333333</pos>
-      <size>0.4185185 0.711</size>
+	  <pos>0.476851 0.5333333</pos>
+      <size>0.436921 0.711</size>
 	  <horizontalMargin>0.005</horizontalMargin>
 	 <selectorColor>00000000</selectorColor>
 	 <selectorColorEnd>00000000</selectorColorEnd>
@@ -459,12 +459,12 @@
 	
 	<image name="Chevron Bas">
 	  <scale>0.76</scale>
-      <pos>0.6993827 0.908</pos>
+      <pos>0.695023 0.908</pos>
 	</image>	
 	
 	<image name="Chevron Haut">
 	  <scale>0.76</scale>
-	  <pos>0.6993827 0.163</pos>
+	  <pos>0.695023 0.163</pos>
 	</image>
 	
   </view>
@@ -478,7 +478,7 @@
 	</image>
 		
 	<image name="md_thumbnail">
-	  <pos>0.244 0.36</pos>
+	  <pos>0.2384259 0.36</pos>
 	  <origin>0.5 0.5</origin>
       <maxSize>0.432 0.61</maxSize>
 	  <reflexion>0 0</reflexion>
@@ -519,7 +519,7 @@
 	  <fontPath>./fonts/SairaCondensed-Medium.ttf</fontPath>
 	  <size>0.22 0.03</size>
 	  <alignment>right</alignment>
-	  <pos>0.4865 0.734</pos>
+	  <pos>0.473 0.734</pos>
 	</text>
 		
 	<datetime name="md_releasedate">
@@ -532,7 +532,7 @@
 	<text name="md_description">
       <origin>0.5 0</origin>
 	  <pos>0.246 0.776</pos>
-	  <size>0.483 0.161</size>
+	  <size>0.469 0.161</size>
 	  <alignment>left</alignment>
     </text>
 	
@@ -571,21 +571,21 @@
 	</image>
 
 	<image name="logo, Chevron Bas, Chevron Haut">
-		<x>0.704</x>
+		<x>0.70717</x>
 	</image>	
 	
 	<image name="bigtv">
-	  <pos>0.25 0.476</pos>
+	  <pos>0.25 0.496</pos>
 	</image>
 	
 	<video name="md_video">
-	  <pos>0.25 0.466</pos>
-	  <maxSize>0.8 0.438888</maxSize>
+	  <pos>0.25 0.486</pos>
+	  <maxSize>0.444444 0.4759</maxSize>
 	</video>
 		
 	<image name="Controller" extra="true">
-			<pos>0.0916666 0.116</pos>
-			<size>0.164 0</size>	       	
+			<pos>0.079 0.116</pos>
+			<size>0.15375 0</size>	       	
 			<path>./controllers/default.png</path>
      		<path>./controllers/${system.theme}.png</path>
       		<path ifSubset="artworkregion:US">./controllers/default.png</path>
@@ -605,8 +605,8 @@
 	
 	<image name="md_marquee">
 	  <linearSmooth>true</linearSmooth>
-	  <maxSize>0.3333 0.216</maxSize>
-	  <pos>0.336 0.112</pos>
+	  <maxSize>0.34722 0.216</maxSize>
+	  <pos>0.329 0.112</pos>
 	  <origin>0.5 0.5</origin>
 	  <zIndex>42</zIndex>
 	  	  	
@@ -627,31 +627,31 @@
 
 	<textlist name="gamelist">
 	 <pos>0.5 0.5333333</pos>
-     <size>0.408024 0.711</size>
+     <size>0.41435 0.711</size>
 	</textlist>	
 	
 	<text name="md_developer">
 	  <origin>0 0.5</origin>
 	  <size>0.401041666 0.03</size>
-	  <pos>0.082 0.7166666</pos>
+	  <pos>0.082 0.754</pos>
 	</text>
 		
 	<datetime name="md_releasedate">
 	  <alignment>right</alignment>
-	  <pos>0.018 0.71666666</pos>
+	  <pos>0.018 0.754</pos>
 	  <origin>0 0.5</origin>
 	  <size>0.055 0.037</size>
 	</datetime>
 	
 	<text name="md_description">
       <origin>0 0</origin>
-	  <pos>0.005 0.744</pos>
-	  <size>0.49 0.186</size>
+	  <pos>0.005 0.776</pos>
+	  <size>0.49 0.162</size>
 	  <alignment>left</alignment>
     </text>
 	
 	<rating name="md_rating">
-      <pos>0.25 0.2333333</pos>
+      <pos>0.25 0.237</pos>
       <size>0.08 0.025</size>
 	  <origin>0.5 0.5</origin>
       <color>E0A020</color>
