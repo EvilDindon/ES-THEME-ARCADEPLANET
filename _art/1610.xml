@@ -929,12 +929,12 @@
 	</image>
 
 	<video name="md_video">
-	  <pos>0.25 0.41</pos>
-	  <maxSize>0.38 0.45</maxSize>
+	  <pos>0.25 0.425</pos>
+	  <maxSize>0.444444 0.4759</maxSize>
 	</video>
 	
 	<image name="bigtv">
-	  <pos>0.249479 0.4145740740</pos>
+	  <pos>0.249479 0.429</pos>
 	</image>
 	
 	<image name="Chevron Bas">
@@ -971,10 +971,10 @@
 	  <logoRotationOrigin>4 0.75</logoRotationOrigin>
 	  <logoRotation>12</logoRotation>
 	  <origin>0.5 0.5</origin>
-      <pos>0.612 0.46</pos>
+      <pos>0.619 0.46</pos>
       <size>0.5 0.948</size>
       <logoScale>1.84</logoScale>
-      <logoSize>0.24 0.256</logoSize>
+      <logoSize>0.256 0.256</logoSize>
       <maxLogoCount>10</maxLogoCount>
       <imageSource>marquee</imageSource>
       <minLogoOpacity>0.8</minLogoOpacity>
@@ -1025,7 +1025,7 @@
 	</datetime>
 	
 	<rating name="md_rating">
-      <pos>0.24 0.655</pos>
+      <pos>0.24 0.687</pos>
       <size>0.084 0.029</size>
 	  <origin>0.5 0.5</origin>
       <color>E0A020</color>
@@ -1035,8 +1035,8 @@
 	
 	<text name="md_description">
       <origin>0.5 0</origin>
-	  <pos>0.244 0.679629</pos>
-	  <size>0.48 0.2555</size>
+	  <pos>0.244 0.71</pos>
+	  <size>0.48 0.228</size>
 	  <alignment>center</alignment>
    </text>
    	
@@ -1205,7 +1205,7 @@
    
    <image name="md_hidden,ghosthidden,md_favorite, md_flag, md_manual, md_nomanual, md_cheevos, md_notcheevos, md_savestate, md_nosavestate, ghostfavorite, ghostcheevos, ghostsavestate, ghostmanual, md_kidgame,md_notkidgame,ghostkidgame">
 	  <y>0.974</y>
-	  <size>0.018 0</size>
+	  <size>0.0192 0</size>
 	</image>
 	
 	<image name="md_flag">
@@ -1249,7 +1249,7 @@
 	</text>
 
     <text name="md_playcount">
-		<pos>0.87 0.976</pos>
+		<pos>0.846 0.976</pos>
 		<alignment>right</alignment>
 		<color>C8C8C8</color>
 		<origin>1 0.5</origin>
@@ -1283,13 +1283,13 @@
 	
 	<video name="md_video">
 	  <visible>true</visible>
-	  <pos>0.249479 0.26</pos>
-	  <maxSize>0.38 0.438888</maxSize>
+	  <pos>0.249479 0.278</pos>
+	  <maxSize>0.44444 0.4759</maxSize>
 	</video>
 	
 	<image name="bigtv" extra="true">
 	  <origin>0.5 0.5</origin>
-	  <pos>0.25 0.262</pos>
+	  <pos>0.25 0.28</pos>
 	</image>
 	
 	<image name="Chevron droite">
@@ -1312,10 +1312,10 @@
       <path>./Colorlogos/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./Colorlogos/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./Colorlogos/special/${system.theme}.png</path>
-      <size>0.19 0</size>
+      <maxSize>0.2 0.105</maxSize>
 	  <color>FFFFFFff</color>
 	  <saturation>0</saturation>
-	  <pos ifSubset="animatedgamelistopenings:no">0.25 0.577</pos>
+	  <pos ifSubset="animatedgamelistopenings:no">0.25 0.594</pos>
 	  <scale ifSubset="animatedgamelistopenings:no">0.676</scale>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 	 	<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
@@ -1330,7 +1330,7 @@
 		<linearSmooth>true</linearSmooth>
 		<color>FFFFFF</color>
 		<origin>1 1</origin>
-		<maxSize>0.185 0.176</maxSize>
+		<maxSize>0.185 0.145</maxSize>
 		<pos>0.794 0.46759</pos>
 		<reflexion>0.38 0.08</reflexion>
 		<storyboard event="open">
@@ -1421,7 +1421,7 @@
 			
 	<rating name="md_rating">
       <size>0.029</size>
-	  <pos>0.22 0.503</pos>
+	  <pos>0.22 0.537</pos>
      </rating>	
 	
 	<text name="md_description">
