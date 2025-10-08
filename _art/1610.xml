@@ -1752,18 +1752,18 @@
     </image>
    	
 	<image name="logo">
-	 <pos ifSubset="animatedgamelistopenings:no">0.1679 0.87</pos>
+	 <pos ifSubset="animatedgamelistopenings:no">0.16608 0.87</pos>
 	 <origin>0.5 0.5</origin>
 	 <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.1679" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.16608" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.91" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
 	
   <rating name="md_rating">
-      <pos>0.16 0.45833333</pos>
+      <pos>0.161 0.45833333</pos>
       <size>0.08 0.03</size>
 	  <origin>0.5 0.5</origin>
       <color>DDC800</color>
