@@ -1491,7 +1491,7 @@
 	<image name="md_marquee">
 	  <visible>true</visible>
 	  <pos>0.644 0.059259259259</pos>
-      <maxSize>0.208333333 0.118518518518</maxSize>
+      <maxSize>0.23 0.118518518518</maxSize>
 	  <origin>0.5 0.5</origin>
 	  <reflexion>0 0</reflexion>
 	  <zIndex>10</zIndex>
