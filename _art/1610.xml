@@ -952,7 +952,7 @@
       <path ifSubset="artworkregion:US">./wheel/US/${system.theme}.png</path>
       <path ifSubset="neogeostyle:mvs">./wheel/special/${system.theme}.png</path>
 	  <size>0.15 0</size>
-	  <pos ifSubset="animatedgamelistopenings:no">0.822 0.467592592</pos>
+	  <pos ifSubset="animatedgamelistopenings:no">0.835 0.467592592</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
