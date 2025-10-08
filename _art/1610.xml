@@ -1603,8 +1603,8 @@
 	</image>
 
     <imagegrid name="gamegrid">
-      <pos>0.333333 0</pos>
-      <size>0.6666667 0.914814814</size>
+      <pos>0.33217 0</pos>
+      <size>0.66782 0.914814814</size>
 	  <margin>0 0</margin>
       <padding>0.004 0 0.004 0</padding>
       <zIndex>10</zIndex>
@@ -1672,8 +1672,8 @@
 	</image>
 		
     <imagegrid name="gamegrid">
-      <pos>0.333333 0</pos>
-      <size>0.6666667 0.914814814</size>
+      <pos>0.34375 0</pos>
+      <size>0.65625 0.914814814</size>
 	  <margin>0 0</margin>
       <padding>0.004 0 0.004 0</padding>
       <zIndex>10</zIndex>
