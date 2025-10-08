@@ -1840,8 +1840,8 @@
     </image>
 	
 	<image name="logo">
-	 <pos ifSubset="animatedgamelistopenings:no">0.1546875 0.87</pos>
-	 <maxSize>0.12 0.076</maxSize>
+	 <pos ifSubset="animatedgamelistopenings:no">0.15335 0.87</pos>
+	 <maxSize>0.14 0.077</maxSize>
 	 <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
@@ -1852,7 +1852,7 @@
 	
     <image name="md_thumbnail">
 	  <visible>true</visible>
-	  <pos>0.1546875 0.206</pos>
+	  <pos>0.15336 0.206</pos>
 	  <origin>0.5 0.5</origin>
       <maxSize>0.26 0.37</maxSize>
 	  <reflexion>0 0</reflexion>
@@ -1867,12 +1867,12 @@
 	</image>
 		
    	<rating name="md_rating">
-      <pos>0.121 0.47037</pos>
+      <pos>0.1235 0.47037</pos>
       <size>0.03 0.03</size>
     </rating>
 	
 	<text name="md_name">
-      <pos>0.1546875 0.455</pos>
+      <pos>0.15335 0.455</pos>
 	  <alignment>center</alignment>
 	  <origin>0.5 1</origin>
       <size>0.3 0.052</size>
