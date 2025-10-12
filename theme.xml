@@ -599,14 +599,14 @@ originally based on: "carbon"
 		<include if="${screen.ratio} == '1/1'" name="1-1" displayName="1:1">./_art/11.xml</include>
 		<include if="${screen.ratio} == '16/10'" name="16-10" displayName="16:10">./_art/1610.xml</include>
 		<include if="${screen.ratio} == '5/3'" name="5-3" displayName="5:3">./_art/1610.xml</include>
-		<include if="${screen.ratio} == '5/4'" name="5-4" displayName="5:4">./_art/11.xml</include>
+		<include if="${screen.ratio} == '5/4'" name="5-4" displayName="5:4">./_art/54.xml</include>
 		<include name="16-9" displayName="16:9 widescreen">./_art/169.xml</include>
 		<include name="4-3" displayName="4:3 standard">./_art/43.xml</include>
 		<include name="3-2" displayName="3:2">./_art/32.xml</include>
 		<include name="1-1" displayName="1:1">./_art/11.xml</include>
 		<include name="16-10" displayName="16:10">./_art/1610.xml</include>
 		<include name="5-3" displayName="5:3">./_art/1610.xml</include>
-		<include name="5-4" displayName="5:4">./_art/11.xml</include>
+		<include name="5-4" displayName="5:4">./_art/54.xml</include>
 	</subset>
 
 <!-- Scaling Box Art --> 
