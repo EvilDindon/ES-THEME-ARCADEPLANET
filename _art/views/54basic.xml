@@ -1,0 +1,177 @@
+﻿
+    
+	<text name="clock">
+      <color>786078</color>
+	  <fontPath>../fonts/SairaCondensed-Light.ttf</fontPath>
+      <fontSize>0.033</fontSize>
+      <pos>0.993 0.983</pos>
+	  <origin>0 0.5</origin>
+      <size>0.09 0.058</size>
+      <alignment>right</alignment>
+      <verticalAlignment>center</verticalAlignment>
+    </text>
+    
+	<controllerActivity name="controllerActivity">
+      <pos>0.92 0.97</pos>
+	  <origin>1 0.5</origin>
+      <size>0.085 0.025</size>
+      <itemSpacing>0.003</itemSpacing>
+      <imagePath>../icons/gamepad.svg</imagePath>
+	  <gunPath>./art/gun.svg</gunPath>
+      <color>686068</color>
+      <activityColor>A0A0FFC0</activityColor>
+      <hotkeyColor>FFA0A0C0</hotkeyColor>
+    </controllerActivity>
+	
+  
+<!-- BASIC -->
+
+		<helpsystem name="help">
+			<pos>0.01 0.98</pos>
+			<fontSize>0.035</fontSize>
+		</helpsystem>
+		
+    <text name="logoText">
+      <size>0.98 0.126</size>
+	  <fontPath>../fonts/SairaCondensed-Bold.ttf</fontPath>
+	  <forceUppercase>1</forceUppercase>
+      <fontSize>0.1</fontSize>
+      <color>FFFFFF</color>
+	</text>
+	
+    <image name="logo">
+      <maxSize>0.33333333 0.22</maxSize>
+	  <y ifSubset="animatedgamelistopenings:no">0.116</y>
+	  <storyboard ifSubset="animatedgamelistopenings:yes">
+		<animation property="scale" from="0" to="3" begin="" duration="300" mode="Linear"/>
+		<animation property="scale" from="3" to="1" begin="620" duration="175" mode="Linear"/>
+		<animation property="y" from="0.5" to="0.116" begin="620" duration="175" mode="Linear"/>
+	  </storyboard>
+	</image>
+	
+	<image name="Sprites L,Sprites R">
+	  <linearSmooth>true</linearSmooth>
+      <origin>0.5 0.5</origin>
+      <maxSize>0.373 0.373</maxSize>
+      <zIndex>102</zIndex>
+    </image>
+
+	<image name="Sprites L" extra="true">
+		<pos>0.3 0.14</pos>
+	    <path>../sprites2/${system.theme}.png</path>
+			<storyboard ifSubset="animatedgamelistopenings:yes">
+				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="2800" mode="EaseOutQuint"/>
+			</storyboard>	
+     </image>
+	
+	<image name="Sprites R" extra="true">
+			<pos>0.7 0.14</pos>
+		    <path>../sprites3/${system.theme}.png</path>
+			<storyboard ifSubset="animatedgamelistopenings:yes">
+				<animation property="offsetX" from="0.326" to="0" begin="0" duration="2800" mode="EaseOutQuint"/>
+			</storyboard>	
+    </image>
+	
+    <image name="background">
+	  <path>../backgrounds/54/bgbasic.jpg</path>
+	</image>
+	
+	<image name="Chevron Bas">
+      <pos>0.5 0.897</pos>
+	</image>
+	
+	<image name="Chevron Haut">
+      <pos>0.5 0.245</pos>
+	</image>
+		
+	<image name="md_favorite">
+	  <color>00000000</color>
+	</image>
+	
+	<image name="Controller+logo 1, Controller+logo 2">
+	  <linearSmooth>true</linearSmooth>
+      <origin>0.5 0.5</origin>
+      <size>0.1833333 0</size>
+      <path>../controllers/default.png</path>
+      <path>../controllers/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">../controllers/default.png</path>
+	  <path ifSubset="artworkregion:US">../controllers/${system.theme}.png</path>
+      <path ifSubset="artworkregion:US">../controllers/US/${system.theme}.png</path>
+	  <path ifSubset="neogeostyle:mvs">../controllers/special/${system.theme}.png</path>
+	  <zIndex>102</zIndex>
+    </image>
+
+	<image name="Controller+logo 1" extra="true">
+			<pos>0.904 0.55</pos>
+			<storyboard ifSubset="animatedgamelistopenings:yes">
+				<animation property="offsetX" from="0.326" to="0" begin="" duration="1400" mode="EaseOutQuint"/>
+			</storyboard>	
+     </image>
+	
+	<image name="Controller+logo 2" extra="true">
+			<pos>0.096 0.55</pos>
+			<storyboard ifSubset="animatedgamelistopenings:yes">
+				<animation property="offsetX" from="-0.326" to="0" begin="0" duration="1400" mode="EaseOutQuint"/>
+			</storyboard>	
+    </image>
+	 	  
+	<textlist name="gamelist" ifSubset="selectorstyle:bar">
+     <scrollSound>../sounds/scroll.wav</scrollSound>
+	 <selectorImagePath>../assets/bar.png</selectorImagePath>
+	 <selectorColor ifSubset="selectorcolor:blue">3070FFff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:red">B21302ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:black">000000ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:grey">707070ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:yellow">CCBB00ff</selectorColor>
+	 <selectorColor ifSubset="selectorcolor:purple">6e55a7</selectorColor>
+	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:purple">A672E6</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">A00000</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
+      <primaryColor ifSubset="textlistcolor:white">AAA4AA</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:yellow">767670</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:red">777070</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:purple">766976</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:blue">727277</primaryColor>
+      <secondaryColor>7a6161</secondaryColor>
+	  <fontSize>0.029</fontSize>
+	  <fontPath>../fonts/Saira_SemiCondensed-Medium.ttf</fontPath>
+      <forceUppercase>1</forceUppercase>
+	  <pos>0.5 0</pos>
+      <size>0.616 0.9</size>
+	  <origin>0.5 0</origin>
+	  <glowColor>000000aa</glowColor>
+	  <glowSize>1.5</glowSize>
+	  <glowOffset>1.5 1.5</glowOffset>
+	  <lines>17</lines>
+      <alignment>center</alignment>
+	</textlist>
+	
+	<textlist name="gamelist" ifSubset="selectorstyle:none">
+	 <selectorColor>00000000</selectorColor>
+	 <selectedColor ifSubset="textlistcolor:purple">A672E6</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:red">A00000</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:yellow">EEEE00</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:white">FFFFFF</selectedColor>
+	  <selectedColor ifSubset="textlistcolor:blue">88D8F0</selectedColor>
+	  <primaryColor ifSubset="textlistcolor:white">888688</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:yellow">767670</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:red">777070</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:purple">766976</primaryColor>
+	  <primaryColor ifSubset="textlistcolor:blue">727077</primaryColor>
+      <secondaryColor>7a6161</secondaryColor>
+	  <scrollSound>../sounds/scroll.wav</scrollSound>
+	  <secondaryColor>7a6161</secondaryColor>
+	  <fontSize>0.029</fontSize>
+	  <fontPath>../fonts/Saira_SemiCondensed-Medium.ttf</fontPath>
+      <forceUppercase>1</forceUppercase>
+	  <pos>0.5 0.263</pos>
+	  <origin>0.5 0</origin>
+      <size>0.616 0.62</size>
+	  <glowColor>000000aa</glowColor>
+	  <glowSize>1.5</glowSize>
+	  <glowOffset>1.5 1.5</glowOffset>
+	  <lines>13</lines>
+      <alignment>center</alignment>
+	</textlist>
