@@ -62,7 +62,7 @@
     </image>
 	
 	<text name="md_players">
-		<pos>0.57 0.976</pos>
+		<pos>0.576 0.976</pos>
 		<alignment>left</alignment>
 		<color>C8C8C8</color>
 		<origin>0 0.5</origin>
@@ -72,7 +72,7 @@
 	</text>
 
     <text name="md_playcount">
-		<pos>0.87 0.976</pos>
+		<pos>0.864 0.976</pos>
 		<alignment>right</alignment>
 		<color>C8C8C8</color>
 		<origin>1 0.5</origin>
@@ -377,7 +377,7 @@
     <path>./wheelv/${system.theme}.png</path>
       <path ifSubset="artworkregion:US">./wheelv/US/${system.theme}.png</path>
 	  <path ifSubset="neogeostyle:mvs">./wheelv/special/${system.theme}.png</path>	  
-	 <size>0.218666666 0</size>
+	 <size>0.233244 0</size>
 	 <pos ifSubset="animatedgamelistopenings:no">0.745138 0.06574074074</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
@@ -455,7 +455,7 @@
 	<image name="md_thumbnail">
 	  <pos>0.244 0.316</pos>
 	  <origin>0.5 0.5</origin>
-      <maxSize>0.36 0.48</maxSize>
+      <maxSize>0.384 0.512</maxSize>
 	  <reflexion>0 0</reflexion>
 	  <storyboard event="activate">
                 <animation property="offsetX" from="-0.3" to="0" duration="850" mode="EaseOutQuint"/>
@@ -548,18 +548,18 @@
 	</image>
 	
 	<image name="bigtv">
-	  <pos>0.249479 0.45</pos>
+	  <pos>0.249479 0.465</pos>
 	  <zIndex>100</zIndex>
 	</image>
 	
 	<video name="md_video">
-	  <pos>0.249479 0.45</pos>
+	  <pos>0.249479 0.465</pos>
 	  <maxSize>0.43125 0.38175</maxSize>
 	</video>
 		
 	<image name="Controller" extra="true">
-			<pos>0.0916666 0.116</pos>
-			<size>0.164 0</size>	       	
+			<pos>0.0916666 0.126</pos>
+			<size>0.1749 0</size>	       	
 			<path>./controllers/default.png</path>
      		<path>./controllers/${system.theme}.png</path>
       		<path ifSubset="artworkregion:US">./controllers/default.png</path>
@@ -579,8 +579,8 @@
 	
 	<image name="md_marquee">
 	  <linearSmooth>true</linearSmooth>
-	  <maxSize>0.3 0.22685185</maxSize>
-	  <pos>0.329 0.116</pos>
+	  <maxSize>0.32 0.2419</maxSize>
+	  <pos>0.334 0.126</pos>
 	  <origin>0.5 0.5</origin>
 	  <zIndex>42</zIndex>
 	  	  	
@@ -600,22 +600,24 @@
 	</image>	  
 	
 	<textlist name="gamelist">
-		<size>0.5 0.742</size>
+		<size>0.5 0.748</size>
 		<horizontalMargin>0.005</horizontalMargin>
-		<pos>0.5 0.524</pos>
+		<pos>0.5 0.52</pos>
 	</textlist>
 	
 	<text name="md_developer">
 	  <origin>0 0.5</origin>
 	  <size>0.401041666 0.03</size>
-	  <pos>0.074 0.664</pos>
+	  <pos>0.074 0.667</pos>
+ 	  <zIndex>101</zIndex>
 	</text>
 		
 	<datetime name="md_releasedate">
 	  <alignment>right</alignment>
-	  <pos>0.01 0.664</pos>
+	  <pos>0.01 0.667</pos>
 	  <origin>0 0.5</origin>
 	  <size>0.055 0.037</size>
+	  <zIndex>101</zIndex>
 	</datetime>
 	
 	<text name="md_description">
@@ -626,12 +628,12 @@
     </text>
 	
 	<rating name="md_rating">
-      <pos>0.43 0.664</pos>
+      <pos>0.24 0.262</pos>
       <size>0.08 0.025</size>
 	  <origin>0.5 0.5</origin>
       <color>E0A020</color>
       <unfilledColor>808080</unfilledColor>
-	  <zIndex>41</zIndex>	  
+	  <zIndex>101</zIndex>	  
     </rating>
 	
 	<text name="md_genre">
@@ -903,11 +905,11 @@
       <path ifSubset="neogeostyle:mvs">./wheel/special/${system.theme}.png</path>
 	  <size>0.1833333 0</size>
 	  <opacity>0.88</opacity>
-	  <pos ifSubset="animatedgamelistopenings:no">0.888 0.467592592</pos>
+	  <pos ifSubset="animatedgamelistopenings:no">0.898 0.467592592</pos>
 	  <storyboard ifSubset="animatedgamelistopenings:yes">
 		<animation property="scale" from="0" to="2" begin="" duration="300" mode="Linear"/>
 		<animation property="scale" from="2" to="1" begin="620" duration="175" mode="Linear"/>
-		<animation property="x" from="0.5" to="0.888" begin="620" duration="175" mode="Linear"/>
+		<animation property="x" from="0.5" to="0.898" begin="620" duration="175" mode="Linear"/>
 		<animation property="y" from="0.5" to="0.467592592" begin="620" duration="175" mode="Linear"/>
 	  </storyboard>
 	</image>
@@ -922,10 +924,10 @@
 	  <logoRotationOrigin>3.6 0.5</logoRotationOrigin>
 	  <logoRotation>12</logoRotation>
 	  <origin>0.5 0.5</origin>
-      <pos>0.634 0.45648</pos>
+      <pos>0.64 0.45648</pos>
       <size>0.6 0.913</size>
       <logoScale>1.666</logoScale>
-      <logoSize>0.25 0.12</logoSize>
+      <logoSize>0.267 0.128</logoSize>
       <maxLogoCount>11</maxLogoCount>
       <imageSource>marquee</imageSource>
 	  <minLogoOpacity>0.8</minLogoOpacity>
@@ -963,29 +965,29 @@
 	<text name="md_developer">
 	  <origin>0 0.5</origin>
 	  <size>0.401041666 0.03</size>
- 	  <pos>0.082 0.544</pos>
+ 	  <pos>0.082 0.528</pos>
 	</text>
 		
 	<datetime name="md_releasedate">
 	  <alignment>right</alignment>
- 	  <pos>0.018 0.544</pos>
+ 	  <pos>0.018 0.528</pos>
 	  <origin>0 0.5</origin>
 	  <size>0.055 0.037</size>
 	</datetime>
 	
 	<rating name="md_rating">
-      <pos>0.426 0.544</pos>
+      <pos>0.24 0.125</pos>
       <size>0.08 0.025</size>
 	  <origin>0.5 0.5</origin>
       <color>E0A020</color>
       <unfilledColor>808080</unfilledColor>
-	  <zIndex>41</zIndex>	  
+	  <zIndex>101</zIndex>	  
     </rating>	
 	
 	<text name="md_description">
       <origin>0.5 0</origin>
-	  <pos>0.254 0.574</pos>
-	  <size>0.49 0.34</size>
+	  <pos>0.254 0.547</pos>
+	  <size>0.49 0.368</size>
 	  <lineSpacing>1.18</lineSpacing>
 	  <alignment>center</alignment>
    </text>
