@@ -1007,11 +1007,11 @@
     </image>
 	
 	<image name="bigtv" extra="true">
-	  <pos>0.5 0.338</pos>
+	  <pos>0.5 0.352</pos>
 	</image>
 	
 	<video name="md_video">
-	  <pos>0.5 0.333</pos>
+	  <pos>0.5 0.347</pos>
 	</video>
 		
 	<image name="logo">
@@ -1080,7 +1080,7 @@
 	
 	<text name="md_name">
       <color>DDD000</color>
-	  <pos>0.5 0.0633</pos>
+	  <pos>0.5 0.0783</pos>
       <fontPath>./fonts/Saira_SemiCondensed-Bold.ttf</fontPath>  
 	  <size>0.4791666 0.11</size>
 	  <lineSpacing>1</lineSpacing>
@@ -1123,9 +1123,9 @@
 	
 	<text name="md_description">
       <origin>0.5 0.5</origin>
-	  <pos>0.5 0.576</pos>
+	  <pos>0.5 0.572</pos>
 	  <origin>0.5 0</origin>
-	  <size>0.48 0.338</size>
+	  <size>0.48 0.343</size>
 	  <alignment>center</alignment>
    </text>
 	
@@ -1157,13 +1157,13 @@
 	
 	<video name="md_video">
 	  <visible>true</visible>
-	  <pos>0.25 0.232</pos>
+	  <pos>0.25 0.276</pos>
 	  <maxSize>0.43125 0.38175</maxSize>
 	</video>
 	
 	<image name="bigtv" extra="true">
 	  <origin>0 0</origin>
-	  <pos>0 0</pos>
+	  <pos>0 0.03</pos>
 	</image>
 	
 	<image name="Chevron droite">
@@ -1306,8 +1306,8 @@
 	</text>
 	
 	<rating name="md_rating">
-      <size>0.029</size>
-	  <pos>0.906 0.053</pos>
+      <size>0.025</size>
+	  <pos>0.91 0.053</pos>
      </rating>	
 	
 	<text name="md_description">
