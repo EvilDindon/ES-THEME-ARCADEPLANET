@@ -2,7 +2,7 @@
  Theme for Emulation Station compatible with Batocera >=V35, Emuelec >=4.0 and Retrobat >= 5.0
  By EvilDindon (Mickaël ISMAN), 2021, based on "Carbon".
  
- V0.99.6
+ V0.99.8
  
  Features :
  - 3 System Views (Vertical, Horizontal and Horizontal Simplified)
@@ -10,7 +10,7 @@
  - 37 custom collections themed
  - Regional Logos and Artwork (only EU and US for now)
  - Some custom background music, artwork and animations
- - 16/9, 4/3, 3/2, 16/10 and 1/1 Support ! (5/4 not supported for for now)
+ - 16/9, 4/3, 3/2, 16/10, 5/4 and 1/1 Support !
  - Scalable to 4K
  - Pi4 or more powerfull recommended (light option coming soon)
  
