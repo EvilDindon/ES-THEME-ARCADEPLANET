@@ -28,7 +28,7 @@
       <pos>0.2 0</pos>
 	  <pos ifSubset="randomart:marquee|thumbnail">0.1385416 0</pos>
 	  <origin>0.5 0</origin>
-      <size>0.267 0.915</size>
+      <size>0.267 0.9537037</size>
 	  <maxLogoCount>7</maxLogoCount>
       <maxLogoCount ifSubset="systemviewlogocountV:5">5</maxLogoCount>
 	  <logoScale>1.16</logoScale>
@@ -62,9 +62,9 @@
     </image>
 	
 	<image name="bgv3" extra="static">
-      <pos>0.2 -0.005</pos>
-	  <pos ifSubset="randomart:marquee|thumbnail">0.1385416 -0.005</pos>
-      <size>0.170833333 0.91388888</size>
+      <pos>0.2 0</pos>
+	  <pos ifSubset="randomart:marquee|thumbnail">0.1385416 0</pos>
+      <size>0.170833333 0.9537037</size>
       <origin>0.5 0</origin>
       <path>./../backgrounds/169/BGV3.png</path>
       <zIndex>6</zIndex>
@@ -72,8 +72,8 @@
 	
 	
 	<image name="Sprites" extra="static">
-      <pos>0.62 0.45</pos>
-      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.45</pos>
+      <pos>0.62 0.4675</pos>
+      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.4675</pos>
 	  <origin>0.5 0.5</origin>
       <size>0.5 0</size>
 	  <scale>0</scale>
@@ -88,8 +88,8 @@
     </image>
 	
 	<image name="Sprites2" extra="static">
-      <pos>0.62 0.45</pos>
-      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.45</pos>
+      <pos>0.62 0.4675</pos>
+      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.4675</pos>
 	  <origin>0.5 0.5</origin>
       <size>0.5 0</size>
       <path>./../sprites2/${system.theme}.png</path>
@@ -102,8 +102,8 @@
     </image>
 	
 	<image name="Sprites3" extra="static">
-      <pos>0.62 0.45</pos>
-      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.45</pos>
+      <pos>0.62 0.4675</pos>
+      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.4675</pos>
 	  <origin>0.5 0.5</origin>
       <size>0.5 0</size>
       <path>./../sprites3/${system.theme}.png</path>
@@ -161,8 +161,8 @@
 	
 	<image name="Controller" extra="static">
 	  <linearSmooth>true</linearSmooth>
-      <pos>0.62 0.8</pos>
-	  <pos ifSubset="randomart:marquee|thumbnail">0.51 0.8</pos>
+      <pos>0.62 0.8165</pos>
+	  <pos ifSubset="randomart:marquee|thumbnail">0.51 0.8165</pos>
 	  <origin>0.5 0.5</origin>
       <size>0.164 0</size>
 	  <path>./../controllers/default.png</path>
@@ -182,8 +182,8 @@
 	</image>
 	   		
 	<image name="Chevron Bas" extra="static">
-      <pos>0.1 0.612</pos>
-	  <pos ifSubset="randomart:marquee|thumbnail">0.028 0.612</pos>
+      <pos>0.1 0.6285</pos>
+	  <pos ifSubset="randomart:marquee|thumbnail">0.028 0.6285</pos>
 	  <size>0.015 0</size>
 	  <flipY>true</flipY>
       <color>606090</color>
@@ -194,8 +194,8 @@
 	</image>
 	
 	<image name="Chevron Haut" extra="static">
-      <pos>0.1 0.312</pos>
-	  <pos ifSubset="randomart:marquee|thumbnail">0.028 0.312</pos>
+      <pos>0.1 0.3285</pos>
+	  <pos ifSubset="randomart:marquee|thumbnail">0.028 0.3285</pos>
 	  <size>0.015 0</size>
 	  <flipY>false</flipY>
 	  <color>606090</color>
@@ -205,8 +205,8 @@
 	</image>
 		
 	<image name="Red Arrow" extra="static">
-      <pos>0.105 0.462037</pos>
-	  <pos ifSubset="randomart:marquee|thumbnail">0.032 0.462037</pos>
+      <pos>0.105 0.478537</pos>
+	  <pos ifSubset="randomart:marquee|thumbnail">0.032 0.478537</pos>
 	  <origin>0.5 0.5</origin>
       <size>0.025 0</size>
 	  <path>./../assets/RedArrowD.png</path>
@@ -225,8 +225,8 @@
 	  <forceUppercase>0</forceUppercase>
 	  <origin>0 0.5</origin>
 	  <alignment>left</alignment>
-      <pos>0.625 0.973</pos>
-      <pos ifSubset="randomart:marquee|thumbnail">0.515 0.973</pos>
+      <pos>0.625 0.94</pos>
+      <pos ifSubset="randomart:marquee|thumbnail">0.515 0.94</pos>
 	  <size>0.2 0.026</size>
       <backgroundColor>5522FF00</backgroundColor>
       <color>bbbbbbdd</color>
@@ -242,8 +242,8 @@
 	  <forceUppercase>0</forceUppercase>
 	  <origin>1 0.5</origin>
 	  <alignment>right</alignment>
-      <pos>0.62 0.973</pos>
-      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.973</pos>
+      <pos>0.62 0.94</pos>
+      <pos ifSubset="randomart:marquee|thumbnail">0.51 0.94</pos>
 	  <size>1 0.27</size>
       <color>bbbbbbdd</color>
       <glowColor>00000000</glowColor>

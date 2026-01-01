@@ -37,7 +37,7 @@
       <path ifSubset="artworkregion:US">./../wheelv/US/${system.theme}.svg</path>
 	  <path ifSubset="neogeostyle:mvs">./../wheelv/special/${system.theme}.png</path>
 	  <color>00000077</color>
-	  <pos>0.504 0.798</pos>
+	  <pos>0.504 0.838</pos>
 	  <origin>0.5 0.5</origin>
 	  <size>0.20075 0</size>
 	  <zIndex>36</zIndex>
@@ -72,7 +72,7 @@
       <path ifSubset="artworkregion:US">./../Colorlogos/US/${system.theme}.svg</path>
 	  <path ifSubset="neogeostyle:mvs">./../Colorlogos/special/${system.theme}.png</path>
 	  <color>00000077</color>
-	  <pos>0.504 0.798</pos>
+	  <pos>0.504 0.838</pos>
 	  <origin>0.5 0.5</origin>
 	  <size>0.20075 0</size>
 	  <zIndex>36</zIndex>
@@ -85,7 +85,7 @@
     <carousel name="systemcarousel">
 	  <defaultTransition>instant</defaultTransition>
       <size>1 0.187962962</size>
-      <pos>0.5 0.794</pos>
+      <pos>0.5 0.834</pos>
       <origin>0.5 0.5</origin>
 	  <maxLogoCount>5</maxLogoCount>
 	  <logoScale>1.46</logoScale>
@@ -106,7 +106,7 @@
 	
 	<image name="bgh2Simple" extra="static">
       <tile>false</tile>
-      <pos>0 -0.1</pos>
+      <pos>0 -0.154</pos>
       <size>1 1</size>
       <origin>0 0</origin>
       <path>./../backgrounds/169/bgh2.png</path>
@@ -117,7 +117,7 @@
     </image>
 			
     <image name="Sprites" extra="static">
-      <pos>0.5 0.241</pos>
+      <pos>0.5 0.251</pos>
       <origin>0.5 0.5</origin>
       <size>0.5 0</size>
 	  <path>./../sprites/${system.theme}.png</path>
@@ -130,7 +130,7 @@
     </image>
 	
 	<image name="Sprites2" extra="static">
-      <pos>0.5 0.241</pos>
+      <pos>0.5 0.251</pos>
       <origin>0.5 0.5</origin>
       <size>0.5 0</size>
       <path>./../sprites2/${system.theme}.png</path>
@@ -143,7 +143,7 @@
     </image>
 	
 	<image name="Sprites3" extra="static">
-      <pos>0.5 0.241</pos>
+      <pos>0.5 0.251</pos>
       <origin>0.5 0.5</origin>
       <size>0.5 0</size>
       <path>./../sprites3/${system.theme}.png</path>
@@ -156,7 +156,7 @@
     </image>
 			
 	<image name="Controller" extra="true">
-	  <pos>0.5 0.58</pos>
+	  <pos>0.5 0.616</pos>
       <origin>0.5 0.5</origin>
       <size>0.16 0</size>
 	  <path>./../controllers/${system.theme}.png</path>
@@ -196,7 +196,7 @@
 	</image>
 	
 	<image name="Red Arrow" extra="static">
-      <pos>0.5 0.689</pos>
+      <pos>0.5 0.736</pos>
       <origin>0.5 0.5</origin>
       <size>0.025 0</size>
 	  <path>./../assets/RedArrowD.png</path>
@@ -214,7 +214,7 @@
 	  <forceUppercase>0</forceUppercase>
 	  <origin>0 0.5</origin>
 	  <alignment>left</alignment>
-      <pos>0.505 0.976</pos>
+      <pos>0.505 0.94</pos>
       <size>0.2 0.026</size>
       <backgroundColor>5522FF00</backgroundColor>
       <color>bbbbbbdd</color>
@@ -230,7 +230,7 @@
 	  <forceUppercase>0</forceUppercase>
 	  <origin>1 0.5</origin>
 	  <alignment>right</alignment>
-      <pos>0.5 0.976</pos>
+      <pos>0.5 0.94</pos>
       <size>1 0.27</size>
       <color>bbbbbbdd</color>
       <glowColor>00000000</glowColor>

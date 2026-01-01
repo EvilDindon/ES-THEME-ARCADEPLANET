@@ -201,9 +201,9 @@ originally based on: "carbon"
       <fontSize>0.032</fontSize>
       <color>969696</color>
       <separatorColor>323232FF</separatorColor>
-      <selectorColor>401010</selectorColor>
-	  <selectorColorEnd>401010</selectorColorEnd>
-      <selectedColor>FFEEFF</selectedColor>
+      <selectorColor>56529688</selectorColor>
+	  <selectorColorEnd>56529688</selectorColorEnd>
+      <selectedColor>EEEEFF</selectedColor>
 	  <selectorOffsetY>0.01</selectorOffsetY>
       <selectorGradientType>vertical</selectorGradientType>
     </menuText>
@@ -217,14 +217,14 @@ originally based on: "carbon"
     <menuGroup name="menugroup">
       <fontPath>./_art/fonts/SairaCondensed-Medium.ttf</fontPath>
       <fontSize>0.036</fontSize>
-      <color>FFFFFF</color>
-      <separatorColor>BD4747</separatorColor>    
-      <backgroundColor>70202020</backgroundColor>
+      <color>EEEEEE</color>
+      <separatorColor>888888FF</separatorColor>    
+      <backgroundColor>343434BB</backgroundColor>
       <lineSpacing>2.5</lineSpacing>
     </menuGroup>
 	
     <menuBackground name="menubg">
-      <color>242424ee</color>
+      <color>242424cc</color>
       <cornerSize>32 32</cornerSize>
       <path>./_art/menuicons/frame.png</path>
     </menuBackground>
@@ -266,25 +266,38 @@ originally based on: "carbon"
 	<text name="clock">
       <color>786078</color>
 	  <fontPath>./_art/fonts/SairaCondensed-Light.ttf</fontPath>
-      <fontSize>0.033</fontSize>
-      <pos>0.0064 0.983</pos>
-	  <origin>0 0.5</origin>
+      <fontSize>0.028</fontSize>
+      <pos>0.995 0.991</pos>
+	  <origin>1 0.5</origin>
       <size>0.09 0.058</size>
-      <alignment>left</alignment>
-      <verticalAlignment>center</verticalAlignment>
+      <alignment>right</alignment>
     </text>
     
 	<controllerActivity name="controllerActivity">
-      <pos>0.075 0.97</pos>
-	  <origin>0 0.5</origin>
-      <size>0.085 0.025</size>
+      <pos>0.005 0.972</pos>
+	  <origin>0 0</origin>
+      <size>0.023</size>
       <itemSpacing>0.003</itemSpacing>
       <imagePath>./_art/icons/gamepad.svg</imagePath>
 	  <gunPath>./art/gun.svg</gunPath>
-      <color>686068</color>
+      <color>686068aa</color>
       <activityColor>A0A0FFC0</activityColor>
       <hotkeyColor>FFA0A0C0</hotkeyColor>
     </controllerActivity>
+	
+<!-- 	<batteryIndicator name="batteryIndicator">
+      <pos>0.02 0.976</pos>
+      <size>0.3</size>
+      <horizontalAlignment>left</horizontalAlignment>
+      <incharge>./_art/icons/incharge.svg</incharge>
+      <full>./_art/icons/full.svg</full>
+      <at75>./_art/icons/75.svg</at75>
+      <at50>./_art/icons/50.svg</at50>
+      <at25>./_art/icons/25.svg</at25>
+      <empty>./_art/icons/empty.svg</empty>
+      <planemodeIcon>./_art/icons/Planemode.png</planemodeIcon>
+      <color>686068aa</color>
+    </batteryIndicator> -->
 	
   </view>
   
@@ -297,14 +310,18 @@ originally based on: "carbon"
 	</sound>
 	
 	<helpsystem name="help">
-	  <pos>0.01 0.939</pos>
+	  <pos>0.5 0.976</pos>
 	  <size>1 0.01</size>
-	  <origin>0 0.5</origin>
+	  <origin>0.5 0.5</origin>
 	  <fontPath>./_art/fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
 	  <fontSize>0.042</fontSize>
 	  <fontSize tinyScreen="true">0.036</fontSize>
 	  <textColor>686068</textColor>
       <iconColor>565296</iconColor>
+	  <iconA>:/help/buttons_east.svg</iconA>
+      <iconB>:/help/buttons_south.svg</iconB>
+      <iconX>:/help/buttons_north.svg</iconX>
+      <iconY>:/help/buttons_west.svg</iconY>
     </helpsystem>
 	
     <text name="logoText">
@@ -352,13 +369,17 @@ originally based on: "carbon"
   <view name="basic,detailed,video,gamecarousel,grid">
     
   	<helpsystem name="help">
-	  <pos>0.01 0.952</pos>
+	  <pos>0.5 0.952</pos>
 	  <size>1 0.01</size>
-	  <origin>0 0.5</origin>
+	  <origin>0.5 0.5</origin>
 	  <fontPath>./_art/fonts/Saira_ExtraCondensed-Regular.ttf</fontPath>
-	  <fontSize>0.031</fontSize>
+	  <fontSize>0.035</fontSize>
 	  <textColor>686068</textColor>
       <iconColor>565296</iconColor>
+	  <iconA>:/help/buttons_east.svg</iconA>
+      <iconB>:/help/buttons_south.svg</iconB>
+      <iconX>:/help/buttons_north.svg</iconX>
+      <iconY>:/help/buttons_west.svg</iconY>
     </helpsystem>
     
 	<image name="background, background2, black screen">
@@ -487,14 +508,14 @@ originally based on: "carbon"
 	  <zIndex>150</zIndex>	  
 	</image>
 	
-	<image name="md_notkidgame,md_nomanual,md_notcheevos,md_nosavestate">
+	<image name="md_nomanual,md_notcheevos,md_nosavestate">
 	  <linearSmooth>true</linearSmooth>
 	  <origin>0.5 0.5</origin>
       <color>808080F0</color>
 	  <zIndex>149</zIndex>	  
 	</image>
 	
-	<image name="ghostcheevos,ghostfavorite,ghostkidgame,ghostmanual,ghostsavestate,ghosthidden" extra="true">
+	<image name="md_notkidgame,ghostcheevos,ghostfavorite,ghostmanual,ghostsavestate,ghosthidden" extra="true">
 	  <linearSmooth>true</linearSmooth>
 	  <origin>0.5 0.5</origin>
 	  <color>76767640</color>
@@ -505,7 +526,7 @@ originally based on: "carbon"
       <path>./_art/icons/hidden.svg</path>
     </image>
 	
-    <image name="md_kidgame,md_notkidgame,ghostkidgame">
+    <image name="md_kidgame,md_notkidgame">
       <path>./_art/icons/kid.svg</path>
     </image>
 	

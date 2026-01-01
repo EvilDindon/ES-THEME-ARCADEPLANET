@@ -16,7 +16,7 @@
 	</image>
 	
 		<image name="randomArt01">
-		   	<pos>1.10417 0.416</pos>
+		   	<pos>1.10417 0.44</pos>
 			<origin>0.5 1</origin>
 			<reflexion>0.1 0</reflexion>
 			<storyboard autoreverse="true" repeat="forever">
@@ -27,7 +27,7 @@
 		</image>
 				  	
 		<image name="randomArt02">
-	       	<pos>-0.10417 0.416</pos>
+	       	<pos>-0.10417 0.44</pos>
 			<origin>0.5 1</origin>
 			<reflexion>0.1 0</reflexion>
 			<storyboard autoreverse="true" repeat="forever">
@@ -38,7 +38,7 @@
 		</image>
 		
 		<image name="randomArt03">
-		   	<pos>1.10417 0.416</pos>
+		   	<pos>1.10417 0.44</pos>
 			<origin>0.5 1</origin>
 			<reflexion>0.1 0</reflexion>
 			<storyboard autoreverse="true" repeatAt="1">
@@ -49,7 +49,7 @@
 		</image>
 				  	
 		<image name="randomArt04">
-	       	<pos>-0.10417 0.416</pos>
+	       	<pos>-0.10417 0.44</pos>
 			<origin>0.5 1</origin>
 			<reflexion>0.1 0</reflexion>
 			<storyboard autoreverse="true" repeatAt="1">
