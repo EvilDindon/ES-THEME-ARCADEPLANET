@@ -36,6 +36,9 @@ System View Vertical 16/9
 System View Horizontal Simplified 16/9
 <img width="1920" height="1080" alt="169hs" src="https://github.com/user-attachments/assets/9672a1a0-8195-4bee-ba10-04c20e7e658c" />
 
+Gamelist view : Detailed
+<img width="1920" height="1080" alt="169detailed" src="https://github.com/user-attachments/assets/b786ba95-d9e1-4ef6-ab51-9b8397fc21de" />
+
 Gamelist view : Video
 <img width="1920" height="1080" alt="169video" src="https://github.com/user-attachments/assets/39e3c7c9-451a-4907-afbd-e9c13e467d6f" />
 
